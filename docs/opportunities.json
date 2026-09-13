@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-09-12T14:32:49.568503+00:00",
+  "generated_at": "2026-09-13T15:13:10.252236+00:00",
   "counts": {
-    "total": 222,
-    "new": 18
+    "total": 210,
+    "new": 2
   },
   "health": {
     "ok": 20,
@@ -59,7 +59,7 @@
       {
         "source": "Texas DOT — Plan Holders (Open Lettings)",
         "ok": true,
-        "count": 432,
+        "count": 433,
         "error": ""
       },
       {
@@ -107,7 +107,7 @@
       {
         "source": "SAM.gov (Federal)",
         "ok": true,
-        "count": 50,
+        "count": 38,
         "error": ""
       },
       {
@@ -133,14 +133,14 @@
   "product_themes": [
     {
       "name": "Records & Document Management (ECM)",
-      "opportunity_count": 6,
-      "agency_count": 6,
+      "opportunity_count": 5,
+      "agency_count": 5,
       "state_count": 2,
       "states": [
         "CA",
         "US-FED"
       ],
-      "demand_score": 20,
+      "demand_score": 17,
       "examples": [
         {
           "title": "EXT ADM | RFI - Records Management Modernization",
@@ -179,15 +179,6 @@
           "source_name": "SAM.gov (Federal)"
         },
         {
-          "title": "Off-Site Document Conversion and Scanning Services",
-          "agency": "DEPT OF DEFENSE.DEFENSE LOGISTICS AGENCY.DCSO.DCSO HARRISBURG.DCSO-P NEW CUMBERLAND",
-          "state": "US-FED",
-          "url": "https://sam.gov/workspace/contract/opp/da505e2a3deb4bb6ada872841bfa7b59/view",
-          "due_date": "2026-09-23",
-          "it_score": 50,
-          "source_name": "SAM.gov (Federal)"
-        },
-        {
           "title": "GCS-10637-S - REQUEST FOR STATEMENT OF QUALIFICATIONS (RFSQ) FOR RECORDS MANAGEMENT SERVICES - Closing: Continuous",
           "agency": "Los Angeles County",
           "state": "CA",
@@ -200,14 +191,14 @@
     },
     {
       "name": "Cloud Migration & Modernization",
-      "opportunity_count": 5,
-      "agency_count": 5,
+      "opportunity_count": 4,
+      "agency_count": 4,
       "state_count": 2,
       "states": [
         "CA",
         "US-FED"
       ],
-      "demand_score": 17,
+      "demand_score": 14,
       "examples": [
         {
           "title": "Microsoft 365 Data Migration Project",
@@ -224,15 +215,6 @@
           "state": "US-FED",
           "url": "https://sam.gov/workspace/contract/opp/9473e04038fd4c469d33e918d96f824e/view",
           "due_date": "2026-09-17",
-          "it_score": 71,
-          "source_name": "SAM.gov (Federal)"
-        },
-        {
-          "title": "Consolidated Product-Line Management, Sustainment, and Modernization (CPMSM)",
-          "agency": "DEPT OF DEFENSE.DEPT OF THE ARMY.AMC.ACC.ACC-CTRS.ACC-APG.W6QK ACC-APG-ORLANDO",
-          "state": "US-FED",
-          "url": "https://sam.gov/workspace/contract/opp/09e9e201d4bd4a029627f117ee796967/view",
-          "due_date": "2026-09-24",
           "it_score": 71,
           "source_name": "SAM.gov (Federal)"
         },
@@ -447,28 +429,6 @@
       ]
     },
     {
-      "id": "samgov:ab00b746693b43329c2dfd6c1ef8d8ab",
-      "source_name": "SAM.gov (Federal)",
-      "title": "IRS Audio-Visual (AV) and Video Teleconferencing (VTC) Enterprise Systems Integration, Support, and Maintenance Master IDIQ",
-      "description": "IRS Audio-Visual (AV) and Video Teleconferencing (VTC) Enterprise Systems Integration, Support, and Maintenance Master IDIQ",
-      "agency": "TREASURY, DEPARTMENT OF THE.INTERNAL REVENUE SERVICE.IT STRATEGY AND MODERNIZATION",
-      "state": "US-FED",
-      "url": "https://sam.gov/workspace/contract/opp/ab00b746693b43329c2dfd6c1ef8d8ab/view",
-      "naics": "541519",
-      "psc": "7E20",
-      "set_aside": "Small Business Set Aside - Total",
-      "posted_date": "2026-09-09",
-      "due_date": "2026-09-16",
-      "it_score": 98,
-      "is_new": false,
-      "first_seen": "2026-09-09",
-      "matched_keywords": [
-        "systems",
-        "modernization",
-        "integration"
-      ]
-    },
-    {
       "id": "samgov:e4ca493c0b334b3d812882f4bdc2bc4e",
       "source_name": "SAM.gov (Federal)",
       "title": "Microsoft 365 Data Migration Project",
@@ -482,53 +442,11 @@
       "posted_date": "2026-09-11",
       "due_date": "2026-09-14",
       "it_score": 77,
-      "is_new": true,
+      "is_new": false,
       "first_seen": "2026-09-12",
       "matched_keywords": [
         "migration",
         "data"
-      ]
-    },
-    {
-      "id": "samgov:8dbe06dc6f8044c0ad4ce46f0a463442",
-      "source_name": "SAM.gov (Federal)",
-      "title": "SOURCES SOUGHT FOR HSQ MISER SCADA SOFTWARE SYSTEM",
-      "description": "SOURCES SOUGHT FOR HSQ MISER SCADA SOFTWARE SYSTEM",
-      "agency": "DEPT OF DEFENSE.DEPT OF THE NAVY.NAVFAC.NAVFAC PACIFIC CMD.NAVFAC HAWAII.NAVFACSYSCOM HAWAII",
-      "state": "US-FED",
-      "url": "https://sam.gov/workspace/contract/opp/8dbe06dc6f8044c0ad4ce46f0a463442/view",
-      "naics": "541511",
-      "psc": "DA01",
-      "set_aside": "No Set aside used",
-      "posted_date": "2026-09-09",
-      "due_date": "2026-09-16",
-      "it_score": 77,
-      "is_new": false,
-      "first_seen": "2026-09-10",
-      "matched_keywords": [
-        "software",
-        "system"
-      ]
-    },
-    {
-      "id": "samgov:f41f5990770e4a0e9c3b92dbc29e7bf2",
-      "source_name": "SAM.gov (Federal)",
-      "title": "DA10--NEW TO -Enterprise QA Software System & Repository (VA-26-00052553)",
-      "description": "DA10--NEW TO -Enterprise QA Software System & Repository (VA-26-00052553)",
-      "agency": "VETERANS AFFAIRS, DEPARTMENT OF.VETERANS AFFAIRS, DEPARTMENT OF.TECHNOLOGY ACQUISITION CENTER NJ (36C10B)",
-      "state": "US-FED",
-      "url": "https://sam.gov/workspace/contract/opp/f41f5990770e4a0e9c3b92dbc29e7bf2/view",
-      "naics": "541519",
-      "psc": "DA10",
-      "set_aside": "Small Business Set Aside - Total",
-      "posted_date": "2026-09-09",
-      "due_date": "2026-09-16",
-      "it_score": 77,
-      "is_new": false,
-      "first_seen": "2026-09-10",
-      "matched_keywords": [
-        "software",
-        "system"
       ]
     },
     {
@@ -566,7 +484,7 @@
       "posted_date": "2026-09-11",
       "due_date": "2026-10-10",
       "it_score": 77,
-      "is_new": true,
+      "is_new": false,
       "first_seen": "2026-09-12",
       "matched_keywords": [
         "software",
@@ -635,7 +553,7 @@
       "posted_date": "2026-09-11",
       "due_date": "2026-09-14",
       "it_score": 71,
-      "is_new": true,
+      "is_new": false,
       "first_seen": "2026-09-12",
       "matched_keywords": [
         "software"
@@ -715,7 +633,7 @@
       "posted_date": "2026-09-11",
       "due_date": "2026-09-17",
       "it_score": 71,
-      "is_new": true,
+      "is_new": false,
       "first_seen": "2026-09-12",
       "matched_keywords": [
         "software"
@@ -735,30 +653,10 @@
       "posted_date": "2026-09-11",
       "due_date": "2026-09-18",
       "it_score": 71,
-      "is_new": true,
+      "is_new": false,
       "first_seen": "2026-09-12",
       "matched_keywords": [
         "integration"
-      ]
-    },
-    {
-      "id": "samgov:09e9e201d4bd4a029627f117ee796967",
-      "source_name": "SAM.gov (Federal)",
-      "title": "Consolidated Product-Line Management, Sustainment, and Modernization (CPMSM)",
-      "description": "Consolidated Product-Line Management, Sustainment, and Modernization (CPMSM)",
-      "agency": "DEPT OF DEFENSE.DEPT OF THE ARMY.AMC.ACC.ACC-CTRS.ACC-APG.W6QK ACC-APG-ORLANDO",
-      "state": "US-FED",
-      "url": "https://sam.gov/workspace/contract/opp/09e9e201d4bd4a029627f117ee796967/view",
-      "naics": "541512",
-      "psc": "",
-      "set_aside": "",
-      "posted_date": "2026-09-09",
-      "due_date": "2026-09-24",
-      "it_score": 71,
-      "is_new": false,
-      "first_seen": "2026-09-10",
-      "matched_keywords": [
-        "modernization"
       ]
     },
     {
@@ -890,27 +788,6 @@
       ]
     },
     {
-      "id": "samgov:eca10bb277af43f494c512bb5fd110b2",
-      "source_name": "SAM.gov (Federal)",
-      "title": "Interactive Liquified Natural Gas (LNG) Training Platform Development",
-      "description": "Interactive Liquified Natural Gas (LNG) Training Platform Development",
-      "agency": "TRANSPORTATION, DEPARTMENT OF.PIPELINE AND HAZARDOUS MATERIALS SAFETY ADMINISTRATION.693JK3 ACQUISITION SERVICES DIV",
-      "state": "US-FED",
-      "url": "https://sam.gov/workspace/contract/opp/eca10bb277af43f494c512bb5fd110b2/view",
-      "naics": "541511",
-      "psc": "",
-      "set_aside": "No Set aside used",
-      "posted_date": "2026-09-09",
-      "due_date": "2026-09-28",
-      "it_score": 62,
-      "is_new": false,
-      "first_seen": "2026-09-10",
-      "matched_keywords": [
-        "development",
-        "platform"
-      ]
-    },
-    {
       "id": "eshn-8t3a:SFGOV~0000012023",
       "source_name": "San Francisco CA — Open Bids",
       "title": "EXT ADM | RFI - Records Management Modernization",
@@ -1037,46 +914,6 @@
       ]
     },
     {
-      "id": "samgov:206cebfc50484d1c98d7b071d1cb4004",
-      "source_name": "SAM.gov (Federal)",
-      "title": "Cisco SmartNet Services",
-      "description": "Cisco SmartNet Services",
-      "agency": "HEALTH AND HUMAN SERVICES, DEPARTMENT OF.OFFICE OF THE ASSISTANT SECRETARY FOR FINANCIAL RESOURCES (ASFR).OMAS STRATEGIC BUYING CENTER - INFORMATION TECHNOLOGY",
-      "state": "US-FED",
-      "url": "https://sam.gov/workspace/contract/opp/206cebfc50484d1c98d7b071d1cb4004/view",
-      "naics": "541519",
-      "psc": "DA10",
-      "set_aside": "Buy Indian Set-Aside (specific to Department of Health and Human Services, Indian Health Services)",
-      "posted_date": "2026-09-09",
-      "due_date": "2026-09-14",
-      "it_score": 56,
-      "is_new": false,
-      "first_seen": "2026-09-10",
-      "matched_keywords": [
-        "information technology"
-      ]
-    },
-    {
-      "id": "samgov:eca225833363417dbd85d5110bf3589f",
-      "source_name": "SAM.gov (Federal)",
-      "title": "Dataminr, Inc. First Alert Advanced",
-      "description": "Dataminr, Inc. First Alert Advanced",
-      "agency": "DEPT OF DEFENSE.DEFENSE INFORMATION SYSTEMS AGENCY (DISA).DEFENSE INFORMATION SYSTEMS AGENCY",
-      "state": "US-FED",
-      "url": "https://sam.gov/workspace/contract/opp/eca225833363417dbd85d5110bf3589f/view",
-      "naics": "518210",
-      "psc": "DA10",
-      "set_aside": "",
-      "posted_date": "2026-09-09",
-      "due_date": "2026-09-15",
-      "it_score": 56,
-      "is_new": false,
-      "first_seen": "2026-09-09",
-      "matched_keywords": [
-        "systems"
-      ]
-    },
-    {
       "id": "samgov:bb307f8a384045e88bd224d793709109",
       "source_name": "SAM.gov (Federal)",
       "title": "82 FSS Automated Student System",
@@ -1110,7 +947,7 @@
       "posted_date": "2026-09-11",
       "due_date": "2026-09-17",
       "it_score": 56,
-      "is_new": true,
+      "is_new": false,
       "first_seen": "2026-09-12",
       "matched_keywords": [
         "systems"
@@ -1157,46 +994,6 @@
       ]
     },
     {
-      "id": "samgov:6cd86c2a91bb444ca15154c16e8ad2ff",
-      "source_name": "SAM.gov (Federal)",
-      "title": "PACAREA Battle Watch Command Center Display System (CCDS)",
-      "description": "PACAREA Battle Watch Command Center Display System (CCDS)",
-      "agency": "HOMELAND SECURITY, DEPARTMENT OF.US COAST GUARD.LOG-9",
-      "state": "US-FED",
-      "url": "https://sam.gov/workspace/contract/opp/6cd86c2a91bb444ca15154c16e8ad2ff/view",
-      "naics": "541512",
-      "psc": "5895",
-      "set_aside": "Small Business Set Aside - Total",
-      "posted_date": "2026-09-09",
-      "due_date": "2026-09-20",
-      "it_score": 56,
-      "is_new": false,
-      "first_seen": "2026-09-10",
-      "matched_keywords": [
-        "system"
-      ]
-    },
-    {
-      "id": "samgov:ee3fc685a6084c47b9b0dcc03e8fe1a8",
-      "source_name": "SAM.gov (Federal)",
-      "title": "Wideband Remote Monitoring Sensor (WRMS) Enhancement and Sustainment (E&S)",
-      "description": "Wideband Remote Monitoring Sensor (WRMS) Enhancement and Sustainment (E&S)",
-      "agency": "DEPT OF DEFENSE.DEFENSE INFORMATION SYSTEMS AGENCY (DISA).IT CONTRACTING DIVISION - PL83",
-      "state": "US-FED",
-      "url": "https://sam.gov/workspace/contract/opp/ee3fc685a6084c47b9b0dcc03e8fe1a8/view",
-      "naics": "541512",
-      "psc": "",
-      "set_aside": "",
-      "posted_date": "2026-09-09",
-      "due_date": "2026-09-23",
-      "it_score": 56,
-      "is_new": false,
-      "first_seen": "2026-09-10",
-      "matched_keywords": [
-        "systems"
-      ]
-    },
-    {
       "id": "opengov:phoenix:259239",
       "source_name": "OpenGov — City of Phoenix, AZ",
       "title": "Central Park Community Center Operations",
@@ -1230,7 +1027,7 @@
       "posted_date": "2026-09-11",
       "due_date": "2026-09-26",
       "it_score": 56,
-      "is_new": true,
+      "is_new": false,
       "first_seen": "2026-09-12",
       "matched_keywords": [
         "system"
@@ -1413,7 +1210,7 @@
       "posted_date": "2026-09-12",
       "due_date": "2026-09-25",
       "it_score": 51,
-      "is_new": true,
+      "is_new": false,
       "first_seen": "2026-09-12",
       "matched_keywords": [
         "software"
@@ -1588,24 +1385,6 @@
       "matched_keywords": []
     },
     {
-      "id": "samgov:3a8435ca902d42ea90dcd73789771a24",
-      "source_name": "SAM.gov (Federal)",
-      "title": "RFQ for Sumuri Talino Workstations",
-      "description": "RFQ for Sumuri Talino Workstations",
-      "agency": "JUSTICE, DEPARTMENT OF.FEDERAL BUREAU OF INVESTIGATION.FBI-JEH",
-      "state": "US-FED",
-      "url": "https://sam.gov/workspace/contract/opp/3a8435ca902d42ea90dcd73789771a24/view",
-      "naics": "541519",
-      "psc": "7B20",
-      "set_aside": "No Set aside used",
-      "posted_date": "2026-09-11",
-      "due_date": "2026-09-17",
-      "it_score": 50,
-      "is_new": true,
-      "first_seen": "2026-09-12",
-      "matched_keywords": []
-    },
-    {
       "id": "samgov:c9a4b766188741738ef32c1e45a18863",
       "source_name": "SAM.gov (Federal)",
       "title": "Allen-Bradley 1756-L81ES programmable controllers",
@@ -1696,24 +1475,6 @@
       "matched_keywords": []
     },
     {
-      "id": "samgov:27075125481744e583366bf7a572184a",
-      "source_name": "SAM.gov (Federal)",
-      "title": "Limited Source Justification",
-      "description": "Limited Source Justification",
-      "agency": "DEPT OF DEFENSE.DEFENSE LOGISTICS AGENCY.DCSO.DCSO HARRISBURG.DCSO-P NEW CUMBERLAND",
-      "state": "US-FED",
-      "url": "https://sam.gov/workspace/contract/opp/27075125481744e583366bf7a572184a/view",
-      "naics": "518210",
-      "psc": "R617",
-      "set_aside": "",
-      "posted_date": "2026-09-09",
-      "due_date": "2026-09-17",
-      "it_score": 50,
-      "is_new": false,
-      "first_seen": "2026-09-10",
-      "matched_keywords": []
-    },
-    {
       "id": "samgov:b922088d60ee4996be8262bbb1d8f9ff",
       "source_name": "SAM.gov (Federal)",
       "title": "WORKDAY HUMAN CAPITAL MANAGEMENT (HCM) SUBSRCIPTION RENEWAL",
@@ -1727,7 +1488,7 @@
       "posted_date": "2026-09-11",
       "due_date": "2026-09-18",
       "it_score": 50,
-      "is_new": true,
+      "is_new": false,
       "first_seen": "2026-09-12",
       "matched_keywords": []
     },
@@ -1745,7 +1506,7 @@
       "posted_date": "2026-09-11",
       "due_date": "2026-09-18",
       "it_score": 50,
-      "is_new": true,
+      "is_new": false,
       "first_seen": "2026-09-12",
       "matched_keywords": []
     },
@@ -1786,21 +1547,21 @@
       "matched_keywords": []
     },
     {
-      "id": "samgov:71ed4884017c419a957a31e4a8d617e2",
+      "id": "samgov:c8bff4e0d8aa47c58527ed4dffb57713",
       "source_name": "SAM.gov (Federal)",
-      "title": "Various Licenses and Cable for FEMA Region VI",
-      "description": "Various Licenses and Cable for FEMA Region VI",
+      "title": "Various Licenses and Cables for FEMA Region VI",
+      "description": "Various Licenses and Cables for FEMA Region VI",
       "agency": "HOMELAND SECURITY, DEPARTMENT OF.FEDERAL EMERGENCY MANAGEMENT AGENCY.REGION 6",
       "state": "US-FED",
-      "url": "https://sam.gov/workspace/contract/opp/71ed4884017c419a957a31e4a8d617e2/view",
+      "url": "https://sam.gov/workspace/contract/opp/c8bff4e0d8aa47c58527ed4dffb57713/view",
       "naics": "541519",
       "psc": "7A21",
       "set_aside": "Small Business Set Aside - Total",
-      "posted_date": "2026-09-11",
+      "posted_date": "2026-09-12",
       "due_date": "2026-09-22",
       "it_score": 50,
       "is_new": true,
-      "first_seen": "2026-09-12",
+      "first_seen": "2026-09-13",
       "matched_keywords": []
     },
     {
@@ -1817,7 +1578,7 @@
       "posted_date": "2026-09-11",
       "due_date": "2026-09-22",
       "it_score": 50,
-      "is_new": true,
+      "is_new": false,
       "first_seen": "2026-09-12",
       "matched_keywords": []
     },
@@ -1840,39 +1601,21 @@
       "matched_keywords": []
     },
     {
-      "id": "samgov:80442ae0b58c49a6862740ea7107facc",
+      "id": "samgov:a78ef296e37e40678bbb72b6a5200183",
       "source_name": "SAM.gov (Federal)",
-      "title": "FedRAMP Webex Subscription Maintenance",
-      "description": "FedRAMP Webex Subscription Maintenance",
-      "agency": "FEDERAL DEPOSIT INSURANCE CORPORATION.FEDERAL DEPOSIT INSURANCE CORPORATION._",
+      "title": "FEMA Region VI: IT Equipment",
+      "description": "FEMA Region VI: IT Equipment",
+      "agency": "HOMELAND SECURITY, DEPARTMENT OF.FEDERAL EMERGENCY MANAGEMENT AGENCY.REGION 6",
       "state": "US-FED",
-      "url": "https://sam.gov/workspace/contract/opp/80442ae0b58c49a6862740ea7107facc/view",
+      "url": "https://sam.gov/workspace/contract/opp/a78ef296e37e40678bbb72b6a5200183/view",
       "naics": "541519",
-      "psc": "7C21",
-      "set_aside": "No Set aside used",
-      "posted_date": "2026-09-09",
-      "due_date": "2026-09-23",
-      "it_score": 50,
-      "is_new": false,
-      "first_seen": "2026-09-10",
-      "matched_keywords": []
-    },
-    {
-      "id": "samgov:da505e2a3deb4bb6ada872841bfa7b59",
-      "source_name": "SAM.gov (Federal)",
-      "title": "Off-Site Document Conversion and Scanning Services",
-      "description": "Off-Site Document Conversion and Scanning Services",
-      "agency": "DEPT OF DEFENSE.DEFENSE LOGISTICS AGENCY.DCSO.DCSO HARRISBURG.DCSO-P NEW CUMBERLAND",
-      "state": "US-FED",
-      "url": "https://sam.gov/workspace/contract/opp/da505e2a3deb4bb6ada872841bfa7b59/view",
-      "naics": "518210",
-      "psc": "R617",
+      "psc": "7B22",
       "set_aside": "Small Business Set Aside - Total",
-      "posted_date": "2026-09-09",
+      "posted_date": "2026-09-12",
       "due_date": "2026-09-23",
       "it_score": 50,
-      "is_new": false,
-      "first_seen": "2026-09-09",
+      "is_new": true,
+      "first_seen": "2026-09-13",
       "matched_keywords": []
     },
     {
@@ -1943,7 +1686,7 @@
       "posted_date": "2026-09-11",
       "due_date": "2026-10-15",
       "it_score": 50,
-      "is_new": true,
+      "is_new": false,
       "first_seen": "2026-09-12",
       "matched_keywords": []
     },
@@ -1961,7 +1704,7 @@
       "posted_date": "2026-09-11",
       "due_date": "2026-10-30",
       "it_score": 50,
-      "is_new": true,
+      "is_new": false,
       "first_seen": "2026-09-12",
       "matched_keywords": []
     },
@@ -2460,7 +2203,7 @@
       "posted_date": "2026-06-18",
       "due_date": "2026-10-09",
       "it_score": 42,
-      "is_new": true,
+      "is_new": false,
       "first_seen": "2026-09-12",
       "matched_keywords": [
         "systems",
@@ -2607,7 +2350,7 @@
       "posted_date": "2026-08-21",
       "due_date": "2026-10-27",
       "it_score": 42,
-      "is_new": true,
+      "is_new": false,
       "first_seen": "2026-09-12",
       "matched_keywords": [
         "system",
@@ -3790,7 +3533,7 @@
       "posted_date": "",
       "due_date": "2026-10-02",
       "it_score": 36,
-      "is_new": true,
+      "is_new": false,
       "first_seen": "2026-09-12",
       "matched_keywords": [
         "system"
