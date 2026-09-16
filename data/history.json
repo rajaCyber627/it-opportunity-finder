@@ -932,8 +932,23 @@
   "Los Angeles County CA \u2014 RAMP Open Bids::hf3r-utnq:231978": {
     "first_seen": "2026-09-12"
   },
+  "Los Angeles County CA \u2014 RAMP Open Bids::hf3r-utnq:231990": {
+    "first_seen": "2026-09-16"
+  },
+  "Los Angeles County CA \u2014 RAMP Open Bids::hf3r-utnq:231996": {
+    "first_seen": "2026-09-16"
+  },
+  "Los Angeles County CA \u2014 RAMP Open Bids::hf3r-utnq:231999": {
+    "first_seen": "2026-09-16"
+  },
+  "Los Angeles County CA \u2014 RAMP Open Bids::hf3r-utnq:232000": {
+    "first_seen": "2026-09-16"
+  },
   "Los Angeles County CA \u2014 RAMP Open Bids::hf3r-utnq:40831": {
     "first_seen": "2026-07-14"
+  },
+  "Manual Links::manual:e94f4f8593dfbb7c": {
+    "first_seen": "2026-09-16"
   },
   "Mesa AZ \u2014 Purchasing Solicitations::dfcn-ivuc:2021119": {
     "first_seen": "2026-07-14"
@@ -1991,6 +2006,27 @@
   "New York City \u2014 City Record (Procurement)::dg92-zbpx:20260908016": {
     "first_seen": "2026-09-14"
   },
+  "New York City \u2014 City Record (Procurement)::dg92-zbpx:20260909023": {
+    "first_seen": "2026-09-16"
+  },
+  "New York City \u2014 City Record (Procurement)::dg92-zbpx:20260909024": {
+    "first_seen": "2026-09-16"
+  },
+  "New York City \u2014 City Record (Procurement)::dg92-zbpx:20260910009": {
+    "first_seen": "2026-09-16"
+  },
+  "New York City \u2014 City Record (Procurement)::dg92-zbpx:20260910010": {
+    "first_seen": "2026-09-16"
+  },
+  "New York City \u2014 City Record (Procurement)::dg92-zbpx:20260910011": {
+    "first_seen": "2026-09-16"
+  },
+  "New York City \u2014 City Record (Procurement)::dg92-zbpx:20260910013": {
+    "first_seen": "2026-09-16"
+  },
+  "New York City \u2014 City Record (Procurement)::dg92-zbpx:20260910016": {
+    "first_seen": "2026-09-16"
+  },
   "New York City \u2014 Current RFP (MOCS)::bzjf-rmtp:18-00033R": {
     "first_seen": "2026-07-14"
   },
@@ -2026,6 +2062,24 @@
   },
   "New York State \u2014 SUCF Advertised Procurements::vtxv-3j2b:361080-00": {
     "first_seen": "2026-07-14"
+  },
+  "OpenGov \u2014 City of Anaheim, CA::opengov:anaheim:248269": {
+    "first_seen": "2026-09-16"
+  },
+  "OpenGov \u2014 City of Anaheim, CA::opengov:anaheim:292103": {
+    "first_seen": "2026-09-16"
+  },
+  "OpenGov \u2014 City of Anaheim, CA::opengov:anaheim:299986": {
+    "first_seen": "2026-09-16"
+  },
+  "OpenGov \u2014 City of Naperville, IL::opengov:naperville:293680": {
+    "first_seen": "2026-09-16"
+  },
+  "OpenGov \u2014 City of Naperville, IL::opengov:naperville:294506": {
+    "first_seen": "2026-09-16"
+  },
+  "OpenGov \u2014 City of Naperville, IL::opengov:naperville:295528": {
+    "first_seen": "2026-09-16"
   },
   "OpenGov \u2014 City of Pasadena, CA::opengov:pasadena:263470": {
     "first_seen": "2026-09-02"
@@ -2143,6 +2197,9 @@
   },
   "OpenGov \u2014 City of Phoenix, AZ::opengov:phoenix:248051": {
     "first_seen": "2026-07-16"
+  },
+  "OpenGov \u2014 City of Phoenix, AZ::opengov:phoenix:248844": {
+    "first_seen": "2026-09-16"
   },
   "OpenGov \u2014 City of Phoenix, AZ::opengov:phoenix:250708": {
     "first_seen": "2026-07-16"
@@ -2519,6 +2576,9 @@
   "OpenGov \u2014 County of Orange, CA::opengov:ocgov:294419": {
     "first_seen": "2026-09-11"
   },
+  "OpenGov \u2014 County of Orange, CA::opengov:ocgov:295078": {
+    "first_seen": "2026-09-16"
+  },
   "OpenGov \u2014 County of Orange, CA::opengov:ocgov:295569": {
     "first_seen": "2026-08-27"
   },
@@ -2530,6 +2590,9 @@
   },
   "OpenGov \u2014 County of Orange, CA::opengov:ocgov:296291": {
     "first_seen": "2026-09-02"
+  },
+  "OpenGov \u2014 County of Orange, CA::opengov:ocgov:300495": {
+    "first_seen": "2026-09-16"
   },
   "OpenGov \u2014 County of Orange, CA::opengov:ocgov:301425": {
     "first_seen": "2026-09-10"
@@ -2684,6 +2747,9 @@
   "OpenGov \u2014 County of San Mateo, CA::opengov:smcgov:289577": {
     "first_seen": "2026-08-22"
   },
+  "OpenGov \u2014 County of San Mateo, CA::opengov:smcgov:290020": {
+    "first_seen": "2026-09-16"
+  },
   "OpenGov \u2014 County of San Mateo, CA::opengov:smcgov:291179": {
     "first_seen": "2026-08-28"
   },
@@ -2713,6 +2779,24 @@
   },
   "OpenGov \u2014 County of San Mateo, CA::opengov:smcgov:300509": {
     "first_seen": "2026-09-05"
+  },
+  "OpenGov \u2014 County of San Mateo, CA::opengov:smcgov:300941": {
+    "first_seen": "2026-09-16"
+  },
+  "OpenGov \u2014 County of San Mateo, CA::opengov:smcgov:301836": {
+    "first_seen": "2026-09-16"
+  },
+  "OpenGov \u2014 County of San Mateo, CA::opengov:smcgov:301948": {
+    "first_seen": "2026-09-16"
+  },
+  "OpenGov \u2014 County of San Mateo, CA::opengov:smcgov:303757": {
+    "first_seen": "2026-09-16"
+  },
+  "OpenGov \u2014 County of Santa Cruz, CA::opengov:santacruzcounty:287244": {
+    "first_seen": "2026-09-16"
+  },
+  "OpenGov \u2014 County of Santa Cruz, CA::opengov:santacruzcounty:301923": {
+    "first_seen": "2026-09-16"
   },
   "OpenGov \u2014 LA County Development Authority, CA::opengov:lacda:262398": {
     "first_seen": "2026-07-16"

@@ -106,18 +106,43 @@ def _text_blob(opp: Opportunity) -> str:
 
 
 def _codes_blob(opp: Opportunity) -> str:
-    return " ".join([opp.naics, opp.psc, opp.set_aside]).lower()
+    # naics/psc only — NOT set_aside. Some sources (e.g. OpenGov) stuff an
+    # arbitrary internal reference/financial id into set_aside (it's not a
+    # real classification code there), and substring-matching include_codes
+    # like "43"/"208" against a random id number causes false code hits on
+    # completely non-IT items. naics/psc are the fields sources genuinely use
+    # to carry real NAICS/PSC/NIGP/UNSPSC codes.
+    return " ".join([opp.naics, opp.psc]).lower()
 
 
 def keep_and_score(opp: Opportunity, filters: Filters) -> tuple[bool, int, list]:
     """Decide whether to KEEP an opportunity and compute its IT score.
 
     Returns (keep, score, matched_keywords).
+
+    A keyword only counts as a real "include" signal if it's in the TITLE, or
+    it's one of the unambiguous strong_software_keywords found anywhere.
+    Why: several sources (e.g. OpenGov) repeat the same boilerplate legal
+    paragraph in every listing's description ("...is requesting competitive
+    bids from qualified vendors...") which happens to contain generic words
+    like "system"/"portal"/"development". Matching those ANYWHERE let totally
+    unrelated postings (hard hats, custodial services, water line repairs) get
+    included just because the template text they share contains a common
+    word. Requiring a title hit (or a genuinely unambiguous term) keeps recall
+    high for real IT work while no longer matching on shared boilerplate noise.
     """
+    title = opp.title.lower()
     text = _text_blob(opp)
     codes = _codes_blob(opp)
 
-    matched = [kw for kw, rx in filters.include_keywords if rx.search(text)]
+    strong_kw = {kw for kw, _ in filters.strong_terms}
+    matched = []
+    for kw, rx in filters.include_keywords:
+        if rx.search(title):
+            matched.append(kw)
+        elif kw in strong_kw and rx.search(text):
+            matched.append(kw)
+
     code_hit = any(code and code in codes for code in filters.include_codes)
 
     # INCLUDE if it matches an IT keyword OR an IT code.

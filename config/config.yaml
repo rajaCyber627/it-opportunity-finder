@@ -259,16 +259,17 @@ sources:
       field_map: { id: bid_project_number, title: project_name, description: procurement_type, agency: requesting_department, posted_date: date_due, due_date: date_due, url: bid_booklet_pdf }
       source_url: "https://www.cincinnati-oh.gov/purchasing/bid-opportunities/"
 
-    - name: "Illinois — Capital Dev Board Future Solicitations"
-      enabled: true
-      domain: illinois-edp.data.socrata.com
-      dataset_id: 6rb8-ntpm
-      state: IL
-      where: ""
-      order: "estimated_bid_date DESC"
-      limit: 500
-      field_map: { id: project_number, title: description, description: approximate_cost, agency: location_name, posted_date: estimated_bid_date, due_date: estimated_bid_date }
-      source_url: "https://cdb.illinois.gov/business/architects-engineers.html"
+    # Illinois - https://cdb.illinois.gov/ Construction-only procurement portal (state facilities, HVAC, roofing, fire alarms, water systems, etc.). No IT-related opportunities; exclude from the IT Opportunity Finder.
+    # - name: "Illinois — Capital Dev Board Future Solicitations"
+    #   enabled: true
+    #   domain: illinois-edp.data.socrata.com
+    #   dataset_id: 6rb8-ntpm
+    #   state: IL
+    #   where: ""
+    #   order: "estimated_bid_date DESC"
+    #   limit: 500
+    #   field_map: { id: project_number, title: description, description: approximate_cost, agency: location_name, posted_date: estimated_bid_date, due_date: estimated_bid_date }
+    #   source_url: "https://cdb.illinois.gov/business/architects-engineers.html"
 
     # ---- SOUTHEAST (contract-notice feeds — thin Socrata coverage here, but
     #      each row carries the RFP/IFB solicitation reference) ----
@@ -354,6 +355,12 @@ sources:
       - { portal_id: 45619, agency: "City of Inglewood, CA", state: CA }
       - { portal_id: 15810, agency: "City of Long Beach, CA", state: CA }
       - { portal_id: 16151, agency: "Santa Clara Valley Water District, CA", state: CA }
+      - { portal_id: 22078, agency: "City of Newport Beach, CA", state: CA }
+      - { portal_id: 39475, agency: "Riverside County, CA", state: CA }
+      - { portal_id: 29959, agency: "City of Santa Barbara, CA", state: CA }
+      - { portal_id: 15927, agency: "City of Irvine, CA", state: CA }
+      # NOTE: "City of Long Beach, CA" (portal_id 15810) was already configured above —
+      # skipped as a duplicate when this batch was added.
 
   # --- OpenGov Procurement portals ------------------------------------------
   # Public "embed" page per agency (no login). Add an agency by adding its slug
@@ -371,6 +378,12 @@ sources:
       - { slug: acgov, agency: "County of Alameda, CA", state: CA }
       - { slug: smcgov, agency: "County of San Mateo, CA", state: CA }
       - { slug: lacda, agency: "LA County Development Authority, CA", state: CA }
+      - { slug: naperville, agency: "City of Naperville, IL", state: IL }
+      - { slug: cityofnapa, agency: "City of Napa, CA", state: CA }
+      - { slug: countyofinyoca, agency: "County of Inyo, CA", state: CA }
+      - { slug: santacruzcounty, agency: "County of Santa Cruz, CA", state: CA }
+      - { slug: anaheim, agency: "City of Anaheim, CA", state: CA }
+      - { slug: cosb, agency: "County of San Benito, CA", state: CA }
 
   # --- ArcGIS feature layers -------------------------------------------------
   # Some governments publish open solicitations as an ArcGIS layer with a public
