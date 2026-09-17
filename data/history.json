@@ -257,6 +257,27 @@
   "Baton Rouge LA \u2014 Upcoming Procurement::e5pk-us93:Software development/design/maintenance/support services": {
     "first_seen": "2026-07-14"
   },
+  "BidNet Direct \u2014 City of Santa Clara, CA::bidnetdirect:california/cityofsantaclara:25-26-67": {
+    "first_seen": "2026-09-17"
+  },
+  "BidNet Direct \u2014 City of Santa Clara, CA::bidnetdirect:california/cityofsantaclara:26-27-13": {
+    "first_seen": "2026-09-17"
+  },
+  "Biddingo \u2014 County of Santa Clara, CA::biddingo:santaclaracounty:40297728": {
+    "first_seen": "2026-09-17"
+  },
+  "Biddingo \u2014 County of Santa Clara, CA::biddingo:santaclaracounty:40297828": {
+    "first_seen": "2026-09-17"
+  },
+  "Biddingo \u2014 County of Santa Clara, CA::biddingo:santaclaracounty:40413128": {
+    "first_seen": "2026-09-17"
+  },
+  "Biddingo \u2014 County of Santa Clara, CA::biddingo:santaclaracounty:40416628": {
+    "first_seen": "2026-09-17"
+  },
+  "Bids&Tenders \u2014 Placer County, CA::bidsandtenders:placer:9ed85400-0ba9-4833-aaa9-83cb61299f19": {
+    "first_seen": "2026-09-17"
+  },
   "Cincinnati OH \u2014 Business Opportunities (Bids & RFPs)::pid3-z56k:10270190": {
     "first_seen": "2026-07-14"
   },
@@ -2189,6 +2210,9 @@
   "OpenGov \u2014 City of Phoenix, AZ::opengov:phoenix:226948": {
     "first_seen": "2026-08-27"
   },
+  "OpenGov \u2014 City of Phoenix, AZ::opengov:phoenix:238045": {
+    "first_seen": "2026-09-17"
+  },
   "OpenGov \u2014 City of Phoenix, AZ::opengov:phoenix:239569": {
     "first_seen": "2026-07-25"
   },
@@ -2596,6 +2620,9 @@
   },
   "OpenGov \u2014 County of Orange, CA::opengov:ocgov:301425": {
     "first_seen": "2026-09-10"
+  },
+  "OpenGov \u2014 County of Orange, CA::opengov:ocgov:303602": {
+    "first_seen": "2026-09-17"
   },
   "OpenGov \u2014 County of Sacramento, CA::opengov:saccounty:244573": {
     "first_seen": "2026-09-11"

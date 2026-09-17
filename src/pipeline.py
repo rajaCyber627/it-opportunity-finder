@@ -85,6 +85,9 @@ class Filters:
         # Codes that count as IT (NAICS / UNSPSC prefixes / NIGP). Matched as
         # substrings so "43xxxxxx" style prefixes work if you list "43".
         self.include_codes = [str(c).lower() for c in f.get("include_codes", [])]
+        # Keywords too generic to trust alone (see config.yaml comment) — need
+        # a second, more specific signal before they count toward inclusion.
+        self.ambiguous_keywords = {str(kw).lower() for kw in f.get("ambiguous_keywords", [])}
 
         # "Active only" date filter (see is_active()).
         self.drop_expired = bool(f.get("drop_expired", True))
@@ -145,8 +148,12 @@ def keep_and_score(opp: Opportunity, filters: Filters) -> tuple[bool, int, list]
 
     code_hit = any(code and code in codes for code in filters.include_codes)
 
-    # INCLUDE if it matches an IT keyword OR an IT code.
-    included = bool(matched) or code_hit
+    # INCLUDE if it matches a non-ambiguous IT keyword OR an IT code. A match
+    # on an ambiguous_keywords term alone ("System of Care Services", "Design-
+    # Build Entity Prequalification Application", "Recreational Programming")
+    # isn't enough by itself — it needs a second, more specific signal too.
+    confident_matches = [kw for kw in matched if kw not in filters.ambiguous_keywords]
+    included = bool(confident_matches) or code_hit
     if not included:
         return False, 0, []
 
