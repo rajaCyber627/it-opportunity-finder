@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-09-18T11:36:33.806633+00:00",
+  "generated_at": "2026-09-18T11:55:58.748303+00:00",
   "counts": {
-    "total": 53,
-    "new": 13
+    "total": 42,
+    "new": 0
   },
   "health": {
     "ok": 19,
@@ -149,46 +149,6 @@
     ]
   },
   "product_themes": [
-    {
-      "name": "Cloud Migration & Modernization",
-      "opportunity_count": 3,
-      "agency_count": 3,
-      "state_count": 2,
-      "states": [
-        "CA",
-        "FL"
-      ],
-      "demand_score": 11,
-      "examples": [
-        {
-          "title": "Orange County Convention Center Campus Elevator-Escalator Replace and Modernization Phase 1A",
-          "agency": "Orange County, Florida",
-          "state": "FL",
-          "url": "https://procurement.opengov.com/portal/orangecountyfl/projects/295342",
-          "due_date": "2026-10-20",
-          "it_score": 57,
-          "source_name": "OpenGov — Orange County, FL"
-        },
-        {
-          "title": "LAUSD | NORMANDIE AVE ES (ALTERNATIVE DESIGN BUILD) - SEISMIC MODERNIZATION PROJECT",
-          "agency": "LAUSD",
-          "state": "CA",
-          "url": "{'url': 'https://www.rampla.org/s/opportunity-details?id=006Ql00000ji4KXIAY'}",
-          "due_date": "2026-09-29",
-          "it_score": 51,
-          "source_name": "Los Angeles County CA — RAMP Open Bids"
-        },
-        {
-          "title": "Administration Building Elevator Modernization",
-          "agency": "County of Alameda, CA",
-          "state": "CA",
-          "url": "https://procurement.opengov.com/portal/acgov/projects/244457",
-          "due_date": "2026-10-29",
-          "it_score": 51,
-          "source_name": "OpenGov — County of Alameda, CA"
-        }
-      ]
-    },
     {
       "name": "Permitting & Licensing",
       "opportunity_count": 2,
@@ -462,32 +422,11 @@
       "posted_date": "",
       "due_date": "2026-09-21",
       "it_score": 57,
-      "is_new": true,
+      "is_new": false,
       "first_seen": "2026-09-18",
       "matched_keywords": [
         "software",
         "platform"
-      ]
-    },
-    {
-      "id": "opengov:smcgov:285889",
-      "source_name": "OpenGov — County of San Mateo, CA",
-      "title": "Message Switch System Replacement",
-      "description": "The County of San Mateo (County) is seeking proposals from qualified vendors to replace its legacy Message Switch System (MSS), a mission-critical public safety platform that enables secure, real-time exchange of criminal justice information between local, state, and federal law enforcement systems. The Public Safety Communications (PSC) Department serves as the County's centralized emergency communications hub, providing 24/7 dispatch and emergency communication services for fire, emergency medical services (EMS), and law enforcement agencies serving approximately 800,000 residents throughout the County. The County's existing MSS supports approximately 30 law enforcement, public safety, and criminal justice agencies by providing secure connectivity to critical systems, including the California Law Enforcement Telecommunications System (CLETS), National Crime Information Center (NCIC), Department of Motor Vehicles (DMV), Automated Warrant System (AWS), County CJIS, and other criminal justice information systems. As the current platform has reached the end of its practical lifecycle, the County is seeking a modern, secure, scalable, and CJIS-compliant replacement that meets current operational needs while supporting regulatory compliance, interoperability, and future technology integration. The proposed solution will enhance system reliability, ensure uninterrupted access to critical criminal justice information, strengthen cybersecurity, and provide a sustainable platform that supports the County's long-term public safety mission.",
-      "agency": "County of San Mateo",
-      "state": "CA",
-      "url": "https://procurement.opengov.com/portal/smcgov/projects/285889",
-      "naics": "",
-      "psc": "",
-      "set_aside": "2027-RFP-00007",
-      "posted_date": "2026-07-21",
-      "due_date": "2026-09-22",
-      "it_score": 57,
-      "is_new": false,
-      "first_seen": "2026-08-21",
-      "matched_keywords": [
-        "system",
-        "integration"
       ]
     },
     {
@@ -509,27 +448,6 @@
       "matched_keywords": [
         "software",
         "system"
-      ]
-    },
-    {
-      "id": "opengov:pinellasfl:296766",
-      "source_name": "OpenGov — Pinellas County, FL",
-      "title": "HVAC System Repairs, Replacements, and Technical Support",
-      "description": "Pinellas County Construction & Property Management (CPM) seeks proposals from qualified vendors to provide as-needed HVAC repair, replacement, installation, diagnostic, controls, and technical support services at County-owned or County-operated facilities. Vendors must hold all licenses required by the State of Florida and other applicable authorities for the services they perform. The County intends to establish agreements with multiple vendors possessing a range of HVAC specialties, technical capabilities, staffing resources, and response capacities. The County welcomes proposals from full-service vendors capable of performing all requested services and from specialized vendors capable of performing one or more service areas. Proposers are not required to select or compete for separate service categories. Instead, each proposer must describe the services it can perform and demonstrate the corresponding licensing, experience, personnel, technical resources, response capability, and pricing. The County will evaluate each proposal as a whole and may award agreements to multiple vendors whose combined capabilities provide the coverage needed to support County facility operations. The requested services are organized into the following service areas: HVAC Service, Diagnostics, and Repairs Routine, urgent, and emergency services necessary to identify and correct HVAC system and equipment problems. Work may include troubleshooting, diagnostic testing, leak detection, corrective repairs, component replacement, refrigerant services, electrical and mechanical repairs, operational testing, start-up, and related documentation. HVAC Equipment Replacement and Installation Replacement, retrofit, modification, and installation of HVAC equipment and related components. Work may include site evaluations, equipment recommendations, itemized cost estimates, removal and disposal of existing equipment, installation, required connections and modifications, start-up, testing, warranty documentation, and project closeout. HVAC Technical Support and Operational Planning Non-engineering technical assistance supporting maintenance decisions, repair-versus-replacement evaluations, project development, equipment selection, cost estimating, service continuity, project sequencing, and coordination with County staff and other stakeholders. HVAC Controls and Building Automation System Support Troubleshooting, repair, programming, adjustment, integration, testing, and operational support for HVAC controls and building automation systems. The County may assign work based on the services required and each awarded vendor’s demonstrated capabilities, licensing, availability, response time, pricing, project complexity, past performance, and ability to meet the County’s operational needs.",
-      "agency": "Pinellas County",
-      "state": "FL",
-      "url": "https://procurement.opengov.com/portal/pinellasfl/projects/296766",
-      "naics": "",
-      "psc": "",
-      "set_aside": "26-0739-RFP",
-      "posted_date": "2026-08-25",
-      "due_date": "2026-09-24",
-      "it_score": 57,
-      "is_new": true,
-      "first_seen": "2026-09-18",
-      "matched_keywords": [
-        "system",
-        "integration"
       ]
     },
     {
@@ -572,48 +490,6 @@
       "matched_keywords": [
         "system",
         "document management"
-      ]
-    },
-    {
-      "id": "opengov:smcgov:271502",
-      "source_name": "OpenGov — County of San Mateo, CA",
-      "title": "Access Control System Replacement and Maintenance",
-      "description": "The Department of Public Works is seeking proposals from qualified vendors to replace the County’s existing access control systems with a modern, centralized, and open-architecture solution across more than 40 County locations. The County currently operates the P2000 access control system from Johnson Controls across the majority of its facilities, with one building utilizing a standalone system provided by Open Options. The selected firm for this equipment, services and installation contract will be responsible for the comprehensive delivery of the new system, including planning, procurement, installation, configuration, and integration, and a separate contract will be awarded for ongoing support, in accordance with the project design and specifications.",
-      "agency": "County of San Mateo",
-      "state": "CA",
-      "url": "https://procurement.opengov.com/portal/smcgov/projects/271502",
-      "naics": "",
-      "psc": "",
-      "set_aside": "2026-RFP-00546",
-      "posted_date": "2026-06-02",
-      "due_date": "2026-10-14",
-      "it_score": 57,
-      "is_new": false,
-      "first_seen": "2026-09-10",
-      "matched_keywords": [
-        "system",
-        "integration"
-      ]
-    },
-    {
-      "id": "opengov:orangecountyfl:295342",
-      "source_name": "OpenGov — Orange County, FL",
-      "title": "Orange County Convention Center Campus Elevator-Escalator Replace and Modernization Phase 1A",
-      "description": "NOTICE IS HEREBY GIVEN that Orange County, Florida, henceforth referred to as the County is accepting sealed bids for 'Project Title ( 'Project ID ) Sealed offers for furnishing the above will be accepted up to 'Proposal Submission Time EST on 'Proposal Submission Date . 'Project Estimate NOTE: Respondents are required to submit responses electronically via the OpenGov e-Procurement Platform. Respondents shall not be permitted to hand-deliver, mail, telephone, fax or email offers. Responses received after the submission deadline and/or transmitted outside of the designated OpenGov e-Procurement Platform shall be rejected. Important Instructions for Electronic Submittal The County is ONLY accepting electronic bid submissions using the OpenGov e-Procurement Platform. Respondents shall create a FREE account with OpenGov by signing up at https://procurement.opengov.com/login Once you have completed account registration, browse back to this page, click on \"Submit Response\", and follow the instructions to submit the electronic bid. It is the respondent's responsibility to ensure they commence their upload efforts timely to meet the submission deadline. The County shall not be responsible for delays caused by any occurrence, including the respondent's network delays, bandwidth issues, internet outages, or technical difficulties. OpenGov Technical Support For Technical Support, respondent's can reach the OpenGov Service Desk: Chat (preferred): Click the button in the lower right hand corner of the portal Email: procurement-support@opengov.com Phone: 1 (650) 336-7167 Hours: Mon-Fri 7am - 10pm EST Timely Questions Regarding this Solicitation The question and answer module of OpenGov IS being utilized for this solicitation. Timely questions concerning this solicitation shall be submitted in accordance with the deadline for questions: 'Question & Answer Submission Date at 'Question & Answer Submission Time EST. Respondents are instructed not to contact the initiating division directly. Consideration for modification or alteration of the documents contained in this solicitation shall be requested during the specified question period, before the applicable deadline. No oral interpretation of the meaning of the plans, specifications, or other Contract documents shall be considered binding. The County shall be bound by information and statements only when such statements are written and executed under the authority of the Manager, Procurement Division. Answers for timely questions will be addressed in the OpenGov question and answer module or as an addenda to this solicitation depending on volume, participants are encouraged to subscribe as a follower and monitor all notifications. Beyond questions and answers, any and all modifications, clarifications, interpretations and supplemental instructions will be in the form of a written addendum which, if issued, will be available for download. All addenda and questions/answers so issued shall become part of the Contract Documents and receipt shall be acknowledged as specified herein. This provision exists solely for the convenience and administrative efficiency of Orange County. No respondent or other third party gains any rights by virtue of this provision or the application thereof, nor shall any respondent or third party have any standing to sue or cause of action arising there from. Untimely questions are unable to be submitted in the question and answer module, thereafter respondents raising critical concerns must email 'Procurement Contact Email . Critical clarifications may be made via addenda, however, untimely questions may not be considered.",
-      "agency": "Orange County, Florida",
-      "state": "FL",
-      "url": "https://procurement.opengov.com/portal/orangecountyfl/projects/295342",
-      "naics": "",
-      "psc": "",
-      "set_aside": "Y27-705",
-      "posted_date": "2026-08-20",
-      "due_date": "2026-10-20",
-      "it_score": 57,
-      "is_new": true,
-      "first_seen": "2026-09-18",
-      "matched_keywords": [
-        "application",
-        "modernization"
       ]
     },
     {
@@ -738,26 +614,6 @@
       ]
     },
     {
-      "id": "hf3r-utnq:231405",
-      "source_name": "Los Angeles County CA — RAMP Open Bids",
-      "title": "LAUSD | NORMANDIE AVE ES (ALTERNATIVE DESIGN BUILD) - SEISMIC MODERNIZATION PROJECT",
-      "description": "Construction",
-      "agency": "LAUSD",
-      "state": "CA",
-      "url": "{'url': 'https://www.rampla.org/s/opportunity-details?id=006Ql00000ji4KXIAY'}",
-      "naics": "",
-      "psc": "",
-      "set_aside": "",
-      "posted_date": "2026-08-11",
-      "due_date": "2026-09-29",
-      "it_score": 51,
-      "is_new": false,
-      "first_seen": "2026-08-12",
-      "matched_keywords": [
-        "modernization"
-      ]
-    },
-    {
       "id": "opengov:pasadena:263470",
       "source_name": "OpenGov — City of Pasadena, CA",
       "title": "Wood Pole Inspection, Treatment, Repair, and UAV Inspection Services",
@@ -791,7 +647,7 @@
       "posted_date": "2026-09-14",
       "due_date": "2026-10-12",
       "it_score": 51,
-      "is_new": true,
+      "is_new": false,
       "first_seen": "2026-09-18",
       "matched_keywords": [
         "software"
@@ -815,46 +671,6 @@
       "first_seen": "2026-09-15",
       "matched_keywords": [
         "software"
-      ]
-    },
-    {
-      "id": "opengov:alachuacounty:293345",
-      "source_name": "OpenGov — Alachua County, FL",
-      "title": "Annual Drug Testing for Alachua County Court Services",
-      "description": "The selected provider shall furnish comprehensive, court-defensible urinalysis and alcohol testing services for participants in the Alachua County Treatment Courts, Probation, Pretrial, and Incompetent to Proceed programs. Services include observed specimen collection, random and scheduled testing, laboratory confirmation of disputed or non-negative results, electronic reporting and data integration, participant notification, quality assurance, regulatory compliance, court testimony, and ongoing collaboration with program staff. The provider must maintain qualified personnel, ensure that all personnel assigned to the contract complete and pass a Level 2 Florida Department of Law Enforcement (FDLE) background screening, utilize CLIA-certified laboratories, support customizable testing panels for traditional and emerging substances of abuse, and deliver timely, accurate, and legally defensible results while meeting all applicable federal, state, and professional standards. Approximately 700 to 1,000 specimens are collected monthly.",
-      "agency": "Alachua County, Florida",
-      "state": "FL",
-      "url": "https://procurement.opengov.com/portal/alachuacounty/projects/293345",
-      "naics": "",
-      "psc": "",
-      "set_aside": "ITB 27-105-PM",
-      "posted_date": "2026-08-13",
-      "due_date": "2026-10-21",
-      "it_score": 51,
-      "is_new": true,
-      "first_seen": "2026-09-18",
-      "matched_keywords": [
-        "integration"
-      ]
-    },
-    {
-      "id": "opengov:acgov:244457",
-      "source_name": "OpenGov — County of Alameda, CA",
-      "title": "Administration Building Elevator Modernization",
-      "description": "The County of Alameda (\"County\"), General Services Agency (“GSA”) will receive sealed bids for the following project, Bid No. Project ID (“Project” or “Contract”): Project Title (Project Name) The Project is more specifically defined in the Project Documents, but generally includes all labor, materials, parts, equipment, and incidentals necessary to provide an elevator modernization project at 1221 Oak Street, Oakland, California 94612. This is a full turn-key project, and the Contractor is to provide all necessary expertise, labor, materials, parts, equipment, incidentals, and work required to provide a complete project.",
-      "agency": "County of Alameda, CA",
-      "state": "CA",
-      "url": "https://procurement.opengov.com/portal/acgov/projects/244457",
-      "naics": "",
-      "psc": "",
-      "set_aside": "902686",
-      "posted_date": "2026-03-09",
-      "due_date": "2026-10-29",
-      "it_score": 51,
-      "is_new": true,
-      "first_seen": "2026-09-18",
-      "matched_keywords": [
-        "modernization"
       ]
     },
     {
@@ -918,28 +734,6 @@
       ]
     },
     {
-      "id": "opengov:orangecountyfl:254870",
-      "source_name": "OpenGov — Orange County, FL",
-      "title": "Corrections Booking and Release Center, Building Automation System, Smoke and Fire Alarm Air Duct Accessories",
-      "description": "NOTICE IS HEREBY GIVEN that Orange County, Florida, henceforth referred to as the County is accepting sealed bids for 'Project Title ( 'Project ID ) Sealed offers for furnishing the above will be accepted up to 'Proposal Submission Time EST on 'Proposal Submission Date . 'Project Estimate NOTE: Respondents are required to submit responses electronically via the OpenGov e-Procurement Platform. Respondents shall not be permitted to hand-deliver, mail, telephone, fax or email offers. Responses received after the submission deadline and/or transmitted outside of the designated OpenGov e-Procurement Platform shall be rejected. Important Instructions for Electronic Submittal The County is ONLY accepting electronic bid submissions using the OpenGov e-Procurement Platform. Respondents shall create a FREE account with OpenGov by signing up at https://procurement.opengov.com/login Once you have completed account registration, browse back to this page, click on \"Submit Response\", and follow the instructions to submit the electronic bid. It is the respondent's responsibility to ensure they commence their upload efforts timely to meet the submission deadline. The County shall not be responsible for delays caused by any occurrence, including the respondent's network delays, bandwidth issues, internet outages, or technical difficulties. OpenGov Technical Support For Technical Support, respondent's can reach the OpenGov Service Desk: Chat (preferred): Click the button in the lower right hand corner of the portal Email: procurement-support@opengov.com Phone: 1 (650) 336-7167 Hours: Mon-Fri 7am - 10pm EST Timely Questions Regarding this Solicitation The question and answer module of OpenGov IS being utilized for this solicitation. Timely questions concerning this solicitation shall be submitted in accordance with the deadline for questions: 'Question & Answer Submission Date at 'Question & Answer Submission Time EST. Respondents are instructed not to contact the initiating division directly. Consideration for modification or alteration of the documents contained in this solicitation shall be requested during the specified question period, before the applicable deadline. No oral interpretation of the meaning of the plans, specifications, or other Contract documents shall be considered binding. The County shall be bound by information and statements only when such statements are written and executed under the authority of the Manager, Procurement Division. Answers for timely questions will be addressed in the OpenGov question and answer module or as an addenda to this solicitation depending on volume, participants are encouraged to subscribe as a follower and monitor all notifications. Beyond questions and answers, any and all modifications, clarifications, interpretations and supplemental instructions will be in the form of a written addendum which, if issued, will be available for download. All addenda and questions/answers so issued shall become part of the Contract Documents and receipt shall be acknowledged as specified herein. This provision exists solely for the convenience and administrative efficiency of Orange County. No respondent or other third party gains any rights by virtue of this provision or the application thereof, nor shall any respondent or third party have any standing to sue or cause of action arising there from. Untimely questions are unable to be submitted in the question and answer module, thereafter respondents raising critical concerns must email 'Procurement Contact Email . Critical clarifications may be made via addenda, however, untimely questions may not be considered.",
-      "agency": "Orange County, Florida",
-      "state": "FL",
-      "url": "https://procurement.opengov.com/portal/orangecountyfl/projects/254870",
-      "naics": "",
-      "psc": "",
-      "set_aside": "Y26-718",
-      "posted_date": "2026-04-09",
-      "due_date": "2026-09-24",
-      "it_score": 48,
-      "is_new": true,
-      "first_seen": "2026-09-18",
-      "matched_keywords": [
-        "application",
-        "system",
-        "automation"
-      ]
-    },
-    {
       "id": "bonfire:broward:253616",
       "source_name": "Bonfire — Broward County, FL",
       "title": "Notice of Solicitation Opportunity: Artificial Intelligence (AI) Systems and Services",
@@ -953,7 +747,7 @@
       "posted_date": "",
       "due_date": "2026-10-21",
       "it_score": 48,
-      "is_new": true,
+      "is_new": false,
       "first_seen": "2026-09-18",
       "matched_keywords": [
         "systems",
@@ -980,27 +774,6 @@
       "matched_keywords": [
         "website",
         "information technology"
-      ]
-    },
-    {
-      "id": "opengov:orangecountyfl:264304",
-      "source_name": "OpenGov — Orange County, FL",
-      "title": "Regional Computer Center (RCC) Liebert CRAC (Computer Room Air Conditioning) Preventative Maintenance and Repair Services",
-      "description": "NOTICE IS HEREBY GIVEN that Orange County, Florida, henceforth referred to as the County is accepting sealed offers for 'Project Title ( 'Project ID ) Sealed offers for furnishing the above will be accepted up to 'Proposal Submission Time EST on 'Proposal Submission Date . NOTE: Respondents are required to submit responses electronically via the OpenGov e-Procurement Platform. Respondents shall not be permitted to hand-deliver, mail, telephone, fax or email offers. Responses received after the submission deadline and/or transmitted outside of the designated OpenGov e-Procurement Platform shall be rejected. Important Instructions for Electronic Submittal The County is ONLY accepting electronic submissions using the OpenGov e-Procurement Platform. Respondents shall create a FREE account with OpenGov by signing up at https://procurement.opengov.com/login . Once you have completed account registration, browse back to this page, click on \"Submit Response\", and follow the instructions to submit the electronic offer. It is the respondent's responsibility to ensure they commence their upload efforts timely to meet the submission deadline. The County shall not be responsible for delays caused by any occurrence, including the respondent's network delays, bandwidth issues, internet outages, or technical difficulties. OpenGov Technical Support For Technical Support, respondent's can reach the OpenGov Service Desk: Chat (preferred): Click the button in the lower right hand corner of the portal Email: procurement-support@opengov.com Phone: 1 (650) 336-7167 Hours: Mon-Fri 7am - 10pm EST Timely Questions Regarding this Solicitation The question and answer module of OpenGov IS being utilized for this solicitation. Timely questions concerning this solicitation shall be submitted in accordance with the deadline for questions: 'Question & Answer Submission Date at 'Question & Answer Submission Time EST. Respondents are instructed not to contact the initiating division directly. Consideration for modification or alteration of the documents contained in this solicitation shall be requested during the specified question period, before the applicable deadline. No oral interpretation of the meaning of the plans, specifications, or other Contract documents shall be considered binding. The County shall be bound by information and statements only when such statements are written and executed under the authority of the Manager, Procurement Division. Answers for timely questions will be addressed in the OpenGov question and answer module or as an addenda to this solicitation depending on volume, participants are encouraged to subscribe as a follower and monitor all notifications. Beyond questions and answers, any and all modifications, clarifications, interpretations and supplemental instructions will be in the form of a written addendum which, if issued, will be available for download. All addenda and questions/answers so issued shall become part of the Contract Documents and receipt shall be acknowledged as specified herein. This provision exists solely for the convenience and administrative efficiency of Orange County. No respondent or other third party gains any rights by virtue of this provision or the application thereof, nor shall any respondent or third party have any standing to sue or cause of action arising there from. Untimely questions are unable to be submitted in the question and answer module, thereafter respondents raising critical concerns must email 'Procurement Contact Email . Critical clarifications may be made via addenda, however, untimely questions may not be considered.",
-      "agency": "Orange County, Florida",
-      "state": "FL",
-      "url": "https://procurement.opengov.com/portal/orangecountyfl/projects/264304",
-      "naics": "",
-      "psc": "",
-      "set_aside": "Y26-193",
-      "posted_date": "2026-05-08",
-      "due_date": "2026-09-22",
-      "it_score": 42,
-      "is_new": true,
-      "first_seen": "2026-09-18",
-      "matched_keywords": [
-        "application",
-        "computer"
       ]
     },
     {
@@ -1038,7 +811,7 @@
       "posted_date": "2026-05-14",
       "due_date": "2026-09-29",
       "it_score": 42,
-      "is_new": true,
+      "is_new": false,
       "first_seen": "2026-09-18",
       "matched_keywords": [
         "application",
@@ -1139,7 +912,7 @@
       "posted_date": "2026-09-17",
       "due_date": "2026-09-30",
       "it_score": 36,
-      "is_new": true,
+      "is_new": false,
       "first_seen": "2026-09-18",
       "matched_keywords": [
         "digital"
@@ -1219,7 +992,7 @@
       "posted_date": "2026-08-19",
       "due_date": "2026-10-01",
       "it_score": 36,
-      "is_new": true,
+      "is_new": false,
       "first_seen": "2026-09-18",
       "matched_keywords": [
         "digital"
@@ -1279,7 +1052,7 @@
       "posted_date": "",
       "due_date": "2026-10-28",
       "it_score": 36,
-      "is_new": true,
+      "is_new": false,
       "first_seen": "2026-09-18",
       "matched_keywords": [
         "ai"
@@ -1386,26 +1159,6 @@
       ]
     },
     {
-      "id": "3iy3-r5vp:PW 1117",
-      "source_name": "Texas — Spot Bid Fair FY2026",
-      "title": "Computer Docking Stations, Dual Monitor, USB-C + HDMI + Dual DP Port. Laptop & Workstation",
-      "description": "Computer Docking Stations, Dual Monitor, USB-C + HDMI + Dual DP Port. Laptop & Workstation",
-      "agency": "Texas Workforce Commission",
-      "state": "TX",
-      "url": "{'url': 'https://drive.google.com/open?id=1XUnzgK-m-3270sPXuKe0YQTHc9nxa28P'}",
-      "naics": "",
-      "psc": "",
-      "set_aside": "",
-      "posted_date": "2026-04-30",
-      "due_date": "",
-      "it_score": 36,
-      "is_new": false,
-      "first_seen": "2026-07-14",
-      "matched_keywords": [
-        "computer"
-      ]
-    },
-    {
       "id": "3iy3-r5vp:PR 56737",
       "source_name": "Texas — Spot Bid Fair FY2026",
       "title": "FIELDPIECE Digital Psychrometer: Onboard, Ambient Temp/Dew Point/Relative Humidity, -40°F to 257°F",
@@ -1443,26 +1196,6 @@
       "first_seen": "2026-07-14",
       "matched_keywords": [
         "digital"
-      ]
-    },
-    {
-      "id": "3iy3-r5vp:5185",
-      "source_name": "Texas — Spot Bid Fair FY2026",
-      "title": "Peslv - 2 pack 27 inch privacy screen for computer monitor 16:9 aspect ratio",
-      "description": "Peslv - 2 pack 27 inch privacy screen for computer monitor 16:9 aspect ratio",
-      "agency": "Texas Water Development Board",
-      "state": "TX",
-      "url": "{'url': 'https://drive.google.com/open?id=1b1O71unSPn8XoTrtHn36yASF9GuzWzjV'}",
-      "naics": "",
-      "psc": "",
-      "set_aside": "",
-      "posted_date": "2026-04-28",
-      "due_date": "",
-      "it_score": 36,
-      "is_new": false,
-      "first_seen": "2026-07-14",
-      "matched_keywords": [
-        "computer"
       ]
     }
   ]
