@@ -156,7 +156,22 @@ sources:
       # NOTE: this feed's long-description field is mostly boilerplate ("go to
       # our website to download..."), which caused false matches. We judge NYC
       # items on their real title instead, so the subject drives inclusion.
-      field_map: { id: request_id, title: short_title, description: short_title, agency: agency_name, posted_date: start_date, due_date: end_date }
+      #
+      # id: `pin` (the NYC Procurement Identification Number), NOT `request_id`.
+      # The City Record is a newspaper of record: the SAME solicitation is
+      # re-printed on many days and each printing gets a fresh request_id
+      # (600 distinct request_ids across 600 rows), so keying on it made every
+      # re-print look like a brand-new opportunity. `pin` is stable across
+      # printings and present on ~98% of rows.
+      #
+      # due_date: deliberately NOT mapped. This dataset has no bid-deadline
+      # field at all — `end_date` is when the ADVERT stops running, and it
+      # equals start_date on 398 of 400 sampled rows. Mapping it made every
+      # NYC item show as "due today", which is what made the whole dashboard
+      # look like nothing but same-day deadlines. Blank due_date means the
+      # stale_after_days recency rule governs instead (same as Mesa AZ and
+      # Texas Spot Bid, which have the same no-real-deadline shape).
+      field_map: { id: pin, title: short_title, description: short_title, agency: agency_name, posted_date: start_date }
       source_url: "https://a856-cityrecord.nyc.gov/"
 
     - name: "New York City — Current RFP (MOCS)"
