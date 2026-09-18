@@ -24,6 +24,8 @@ from .bidsandtenders import BidsAndTendersSource
 from .ionwave import IonwaveSource
 from .questcdn import QuestCdnSource
 from .rtvision import RtVisionSource
+from .civicplus_bids import CivicPlusBidsSource
+from .schenectady_county import SchenectadyCountySource
 
 
 def build_sources(config: dict) -> list:
@@ -95,5 +97,15 @@ def build_sources(config: dict) -> list:
     rtvision_cfg = sources_cfg.get("rtvision", {})
     if rtvision_cfg.get("enabled", False):
         sources.append(RtVisionSource(rtvision_cfg))
+
+    # --- CivicPlus Bids.aspx municipal sites (one adapter, many agencies) ---
+    civicplus_cfg = sources_cfg.get("civicplus_bids", {})
+    if civicplus_cfg.get("enabled", False):
+        sources.append(CivicPlusBidsSource(civicplus_cfg))
+
+    # --- Schenectady County NY (one-off Drupal Views listing) ---
+    schenectady_cfg = sources_cfg.get("schenectady_county", {})
+    if schenectady_cfg.get("enabled", False):
+        sources.append(SchenectadyCountySource(schenectady_cfg))
 
     return sources

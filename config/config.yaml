@@ -501,6 +501,36 @@ sources:
       - { agency_match: "Hennepin County", agency: "Hennepin County, MN", state: MN }
       - { agency_match: "St. Louis County, MN", agency: "St. Louis County, MN", state: MN }
 
+  # --- CivicPlus "Bids.aspx" municipal sites ------------------------------------
+  # CivicPlus is a CMS used by many US cities/counties; its stock Bids module
+  # is server-rendered, so ONE generic parser serves every site on it. Add an
+  # agency by adding the URL of its bids page (usually <site>/bids.aspx —
+  # use the LIST page, not a ?bidID=... link to a single bid). Spot-check a
+  # new site once: if it doesn't use this module the source just returns
+  # nothing for it rather than erroring.
+  civicplus_bids:
+    enabled: true
+    name: "CivicPlus Bids"
+    agencies:
+      - { url: "https://www.buffalony.gov/bids.aspx", agency: "City of Buffalo, NY", state: NY }
+      - { url: "https://www.yonkersny.gov/Bids.aspx?CatID=showStatus&txtSort=Title&showAllBids=&Status=open", agency: "City of Yonkers, NY", state: NY }
+      - { url: "https://www.newrochelleny.gov/Bids.aspx?CatID=showStatus&txtSort=Title&showAllBids=&Status=open", agency: "City of New Rochelle, NY", state: NY }
+      - { url: "https://www.washingtoncountymn.gov/bids.aspx", agency: "Washington County, MN", state: MN }
+      - { url: "https://www.scottcountymn.gov/bids.aspx", agency: "Scott County, MN", state: MN }
+      - { url: "https://www.co.sherburne.mn.us/bids.aspx", agency: "Sherburne County, MN", state: MN }
+      - { url: "https://www.springfieldmo.gov/Bids.aspx", agency: "City of Springfield, MO", state: MO }
+      - { url: "https://www.jeffcomo.gov/bids.aspx", agency: "City of Jefferson, MO", state: MO }
+      - { url: "https://colecounty.org/Bids.aspx", agency: "Cole County, MO", state: MO }
+
+  # --- Schenectady County NY (one-off) -------------------------------------------
+  # Drupal Views listing, server-rendered. Not generic — its field classes are
+  # configured per site, so this adapter serves this county only.
+  schenectady_county:
+    enabled: true
+    name: "Schenectady County, NY"
+    state: NY
+    url: "https://www.schenectadycountyny.gov/current-bids"
+
   # --- Gmail bid-alert ingestion (PRIMARY local coverage) --------------------
   # Reads a dedicated Gmail inbox for alert emails from shared procurement
   # platforms. Turn `enabled: true` AFTER you set up GMAIL_TOKEN_JSON (README).

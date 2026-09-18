@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-09-18T12:17:13.839293+00:00",
+  "generated_at": "2026-09-18T12:26:28.204715+00:00",
   "counts": {
-    "total": 43,
+    "total": 44,
     "new": 1
   },
   "health": {
-    "ok": 22,
-    "total": 26,
+    "ok": 24,
+    "total": 28,
     "sources": [
       {
         "source": "Montgomery County MD — Solicitations",
@@ -162,6 +162,18 @@
         "source": "RTVision Connex",
         "ok": true,
         "count": 6,
+        "error": ""
+      },
+      {
+        "source": "CivicPlus Bids",
+        "ok": true,
+        "count": 58,
+        "error": ""
+      },
+      {
+        "source": "Schenectady County, NY",
+        "ok": true,
+        "count": 2,
         "error": ""
       }
     ]
@@ -837,6 +849,27 @@
       ]
     },
     {
+      "id": "civicplus:https://www.washingtoncountymn.gov/bids.aspx?bidID=799",
+      "source_name": "CivicPlus Bids — Washington County, MN",
+      "title": "Artificial Intelligence (AI) Policy",
+      "description": "Artificial Intelligence (AI) Policy",
+      "agency": "Washington County, MN",
+      "state": "MN",
+      "url": "https://www.washingtoncountymn.gov/bids.aspx?bidID=799",
+      "naics": "",
+      "psc": "",
+      "set_aside": "",
+      "posted_date": "",
+      "due_date": "",
+      "it_score": 42,
+      "is_new": true,
+      "first_seen": "2026-09-18",
+      "matched_keywords": [
+        "ai",
+        "artificial intelligence"
+      ]
+    },
+    {
       "id": "hf3r-utnq:231898",
       "source_name": "Los Angeles County CA — RAMP Open Bids",
       "title": "RFB-IS-27200145 - SNOWFLAKE DATABASE AND TRAINING (BRAND ONLY) - Closing: 9/22/2026 12:00 PM",
@@ -910,7 +943,7 @@
       "posted_date": "2026-09-02",
       "due_date": "2026-09-24",
       "it_score": 36,
-      "is_new": true,
+      "is_new": false,
       "first_seen": "2026-09-18",
       "matched_keywords": [
         "data"
