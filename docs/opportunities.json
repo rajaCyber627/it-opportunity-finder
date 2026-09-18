@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-09-18T12:48:33.950598+00:00",
+  "generated_at": "2026-09-18T13:11:22.043572+00:00",
   "counts": {
     "total": 45,
-    "new": 1
+    "new": 0
   },
   "health": {
     "ok": 24,
@@ -167,7 +167,7 @@
       {
         "source": "CivicPlus Bids",
         "ok": true,
-        "count": 58,
+        "count": 59,
         "error": ""
       },
       {
@@ -557,7 +557,7 @@
       "posted_date": "2026-09-18",
       "due_date": "2026-09-25",
       "it_score": 51,
-      "is_new": true,
+      "is_new": false,
       "first_seen": "2026-09-18",
       "matched_keywords": [
         "software"

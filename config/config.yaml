@@ -717,10 +717,14 @@ filtering:
     - rehab
     # Job Order Contracts (JOC) are open-ended construction/trade work
     # agreements — always physical work, never IT (e.g. LACDA26-043).
+    # Deliberately NOT listing "alteration" here: OpenGov's standard legal
+    # boilerplate says "modification or alteration of the documents contained
+    # in this solicitation", so it appears on essentially every OpenGov
+    # listing and would drop genuine IT work (verified: it dropped a
+    # "Website Redesign and Hosting Services" test item).
     - job order contract
     - remodeling
     - refurbishment
-    - alteration
     - roof
     - roofing
     - facade
