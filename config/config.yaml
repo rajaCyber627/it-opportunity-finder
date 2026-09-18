@@ -462,6 +462,45 @@ sources:
     agencies:
       - { tenant: placer, agency: "Placer County, CA", state: CA }
 
+  # --- Ionwave agency portals --------------------------------------------------
+  # Public, server-rendered open-bids grid per agency (no login). Add an
+  # agency by adding its tenant subdomain (e.g. leegov.ionwave.net -> tenant
+  # "leegov").
+  ionwave:
+    enabled: true
+    name: "Ionwave"
+    agencies:
+      - { tenant: leegov, agency: "Lee County, FL", state: FL }
+      - { tenant: brpurch, agency: "City of Boca Raton, FL", state: FL }
+      - { tenant: columbia, agency: "City of Columbia, MO", state: MO }
+
+  # --- QuestCDN agency portals --------------------------------------------------
+  # Public, unauthenticated AJAX endpoint per agency (no login). Add an
+  # agency by adding its group+provider ids (both from the query string in
+  # its QuestCDN URL, e.g. ?group=7073&provider=7073).
+  questcdn:
+    enabled: true
+    name: "QuestCDN"
+    agencies:
+      - { group: 7073, provider: 7073, agency: "City of Brooklyn Park, MN", state: MN }
+      - { group: 7545, provider: 7545, agency: "City of Plymouth, MN", state: MN }
+
+  # --- RTVision Connex ----------------------------------------------------------
+  # ONE shared, unauthenticated statewide feed (observed: Minnesota public-
+  # works bids) — not per-agency like the others. Add an agency by adding its
+  # exact name as it appears in the feed's `agency` field (agency_match is a
+  # case-insensitive substring match). Mostly construction/public-works, so
+  # low IT yield is expected — kept wired up in case that changes.
+  rtvision:
+    enabled: true
+    name: "RTVision Connex"
+    agencies:
+      - { agency_match: "City of Rochester, MN", agency: "City of Rochester, MN", state: MN }
+      - { agency_match: "Rice County", agency: "Rice County, MN", state: MN }
+      - { agency_match: "Olmsted County", agency: "Olmsted County, MN", state: MN }
+      - { agency_match: "Hennepin County", agency: "Hennepin County, MN", state: MN }
+      - { agency_match: "St. Louis County, MN", agency: "St. Louis County, MN", state: MN }
+
   # --- Gmail bid-alert ingestion (PRIMARY local coverage) --------------------
   # Reads a dedicated Gmail inbox for alert emails from shared procurement
   # platforms. Turn `enabled: true` AFTER you set up GMAIL_TOKEN_JSON (README).

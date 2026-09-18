@@ -21,6 +21,9 @@ from .bidnetdirect import BidNetDirectSource
 from .biddingo import BiddingoSource
 from .bonfire import BonfireSource
 from .bidsandtenders import BidsAndTendersSource
+from .ionwave import IonwaveSource
+from .questcdn import QuestCdnSource
+from .rtvision import RtVisionSource
 
 
 def build_sources(config: dict) -> list:
@@ -77,5 +80,20 @@ def build_sources(config: dict) -> list:
     bidsandtenders_cfg = sources_cfg.get("bidsandtenders", {})
     if bidsandtenders_cfg.get("enabled", False):
         sources.append(BidsAndTendersSource(bidsandtenders_cfg))
+
+    # --- Ionwave agency portals (one adapter, many agencies) ---
+    ionwave_cfg = sources_cfg.get("ionwave", {})
+    if ionwave_cfg.get("enabled", False):
+        sources.append(IonwaveSource(ionwave_cfg))
+
+    # --- QuestCDN agency portals (one adapter, many agencies) ---
+    questcdn_cfg = sources_cfg.get("questcdn", {})
+    if questcdn_cfg.get("enabled", False):
+        sources.append(QuestCdnSource(questcdn_cfg))
+
+    # --- RTVision Connex (one shared feed, filtered to configured agencies) ---
+    rtvision_cfg = sources_cfg.get("rtvision", {})
+    if rtvision_cfg.get("enabled", False):
+        sources.append(RtVisionSource(rtvision_cfg))
 
     return sources

@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-09-18T11:55:58.748303+00:00",
+  "generated_at": "2026-09-18T12:17:13.839293+00:00",
   "counts": {
-    "total": 42,
-    "new": 0
+    "total": 43,
+    "new": 1
   },
   "health": {
-    "ok": 19,
-    "total": 23,
+    "ok": 22,
+    "total": 26,
     "sources": [
       {
         "source": "Montgomery County MD — Solicitations",
@@ -142,6 +142,24 @@
       },
       {
         "source": "Bids&Tenders",
+        "ok": true,
+        "count": 6,
+        "error": ""
+      },
+      {
+        "source": "Ionwave",
+        "ok": true,
+        "count": 13,
+        "error": ""
+      },
+      {
+        "source": "QuestCDN",
+        "ok": true,
+        "count": 1,
+        "error": ""
+      },
+      {
+        "source": "RTVision Connex",
         "ok": true,
         "count": 6,
         "error": ""
@@ -876,6 +894,26 @@
       "first_seen": "2026-09-17",
       "matched_keywords": [
         "license"
+      ]
+    },
+    {
+      "id": "ionwave:leegov:SS260368KCW",
+      "source_name": "Ionwave — Lee County, FL",
+      "title": "Equinix Disaster Recovery Tier IV Data Backup Services",
+      "description": "Equinix Disaster Recovery Tier IV Data Backup Services",
+      "agency": "Lee County, FL",
+      "state": "FL",
+      "url": "https://leegov.ionwave.net/SourcingEvents.aspx?SourceType=1",
+      "naics": "",
+      "psc": "",
+      "set_aside": "SS260368KCW",
+      "posted_date": "2026-09-02",
+      "due_date": "2026-09-24",
+      "it_score": 36,
+      "is_new": true,
+      "first_seen": "2026-09-18",
+      "matched_keywords": [
+        "data"
       ]
     },
     {
