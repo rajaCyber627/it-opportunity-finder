@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-09-18T12:26:28.204715+00:00",
+  "generated_at": "2026-09-18T12:31:00.263074+00:00",
   "counts": {
     "total": 44,
-    "new": 1
+    "new": 0
   },
   "health": {
     "ok": 24,
@@ -143,7 +143,7 @@
       {
         "source": "Bids&Tenders",
         "ok": true,
-        "count": 6,
+        "count": 8,
         "error": ""
       },
       {
@@ -862,7 +862,7 @@
       "posted_date": "",
       "due_date": "",
       "it_score": 42,
-      "is_new": true,
+      "is_new": false,
       "first_seen": "2026-09-18",
       "matched_keywords": [
         "ai",

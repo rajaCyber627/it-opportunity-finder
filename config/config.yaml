@@ -461,6 +461,7 @@ sources:
     name: "Bids&Tenders"
     agencies:
       - { tenant: placer, agency: "Placer County, CA", state: CA }
+      - { tenant: stearnscountymn, agency: "Stearns County, MN", state: MN }
 
   # --- Ionwave agency portals --------------------------------------------------
   # Public, server-rendered open-bids grid per agency (no login). Add an
@@ -484,6 +485,7 @@ sources:
     agencies:
       - { group: 7073, provider: 7073, agency: "City of Brooklyn Park, MN", state: MN }
       - { group: 7545, provider: 7545, agency: "City of Plymouth, MN", state: MN }
+      - { group: 6261, provider: 6261, agency: "Dakota County, MN", state: MN }
 
   # --- RTVision Connex ----------------------------------------------------------
   # ONE shared, unauthenticated statewide feed (observed: Minnesota public-
