@@ -384,6 +384,17 @@ sources:
       - { slug: santacruzcounty, agency: "County of Santa Cruz, CA", state: CA }
       - { slug: anaheim, agency: "City of Anaheim, CA", state: CA }
       - { slug: cosb, agency: "County of San Benito, CA", state: CA }
+      - { slug: pinellasfl, agency: "Pinellas County, FL", state: FL }
+      - { slug: orangecountyfl, agency: "Orange County, FL", state: FL }
+      - { slug: alachuacounty, agency: "Alachua County, FL", state: FL }
+      - { slug: leoncounty, agency: "Leon County, FL", state: FL }
+      - { slug: scgov, agency: "Sarasota County, FL", state: FL }
+      - { slug: escambiacountyfl, agency: "Escambia County, FL", state: FL }
+      - { slug: cityoftampa, agency: "City of Tampa, FL", state: FL }
+      - { slug: orlando, agency: "City of Orlando, FL", state: FL }
+      - { slug: stpete, agency: "City of St. Petersburg, FL", state: FL }
+      - { slug: cityofgainesville, agency: "City of Gainesville, FL", state: FL }
+      - { slug: sarasotafl, agency: "City of Sarasota, FL", state: FL }
 
   # --- ArcGIS feature layers -------------------------------------------------
   # Some governments publish open solicitations as an ArcGIS layer with a public
@@ -409,6 +420,9 @@ sources:
     agencies:
       - { path: "california/cityofsantaclara", agency: "City of Santa Clara, CA", state: CA }
       - { path: "california/contracostacounty", agency: "Contra Costa County, CA", state: CA }
+      - { path: "new-york/city-of-albany", agency: "City of Albany, NY", state: NY }
+      - { path: "new-york/city-of-schenectady", agency: "City of Schenectady, NY", state: NY }
+      - { path: "florida/cityofmiami", agency: "City of Miami, FL", state: FL }
 
   # --- Biddingo agency portals -------------------------------------------------
   # Public, unauthenticated REST API per agency (no login). Add an agency by
@@ -430,6 +444,10 @@ sources:
     name: "Bonfire"
     agencies:
       - { tenant: ventura, agency: "County of Ventura, CA", state: CA }
+      - { tenant: broward, agency: "Broward County, FL", state: FL }
+      - { tenant: hillsboroughcounty, agency: "Hillsborough County, FL", state: FL }
+      - { tenant: kcmo, agency: "Kansas City, MO", state: MO }
+      - { tenant: jacksongov, agency: "Jackson County, MO", state: MO }
 
   # --- Bids&Tenders agency portals ----------------------------------------------
   # Public tenders page per agency (no login), read via a headless browser

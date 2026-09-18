@@ -278,6 +278,15 @@
   "Bids&Tenders \u2014 Placer County, CA::bidsandtenders:placer:9ed85400-0ba9-4833-aaa9-83cb61299f19": {
     "first_seen": "2026-09-17"
   },
+  "Bonfire \u2014 Broward County, FL::bonfire:broward:251143": {
+    "first_seen": "2026-09-18"
+  },
+  "Bonfire \u2014 Broward County, FL::bonfire:broward:253616": {
+    "first_seen": "2026-09-18"
+  },
+  "Bonfire \u2014 Kansas City, MO::bonfire:kcmo:252037": {
+    "first_seen": "2026-09-18"
+  },
   "Cincinnati OH \u2014 Business Opportunities (Bids & RFPs)::pid3-z56k:10270190": {
     "first_seen": "2026-07-14"
   },
@@ -956,6 +965,9 @@
   "Los Angeles County CA \u2014 RAMP Open Bids::hf3r-utnq:231978": {
     "first_seen": "2026-09-12"
   },
+  "Los Angeles County CA \u2014 RAMP Open Bids::hf3r-utnq:231990": {
+    "first_seen": "2026-09-18"
+  },
   "Los Angeles County CA \u2014 RAMP Open Bids::hf3r-utnq:231996": {
     "first_seen": "2026-09-16"
   },
@@ -970,6 +982,9 @@
   },
   "Los Angeles County CA \u2014 RAMP Open Bids::hf3r-utnq:232044": {
     "first_seen": "2026-09-17"
+  },
+  "Los Angeles County CA \u2014 RAMP Open Bids::hf3r-utnq:232069": {
+    "first_seen": "2026-09-18"
   },
   "Los Angeles County CA \u2014 RAMP Open Bids::hf3r-utnq:40831": {
     "first_seen": "2026-07-14"
@@ -2117,6 +2132,9 @@
   "New York State \u2014 SUCF Advertised Procurements::vtxv-3j2b:361080-00": {
     "first_seen": "2026-07-14"
   },
+  "OpenGov \u2014 Alachua County, FL::opengov:alachuacounty:293345": {
+    "first_seen": "2026-09-18"
+  },
   "OpenGov \u2014 City of Anaheim, CA::opengov:anaheim:248269": {
     "first_seen": "2026-09-16"
   },
@@ -2425,6 +2443,9 @@
   },
   "OpenGov \u2014 City of Santa Monica, CA::opengov:santa-monica-ca:300547": {
     "first_seen": "2026-09-10"
+  },
+  "OpenGov \u2014 County of Alameda, CA::opengov:acgov:244457": {
+    "first_seen": "2026-09-18"
   },
   "OpenGov \u2014 County of Alameda, CA::opengov:acgov:262266": {
     "first_seen": "2026-07-16"
@@ -2844,7 +2865,7 @@
     "first_seen": "2026-09-05"
   },
   "OpenGov \u2014 County of San Mateo, CA::opengov:smcgov:300941": {
-        "first_seen": "2026-09-15"
+    "first_seen": "2026-09-15"
   },
   "OpenGov \u2014 County of San Mateo, CA::opengov:smcgov:301836": {
     "first_seen": "2026-09-16"
@@ -2881,6 +2902,24 @@
   },
   "OpenGov \u2014 LA County Development Authority, CA::opengov:lacda:288953": {
     "first_seen": "2026-08-15"
+  },
+  "OpenGov \u2014 Orange County, FL::opengov:orangecountyfl:254870": {
+    "first_seen": "2026-09-18"
+  },
+  "OpenGov \u2014 Orange County, FL::opengov:orangecountyfl:264304": {
+    "first_seen": "2026-09-18"
+  },
+  "OpenGov \u2014 Orange County, FL::opengov:orangecountyfl:266226": {
+    "first_seen": "2026-09-18"
+  },
+  "OpenGov \u2014 Orange County, FL::opengov:orangecountyfl:295342": {
+    "first_seen": "2026-09-18"
+  },
+  "OpenGov \u2014 Pinellas County, FL::opengov:pinellasfl:295048": {
+    "first_seen": "2026-09-18"
+  },
+  "OpenGov \u2014 Pinellas County, FL::opengov:pinellasfl:296766": {
+    "first_seen": "2026-09-18"
   },
   "Oregon \u2014 Active Statewide Price Agreements::knjg-wn2a:0486": {
     "first_seen": "2026-07-14"
