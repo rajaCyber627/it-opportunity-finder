@@ -8,18 +8,12 @@ name: Daily IT Opportunity Run
 
 on:
   schedule:
-    # Every 6 hours (00:00, 06:00, 12:00, 18:00 UTC). Some agencies post IT
-    # work with a 7-day bid window, where a once-a-day run can burn a full
-    # day — ~14% of the whole window — before the team ever sees it. Four
-    # runs cut the worst-case delay to ~6 hours. Change this cron to retime.
-    #
-    # NOTE: if you enable SAM.gov, check sources.samgov.naics_codes first.
-    # The tool makes one SAM request per NAICS code per run, and an
-    # unregistered SAM key only allows ~10 requests/DAY — so 4 codes x 4 runs
-    # = 16/day would blow that limit and SAM would start failing on the later
-    # runs. Register your entity (UEI) at SAM.gov to raise it to ~1,000/day,
-    # or shorten the NAICS list.
-    - cron: "0 */6 * * *"
+    # Twice daily (12:00 and 00:00 UTC). Some agencies post IT work with a
+    # 7-day bid window, where a once-a-day run can burn up to a full day —
+    # ~14% of the whole window — before the team ever sees it. Two runs halve
+    # that worst case. Change these crons to retime it.
+    - cron: "0 12 * * *"
+    - cron: "0 0 * * *"
   workflow_dispatch:        # lets you click "Run workflow" any time
 
 # The job commits opportunities.json + history.json back to the repo.
