@@ -715,6 +715,12 @@ filtering:
     - renovation
     - rehabilitate
     - rehab
+    # Job Order Contracts (JOC) are open-ended construction/trade work
+    # agreements — always physical work, never IT (e.g. LACDA26-043).
+    - job order contract
+    - remodeling
+    - refurbishment
+    - alteration
     - roof
     - roofing
     - facade
