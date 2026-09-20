@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-09-19T14:57:46.670646+00:00",
+  "generated_at": "2026-09-20T15:02:15.065883+00:00",
   "counts": {
-    "total": 199,
-    "new": 17
+    "total": 192,
+    "new": 1
   },
   "health": {
     "ok": 20,
@@ -17,7 +17,7 @@
       {
         "source": "Los Angeles County CA — RAMP Open Bids",
         "ok": true,
-        "count": 380,
+        "count": 384,
         "error": ""
       },
       {
@@ -59,7 +59,7 @@
       {
         "source": "Texas DOT — Plan Holders (Open Lettings)",
         "ok": true,
-        "count": 352,
+        "count": 354,
         "error": ""
       },
       {
@@ -101,13 +101,13 @@
       {
         "source": "Illinois — Capital Dev Board Future Solicitations",
         "ok": true,
-        "count": 47,
+        "count": 48,
         "error": ""
       },
       {
         "source": "SAM.gov (Federal)",
         "ok": true,
-        "count": 50,
+        "count": 37,
         "error": ""
       },
       {
@@ -405,7 +405,7 @@
       "posted_date": "2026-09-18",
       "due_date": "2026-09-24",
       "it_score": 77,
-      "is_new": true,
+      "is_new": false,
       "first_seen": "2026-09-19",
       "matched_keywords": [
         "software",
@@ -457,26 +457,6 @@
       ]
     },
     {
-      "id": "samgov:c452a79b5e304c03a0c69a6914b9cce2",
-      "source_name": "SAM.gov (Federal)",
-      "title": "Kofax Software Parts #KCA-PER-SENT-001U # MC-KTA-0001 Request for Information",
-      "description": "Kofax Software Parts #KCA-PER-SENT-001U # MC-KTA-0001 Request for Information",
-      "agency": "DEPT OF DEFENSE.DEPT OF THE NAVY.NAVSUP.NAVSUP OTHER HCA.MISC.NCIS QUANTICO VA",
-      "state": "US-FED",
-      "url": "https://sam.gov/workspace/contract/opp/c452a79b5e304c03a0c69a6914b9cce2/view",
-      "naics": "541519",
-      "psc": "",
-      "set_aside": "",
-      "posted_date": "2026-09-16",
-      "due_date": "2026-09-21",
-      "it_score": 71,
-      "is_new": false,
-      "first_seen": "2026-09-17",
-      "matched_keywords": [
-        "software"
-      ]
-    },
-    {
       "id": "samgov:5fa4025931754a1c864faf619d3532be",
       "source_name": "SAM.gov (Federal)",
       "title": "VocBench Support and NALTerms Integration",
@@ -490,7 +470,7 @@
       "posted_date": "2026-09-18",
       "due_date": "2026-09-22",
       "it_score": 71,
-      "is_new": true,
+      "is_new": false,
       "first_seen": "2026-09-19",
       "matched_keywords": [
         "integration"
@@ -530,28 +510,8 @@
       "posted_date": "2026-09-18",
       "due_date": "2026-09-24",
       "it_score": 71,
-      "is_new": true,
-      "first_seen": "2026-09-19",
-      "matched_keywords": [
-        "software"
-      ]
-    },
-    {
-      "id": "samgov:1e4d824569734db48221d8c0b2eddc86",
-      "source_name": "SAM.gov (Federal)",
-      "title": "ARTS-V3 Third-Party Software Initiative",
-      "description": "ARTS-V3 Third-Party Software Initiative",
-      "agency": "DEPT OF DEFENSE.DEPT OF THE AIR FORCE.AIR FORCE MATERIEL COMMAND.AIR FORCE LIFE CYCLE MANAGEMENT CENTER.TRAINING.FA8210 AFLCMC WNRK HILL",
-      "state": "US-FED",
-      "url": "https://sam.gov/workspace/contract/opp/1e4d824569734db48221d8c0b2eddc86/view",
-      "naics": "541511",
-      "psc": "",
-      "set_aside": "No Set aside used",
-      "posted_date": "2026-09-16",
-      "due_date": "2026-10-06",
-      "it_score": 71,
       "is_new": false,
-      "first_seen": "2026-09-17",
+      "first_seen": "2026-09-19",
       "matched_keywords": [
         "software"
       ]
@@ -614,7 +574,7 @@
       "posted_date": "2026-09-18",
       "due_date": "2026-10-02",
       "it_score": 62,
-      "is_new": true,
+      "is_new": false,
       "first_seen": "2026-09-19",
       "matched_keywords": [
         "system",
@@ -635,7 +595,7 @@
       "posted_date": "2026-09-18",
       "due_date": "2026-10-02",
       "it_score": 62,
-      "is_new": true,
+      "is_new": false,
       "first_seen": "2026-09-19",
       "matched_keywords": [
         "system",
@@ -868,26 +828,6 @@
       "first_seen": "2026-09-17",
       "matched_keywords": [
         "systems"
-      ]
-    },
-    {
-      "id": "samgov:65233192e1bd4b06968954729fc4c042",
-      "source_name": "SAM.gov (Federal)",
-      "title": "ACRT Amazon Web Services (AWS)",
-      "description": "ACRT Amazon Web Services (AWS)",
-      "agency": "DEPT OF DEFENSE.DEPT OF THE ARMY.AMC.ACC.ACC-CTRS.ACC-DTA.W6QK INSCOM BELVOIR",
-      "state": "US-FED",
-      "url": "https://sam.gov/workspace/contract/opp/65233192e1bd4b06968954729fc4c042/view",
-      "naics": "518210",
-      "psc": "7B22",
-      "set_aside": "No Set aside used",
-      "posted_date": "2026-09-16",
-      "due_date": "2026-10-01",
-      "it_score": 56,
-      "is_new": false,
-      "first_seen": "2026-09-16",
-      "matched_keywords": [
-        "web"
       ]
     },
     {
@@ -1130,60 +1070,6 @@
       "matched_keywords": []
     },
     {
-      "id": "samgov:e5f3c5f6c0bf461e82fd1e2480638cad",
-      "source_name": "SAM.gov (Federal)",
-      "title": "ScriptPro Upgrade and Maintenance",
-      "description": "ScriptPro Upgrade and Maintenance",
-      "agency": "HEALTH AND HUMAN SERVICES, DEPARTMENT OF.OFFICE OF THE ASSISTANT SECRETARY FOR ADMINISTRATION (ASA).PROGRAM SUPPORT CENTER ACQ MGMT SVC",
-      "state": "US-FED",
-      "url": "https://sam.gov/workspace/contract/opp/e5f3c5f6c0bf461e82fd1e2480638cad/view",
-      "naics": "541519",
-      "psc": "7A20",
-      "set_aside": "",
-      "posted_date": "2026-09-16",
-      "due_date": "2026-09-21",
-      "it_score": 50,
-      "is_new": false,
-      "first_seen": "2026-09-17",
-      "matched_keywords": []
-    },
-    {
-      "id": "samgov:e2e3dfc4386c423b9e7ee7a6b27ec31f",
-      "source_name": "SAM.gov (Federal)",
-      "title": "Oracle SPARC maintenance support",
-      "description": "Oracle SPARC maintenance support",
-      "agency": "DEPT OF DEFENSE.DEPT OF THE AIR FORCE.AIR FORCE MATERIEL COMMAND.AIR FORCE SUSTAINMENT CENTER.FA8222 AFSC OL H PZIE",
-      "state": "US-FED",
-      "url": "https://sam.gov/workspace/contract/opp/e2e3dfc4386c423b9e7ee7a6b27ec31f/view",
-      "naics": "541519",
-      "psc": "7A21",
-      "set_aside": "Small Business Set Aside - Total",
-      "posted_date": "2026-09-16",
-      "due_date": "2026-09-21",
-      "it_score": 50,
-      "is_new": false,
-      "first_seen": "2026-09-17",
-      "matched_keywords": []
-    },
-    {
-      "id": "samgov:07ab1a8df7754ff0a6a2abdb2a93f883",
-      "source_name": "SAM.gov (Federal)",
-      "title": "Virtual Marine Night Vision and Chart Plotting",
-      "description": "Virtual Marine Night Vision and Chart Plotting",
-      "agency": "DEPT OF DEFENSE.DEPT OF THE NAVY.NAVSUP.NAVSUP GLOBAL LOGISTICS SUPPORT.NAVSUP FLC NORFOLK.NAVSUP FLT LOG CTR NORFOLK",
-      "state": "US-FED",
-      "url": "https://sam.gov/workspace/contract/opp/07ab1a8df7754ff0a6a2abdb2a93f883/view",
-      "naics": "541519",
-      "psc": "7A21",
-      "set_aside": "",
-      "posted_date": "2026-09-16",
-      "due_date": "2026-09-21",
-      "it_score": 50,
-      "is_new": false,
-      "first_seen": "2026-09-17",
-      "matched_keywords": []
-    },
-    {
       "id": "samgov:e5bead7c3c0b49359c4b25e1ee8f7749",
       "source_name": "SAM.gov (Federal)",
       "title": "PhD-Level Demographic Research & Statistical Analysis Services",
@@ -1197,7 +1083,7 @@
       "posted_date": "2026-09-18",
       "due_date": "2026-09-21",
       "it_score": 50,
-      "is_new": true,
+      "is_new": false,
       "first_seen": "2026-09-19",
       "matched_keywords": []
     },
@@ -1287,7 +1173,7 @@
       "posted_date": "2026-09-18",
       "due_date": "2026-09-22",
       "it_score": 50,
-      "is_new": true,
+      "is_new": false,
       "first_seen": "2026-09-19",
       "matched_keywords": []
     },
@@ -1305,7 +1191,7 @@
       "posted_date": "2026-09-18",
       "due_date": "2026-09-22",
       "it_score": 50,
-      "is_new": true,
+      "is_new": false,
       "first_seen": "2026-09-19",
       "matched_keywords": []
     },
@@ -1323,7 +1209,7 @@
       "posted_date": "2026-09-18",
       "due_date": "2026-09-22",
       "it_score": 50,
-      "is_new": true,
+      "is_new": false,
       "first_seen": "2026-09-19",
       "matched_keywords": []
     },
@@ -1359,7 +1245,7 @@
       "posted_date": "2026-09-18",
       "due_date": "2026-09-22",
       "it_score": 50,
-      "is_new": true,
+      "is_new": false,
       "first_seen": "2026-09-19",
       "matched_keywords": []
     },
@@ -1377,7 +1263,7 @@
       "posted_date": "2026-09-18",
       "due_date": "2026-09-23",
       "it_score": 50,
-      "is_new": true,
+      "is_new": false,
       "first_seen": "2026-09-19",
       "matched_keywords": []
     },
@@ -1411,42 +1297,6 @@
       "psc": "DA10",
       "set_aside": "No Set aside used",
       "posted_date": "2026-09-17",
-      "due_date": "2026-09-23",
-      "it_score": 50,
-      "is_new": false,
-      "first_seen": "2026-09-17",
-      "matched_keywords": []
-    },
-    {
-      "id": "samgov:574621c3b827421e80e8caf27ab9a998",
-      "source_name": "SAM.gov (Federal)",
-      "title": "Intent to Sole Source an ERM solution",
-      "description": "Intent to Sole Source an ERM solution",
-      "agency": "DEPT OF DEFENSE.NATIONAL GEOSPATIAL-INTELLIGENCE AGENCY (NGA).ATTN: MS S84 - OCS",
-      "state": "US-FED",
-      "url": "https://sam.gov/workspace/contract/opp/574621c3b827421e80e8caf27ab9a998/view",
-      "naics": "541519",
-      "psc": "7A21",
-      "set_aside": "Small Business Set Aside - Total",
-      "posted_date": "2026-09-16",
-      "due_date": "2026-09-23",
-      "it_score": 50,
-      "is_new": false,
-      "first_seen": "2026-09-16",
-      "matched_keywords": []
-    },
-    {
-      "id": "samgov:43bbd77cd0f34a7cac28b9fb104d5509",
-      "source_name": "SAM.gov (Federal)",
-      "title": "GIMC - InformaCast Advanced Notification Maintenance Support Services",
-      "description": "GIMC - InformaCast Advanced Notification Maintenance Support Services",
-      "agency": "HEALTH AND HUMAN SERVICES, DEPARTMENT OF.INDIAN HEALTH SERVICE.NAVAJO AREA INDIAN HEALTH SVC",
-      "state": "US-FED",
-      "url": "https://sam.gov/workspace/contract/opp/43bbd77cd0f34a7cac28b9fb104d5509/view",
-      "naics": "541519",
-      "psc": "DG01",
-      "set_aside": "Indian Small Business Economic Enterprise",
-      "posted_date": "2026-09-16",
       "due_date": "2026-09-23",
       "it_score": 50,
       "is_new": false,
@@ -1521,7 +1371,7 @@
       "posted_date": "2026-09-18",
       "due_date": "2026-09-24",
       "it_score": 50,
-      "is_new": true,
+      "is_new": false,
       "first_seen": "2026-09-19",
       "matched_keywords": []
     },
@@ -1557,7 +1407,7 @@
       "posted_date": "2026-09-18",
       "due_date": "2026-09-25",
       "it_score": 50,
-      "is_new": true,
+      "is_new": false,
       "first_seen": "2026-09-19",
       "matched_keywords": []
     },
@@ -2205,7 +2055,7 @@
       "posted_date": "2026-03-23",
       "due_date": "2026-10-30",
       "it_score": 42,
-      "is_new": true,
+      "is_new": false,
       "first_seen": "2026-09-19",
       "matched_keywords": [
         "system",
@@ -2368,7 +2218,7 @@
       "posted_date": "2026-09-18",
       "due_date": "2026-09-23",
       "it_score": 36,
-      "is_new": true,
+      "is_new": false,
       "first_seen": "2026-09-19",
       "matched_keywords": [
         "system"
@@ -3008,7 +2858,7 @@
       "posted_date": "2026-09-22",
       "due_date": "2026-10-01",
       "it_score": 36,
-      "is_new": true,
+      "is_new": false,
       "first_seen": "2026-09-19",
       "matched_keywords": [
         "systems"
@@ -3032,6 +2882,26 @@
       "first_seen": "2026-09-01",
       "matched_keywords": [
         "development"
+      ]
+    },
+    {
+      "id": "hf3r-utnq:232099",
+      "source_name": "Los Angeles County CA — RAMP Open Bids",
+      "title": "RFB-IS-27200191 - 709521 - NETWORKING - DATA MANAGEMENT - FALCONSTOR STORSAFE - Closing: 10/2/2026 12:00 PM",
+      "description": "Commodity",
+      "agency": "Los Angeles County",
+      "state": "CA",
+      "url": "{'url': 'https://www.rampla.org/s/opportunity-details?id=006Ql00000loViKIAU'}",
+      "naics": "",
+      "psc": "",
+      "set_aside": "",
+      "posted_date": "2026-09-19",
+      "due_date": "2026-10-02",
+      "it_score": 36,
+      "is_new": true,
+      "first_seen": "2026-09-20",
+      "matched_keywords": [
+        "data"
       ]
     },
     {
@@ -3548,7 +3418,7 @@
       "posted_date": "2026-09-19",
       "due_date": "2026-10-30",
       "it_score": 36,
-      "is_new": true,
+      "is_new": false,
       "first_seen": "2026-09-19",
       "matched_keywords": [
         "system"
