@@ -3845,6 +3845,9 @@
   "SAM.gov (Federal)::samgov:3005740570ab49d98f7405d78ea8f7b5": {
     "first_seen": "2026-08-14"
   },
+  "SAM.gov (Federal)::samgov:300ce4c4151d4a73a18added2c0448a4": {
+    "first_seen": "2026-09-21"
+  },
   "SAM.gov (Federal)::samgov:3020348a7511406299ea981ac23728ac": {
     "first_seen": "2026-09-03"
   },
@@ -3898,6 +3901,9 @@
   },
   "SAM.gov (Federal)::samgov:348a3913a47b4f94aa7d88f26e59893d": {
     "first_seen": "2026-08-19"
+  },
+  "SAM.gov (Federal)::samgov:34e145a36c3944ae861b21f957b47325": {
+    "first_seen": "2026-09-21"
   },
   "SAM.gov (Federal)::samgov:35168f701d084eebb56414b9b550b3c1": {
     "first_seen": "2026-07-31"
@@ -4189,6 +4195,9 @@
   },
   "SAM.gov (Federal)::samgov:4e96b451b8c44bb0bba6f719dd0a4b0f": {
     "first_seen": "2026-08-07"
+  },
+  "SAM.gov (Federal)::samgov:5024ec784f894e20876492987e4f9813": {
+    "first_seen": "2026-09-21"
   },
   "SAM.gov (Federal)::samgov:50dc4f0527ad4142ac01818033439ea1": {
     "first_seen": "2026-07-18"
@@ -4892,6 +4901,9 @@
   "SAM.gov (Federal)::samgov:89e10c6b4ab14cf089f75d7153b84369": {
     "first_seen": "2026-08-27"
   },
+  "SAM.gov (Federal)::samgov:8a2da5f670594939a571ba39557e6f35": {
+    "first_seen": "2026-09-21"
+  },
   "SAM.gov (Federal)::samgov:8a58a1ebbee94169b6f33e7693340b71": {
     "first_seen": "2026-08-27"
   },
@@ -5303,6 +5315,9 @@
   "SAM.gov (Federal)::samgov:af5c66fdcf034a009881dd6c70b885c7": {
     "first_seen": "2026-08-21"
   },
+  "SAM.gov (Federal)::samgov:af61b3597d3b4fccb90ab7e43da47301": {
+    "first_seen": "2026-09-21"
+  },
   "SAM.gov (Federal)::samgov:b0612d08cb864f8281b00d5bce2377f2": {
     "first_seen": "2026-08-18"
   },
@@ -5597,6 +5612,9 @@
   "SAM.gov (Federal)::samgov:c6b5773262fc405d93b214fbf3db59d0": {
     "first_seen": "2026-09-01"
   },
+  "SAM.gov (Federal)::samgov:c6ca96b3f32146d6b49b45ca7f850b9c": {
+    "first_seen": "2026-09-21"
+  },
   "SAM.gov (Federal)::samgov:c6e6fbf38ccd4d05807adfbaf3b2a071": {
     "first_seen": "2026-08-22"
   },
@@ -5716,6 +5734,12 @@
   },
   "SAM.gov (Federal)::samgov:d22d963357674556b650456a0c35a894": {
     "first_seen": "2026-07-17"
+  },
+  "SAM.gov (Federal)::samgov:d25908688adb445983121cad7e7d9984": {
+    "first_seen": "2026-09-21"
+  },
+  "SAM.gov (Federal)::samgov:d25d23a7f4e8405f812200c8a5835646": {
+    "first_seen": "2026-09-21"
   },
   "SAM.gov (Federal)::samgov:d2bf994c68af409ea6cc645096871685": {
     "first_seen": "2026-09-10"
@@ -5851,6 +5875,9 @@
   },
   "SAM.gov (Federal)::samgov:ddb9d3c489f346589b8eb5f2a5669bb3": {
     "first_seen": "2026-08-31"
+  },
+  "SAM.gov (Federal)::samgov:dedecc5ff04343f69d052cde070f9d9e": {
+    "first_seen": "2026-09-21"
   },
   "SAM.gov (Federal)::samgov:df2e1934f314480e834b0e2ede157f59": {
     "first_seen": "2026-09-05"
@@ -6092,6 +6119,9 @@
   "SAM.gov (Federal)::samgov:f5a9aaa3a542472da68be950c2ad3519": {
     "first_seen": "2026-09-19"
   },
+  "SAM.gov (Federal)::samgov:f5ae9d750214439e842745f95d9251e8": {
+    "first_seen": "2026-09-21"
+  },
   "SAM.gov (Federal)::samgov:f67cf2e3ea7d41ad8706bc15f401504c": {
     "first_seen": "2026-07-18"
   },
@@ -6277,6 +6307,18 @@
   },
   "San Francisco CA \u2014 Open Bids::eshn-8t3a:SFGOV~0000012080": {
     "first_seen": "2026-09-14"
+  },
+  "San Francisco CA \u2014 Open Bids::eshn-8t3a:SFGOV~0000012081": {
+    "first_seen": "2026-09-21"
+  },
+  "San Francisco CA \u2014 Open Bids::eshn-8t3a:SFGOV~0000012084": {
+    "first_seen": "2026-09-21"
+  },
+  "San Francisco CA \u2014 Open Bids::eshn-8t3a:SFGOV~0000012091": {
+    "first_seen": "2026-09-21"
+  },
+  "San Francisco CA \u2014 Open Bids::eshn-8t3a:SFGOV~0000012096": {
+    "first_seen": "2026-09-21"
   },
   "Texas \u2014 Spot Bid Fair FY2026::3iy3-r5vp:0000": {
     "first_seen": "2026-07-14"
