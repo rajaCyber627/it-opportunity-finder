@@ -926,6 +926,9 @@
   "Los Angeles County CA \u2014 RAMP Open Bids::hf3r-utnq:231715": {
     "first_seen": "2026-09-05"
   },
+  "Los Angeles County CA \u2014 RAMP Open Bids::hf3r-utnq:231722": {
+    "first_seen": "2026-09-19"
+  },
   "Los Angeles County CA \u2014 RAMP Open Bids::hf3r-utnq:231750": {
     "first_seen": "2026-09-01"
   },
@@ -970,6 +973,18 @@
   },
   "Los Angeles County CA \u2014 RAMP Open Bids::hf3r-utnq:232044": {
     "first_seen": "2026-09-17"
+  },
+  "Los Angeles County CA \u2014 RAMP Open Bids::hf3r-utnq:232069": {
+    "first_seen": "2026-09-18"
+  },
+  "Los Angeles County CA \u2014 RAMP Open Bids::hf3r-utnq:232075": {
+    "first_seen": "2026-09-18"
+  },
+  "Los Angeles County CA \u2014 RAMP Open Bids::hf3r-utnq:232095": {
+    "first_seen": "2026-09-19"
+  },
+  "Los Angeles County CA \u2014 RAMP Open Bids::hf3r-utnq:232099": {
+    "first_seen": "2026-09-20"
   },
   "Los Angeles County CA \u2014 RAMP Open Bids::hf3r-utnq:40831": {
     "first_seen": "2026-07-14"
@@ -1174,6 +1189,9 @@
   },
   "Montgomery County MD \u2014 Solicitations::eeq6-nnwe:1201279": {
     "first_seen": "2026-09-10"
+  },
+  "Montgomery County MD \u2014 Solicitations::eeq6-nnwe:1201886": {
+    "first_seen": "2026-09-19"
   },
   "New York City \u2014 City Record (Procurement)::dg92-zbpx:20260602048": {
     "first_seen": "2026-07-14"
@@ -2426,6 +2444,9 @@
   "OpenGov \u2014 City of Santa Monica, CA::opengov:santa-monica-ca:300547": {
     "first_seen": "2026-09-10"
   },
+  "OpenGov \u2014 County of Alameda, CA::opengov:acgov:244457": {
+    "first_seen": "2026-09-18"
+  },
   "OpenGov \u2014 County of Alameda, CA::opengov:acgov:262266": {
     "first_seen": "2026-07-16"
   },
@@ -2452,6 +2473,9 @@
   },
   "OpenGov \u2014 County of Orange, CA::opengov:ocgov:247487": {
     "first_seen": "2026-07-18"
+  },
+  "OpenGov \u2014 County of Orange, CA::opengov:ocgov:249227": {
+    "first_seen": "2026-09-19"
   },
   "OpenGov \u2014 County of Orange, CA::opengov:ocgov:251879": {
     "first_seen": "2026-07-16"
@@ -2656,6 +2680,9 @@
   },
   "OpenGov \u2014 County of Orange, CA::opengov:ocgov:301425": {
     "first_seen": "2026-09-10"
+  },
+  "OpenGov \u2014 County of Orange, CA::opengov:ocgov:302169": {
+    "first_seen": "2026-09-18"
   },
   "OpenGov \u2014 County of Orange, CA::opengov:ocgov:303602": {
     "first_seen": "2026-09-17"
@@ -3329,8 +3356,14 @@
   "SAM.gov (Federal)::samgov:0377f6cba8b74cb78a9b515c8d31e9d4": {
     "first_seen": "2026-08-13"
   },
+  "SAM.gov (Federal)::samgov:03a3bbadc10147acb0d0b2748a7e735c": {
+    "first_seen": "2026-09-18"
+  },
   "SAM.gov (Federal)::samgov:03db4ca65904473598f1a403507d8bf1": {
     "first_seen": "2026-08-08"
+  },
+  "SAM.gov (Federal)::samgov:043f424b3d624bedad74ab002d67e14c": {
+    "first_seen": "2026-09-18"
   },
   "SAM.gov (Federal)::samgov:04ae2d65fd554cd0afa6d98f4b64adda": {
     "first_seen": "2026-09-16"
@@ -3584,6 +3617,9 @@
   "SAM.gov (Federal)::samgov:17d0a7e220f64175b14b022f8c1e1077": {
     "first_seen": "2026-09-04"
   },
+  "SAM.gov (Federal)::samgov:183ec45dbb0148a0a5902f84f36784b3": {
+    "first_seen": "2026-09-18"
+  },
   "SAM.gov (Federal)::samgov:18599a7d8e9b4028954eac0c149e4e47": {
     "first_seen": "2026-08-12"
   },
@@ -3607,6 +3643,9 @@
   },
   "SAM.gov (Federal)::samgov:1a6affc8deba43ff8eb4895fa1f8ad5a": {
     "first_seen": "2026-07-22"
+  },
+  "SAM.gov (Federal)::samgov:1ad0bede11e9458a980431fe33f69591": {
+    "first_seen": "2026-09-19"
   },
   "SAM.gov (Federal)::samgov:1ad60665127a4acfaf436cc9357c8085": {
     "first_seen": "2026-08-13"
@@ -3724,6 +3763,9 @@
   },
   "SAM.gov (Federal)::samgov:25ba072ec3874f318feaa2d06b09f99a": {
     "first_seen": "2026-09-15"
+  },
+  "SAM.gov (Federal)::samgov:2632f79a0d98428195d0a25947092723": {
+    "first_seen": "2026-09-18"
   },
   "SAM.gov (Federal)::samgov:263dac63bca04a5286b6cf31160c68c6": {
     "first_seen": "2026-07-28"
@@ -3929,6 +3971,9 @@
   "SAM.gov (Federal)::samgov:386e26209a1345d6a8139d69d6d1f2c6": {
     "first_seen": "2026-07-17"
   },
+  "SAM.gov (Federal)::samgov:386e52c3399349cdbbbc4acde3b59480": {
+    "first_seen": "2026-09-18"
+  },
   "SAM.gov (Federal)::samgov:389dc05f2b4543bca9aa05b57fcf4d29": {
     "first_seen": "2026-07-29"
   },
@@ -3943,6 +3988,9 @@
   },
   "SAM.gov (Federal)::samgov:39c9526eadb04833a356435d55ba3261": {
     "first_seen": "2026-08-06"
+  },
+  "SAM.gov (Federal)::samgov:3a199eb3fe4242409f208ec7f9c6cae2": {
+    "first_seen": "2026-09-19"
   },
   "SAM.gov (Federal)::samgov:3a8435ca902d42ea90dcd73789771a24": {
     "first_seen": "2026-09-12"
@@ -4027,6 +4075,9 @@
   },
   "SAM.gov (Federal)::samgov:4105521726e740c4b1fc79ca68e94593": {
     "first_seen": "2026-08-11"
+  },
+  "SAM.gov (Federal)::samgov:417b3e1b37e44082807254a297bec02e": {
+    "first_seen": "2026-09-18"
   },
   "SAM.gov (Federal)::samgov:421fda73816a4ce4a34f0fd5241e8b49": {
     "first_seen": "2026-09-12"
@@ -4235,6 +4286,9 @@
   "SAM.gov (Federal)::samgov:5362c08871e4426ebd57bbcb445329fc": {
     "first_seen": "2026-08-27"
   },
+  "SAM.gov (Federal)::samgov:5387fbb17168459a889740993c60fa43": {
+    "first_seen": "2026-09-19"
+  },
   "SAM.gov (Federal)::samgov:53912490fe424fd7a9e11fdaaf6a22a4": {
     "first_seen": "2026-09-04"
   },
@@ -4252,6 +4306,9 @@
   },
   "SAM.gov (Federal)::samgov:5467a566903d4cd781cd06734d781092": {
     "first_seen": "2026-09-11"
+  },
+  "SAM.gov (Federal)::samgov:547b0c51aec44fe1890d1121f9580f19": {
+    "first_seen": "2026-09-18"
   },
   "SAM.gov (Federal)::samgov:54cedde1592c4639a9274299632e6e36": {
     "first_seen": "2026-07-31"
@@ -4361,6 +4418,9 @@
   "SAM.gov (Federal)::samgov:5f80a946f6904765aa8eb24e6d073a70": {
     "first_seen": "2026-08-08"
   },
+  "SAM.gov (Federal)::samgov:5fa4025931754a1c864faf619d3532be": {
+    "first_seen": "2026-09-19"
+  },
   "SAM.gov (Federal)::samgov:5fb755ba4d684603ae4ccf8957ba0806": {
     "first_seen": "2026-09-16"
   },
@@ -4457,6 +4517,9 @@
   "SAM.gov (Federal)::samgov:6718a1c90be94b468df9c8d2c8e92dc7": {
     "first_seen": "2026-08-06"
   },
+  "SAM.gov (Federal)::samgov:6722d187024a4751aef7ede56531f388": {
+    "first_seen": "2026-09-18"
+  },
   "SAM.gov (Federal)::samgov:67d3b9917acd48268df99bbfe8a0a6e5": {
     "first_seen": "2026-09-11"
   },
@@ -4483,6 +4546,9 @@
   },
   "SAM.gov (Federal)::samgov:6966eac1f1024008b6bddc0a005dab8c": {
     "first_seen": "2026-09-11"
+  },
+  "SAM.gov (Federal)::samgov:69863d79c7f1426c9babbab54145a948": {
+    "first_seen": "2026-09-19"
   },
   "SAM.gov (Federal)::samgov:699c5e149a3940cb94602fa221862973": {
     "first_seen": "2026-08-19"
@@ -4550,6 +4616,9 @@
   "SAM.gov (Federal)::samgov:703218bb731942fbbe504b920b79c597": {
     "first_seen": "2026-07-31"
   },
+  "SAM.gov (Federal)::samgov:709fb399b6974190b30e7a87b2eab0d0": {
+    "first_seen": "2026-09-18"
+  },
   "SAM.gov (Federal)::samgov:71deb5cc50b64fa8bca33ec9f3b36411": {
     "first_seen": "2026-07-31"
   },
@@ -4573,6 +4642,9 @@
   },
   "SAM.gov (Federal)::samgov:72e81f29017243d88c576cb4cfeb0c68": {
     "first_seen": "2026-09-01"
+  },
+  "SAM.gov (Federal)::samgov:7309f946bcc24a03afcd69f304e94028": {
+    "first_seen": "2026-09-18"
   },
   "SAM.gov (Federal)::samgov:7327eac808054540b2fee70817cbcc07": {
     "first_seen": "2026-08-14"
@@ -4877,6 +4949,9 @@
   "SAM.gov (Federal)::samgov:8aab522231434f85bed705647846672d": {
     "first_seen": "2026-09-10"
   },
+  "SAM.gov (Federal)::samgov:8bc0a6a17ec941acb97334dd645844e8": {
+    "first_seen": "2026-09-19"
+  },
   "SAM.gov (Federal)::samgov:8c624f09e85b47a294bac6eeb32d3a49": {
     "first_seen": "2026-08-27"
   },
@@ -5051,8 +5126,14 @@
   "SAM.gov (Federal)::samgov:98c529ba4ec848768f9ee57471532b7f": {
     "first_seen": "2026-08-28"
   },
+  "SAM.gov (Federal)::samgov:98f44b6ed77a4977987c26a7830a7c31": {
+    "first_seen": "2026-09-19"
+  },
   "SAM.gov (Federal)::samgov:994b49a048904443a6d51dc875fb4c57": {
     "first_seen": "2026-09-08"
+  },
+  "SAM.gov (Federal)::samgov:99547b76f3d04b0390e5cfe879dc42b2": {
+    "first_seen": "2026-09-19"
   },
   "SAM.gov (Federal)::samgov:996ba706e5294c6999803b7f41ee5501": {
     "first_seen": "2026-09-03"
@@ -5552,6 +5633,9 @@
   "SAM.gov (Federal)::samgov:c6128676cad146828d2344a39dfb596c": {
     "first_seen": "2026-08-20"
   },
+  "SAM.gov (Federal)::samgov:c66e445c26224bc3aa0e7b28b1e05d76": {
+    "first_seen": "2026-09-19"
+  },
   "SAM.gov (Federal)::samgov:c67ba1620648461ea00ef7046f41eb4e": {
     "first_seen": "2026-08-28"
   },
@@ -5560,6 +5644,9 @@
   },
   "SAM.gov (Federal)::samgov:c6e6fbf38ccd4d05807adfbaf3b2a071": {
     "first_seen": "2026-08-22"
+  },
+  "SAM.gov (Federal)::samgov:c797a7cda24146a980eec9883b2c59fa": {
+    "first_seen": "2026-09-19"
   },
   "SAM.gov (Federal)::samgov:c79ccda13a144e388020b58f6400074f": {
     "first_seen": "2026-09-08"
@@ -5665,6 +5752,9 @@
   },
   "SAM.gov (Federal)::samgov:d182076549834e77b91fc30b5731355d": {
     "first_seen": "2026-09-09"
+  },
+  "SAM.gov (Federal)::samgov:d1890eba6edf4a719ed3d6ab111be6b1": {
+    "first_seen": "2026-09-18"
   },
   "SAM.gov (Federal)::samgov:d18a6bd111e744f8ade37c706d1b836f": {
     "first_seen": "2026-08-30"
@@ -5894,6 +5984,9 @@
   "SAM.gov (Federal)::samgov:e5a6c6a51fd94ec6a5497440dce9306c": {
     "first_seen": "2026-08-11"
   },
+  "SAM.gov (Federal)::samgov:e5bead7c3c0b49359c4b25e1ee8f7749": {
+    "first_seen": "2026-09-19"
+  },
   "SAM.gov (Federal)::samgov:e5f3c5f6c0bf461e82fd1e2480638cad": {
     "first_seen": "2026-09-17"
   },
@@ -5926,6 +6019,9 @@
   },
   "SAM.gov (Federal)::samgov:e8b47763b3e7430883980a57ec47ac7b": {
     "first_seen": "2026-09-15"
+  },
+  "SAM.gov (Federal)::samgov:e8c7b70012564d89b4eefeb36d2130fa": {
+    "first_seen": "2026-09-18"
   },
   "SAM.gov (Federal)::samgov:e8f44afad3764b9eb2463acc13efb1f7": {
     "first_seen": "2026-09-05"
@@ -5974,6 +6070,9 @@
   },
   "SAM.gov (Federal)::samgov:ee63199e94f142cda8485e76fb09b44b": {
     "first_seen": "2026-08-27"
+  },
+  "SAM.gov (Federal)::samgov:eea4523eb1cf49ddbe94da23d8e2e48f": {
+    "first_seen": "2026-09-19"
   },
   "SAM.gov (Federal)::samgov:ef08eda20ea54fc1b12fdfc2de6410b8": {
     "first_seen": "2026-08-27"
@@ -6035,6 +6134,9 @@
   "SAM.gov (Federal)::samgov:f5539de98d7b49879849cf5dc6fac735": {
     "first_seen": "2026-08-14"
   },
+  "SAM.gov (Federal)::samgov:f5a9aaa3a542472da68be950c2ad3519": {
+    "first_seen": "2026-09-19"
+  },
   "SAM.gov (Federal)::samgov:f67cf2e3ea7d41ad8706bc15f401504c": {
     "first_seen": "2026-07-18"
   },
@@ -6055,6 +6157,9 @@
   },
   "SAM.gov (Federal)::samgov:f75de648cde54bed8d4855f2dcf98746": {
     "first_seen": "2026-08-05"
+  },
+  "SAM.gov (Federal)::samgov:f7e43262b86645afa3f1958dbb27c022": {
+    "first_seen": "2026-09-18"
   },
   "SAM.gov (Federal)::samgov:f881b42787bc44acb0854963b930612a": {
     "first_seen": "2026-08-11"
