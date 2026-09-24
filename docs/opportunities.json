@@ -1,23 +1,23 @@
 {
-  "generated_at": "2026-09-23T15:30:54.019517+00:00",
+  "generated_at": "2026-09-24T12:11:50.074992+00:00",
   "counts": {
-    "total": 45,
-    "new": 0
+    "total": 54,
+    "new": 7
   },
   "health": {
-    "ok": 21,
+    "ok": 22,
     "total": 23,
     "sources": [
       {
         "source": "Montgomery County MD — Solicitations",
         "ok": true,
-        "count": 17,
+        "count": 19,
         "error": ""
       },
       {
         "source": "Los Angeles County CA — RAMP Open Bids",
         "ok": true,
-        "count": 401,
+        "count": 392,
         "error": ""
       },
       {
@@ -59,7 +59,7 @@
       {
         "source": "Texas DOT — Plan Holders (Open Lettings)",
         "ok": true,
-        "count": 425,
+        "count": 416,
         "error": ""
       },
       {
@@ -106,14 +106,14 @@
       },
       {
         "source": "PlanetBids",
-        "ok": false,
-        "count": 0,
-        "error": "HTTPError: 403 Client Error: Forbidden for url: https://api-external.prod.planetbids.com/papi/bids?bid_type_id=0&cid=15300&dept_id=0&due_date_from=&due_date_to=&keyword=&page=1&per_page=30&sort_by=&sort_order=-1&stage_id=0"
+        "ok": true,
+        "count": 72,
+        "error": ""
       },
       {
         "source": "OpenGov",
         "ok": true,
-        "count": 179,
+        "count": 183,
         "error": ""
       },
       {
@@ -125,13 +125,13 @@
       {
         "source": "BidNet Direct",
         "ok": true,
-        "count": 20,
+        "count": 26,
         "error": ""
       },
       {
         "source": "Biddingo",
         "ok": true,
-        "count": 23,
+        "count": 22,
         "error": ""
       },
       {
@@ -204,6 +204,36 @@
           "state": "CA",
           "url": "https://www.rampla.org/s/opportunity-details?id=006Ql00000c2b0oIAA",
           "due_date": "2028-04-01",
+          "it_score": 36,
+          "source_name": "Los Angeles County CA — RAMP Open Bids"
+        }
+      ]
+    },
+    {
+      "name": "Website / Portal / Digital Services",
+      "opportunity_count": 2,
+      "agency_count": 2,
+      "state_count": 1,
+      "states": [
+        "CA"
+      ],
+      "demand_score": 7,
+      "examples": [
+        {
+          "title": "Website Redesign",
+          "agency": "Inland Empire Utilities Agency, CA",
+          "state": "CA",
+          "url": "https://vendors.planetbids.com/portal/27411/bo/bo-detail/144950",
+          "due_date": "2026-09-28",
+          "it_score": 56,
+          "source_name": "PlanetBids — Inland Empire Utilities Agency, CA"
+        },
+        {
+          "title": "DBH-61B-WEBSITE DESIGN - AS-NEEDED PROFESSIONAL DESIGN SERVICES - Closing: Continuous",
+          "agency": "Los Angeles County",
+          "state": "CA",
+          "url": "https://www.rampla.org/s/opportunity-details?id=006Ql00000DurVHIAZ",
+          "due_date": "2026-09-28",
           "it_score": 36,
           "source_name": "Los Angeles County CA — RAMP Open Bids"
         }
@@ -514,43 +544,23 @@
       ]
     },
     {
-      "id": "hf3r-utnq:231996",
-      "source_name": "Los Angeles County CA — RAMP Open Bids",
-      "title": "RFB-IS-27200173 - 2708010VAtlassian Software Licenses Renewal-BRAND ONLY - Closing: 9/23/2026 12:00 PM",
-      "description": "Commodity",
-      "agency": "Los Angeles County",
+      "id": "planetbids:27411:144950",
+      "source_name": "PlanetBids — Inland Empire Utilities Agency, CA",
+      "title": "Website Redesign",
+      "description": "RFP-GD-26-005",
+      "agency": "Inland Empire Utilities Agency, CA",
       "state": "CA",
-      "url": "https://www.rampla.org/s/opportunity-details?id=006Ql00000lZtjMIAS",
+      "url": "https://vendors.planetbids.com/portal/27411/bo/bo-detail/144950",
       "naics": "",
-      "psc": "",
+      "psc": "20854, 20954, 91596",
       "set_aside": "",
-      "posted_date": "2026-09-15",
-      "due_date": "2026-09-23",
-      "it_score": 51,
+      "posted_date": "2026-08-11",
+      "due_date": "2026-09-28",
+      "it_score": 56,
       "is_new": false,
-      "first_seen": "2026-09-16",
+      "first_seen": "2026-08-12",
       "matched_keywords": [
-        "software"
-      ]
-    },
-    {
-      "id": "hf3r-utnq:231914",
-      "source_name": "Los Angeles County CA — RAMP Open Bids",
-      "title": "RFB-IS-27200160 - 1091055 - SOFTWARE - RENEWAL - INFOBLOX (BRAND ONLY) - Closing: 9/23/2026 12:00 PM",
-      "description": "Commodity",
-      "agency": "Los Angeles County",
-      "state": "CA",
-      "url": "https://www.rampla.org/s/opportunity-details?id=006Ql00000lKSQ5IAO",
-      "naics": "",
-      "psc": "",
-      "set_aside": "",
-      "posted_date": "2026-09-10",
-      "due_date": "2026-09-23",
-      "it_score": 51,
-      "is_new": false,
-      "first_seen": "2026-09-11",
-      "matched_keywords": [
-        "software"
+        "website"
       ]
     },
     {
@@ -714,6 +724,26 @@
       ]
     },
     {
+      "id": "opengov:ocgov:305019",
+      "source_name": "OpenGov — County of Orange, CA",
+      "title": "EVAExam Software, Maintenance and Support",
+      "description": "The County of Orange, Department Name , (hereinafter referred to as County) is requesting competitive bids from qualified vendors (hereinafter referred to as Bidder) for Project Title . The County has attempted to provide all information available. It is the responsibility of each Bidder to review, evaluate, and, where necessary, request any clarification prior to submission of a bid. The awarded Contract, (hereinafter referred to as Contract) will be between the County and awarded Bidder, (hereinafter referred to as Contractor) in accordance with the model contract terms, conditions and scope of work. This is a fully electronic solicitation – only electronic bids submitted through the County’s online bidding system will be allowed; no other form of bid submittals will be accepted. Prior to submitting a bid, Bidders are advised to carefully read the instructions below, including the model contract and any solicitation attachments and/or exhibits. For assistance on uploading proposals via County’s eProcurement Portal, please contact procurement-support@opengov.com or https://help.procurement.opengov.com/en/ . All questions or requests for interpretations must be received within this solicitation's Question & Answer section as specified in the solicitation. Respondents are not to contact other County personnel with any questions or clarifications concerning this solicitation.",
+      "agency": "County of Orange",
+      "state": "CA",
+      "url": "https://procurement.opengov.com/portal/ocgov/projects/305019",
+      "naics": "",
+      "psc": "",
+      "set_aside": "IFB-060-2962602",
+      "posted_date": "2026-09-18",
+      "due_date": "2026-10-05",
+      "it_score": 51,
+      "is_new": true,
+      "first_seen": "2026-09-24",
+      "matched_keywords": [
+        "software"
+      ]
+    },
+    {
       "id": "hf3r-utnq:232158",
       "source_name": "Los Angeles County CA — RAMP Open Bids",
       "title": "RFB-IS-27200201 - O2713755 SOFTWARE - MAINTENANCE - ANNUAL RENEWAL - NUTANIX - Closing: 10/6/2026 12:00 PM",
@@ -834,6 +864,186 @@
       ]
     },
     {
+      "id": "planetbids:16151:144554",
+      "source_name": "PlanetBids — Santa Clara Valley Water District, CA",
+      "title": "Inland Feeder/San Bernardino Valley Municipal Water District (SBVMWD) Foothill Pump Station Intertie, Stage 1",
+      "description": "2049",
+      "agency": "Santa Clara Valley Water District, CA",
+      "state": "CA",
+      "url": "https://vendors.planetbids.com/portal/16151/bo/bo-detail/144554",
+      "naics": "",
+      "psc": "06037, 17567, 20424, 65800, 65880, 67053, 69032, 76023, 89500, 89509, 91200, 91340, 91438, 91485, 92531, 92935, 97534",
+      "set_aside": "",
+      "posted_date": "2026-08-04",
+      "due_date": "2026-09-29",
+      "it_score": 50,
+      "is_new": false,
+      "first_seen": "2026-08-05",
+      "matched_keywords": []
+    },
+    {
+      "id": "planetbids:29959:145834",
+      "source_name": "PlanetBids — City of Santa Barbara, CA",
+      "title": "Raw Water Quality Study for the Charles E. Meyer Desalination Plant",
+      "description": "RFP No. 5142",
+      "agency": "City of Santa Barbara, CA",
+      "state": "CA",
+      "url": "https://vendors.planetbids.com/portal/29959/bo/bo-detail/145834",
+      "naics": "",
+      "psc": "04000, 90624, 91843, 91897, 92600, 96132, 96143, 96245, 96892",
+      "set_aside": "",
+      "posted_date": "2026-09-03",
+      "due_date": "2026-10-01",
+      "it_score": 50,
+      "is_new": true,
+      "first_seen": "2026-09-24",
+      "matched_keywords": []
+    },
+    {
+      "id": "planetbids:15927:145799",
+      "source_name": "PlanetBids — City of Irvine, CA",
+      "title": "Paseo Westpark and San Remo Traffic Signal Modification, CIP 332003",
+      "description": "SG-26-0034",
+      "agency": "City of Irvine, CA",
+      "state": "CA",
+      "url": "https://vendors.planetbids.com/portal/15927/bo/bo-detail/145799",
+      "naics": "",
+      "psc": "91066, 91200, 91240, 91300, 91350, 91382, 91396, 91400, 91430, 96882, 96883",
+      "set_aside": "",
+      "posted_date": "2026-09-02",
+      "due_date": "2026-10-01",
+      "it_score": 50,
+      "is_new": true,
+      "first_seen": "2026-09-24",
+      "matched_keywords": []
+    },
+    {
+      "id": "planetbids:16151:143009",
+      "source_name": "PlanetBids — Santa Clara Valley Water District, CA",
+      "title": "Copper Basin Reservoir Discharge Valve Replacement",
+      "description": "1947",
+      "agency": "Santa Clara Valley Water District, CA",
+      "state": "CA",
+      "url": "https://vendors.planetbids.com/portal/16151/bo/bo-detail/143009",
+      "naics": "",
+      "psc": "34505, 90638, 91082, 91200, 91300, 91360, 91362, 91438, 92531, 92567, 92658, 93458, 93972, 95939, 96226",
+      "set_aside": "",
+      "posted_date": "2026-08-11",
+      "due_date": "2026-10-06",
+      "it_score": 50,
+      "is_new": false,
+      "first_seen": "2026-08-12",
+      "matched_keywords": []
+    },
+    {
+      "id": "planetbids:15300:145376",
+      "source_name": "PlanetBids — City of Sacramento, CA",
+      "title": "On-Call Consultant Services for the Water Forum",
+      "description": "Q27141051001",
+      "agency": "City of Sacramento, CA",
+      "state": "CA",
+      "url": "https://vendors.planetbids.com/portal/15300/bo/bo-detail/145376",
+      "naics": "",
+      "psc": "20880, 30542, 49396, 59510, 59535, 59575, 79020, 79050, 80186, 90505, 90510, 90607, 90625, 90656, 91826, 92002, 92021, 92045, 92536, 92586, 92642, 93831, 96129, 96132, 96148, 96252, 96272, 96676, 96686, 96888, 97935, 98826, 98852, 98863, 98888, 98889",
+      "set_aside": "",
+      "posted_date": "2026-08-25",
+      "due_date": "2026-10-09",
+      "it_score": 50,
+      "is_new": false,
+      "first_seen": "2026-08-26",
+      "matched_keywords": []
+    },
+    {
+      "id": "planetbids:16151:146410",
+      "source_name": "PlanetBids — Santa Clara Valley Water District, CA",
+      "title": "Foothill Feeder Pressure Control Structure Chemical Injection Stage 1",
+      "description": "2216",
+      "agency": "Santa Clara Valley Water District, CA",
+      "state": "CA",
+      "url": "https://vendors.planetbids.com/portal/16151/bo/bo-detail/146410",
+      "naics": "",
+      "psc": "10030, 21030, 33055, 57076, 74502, 75560, 82032, 91200, 91362, 91430, 92519, 92691, 92914, 92974, 96861, 96878, 97513, 97529",
+      "set_aside": "",
+      "posted_date": "2026-09-23",
+      "due_date": "2026-10-15",
+      "it_score": 50,
+      "is_new": true,
+      "first_seen": "2026-09-24",
+      "matched_keywords": []
+    },
+    {
+      "id": "planetbids:27411:145759",
+      "source_name": "PlanetBids — Inland Empire Utilities Agency, CA",
+      "title": "Request for Information for Energy Project Alternatives at the IEUA RP-5 Solids Handling Facility Site",
+      "description": "RFI-JV-26-001",
+      "agency": "Inland Empire Utilities Agency, CA",
+      "state": "CA",
+      "url": "https://vendors.planetbids.com/portal/27411/bo/bo-detail/145759",
+      "naics": "",
+      "psc": "90740, 91016, 91841, 91842, 91843, 92517, 92519, 92522, 92524, 92531, 92534, 92535, 92542, 92543, 92544, 92545, 92553, 92555, 92556, 92558, 92561, 92567, 92570, 92578, 92587, 92588, 92593, 92594, 92595, 92596, 92597, 92652, 92683, 92695, 96131, 96132, 96895, 96896",
+      "set_aside": "",
+      "posted_date": "2026-09-01",
+      "due_date": "2026-10-22",
+      "it_score": 50,
+      "is_new": false,
+      "first_seen": "2026-09-02",
+      "matched_keywords": []
+    },
+    {
+      "id": "planetbids:39475:145796",
+      "source_name": "PlanetBids — Riverside County, CA",
+      "title": "MULTIPLE PROFESSIONAL SERVICES FOR ON-CALL PANEL",
+      "description": "2553",
+      "agency": "Riverside County, CA",
+      "state": "CA",
+      "url": "https://vendors.planetbids.com/portal/39475/bo/bo-detail/145796",
+      "naics": "",
+      "psc": "91800, 91804, 91806, 91815, 91831, 91832, 91837, 91842, 91843, 91846, 91855, 91875, 91883",
+      "set_aside": "",
+      "posted_date": "2026-09-02",
+      "due_date": "2026-10-22",
+      "it_score": 50,
+      "is_new": true,
+      "first_seen": "2026-09-24",
+      "matched_keywords": []
+    },
+    {
+      "id": "planetbids:16151:146479",
+      "source_name": "PlanetBids — Santa Clara Valley Water District, CA",
+      "title": "Joseph P. Jensen Water Treatment Plant Infrastructure and Security Improvements",
+      "description": "1993A",
+      "agency": "Santa Clara Valley Water District, CA",
+      "state": "CA",
+      "url": "https://vendors.planetbids.com/portal/16151/bo/bo-detail/146479",
+      "naics": "",
+      "psc": "21018, 28029, 28514, 28519, 28524, 28526, 57076, 72515, 72523, 74502, 89030, 90638, 90678, 90977, 91200, 91240, 91244, 91430, 91438, 91461, 92519, 92531, 92584, 99000, 99022",
+      "set_aside": "",
+      "posted_date": "2026-09-23",
+      "due_date": "2026-11-03",
+      "it_score": 50,
+      "is_new": true,
+      "first_seen": "2026-09-24",
+      "matched_keywords": []
+    },
+    {
+      "id": "planetbids:13982:146107",
+      "source_name": "PlanetBids — Port of San Diego, CA",
+      "title": "STRUCTURAL REPAIRS AT NCMT BERTHS 24-3 AND 24-4, NATIONAL CITY",
+      "description": "2025-21",
+      "agency": "Port of San Diego, CA",
+      "state": "CA",
+      "url": "https://vendors.planetbids.com/portal/13982/bo/bo-detail/146107",
+      "naics": "",
+      "psc": "96893, 96892, 96185, 28075, 20493, 20693, 75070, 69100, 91051, 95953, 96246, 54524, 28500, 91438, 91240, 22000, 91008, 21000, 91430",
+      "set_aside": "",
+      "posted_date": "2026-09-22",
+      "due_date": "2026-11-04",
+      "it_score": 50,
+      "is_new": true,
+      "first_seen": "2026-09-24",
+      "matched_keywords": []
+    },
+    {
       "id": "hf3r-utnq:217365",
       "source_name": "Los Angeles County CA — RAMP Open Bids",
       "title": "HS-1129 - Equipment Maintenance and Repair (EMARS) - Automated Pharmacy Workflow System (RFR) - Closing: Continuous",
@@ -852,26 +1062,6 @@
       "matched_keywords": [
         "system",
         "workflow"
-      ]
-    },
-    {
-      "id": "hf3r-utnq:231917",
-      "source_name": "Los Angeles County CA — RAMP Open Bids",
-      "title": "RFB-IS-27200162 - 1091153 - NETAPP A400 STORAGE ARRAY DATA ERASURES - Closing: 9/23/2026 12:00 PM",
-      "description": "Commodity",
-      "agency": "Los Angeles County",
-      "state": "CA",
-      "url": "https://www.rampla.org/s/opportunity-details?id=006Ql00000lKSQ8IAO",
-      "naics": "",
-      "psc": "",
-      "set_aside": "",
-      "posted_date": "2026-09-10",
-      "due_date": "2026-09-23",
-      "it_score": 36,
-      "is_new": false,
-      "first_seen": "2026-09-11",
-      "matched_keywords": [
-        "data"
       ]
     },
     {

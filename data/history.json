@@ -2678,6 +2678,9 @@
   "OpenGov \u2014 County of Orange, CA::opengov:ocgov:303602": {
     "first_seen": "2026-09-17"
   },
+  "OpenGov \u2014 County of Orange, CA::opengov:ocgov:305019": {
+    "first_seen": "2026-09-24"
+  },
   "OpenGov \u2014 County of Sacramento, CA::opengov:saccounty:244573": {
     "first_seen": "2026-09-11"
   },
@@ -2963,6 +2966,9 @@
   "PlanetBids \u2014 City of Inglewood, CA::planetbids:45619:145208": {
     "first_seen": "2026-08-19"
   },
+  "PlanetBids \u2014 City of Irvine, CA::planetbids:15927:145799": {
+    "first_seen": "2026-09-24"
+  },
   "PlanetBids \u2014 City of Sacramento, CA::planetbids:15300:144024": {
     "first_seen": "2026-07-20"
   },
@@ -2981,6 +2987,9 @@
   "PlanetBids \u2014 City of Sacramento, CA::planetbids:15300:145953": {
     "first_seen": "2026-09-09"
   },
+  "PlanetBids \u2014 City of Santa Barbara, CA::planetbids:29959:145834": {
+    "first_seen": "2026-09-24"
+  },
   "PlanetBids \u2014 Inland Empire Utilities Agency, CA::planetbids:27411:144238": {
     "first_seen": "2026-07-22"
   },
@@ -2998,6 +3007,12 @@
   },
   "PlanetBids \u2014 Port of San Diego, CA::planetbids:13982:143491": {
     "first_seen": "2026-07-20"
+  },
+  "PlanetBids \u2014 Port of San Diego, CA::planetbids:13982:146107": {
+    "first_seen": "2026-09-24"
+  },
+  "PlanetBids \u2014 Riverside County, CA::planetbids:39475:145796": {
+    "first_seen": "2026-09-24"
   },
   "PlanetBids \u2014 Santa Clara Valley Water District, CA::planetbids:16151:138984": {
     "first_seen": "2026-07-16"
@@ -3022,6 +3037,12 @@
   },
   "PlanetBids \u2014 Santa Clara Valley Water District, CA::planetbids:16151:145583": {
     "first_seen": "2026-08-28"
+  },
+  "PlanetBids \u2014 Santa Clara Valley Water District, CA::planetbids:16151:146410": {
+    "first_seen": "2026-09-24"
+  },
+  "PlanetBids \u2014 Santa Clara Valley Water District, CA::planetbids:16151:146479": {
+    "first_seen": "2026-09-24"
   },
   "Richmond VA \u2014 City Contracts (RFP/IFB)::xqn7-jvv2:22000005089": {
     "first_seen": "2026-07-14"
