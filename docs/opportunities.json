@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-09-24T12:11:50.074992+00:00",
+  "generated_at": "2026-09-25T12:11:39.246350+00:00",
   "counts": {
-    "total": 54,
-    "new": 7
+    "total": 56,
+    "new": 3
   },
   "health": {
     "ok": 22,
@@ -11,13 +11,13 @@
       {
         "source": "Montgomery County MD — Solicitations",
         "ok": true,
-        "count": 19,
+        "count": 21,
         "error": ""
       },
       {
         "source": "Los Angeles County CA — RAMP Open Bids",
         "ok": true,
-        "count": 392,
+        "count": 384,
         "error": ""
       },
       {
@@ -59,7 +59,7 @@
       {
         "source": "Texas DOT — Plan Holders (Open Lettings)",
         "ok": true,
-        "count": 416,
+        "count": 443,
         "error": ""
       },
       {
@@ -107,37 +107,37 @@
       {
         "source": "PlanetBids",
         "ok": true,
-        "count": 72,
+        "count": 74,
         "error": ""
       },
       {
         "source": "OpenGov",
         "ok": true,
-        "count": 183,
+        "count": 188,
         "error": ""
       },
       {
         "source": "Washington DC — Solicitations (PASS)",
         "ok": true,
-        "count": 29,
+        "count": 32,
         "error": ""
       },
       {
         "source": "BidNet Direct",
         "ok": true,
-        "count": 26,
+        "count": 27,
         "error": ""
       },
       {
         "source": "Biddingo",
         "ok": true,
-        "count": 22,
+        "count": 21,
         "error": ""
       },
       {
         "source": "Bonfire",
         "ok": true,
-        "count": 7,
+        "count": 6,
         "error": ""
       },
       {
@@ -149,36 +149,6 @@
     ]
   },
   "product_themes": [
-    {
-      "name": "Permitting & Licensing",
-      "opportunity_count": 2,
-      "agency_count": 2,
-      "state_count": 1,
-      "states": [
-        "CA"
-      ],
-      "demand_score": 7,
-      "examples": [
-        {
-          "title": "RFB-IS-27200194 - SOFTWARE LICENSE - RENEWAL - PRINTERLOGIC - BRAND SPECIFIC - Closing: 10/7/2026 12:00 PM",
-          "agency": "Los Angeles County",
-          "state": "CA",
-          "url": "https://www.rampla.org/s/opportunity-details?id=006Ql00000lvsANIAY",
-          "due_date": "2026-10-07",
-          "it_score": 57,
-          "source_name": "Los Angeles County CA — RAMP Open Bids"
-        },
-        {
-          "title": "REPORTAL CRP SERVER LICENSE PROD/NON-PROD WITH MAINTENANCE",
-          "agency": "General Services",
-          "state": "CA",
-          "url": "https://www.rampla.org/s/opportunity-details?id=006Ql00000lgyHeIAI",
-          "due_date": "2026-09-24",
-          "it_score": 36,
-          "source_name": "Los Angeles County CA — RAMP Open Bids"
-        }
-      ]
-    },
     {
       "name": "Records & Document Management (ECM)",
       "opportunity_count": 2,
@@ -418,27 +388,6 @@
       ]
     },
     {
-      "id": "opengov:pasadena:295002",
-      "source_name": "OpenGov — City of Pasadena, CA",
-      "title": "Formlabs Form 4L Complete Package 3D Printer System",
-      "description": "The City of Pasadena Water and Power Department (\"PWP\") is seeking bids for the purchase and delivery of one (1) Formlabs Form 4L Complete Package 3D Printer System, 120V, including the equipment, accessories, software, manufacturer service plan, and manufacturer-provided training specified herein. The intent of this solicitation is to acquire a complete, new, current-production Formlabs Form 4L system suitable for immediate use following City installation and activation.",
-      "agency": "City of Pasadena",
-      "state": "CA",
-      "url": "https://procurement.opengov.com/portal/pasadena/projects/295002",
-      "naics": "",
-      "psc": "",
-      "set_aside": "2026-IFB-MS-0503",
-      "posted_date": "2026-08-19",
-      "due_date": "2026-09-24",
-      "it_score": 57,
-      "is_new": false,
-      "first_seen": "2026-09-04",
-      "matched_keywords": [
-        "software",
-        "system"
-      ]
-    },
-    {
       "id": "opengov:smcgov:303757",
       "source_name": "OpenGov — County of San Mateo, CA",
       "title": "CHIP and CHA implementation, Governance, Community Engagement, and Data Integration Support",
@@ -561,26 +510,6 @@
       "first_seen": "2026-08-12",
       "matched_keywords": [
         "website"
-      ]
-    },
-    {
-      "id": "eshn-8t3a:SFGOV~0000012091",
-      "source_name": "San Francisco CA — Open Bids",
-      "title": "OCA HSA | TM3 Rapid7 Software Renewal",
-      "description": "Seeking Bids",
-      "agency": "Office of Contract Administration",
-      "state": "CA",
-      "url": "https://sfcitypartner.sfgov.org/pages/Events-BS3/event-details.aspx?Page=AUC_RESP_INQ_DTL&Action=U&AUC_ID=0000012091&AUC_ROUND=1&AUC_VERSION=1&BIDDER_ID=0000000001&BIDDER_LOC=1&BIDDER_SETID=SHARE&BIDDER_TYPE=B&BUSINESS_UNIT=SFGOV",
-      "naics": "",
-      "psc": "",
-      "set_aside": "",
-      "posted_date": "2026-09-17",
-      "due_date": "2026-09-24",
-      "it_score": 51,
-      "is_new": false,
-      "first_seen": "2026-09-23",
-      "matched_keywords": [
-        "software"
       ]
     },
     {
@@ -724,26 +653,6 @@
       ]
     },
     {
-      "id": "opengov:ocgov:305019",
-      "source_name": "OpenGov — County of Orange, CA",
-      "title": "EVAExam Software, Maintenance and Support",
-      "description": "The County of Orange, Department Name , (hereinafter referred to as County) is requesting competitive bids from qualified vendors (hereinafter referred to as Bidder) for Project Title . The County has attempted to provide all information available. It is the responsibility of each Bidder to review, evaluate, and, where necessary, request any clarification prior to submission of a bid. The awarded Contract, (hereinafter referred to as Contract) will be between the County and awarded Bidder, (hereinafter referred to as Contractor) in accordance with the model contract terms, conditions and scope of work. This is a fully electronic solicitation – only electronic bids submitted through the County’s online bidding system will be allowed; no other form of bid submittals will be accepted. Prior to submitting a bid, Bidders are advised to carefully read the instructions below, including the model contract and any solicitation attachments and/or exhibits. For assistance on uploading proposals via County’s eProcurement Portal, please contact procurement-support@opengov.com or https://help.procurement.opengov.com/en/ . All questions or requests for interpretations must be received within this solicitation's Question & Answer section as specified in the solicitation. Respondents are not to contact other County personnel with any questions or clarifications concerning this solicitation.",
-      "agency": "County of Orange",
-      "state": "CA",
-      "url": "https://procurement.opengov.com/portal/ocgov/projects/305019",
-      "naics": "",
-      "psc": "",
-      "set_aside": "IFB-060-2962602",
-      "posted_date": "2026-09-18",
-      "due_date": "2026-10-05",
-      "it_score": 51,
-      "is_new": true,
-      "first_seen": "2026-09-24",
-      "matched_keywords": [
-        "software"
-      ]
-    },
-    {
       "id": "hf3r-utnq:232158",
       "source_name": "Los Angeles County CA — RAMP Open Bids",
       "title": "RFB-IS-27200201 - O2713755 SOFTWARE - MAINTENANCE - ANNUAL RENEWAL - NUTANIX - Closing: 10/6/2026 12:00 PM",
@@ -759,6 +668,26 @@
       "it_score": 51,
       "is_new": false,
       "first_seen": "2026-09-23",
+      "matched_keywords": [
+        "software"
+      ]
+    },
+    {
+      "id": "opengov:ocgov:305019",
+      "source_name": "OpenGov — County of Orange, CA",
+      "title": "EVAExam Software, Maintenance and Support",
+      "description": "The County of Orange, Department Name , (hereinafter referred to as County) is requesting competitive bids from qualified vendors (hereinafter referred to as Bidder) for Project Title . The County has attempted to provide all information available. It is the responsibility of each Bidder to review, evaluate, and, where necessary, request any clarification prior to submission of a bid. The awarded Contract, (hereinafter referred to as Contract) will be between the County and awarded Bidder, (hereinafter referred to as Contractor) in accordance with the model contract terms, conditions and scope of work. This is a fully electronic solicitation – only electronic bids submitted through the County’s online bidding system will be allowed; no other form of bid submittals will be accepted. Prior to submitting a bid, Bidders are advised to carefully read the instructions below, including the model contract and any solicitation attachments and/or exhibits. For assistance on uploading proposals via County’s eProcurement Portal, please contact procurement-support@opengov.com or https://help.procurement.opengov.com/en/ . All questions or requests for interpretations must be received within this solicitation's Question & Answer section as specified in the solicitation. Respondents are not to contact other County personnel with any questions or clarifications concerning this solicitation.",
+      "agency": "County of Orange",
+      "state": "CA",
+      "url": "https://procurement.opengov.com/portal/ocgov/projects/305019",
+      "naics": "",
+      "psc": "",
+      "set_aside": "IFB-060-2962602",
+      "posted_date": "2026-09-18",
+      "due_date": "2026-10-09",
+      "it_score": 51,
+      "is_new": false,
+      "first_seen": "2026-09-24",
       "matched_keywords": [
         "software"
       ]
@@ -781,6 +710,26 @@
       "first_seen": "2026-09-15",
       "matched_keywords": [
         "software"
+      ]
+    },
+    {
+      "id": "opengov:pasadena:264045",
+      "source_name": "OpenGov — City of Pasadena, CA",
+      "title": "Power Delivery General Engineering Services",
+      "description": "The City of Pasadena is seeking qualified professional engineering firms to supplement its internal resources within the Water and Power Department (PWP), Power Delivery Division. Engineering services provided under the resulting contracts will support the safe, reliable, and efficient operation, maintenance, modernization, and improvement of PWP's electric power delivery system. Engineering services under this RFP are organized into the following Scope of Work Groups: Receiving Station and Substation Design SCADA, Automation, Communications, and Control Design System Planning Civil and Structural Engineering Electric Vehicle Charging Infrastructure Renewable Energy, Energy Storage, Interconnection, and Technical Advisory Services Associated services, including construction management, inspection, drafting, and other technical support, may be required as part of an individual task order where applicable to the assigned Scope of Work Group. Engineering services under the resulting contracts are intended to supplement, not replace, PWP's internal engineering resources. Consultants may be assigned work based on project-specific needs, staff availability, schedule requirements, temporary workload conditions, and the need for specialized expertise. All consultant designs and deliverables shall be subject to review and approval by the responsible PWP engineering group. Consultants shall not supervise City employees or exercise project management authority over City staff. Work that is ongoing, predictable, or programmatic over multi-year periods will generally be performed by permanent PWP staff. The City intends to award multiple contracts under this solicitation to establish a pool of qualified engineering consultants. Work will be authorized through individual task orders based on the requirements of the assignment, including consultant availability, applicable expertise, capacity, schedule, and other considerations identified by the City. Award of a contract does not guarantee any minimum quantity or value of work. Current priority programs anticipated for consultant support include, but are not limited to: SCE Upgrade of the TMG 220 kV Gould Circuit; Jungle-MUX Fiber Optic Upgrades; SCADA/OMS/DMS upgrades; Mobile Substation protection, housing, and station upgrades; substation equipment specifications; EV charging infrastructure at Aquatic Center, Sunset Reservoir, and Del Mar Garage; the Avon Ramp and Arroyo Charging Depots Progressive Design-Build project; Municipal Solar, Energy Storage, and Resilience Projects; System Impact Studies for Large Resource Interconnections; System Modeling for Compliance Studies; TMG Receiving Station capacity studies; and Subtransmission System short-circuit current reduction studies. This list is illustrative and does not constitute a guarantee that any particular project or assignment will be issued under the resulting contracts. Proposers must demonstrate, at a minimum, five (5) years of relevant experience and at least five (5) completed projects within the past five (5) years for each Scope of Work Group proposed. Consultant staff shall include engineers registered in the State of California in the relevant disciplines, including civil, electrical, structural, mechanical, control systems, and/or fire protection engineering, as applicable to the services being performed. Specific minimum qualifications for each Scope of Work Group are stated in Section 6.",
+      "agency": "City of Pasadena",
+      "state": "CA",
+      "url": "https://procurement.opengov.com/portal/pasadena/projects/264045",
+      "naics": "",
+      "psc": "",
+      "set_aside": "2026-RFP-0300",
+      "posted_date": "2026-05-07",
+      "due_date": "2026-10-22",
+      "it_score": 51,
+      "is_new": true,
+      "first_seen": "2026-09-25",
+      "matched_keywords": [
+        "modernization"
       ]
     },
     {
@@ -864,24 +813,6 @@
       ]
     },
     {
-      "id": "planetbids:16151:144554",
-      "source_name": "PlanetBids — Santa Clara Valley Water District, CA",
-      "title": "Inland Feeder/San Bernardino Valley Municipal Water District (SBVMWD) Foothill Pump Station Intertie, Stage 1",
-      "description": "2049",
-      "agency": "Santa Clara Valley Water District, CA",
-      "state": "CA",
-      "url": "https://vendors.planetbids.com/portal/16151/bo/bo-detail/144554",
-      "naics": "",
-      "psc": "06037, 17567, 20424, 65800, 65880, 67053, 69032, 76023, 89500, 89509, 91200, 91340, 91438, 91485, 92531, 92935, 97534",
-      "set_aside": "",
-      "posted_date": "2026-08-04",
-      "due_date": "2026-09-29",
-      "it_score": 50,
-      "is_new": false,
-      "first_seen": "2026-08-05",
-      "matched_keywords": []
-    },
-    {
       "id": "planetbids:29959:145834",
       "source_name": "PlanetBids — City of Santa Barbara, CA",
       "title": "Raw Water Quality Study for the Charles E. Meyer Desalination Plant",
@@ -895,7 +826,7 @@
       "posted_date": "2026-09-03",
       "due_date": "2026-10-01",
       "it_score": 50,
-      "is_new": true,
+      "is_new": false,
       "first_seen": "2026-09-24",
       "matched_keywords": []
     },
@@ -913,7 +844,7 @@
       "posted_date": "2026-09-02",
       "due_date": "2026-10-01",
       "it_score": 50,
-      "is_new": true,
+      "is_new": false,
       "first_seen": "2026-09-24",
       "matched_keywords": []
     },
@@ -967,7 +898,7 @@
       "posted_date": "2026-09-23",
       "due_date": "2026-10-15",
       "it_score": 50,
-      "is_new": true,
+      "is_new": false,
       "first_seen": "2026-09-24",
       "matched_keywords": []
     },
@@ -1003,8 +934,26 @@
       "posted_date": "2026-09-02",
       "due_date": "2026-10-22",
       "it_score": 50,
-      "is_new": true,
+      "is_new": false,
       "first_seen": "2026-09-24",
+      "matched_keywords": []
+    },
+    {
+      "id": "planetbids:16151:144554",
+      "source_name": "PlanetBids — Santa Clara Valley Water District, CA",
+      "title": "Inland Feeder/San Bernardino Valley Municipal Water District (SBVMWD) Foothill Pump Station Intertie, Stage 1",
+      "description": "2049",
+      "agency": "Santa Clara Valley Water District, CA",
+      "state": "CA",
+      "url": "https://vendors.planetbids.com/portal/16151/bo/bo-detail/144554",
+      "naics": "",
+      "psc": "06037, 17567, 20424, 65800, 65880, 67053, 69032, 76023, 89500, 89509, 91200, 91340, 91438, 91485, 92531, 92935, 97534",
+      "set_aside": "",
+      "posted_date": "2026-08-04",
+      "due_date": "2026-10-27",
+      "it_score": 50,
+      "is_new": false,
+      "first_seen": "2026-08-05",
       "matched_keywords": []
     },
     {
@@ -1021,7 +970,7 @@
       "posted_date": "2026-09-23",
       "due_date": "2026-11-03",
       "it_score": 50,
-      "is_new": true,
+      "is_new": false,
       "first_seen": "2026-09-24",
       "matched_keywords": []
     },
@@ -1039,7 +988,7 @@
       "posted_date": "2026-09-22",
       "due_date": "2026-11-04",
       "it_score": 50,
-      "is_new": true,
+      "is_new": false,
       "first_seen": "2026-09-24",
       "matched_keywords": []
     },
@@ -1062,26 +1011,6 @@
       "matched_keywords": [
         "system",
         "workflow"
-      ]
-    },
-    {
-      "id": "hf3r-utnq:232043",
-      "source_name": "Los Angeles County CA — RAMP Open Bids",
-      "title": "REPORTAL CRP SERVER LICENSE PROD/NON-PROD WITH MAINTENANCE",
-      "description": "Commodity",
-      "agency": "General Services",
-      "state": "CA",
-      "url": "https://www.rampla.org/s/opportunity-details?id=006Ql00000lgyHeIAI",
-      "naics": "",
-      "psc": "",
-      "set_aside": "",
-      "posted_date": "2026-09-17",
-      "due_date": "2026-09-24",
-      "it_score": 36,
-      "is_new": false,
-      "first_seen": "2026-09-17",
-      "matched_keywords": [
-        "license"
       ]
     },
     {
@@ -1185,6 +1114,46 @@
       ]
     },
     {
+      "id": "eeq6-nnwe:1201279",
+      "source_name": "Montgomery County MD — Solicitations",
+      "title": "National Fire Protection Association (NFPA) Digital / Electronic Subscription of Code Books for an Enterprise Organization",
+      "description": "National Fire Protection Association (NFPA) Digital / Electronic Subscription of Code Books for an Enterprise Organization",
+      "agency": "Department of Permitting Services",
+      "state": "MD",
+      "url": "https://www.montgomerycountymd.gov/office-procurement/solicitations-contracts",
+      "naics": "",
+      "psc": "",
+      "set_aside": "N",
+      "posted_date": "2026-09-24",
+      "due_date": "2026-10-01",
+      "it_score": 36,
+      "is_new": false,
+      "first_seen": "2026-09-10",
+      "matched_keywords": [
+        "digital"
+      ]
+    },
+    {
+      "id": "eeq6-nnwe:1201278",
+      "source_name": "Montgomery County MD — Solicitations",
+      "title": "The International Code Compliance (ICC) Digital / Electronic Subscriptions for Code Books for an Enterprise Organization",
+      "description": "The International Code Compliance (ICC) Digital / Electronic Subscriptions for Code Books for an Enterprise Organization",
+      "agency": "Department of Permitting Services",
+      "state": "MD",
+      "url": "https://www.montgomerycountymd.gov/office-procurement/solicitations-contracts",
+      "naics": "",
+      "psc": "",
+      "set_aside": "N",
+      "posted_date": "2026-09-24",
+      "due_date": "2026-10-01",
+      "it_score": 36,
+      "is_new": false,
+      "first_seen": "2026-09-10",
+      "matched_keywords": [
+        "digital"
+      ]
+    },
+    {
       "id": "hf3r-utnq:232099",
       "source_name": "Los Angeles County CA — RAMP Open Bids",
       "title": "RFB-IS-27200191 - 709521 - NETWORKING - DATA MANAGEMENT - FALCONSTOR STORSAFE - Closing: 10/2/2026 12:00 PM",
@@ -1242,6 +1211,46 @@
       "first_seen": "2026-09-04",
       "matched_keywords": [
         "information technology"
+      ]
+    },
+    {
+      "id": "hf3r-utnq:232179",
+      "source_name": "Los Angeles County CA — RAMP Open Bids",
+      "title": "RFB-IS-27200205 - SUBSCRIPTION, LICENSE - 588889 - Closing: 10/7/2026 12:00 PM",
+      "description": "Commodity",
+      "agency": "Los Angeles County",
+      "state": "CA",
+      "url": "https://www.rampla.org/s/opportunity-details?id=006Ql00000m2hOdIAI",
+      "naics": "",
+      "psc": "",
+      "set_aside": "",
+      "posted_date": "2026-09-24",
+      "due_date": "2026-10-07",
+      "it_score": 36,
+      "is_new": true,
+      "first_seen": "2026-09-25",
+      "matched_keywords": [
+        "license"
+      ]
+    },
+    {
+      "id": "hf3r-utnq:232178",
+      "source_name": "Los Angeles County CA — RAMP Open Bids",
+      "title": "RFB-IS-27200202 - 7903674-COMPUTER TABLETS - APPLE IPAD 11-INCH - BRAND SPECIF - Closing: 10/7/2026 12:00 PM",
+      "description": "Commodity",
+      "agency": "Los Angeles County",
+      "state": "CA",
+      "url": "https://www.rampla.org/s/opportunity-details?id=006Ql00000m2hOcIAI",
+      "naics": "",
+      "psc": "",
+      "set_aside": "",
+      "posted_date": "2026-09-24",
+      "due_date": "2026-10-07",
+      "it_score": 36,
+      "is_new": true,
+      "first_seen": "2026-09-25",
+      "matched_keywords": [
+        "computer"
       ]
     },
     {
