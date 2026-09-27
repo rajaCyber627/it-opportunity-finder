@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-09-26T12:10:59.690402+00:00",
+  "generated_at": "2026-09-27T12:11:29.886406+00:00",
   "counts": {
     "total": 55,
-    "new": 3
+    "new": 0
   },
   "health": {
     "ok": 22,
@@ -17,7 +17,7 @@
       {
         "source": "Los Angeles County CA — RAMP Open Bids",
         "ok": true,
-        "count": 384,
+        "count": 390,
         "error": ""
       },
       {
@@ -586,7 +586,7 @@
       "posted_date": "2026-09-25",
       "due_date": "2026-10-01",
       "it_score": 51,
-      "is_new": true,
+      "is_new": false,
       "first_seen": "2026-09-26",
       "matched_keywords": [
         "software"
@@ -646,7 +646,7 @@
       "posted_date": "2026-09-16",
       "due_date": "2026-10-10",
       "it_score": 51,
-      "is_new": true,
+      "is_new": false,
       "first_seen": "2026-09-26",
       "matched_keywords": [
         "software"
@@ -726,7 +726,7 @@
       "posted_date": "2026-09-25",
       "due_date": "2026-10-24",
       "it_score": 51,
-      "is_new": true,
+      "is_new": false,
       "first_seen": "2026-09-26",
       "matched_keywords": [
         "software"
@@ -1114,10 +1114,10 @@
       ]
     },
     {
-      "id": "eeq6-nnwe:1201279",
+      "id": "eeq6-nnwe:1201278",
       "source_name": "Montgomery County MD — Solicitations",
-      "title": "National Fire Protection Association (NFPA) Digital / Electronic Subscription of Code Books for an Enterprise Organization",
-      "description": "National Fire Protection Association (NFPA) Digital / Electronic Subscription of Code Books for an Enterprise Organization",
+      "title": "The International Code Compliance (ICC) Digital / Electronic Subscriptions for Code Books for an Enterprise Organization",
+      "description": "The International Code Compliance (ICC) Digital / Electronic Subscriptions for Code Books for an Enterprise Organization",
       "agency": "Department of Permitting Services",
       "state": "MD",
       "url": "https://www.montgomerycountymd.gov/office-procurement/solicitations-contracts",
@@ -1134,10 +1134,10 @@
       ]
     },
     {
-      "id": "eeq6-nnwe:1201278",
+      "id": "eeq6-nnwe:1201279",
       "source_name": "Montgomery County MD — Solicitations",
-      "title": "The International Code Compliance (ICC) Digital / Electronic Subscriptions for Code Books for an Enterprise Organization",
-      "description": "The International Code Compliance (ICC) Digital / Electronic Subscriptions for Code Books for an Enterprise Organization",
+      "title": "National Fire Protection Association (NFPA) Digital / Electronic Subscription of Code Books for an Enterprise Organization",
+      "description": "National Fire Protection Association (NFPA) Digital / Electronic Subscription of Code Books for an Enterprise Organization",
       "agency": "Department of Permitting Services",
       "state": "MD",
       "url": "https://www.montgomerycountymd.gov/office-procurement/solicitations-contracts",
@@ -1194,26 +1194,6 @@
       ]
     },
     {
-      "id": "hf3r-utnq:232179",
-      "source_name": "Los Angeles County CA — RAMP Open Bids",
-      "title": "RFB-IS-27200205 - SUBSCRIPTION, LICENSE - 588889 - Closing: 10/7/2026 12:00 PM",
-      "description": "Commodity",
-      "agency": "Los Angeles County",
-      "state": "CA",
-      "url": "https://www.rampla.org/s/opportunity-details?id=006Ql00000m2hOdIAI",
-      "naics": "",
-      "psc": "",
-      "set_aside": "",
-      "posted_date": "2026-09-24",
-      "due_date": "2026-10-07",
-      "it_score": 36,
-      "is_new": false,
-      "first_seen": "2026-09-25",
-      "matched_keywords": [
-        "license"
-      ]
-    },
-    {
       "id": "hf3r-utnq:232178",
       "source_name": "Los Angeles County CA — RAMP Open Bids",
       "title": "RFB-IS-27200202 - 7903674-COMPUTER TABLETS - APPLE IPAD 11-INCH - BRAND SPECIF - Closing: 10/7/2026 12:00 PM",
@@ -1231,6 +1211,26 @@
       "first_seen": "2026-09-25",
       "matched_keywords": [
         "computer"
+      ]
+    },
+    {
+      "id": "hf3r-utnq:232179",
+      "source_name": "Los Angeles County CA — RAMP Open Bids",
+      "title": "RFB-IS-27200205 - SUBSCRIPTION, LICENSE - 588889 - Closing: 10/7/2026 12:00 PM",
+      "description": "Commodity",
+      "agency": "Los Angeles County",
+      "state": "CA",
+      "url": "https://www.rampla.org/s/opportunity-details?id=006Ql00000m2hOdIAI",
+      "naics": "",
+      "psc": "",
+      "set_aside": "",
+      "posted_date": "2026-09-24",
+      "due_date": "2026-10-07",
+      "it_score": 36,
+      "is_new": false,
+      "first_seen": "2026-09-25",
+      "matched_keywords": [
+        "license"
       ]
     },
     {
