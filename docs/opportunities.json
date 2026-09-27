@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-26T15:17:12.646777+00:00",
+  "generated_at": "2026-09-27T03:48:53.407848+00:00",
   "counts": {
-    "total": 115,
+    "total": 106,
     "new": 0
   },
   "health": {
@@ -17,7 +17,7 @@
       {
         "source": "Los Angeles County CA — RAMP Open Bids",
         "ok": true,
-        "count": 387,
+        "count": 390,
         "error": ""
       },
       {
@@ -101,7 +101,7 @@
       {
         "source": "SAM.gov (Federal)",
         "ok": true,
-        "count": 33,
+        "count": 24,
         "error": ""
       },
       {
@@ -593,27 +593,6 @@
       ]
     },
     {
-      "id": "samgov:12360736 ",
-      "source_name": "SAM.gov (Federal)",
-      "title": "Data Innovations software (Instrument Manager™ and EP Evaluator®)",
-      "description": "Data Innovations software (Instrument Manager™ and EP Evaluator®)",
-      "agency": "DEPT OF DEFENSE.DEFENSE HEALTH AGENCY (DHA).DEFENSE HEALTH AGENCY",
-      "state": "US-FED",
-      "url": "https://sam.gov/workspace/contract/opp/51c9bfc256ef4da3bcaea2b87b6601f3/view",
-      "naics": "541519",
-      "psc": "DH10",
-      "set_aside": "No Set aside used",
-      "posted_date": "2026-09-23",
-      "due_date": "2026-10-05",
-      "it_score": 77,
-      "is_new": false,
-      "first_seen": "2026-09-26",
-      "matched_keywords": [
-        "software",
-        "data"
-      ]
-    },
-    {
       "id": "samgov:OMAS-01-2026",
       "source_name": "SAM.gov (Federal)",
       "title": "HHS Modernization Discovery, Prototyping, and Implementation Planning",
@@ -646,46 +625,6 @@
       "set_aside": "No Set aside used",
       "posted_date": "2026-09-24",
       "due_date": "2026-09-28",
-      "it_score": 71,
-      "is_new": false,
-      "first_seen": "2026-09-26",
-      "matched_keywords": [
-        "software"
-      ]
-    },
-    {
-      "id": "samgov:75N98026Q01215",
-      "source_name": "SAM.gov (Federal)",
-      "title": "Maintenance and Support Agreement for NIH Hazardous Waste Management Tracking Information Software (EnviroWare)",
-      "description": "Maintenance and Support Agreement for NIH Hazardous Waste Management Tracking Information Software (EnviroWare)",
-      "agency": "HEALTH AND HUMAN SERVICES, DEPARTMENT OF.NATIONAL INSTITUTES OF HEALTH.NATIONAL INSTITUTES OF HEALTH OLAO",
-      "state": "US-FED",
-      "url": "https://sam.gov/workspace/contract/opp/f78767d748f9440eb26c2b337c689c53/view",
-      "naics": "541519",
-      "psc": "7A20",
-      "set_aside": "No Set aside used",
-      "posted_date": "2026-09-23",
-      "due_date": "2026-09-28",
-      "it_score": 71,
-      "is_new": false,
-      "first_seen": "2026-09-26",
-      "matched_keywords": [
-        "software"
-      ]
-    },
-    {
-      "id": "samgov:36C26026Q0472",
-      "source_name": "SAM.gov (Federal)",
-      "title": "OFL (LMS) Lab Management Software",
-      "description": "OFL (LMS) Lab Management Software",
-      "agency": "VETERANS AFFAIRS, DEPARTMENT OF.VETERANS AFFAIRS, DEPARTMENT OF.260-NETWORK CONTRACT OFFICE 20 (36C260)",
-      "state": "US-FED",
-      "url": "https://sam.gov/workspace/contract/opp/92ab0498fc874bd1b6ffba56d68db38d/view",
-      "naics": "541519",
-      "psc": "Q511",
-      "set_aside": "Small Business Set Aside - Total",
-      "posted_date": "2026-09-23",
-      "due_date": "2026-10-02",
       "it_score": 71,
       "is_new": false,
       "first_seen": "2026-09-26",
@@ -940,46 +879,6 @@
       "first_seen": "2026-09-26",
       "matched_keywords": [
         "system"
-      ]
-    },
-    {
-      "id": "samgov:70FA3126I00000008",
-      "source_name": "SAM.gov (Federal)",
-      "title": "FEMA's Deployment Management Solution",
-      "description": "FEMA's Deployment Management Solution",
-      "agency": "HOMELAND SECURITY, DEPARTMENT OF.FEDERAL EMERGENCY MANAGEMENT AGENCY.INFORMATION TECHNOLOGY DEVELOPMENT AND SUSTAINMENT",
-      "state": "US-FED",
-      "url": "https://sam.gov/workspace/contract/opp/23119399ebed44fea3e154bc11e4c331/view",
-      "naics": "541511",
-      "psc": "DA01",
-      "set_aside": "No Set aside used",
-      "posted_date": "2026-09-23",
-      "due_date": "2026-10-05",
-      "it_score": 56,
-      "is_new": false,
-      "first_seen": "2026-09-26",
-      "matched_keywords": [
-        "information technology"
-      ]
-    },
-    {
-      "id": "samgov:12314426Q0310",
-      "source_name": "SAM.gov (Federal)",
-      "title": "Automation Testing Tool",
-      "description": "Automation Testing Tool",
-      "agency": "AGRICULTURE, DEPARTMENT OF.USDA, DEPARTMENTAL ADMINISTRATION.USDA, OCP-POD-ACQ-MGMT-BRANCH-FTC",
-      "state": "US-FED",
-      "url": "https://sam.gov/workspace/contract/opp/09623140fd3e479d9d576c002804139f/view",
-      "naics": "518210",
-      "psc": "7A21",
-      "set_aside": "Small Business Set Aside - Total",
-      "posted_date": "2026-09-23",
-      "due_date": "2026-09-28",
-      "it_score": 56,
-      "is_new": false,
-      "first_seen": "2026-09-26",
-      "matched_keywords": [
-        "automation"
       ]
     },
     {
@@ -1605,78 +1504,6 @@
       "matched_keywords": []
     },
     {
-      "id": "samgov:140G0326Q0205",
-      "source_name": "SAM.gov (Federal)",
-      "title": "D--SATELLITE SHORELINE PROCESSING SYS.",
-      "description": "D--SATELLITE SHORELINE PROCESSING SYS.",
-      "agency": "INTERIOR, DEPARTMENT OF THE.US GEOLOGICAL SURVEY.OFFICE OF ACQUISITON GRANTS",
-      "state": "US-FED",
-      "url": "https://sam.gov/workspace/contract/opp/ba10db148a584c7298898f30ed35e855/view",
-      "naics": "541511",
-      "psc": "DA01",
-      "set_aside": "Small Business Set Aside - Total",
-      "posted_date": "2026-09-23",
-      "due_date": "2026-09-30",
-      "it_score": 50,
-      "is_new": false,
-      "first_seen": "2026-09-26",
-      "matched_keywords": []
-    },
-    {
-      "id": "samgov:CMDSONLYLOGITALE",
-      "source_name": "SAM.gov (Federal)",
-      "title": "CMDS MAC Awardees Only PWS Review Request",
-      "description": "CMDS MAC Awardees Only PWS Review Request",
-      "agency": "DEPT OF DEFENSE.DEPT OF THE NAVY.SPAWAR.SPAWAR HQ.NAVAL INFORMATION WARFARE SYSTEMS",
-      "state": "US-FED",
-      "url": "https://sam.gov/workspace/contract/opp/9bf29c5cc5a64d078d811033760b32b3/view",
-      "naics": "541512",
-      "psc": "DA01",
-      "set_aside": "",
-      "posted_date": "2026-09-23",
-      "due_date": "2026-10-02",
-      "it_score": 50,
-      "is_new": false,
-      "first_seen": "2026-09-26",
-      "matched_keywords": []
-    },
-    {
-      "id": "samgov:28321326R00000022",
-      "source_name": "SAM.gov (Federal)",
-      "title": "IT Support Services Contract (ITSSC) Recompete",
-      "description": "IT Support Services Contract (ITSSC) Recompete",
-      "agency": "SOCIAL SECURITY ADMINISTRATION.SOCIAL SECURITY ADMINISTRATION.SSA OFC OF ACQUISITION GRANTS",
-      "state": "US-FED",
-      "url": "https://sam.gov/workspace/contract/opp/9f30f096f9f64c1da8f8030f71ebe2a2/view",
-      "naics": "541519",
-      "psc": "DF01",
-      "set_aside": "",
-      "posted_date": "2026-09-23",
-      "due_date": "2026-10-12",
-      "it_score": 50,
-      "is_new": false,
-      "first_seen": "2026-09-26",
-      "matched_keywords": []
-    },
-    {
-      "id": "samgov:FA820126ZoomInfoTalentSubscription",
-      "source_name": "SAM.gov (Federal)",
-      "title": "Zoom Info Talent Subscription 2026",
-      "description": "Zoom Info Talent Subscription 2026",
-      "agency": "DEPT OF DEFENSE.DEPT OF THE AIR FORCE.AIR FORCE MATERIEL COMMAND.AIR FORCE SUSTAINMENT CENTER.FA8201 AFSC OL H PZIO",
-      "state": "US-FED",
-      "url": "https://sam.gov/workspace/contract/opp/2b3076727bc04f60b1f4809aa2b0e028/view",
-      "naics": "518210",
-      "psc": "7A21",
-      "set_aside": "",
-      "posted_date": "2026-09-23",
-      "due_date": "2026-10-12",
-      "it_score": 50,
-      "is_new": false,
-      "first_seen": "2026-09-26",
-      "matched_keywords": []
-    },
-    {
       "id": "planetbids:16151:146410",
       "source_name": "PlanetBids — Santa Clara Valley Water District, CA",
       "title": "Foothill Feeder Pressure Control Structure Chemical Injection Stage 1",
@@ -2048,10 +1875,10 @@
       ]
     },
     {
-      "id": "eeq6-nnwe:1201279",
+      "id": "eeq6-nnwe:1201278",
       "source_name": "Montgomery County MD — Solicitations",
-      "title": "National Fire Protection Association (NFPA) Digital / Electronic Subscription of Code Books for an Enterprise Organization",
-      "description": "National Fire Protection Association (NFPA) Digital / Electronic Subscription of Code Books for an Enterprise Organization",
+      "title": "The International Code Compliance (ICC) Digital / Electronic Subscriptions for Code Books for an Enterprise Organization",
+      "description": "The International Code Compliance (ICC) Digital / Electronic Subscriptions for Code Books for an Enterprise Organization",
       "agency": "Department of Permitting Services",
       "state": "MD",
       "url": "https://www.montgomerycountymd.gov/office-procurement/solicitations-contracts",
@@ -2068,10 +1895,10 @@
       ]
     },
     {
-      "id": "eeq6-nnwe:1201278",
+      "id": "eeq6-nnwe:1201279",
       "source_name": "Montgomery County MD — Solicitations",
-      "title": "The International Code Compliance (ICC) Digital / Electronic Subscriptions for Code Books for an Enterprise Organization",
-      "description": "The International Code Compliance (ICC) Digital / Electronic Subscriptions for Code Books for an Enterprise Organization",
+      "title": "National Fire Protection Association (NFPA) Digital / Electronic Subscription of Code Books for an Enterprise Organization",
+      "description": "National Fire Protection Association (NFPA) Digital / Electronic Subscription of Code Books for an Enterprise Organization",
       "agency": "Department of Permitting Services",
       "state": "MD",
       "url": "https://www.montgomerycountymd.gov/office-procurement/solicitations-contracts",
