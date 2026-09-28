@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-09-28T03:48:20.619337+00:00",
+  "generated_at": "2026-09-28T18:53:34.624827+00:00",
   "counts": {
-    "total": 92,
-    "new": 1
+    "total": 100,
+    "new": 9
   },
   "health": {
     "ok": 27,
@@ -17,13 +17,13 @@
       {
         "source": "Los Angeles County CA — RAMP Open Bids",
         "ok": true,
-        "count": 324,
+        "count": 217,
         "error": ""
       },
       {
         "source": "San Francisco CA — Open Bids",
         "ok": true,
-        "count": 39,
+        "count": 44,
         "error": ""
       },
       {
@@ -59,7 +59,7 @@
       {
         "source": "Texas DOT — Plan Holders (Open Lettings)",
         "ok": true,
-        "count": 475,
+        "count": 500,
         "error": ""
       },
       {
@@ -101,7 +101,7 @@
       {
         "source": "SAM.gov (Federal)",
         "ok": true,
-        "count": 11,
+        "count": 18,
         "error": ""
       },
       {
@@ -113,7 +113,7 @@
       {
         "source": "OpenGov",
         "ok": true,
-        "count": 271,
+        "count": 273,
         "error": ""
       },
       {
@@ -125,7 +125,7 @@
       {
         "source": "BidNet Direct",
         "ok": true,
-        "count": 37,
+        "count": 38,
         "error": ""
       },
       {
@@ -149,7 +149,7 @@
       {
         "source": "Ionwave",
         "ok": true,
-        "count": 16,
+        "count": 17,
         "error": ""
       },
       {
@@ -161,13 +161,13 @@
       {
         "source": "RTVision Connex",
         "ok": true,
-        "count": 7,
+        "count": 8,
         "error": ""
       },
       {
         "source": "CivicPlus Bids",
         "ok": true,
-        "count": 50,
+        "count": 53,
         "error": ""
       },
       {
@@ -179,6 +179,73 @@
     ]
   },
   "product_themes": [
+    {
+      "name": "Permitting & Licensing",
+      "opportunity_count": 6,
+      "agency_count": 4,
+      "state_count": 2,
+      "states": [
+        "CA",
+        "NY"
+      ],
+      "demand_score": 14,
+      "examples": [
+        {
+          "title": "OCA DT | TM3 - Cybeready Software License Renewal",
+          "agency": "Office of Contract Administration",
+          "state": "CA",
+          "url": "https://sfcitypartner.sfgov.org/pages/Events-BS3/event-details.aspx?Page=AUC_RESP_INQ_DTL&Action=U&AUC_ID=0000012116&AUC_ROUND=1&AUC_VERSION=1&BIDDER_ID=0000000001&BIDDER_LOC=1&BIDDER_SETID=SHARE&BIDDER_TYPE=B&BUSINESS_UNIT=SFGOV",
+          "due_date": "2026-10-02",
+          "it_score": 57,
+          "source_name": "San Francisco CA — Open Bids"
+        },
+        {
+          "title": "RFB-IS-27200194 - SOFTWARE LICENSE - RENEWAL - PRINTERLOGIC - BRAND SPECIFIC - Closing: 10/7/2026 12:00 PM",
+          "agency": "Los Angeles County",
+          "state": "CA",
+          "url": "https://www.rampla.org/s/opportunity-details?id=006Ql00000lvsANIAY",
+          "due_date": "2026-10-07",
+          "it_score": 57,
+          "source_name": "Los Angeles County CA — RAMP Open Bids"
+        },
+        {
+          "title": "SOFTGENETICS SOFTWARE LICENSE UPGRADES - 25ME032",
+          "agency": "Chief Medical Examiner",
+          "state": "NY",
+          "url": "https://a856-cityrecord.nyc.gov/",
+          "due_date": "",
+          "it_score": 57,
+          "source_name": "New York City — City Record (Procurement)"
+        },
+        {
+          "title": "HOSTING, LICENSING, UPGRADES, MAINTENANCE AND TECHNICAL SUPPORT OF THE ARCS HOSTED PREDICTIVE DIALER SYSTEM AND MOBILE APPLICATION",
+          "agency": "Fire Department",
+          "state": "NY",
+          "url": "https://a856-cityrecord.nyc.gov/",
+          "due_date": "",
+          "it_score": 48,
+          "source_name": "New York City — City Record (Procurement)"
+        },
+        {
+          "title": "RFB-IS-27200205 - SUBSCRIPTION, LICENSE - 588889 - Closing: 10/7/2026 12:00 PM",
+          "agency": "Los Angeles County",
+          "state": "CA",
+          "url": "https://www.rampla.org/s/opportunity-details?id=006Ql00000m2hOdIAI",
+          "due_date": "2026-10-07",
+          "it_score": 36,
+          "source_name": "Los Angeles County CA — RAMP Open Bids"
+        },
+        {
+          "title": "DYNAMSOFT BARCODE READER RENEWAL LICENSE - 27R0000",
+          "agency": "Chief Medical Examiner",
+          "state": "NY",
+          "url": "https://a856-cityrecord.nyc.gov/",
+          "due_date": "",
+          "it_score": 36,
+          "source_name": "New York City — City Record (Procurement)"
+        }
+      ]
+    },
     {
       "name": "Records & Document Management (ECM)",
       "opportunity_count": 4,
@@ -229,73 +296,46 @@
       ]
     },
     {
-      "name": "Permitting & Licensing",
-      "opportunity_count": 5,
-      "agency_count": 3,
+      "name": "Data / Analytics / Dashboards",
+      "opportunity_count": 2,
+      "agency_count": 2,
       "state_count": 2,
       "states": [
         "CA",
-        "NY"
+        "US-FED"
       ],
-      "demand_score": 11,
+      "demand_score": 8,
       "examples": [
         {
-          "title": "RFB-IS-27200194 - SOFTWARE LICENSE - RENEWAL - PRINTERLOGIC - BRAND SPECIFIC - Closing: 10/7/2026 12:00 PM",
+          "title": "Admin Management, Data Management, Software Development (Quality Assurance Inspection Software for EMS)",
+          "agency": "VETERANS AFFAIRS, DEPARTMENT OF.VETERANS AFFAIRS, DEPARTMENT OF.260-NETWORK CONTRACT OFFICE 20 (36C260)",
+          "state": "US-FED",
+          "url": "https://sam.gov/workspace/contract/opp/fbb6f8fceeec4607a11e9b881eddb07c/view",
+          "due_date": "2026-10-13",
+          "it_score": 83,
+          "source_name": "SAM.gov (Federal)"
+        },
+        {
+          "title": "RFB-IS-27200191 - 709521 - NETWORKING - DATA MANAGEMENT - FALCONSTOR STORSAFE - Closing: 10/2/2026 12:00 PM",
           "agency": "Los Angeles County",
           "state": "CA",
-          "url": "https://www.rampla.org/s/opportunity-details?id=006Ql00000lvsANIAY",
-          "due_date": "2026-10-07",
-          "it_score": 57,
-          "source_name": "Los Angeles County CA — RAMP Open Bids"
-        },
-        {
-          "title": "SOFTGENETICS SOFTWARE LICENSE UPGRADES - 25ME032",
-          "agency": "Chief Medical Examiner",
-          "state": "NY",
-          "url": "https://a856-cityrecord.nyc.gov/",
-          "due_date": "",
-          "it_score": 57,
-          "source_name": "New York City — City Record (Procurement)"
-        },
-        {
-          "title": "HOSTING, LICENSING, UPGRADES, MAINTENANCE AND TECHNICAL SUPPORT OF THE ARCS HOSTED PREDICTIVE DIALER SYSTEM AND MOBILE APPLICATION",
-          "agency": "Fire Department",
-          "state": "NY",
-          "url": "https://a856-cityrecord.nyc.gov/",
-          "due_date": "",
-          "it_score": 48,
-          "source_name": "New York City — City Record (Procurement)"
-        },
-        {
-          "title": "RFB-IS-27200205 - SUBSCRIPTION, LICENSE - 588889 - Closing: 10/7/2026 12:00 PM",
-          "agency": "Los Angeles County",
-          "state": "CA",
-          "url": "https://www.rampla.org/s/opportunity-details?id=006Ql00000m2hOdIAI",
-          "due_date": "2026-10-07",
+          "url": "https://www.rampla.org/s/opportunity-details?id=006Ql00000loViKIAU",
+          "due_date": "2026-10-02",
           "it_score": 36,
           "source_name": "Los Angeles County CA — RAMP Open Bids"
-        },
-        {
-          "title": "DYNAMSOFT BARCODE READER RENEWAL LICENSE - 27R0000",
-          "agency": "Chief Medical Examiner",
-          "state": "NY",
-          "url": "https://a856-cityrecord.nyc.gov/",
-          "due_date": "",
-          "it_score": 36,
-          "source_name": "New York City — City Record (Procurement)"
         }
       ]
     },
     {
       "name": "Website / Portal / Digital Services",
-      "opportunity_count": 3,
-      "agency_count": 3,
+      "opportunity_count": 2,
+      "agency_count": 2,
       "state_count": 2,
       "states": [
         "CA",
         "NY"
       ],
-      "demand_score": 11,
+      "demand_score": 8,
       "examples": [
         {
           "title": "Website Redesign",
@@ -314,15 +354,6 @@
           "due_date": "",
           "it_score": 36,
           "source_name": "New York City — City Record (Procurement)"
-        },
-        {
-          "title": "DBH-61B-WEBSITE DESIGN - AS-NEEDED PROFESSIONAL DESIGN SERVICES - Closing: Continuous",
-          "agency": "Los Angeles County",
-          "state": "CA",
-          "url": "https://www.rampla.org/s/opportunity-details?id=006Ql00000DurVHIAZ",
-          "due_date": "2026-09-28",
-          "it_score": 36,
-          "source_name": "Los Angeles County CA — RAMP Open Bids"
         }
       ]
     }
@@ -431,6 +462,29 @@
   ],
   "opportunities": [
     {
+      "id": "samgov:IRS27-220503",
+      "source_name": "SAM.gov (Federal)",
+      "title": "SAP Software Subscription, Maintenance, and SAP N2 Cloud Hosting",
+      "description": "SAP Software Subscription, Maintenance, and SAP N2 Cloud Hosting",
+      "agency": "TREASURY, DEPARTMENT OF THE.INTERNAL REVENUE SERVICE.IT STRATEGY AND MODERNIZATION",
+      "state": "US-FED",
+      "url": "https://sam.gov/workspace/contract/opp/d128371e9b154eb9a8bf9d0235cf067e/view",
+      "naics": "541519",
+      "psc": "DE01",
+      "set_aside": "Small Business Set Aside - Total",
+      "posted_date": "2026-09-28",
+      "due_date": "2026-10-02",
+      "it_score": 100,
+      "is_new": false,
+      "first_seen": "2026-09-26",
+      "matched_keywords": [
+        "software",
+        "cloud",
+        "modernization",
+        "hosting"
+      ]
+    },
+    {
       "id": "opengov:acgov:299786",
       "source_name": "OpenGov — County of Alameda, CA",
       "title": "RFP 902737 EVACUATION PLANNING SOFTWARE SOLUTION",
@@ -475,6 +529,49 @@
       ]
     },
     {
+      "id": "samgov:36C26026Q1017",
+      "source_name": "SAM.gov (Federal)",
+      "title": "Admin Management, Data Management, Software Development (Quality Assurance Inspection Software for EMS)",
+      "description": "Admin Management, Data Management, Software Development (Quality Assurance Inspection Software for EMS)",
+      "agency": "VETERANS AFFAIRS, DEPARTMENT OF.VETERANS AFFAIRS, DEPARTMENT OF.260-NETWORK CONTRACT OFFICE 20 (36C260)",
+      "state": "US-FED",
+      "url": "https://sam.gov/workspace/contract/opp/fbb6f8fceeec4607a11e9b881eddb07c/view",
+      "naics": "541519",
+      "psc": "H979",
+      "set_aside": "Service-Disabled Veteran-Owned Small Business (SDVOSB) Set-Aside (FAR 19.14)",
+      "posted_date": "2026-09-28",
+      "due_date": "2026-10-13",
+      "it_score": 83,
+      "is_new": true,
+      "first_seen": "2026-09-28",
+      "matched_keywords": [
+        "software",
+        "development",
+        "data"
+      ]
+    },
+    {
+      "id": "samgov:12360736 ",
+      "source_name": "SAM.gov (Federal)",
+      "title": "Data Innovations software (Instrument Manager™ and EP Evaluator®)",
+      "description": "Data Innovations software (Instrument Manager™ and EP Evaluator®)",
+      "agency": "DEPT OF DEFENSE.DEFENSE HEALTH AGENCY (DHA).DEFENSE HEALTH AGENCY",
+      "state": "US-FED",
+      "url": "https://sam.gov/workspace/contract/opp/adf66f5dccb4415e893a59e23a2b179b/view",
+      "naics": "541519",
+      "psc": "DH10",
+      "set_aside": "No Set aside used",
+      "posted_date": "2026-09-28",
+      "due_date": "2026-09-28",
+      "it_score": 77,
+      "is_new": false,
+      "first_seen": "2026-09-26",
+      "matched_keywords": [
+        "software",
+        "data"
+      ]
+    },
+    {
       "id": "samgov:W911QX26RA049",
       "source_name": "SAM.gov (Federal)",
       "title": "Sources Sought for Engineering, Sustainment, and Integration Support Services for LATTICE-FORTRESS Systems from Anduril Industries, Inc.",
@@ -496,6 +593,26 @@
       ]
     },
     {
+      "id": "samgov:36C10B26Q0837",
+      "source_name": "SAM.gov (Federal)",
+      "title": "7A21--Qgenda On-call Full Range (FR) Scheduling Software (VA-27-00011101)",
+      "description": "7A21--Qgenda On-call Full Range (FR) Scheduling Software (VA-27-00011101)",
+      "agency": "VETERANS AFFAIRS, DEPARTMENT OF.VETERANS AFFAIRS, DEPARTMENT OF.TECHNOLOGY ACQUISITION CENTER NJ (36C10B)",
+      "state": "US-FED",
+      "url": "https://sam.gov/workspace/contract/opp/38b718797b9b4b9aafedda803a8758bb/view",
+      "naics": "541519",
+      "psc": "7A21",
+      "set_aside": "",
+      "posted_date": "2026-09-28",
+      "due_date": "2026-10-13",
+      "it_score": 71,
+      "is_new": true,
+      "first_seen": "2026-09-28",
+      "matched_keywords": [
+        "software"
+      ]
+    },
+    {
       "id": "samgov:75H70626R00032",
       "source_name": "SAM.gov (Federal)",
       "title": "Firm-Fixed Price, Non- Personal, Commercial Service, Purchase Order for a maintenance and support subscription that will provide software updates, technical support, and continued compatibility with existing telecommunications environment.",
@@ -509,7 +626,7 @@
       "posted_date": "2026-09-27",
       "due_date": "2026-10-26",
       "it_score": 71,
-      "is_new": true,
+      "is_new": false,
       "first_seen": "2026-09-28",
       "matched_keywords": [
         "software"
@@ -555,6 +672,27 @@
         "software",
         "system",
         "data"
+      ]
+    },
+    {
+      "id": "eshn-8t3a:SFGOV~0000012116",
+      "source_name": "San Francisco CA — Open Bids",
+      "title": "OCA DT | TM3 - Cybeready Software License Renewal",
+      "description": "Seeking Bids",
+      "agency": "Office of Contract Administration",
+      "state": "CA",
+      "url": "https://sfcitypartner.sfgov.org/pages/Events-BS3/event-details.aspx?Page=AUC_RESP_INQ_DTL&Action=U&AUC_ID=0000012116&AUC_ROUND=1&AUC_VERSION=1&BIDDER_ID=0000000001&BIDDER_LOC=1&BIDDER_SETID=SHARE&BIDDER_TYPE=B&BUSINESS_UNIT=SFGOV",
+      "naics": "",
+      "psc": "",
+      "set_aside": "",
+      "posted_date": "2026-09-25",
+      "due_date": "2026-10-02",
+      "it_score": 57,
+      "is_new": true,
+      "first_seen": "2026-09-28",
+      "matched_keywords": [
+        "software",
+        "license"
       ]
     },
     {
@@ -705,6 +843,26 @@
       ]
     },
     {
+      "id": "samgov:612675480",
+      "source_name": "SAM.gov (Federal)",
+      "title": "Enterprise Level Engineering and Systems Analysis Support (ELESAS)",
+      "description": "Enterprise Level Engineering and Systems Analysis Support (ELESAS)",
+      "agency": "DEPT OF DEFENSE.DEFENSE INFORMATION SYSTEMS AGENCY (DISA).DEFENSE INFORMATION SYSTEMS AGENCY",
+      "state": "US-FED",
+      "url": "https://sam.gov/workspace/contract/opp/e4af1293ddcc4d46b9b97f6a561c7646/view",
+      "naics": "541512",
+      "psc": "DA01",
+      "set_aside": "No Set aside used",
+      "posted_date": "2026-09-28",
+      "due_date": "2026-10-14",
+      "it_score": 56,
+      "is_new": true,
+      "first_seen": "2026-09-28",
+      "matched_keywords": [
+        "systems"
+      ]
+    },
+    {
       "id": "samgov:N0018927Q00010",
       "source_name": "SAM.gov (Federal)",
       "title": "Digital Forensics Examiner Services",
@@ -800,6 +958,26 @@
       "it_score": 51,
       "is_new": false,
       "first_seen": "2026-09-25",
+      "matched_keywords": [
+        "software"
+      ]
+    },
+    {
+      "id": "eshn-8t3a:SFGOV~0000012113",
+      "source_name": "San Francisco CA — Open Bids",
+      "title": "OCA TTX | TM3 FY27 Adobe Software (Renewal)",
+      "description": "Seeking Bids",
+      "agency": "Office of Contract Administration",
+      "state": "CA",
+      "url": "https://sfcitypartner.sfgov.org/pages/Events-BS3/event-details.aspx?Page=AUC_RESP_INQ_DTL&Action=U&AUC_ID=0000012113&AUC_ROUND=1&AUC_VERSION=1&BIDDER_ID=0000000001&BIDDER_LOC=1&BIDDER_SETID=SHARE&BIDDER_TYPE=B&BUSINESS_UNIT=SFGOV",
+      "naics": "",
+      "psc": "",
+      "set_aside": "",
+      "posted_date": "2026-09-24",
+      "due_date": "2026-10-01",
+      "it_score": 51,
+      "is_new": true,
+      "first_seen": "2026-09-28",
       "matched_keywords": [
         "software"
       ]
@@ -1185,6 +1363,26 @@
       ]
     },
     {
+      "id": "bonfire:broward:253687",
+      "source_name": "Bonfire — Broward County, FL",
+      "title": "Request for Information - LobbyTools Software Subscription",
+      "description": "Request for Information - LobbyTools Software Subscription",
+      "agency": "Broward County, FL",
+      "state": "FL",
+      "url": "https://broward.bonfirehub.com/opportunities/253687",
+      "naics": "",
+      "psc": "",
+      "set_aside": "TCH2132773F1",
+      "posted_date": "",
+      "due_date": "2026-10-06",
+      "it_score": 51,
+      "is_new": true,
+      "first_seen": "2026-09-28",
+      "matched_keywords": [
+        "software"
+      ]
+    },
+    {
       "id": "civicplus:https://www.buffalony.gov/bids.aspx?bidID=1190",
       "source_name": "CivicPlus Bids — City of Buffalo, NY",
       "title": "Turnout Gear and PPE Management Software for the City of Buffalo Fire Department",
@@ -1203,6 +1401,42 @@
       "matched_keywords": [
         "software"
       ]
+    },
+    {
+      "id": "samgov:FA940126Mishap",
+      "source_name": "SAM.gov (Federal)",
+      "title": "Requesting information for MISHAP ANALYSIS & ANIMATION FACILITY (MAAF) FLIGHT RECORDER DOWNLOAD SOLUTIONS ACQUISITION AND SUSTAINMENT",
+      "description": "Requesting information for MISHAP ANALYSIS & ANIMATION FACILITY (MAAF) FLIGHT RECORDER DOWNLOAD SOLUTIONS ACQUISITION AND SUSTAINMENT",
+      "agency": "DEPT OF DEFENSE.DEPT OF THE AIR FORCE.AIR FORCE GLOBAL STRIKE COMMAND.FA9401 377 MSG PK",
+      "state": "US-FED",
+      "url": "https://sam.gov/workspace/contract/opp/e7df07dbf816481abdfcdced838ecd0d/view",
+      "naics": "541511",
+      "psc": "",
+      "set_aside": "",
+      "posted_date": "2026-09-28",
+      "due_date": "2026-10-28",
+      "it_score": 50,
+      "is_new": true,
+      "first_seen": "2026-09-28",
+      "matched_keywords": []
+    },
+    {
+      "id": "samgov:RFI-FCC-OEA_Optimization",
+      "source_name": "SAM.gov (Federal)",
+      "title": "FCC OEA Optimization Request for Information (RFI)",
+      "description": "FCC OEA Optimization Request for Information (RFI)",
+      "agency": "FEDERAL COMMUNICATIONS COMMISSION.FEDERAL COMMUNICATIONS COMMISSION.FCC",
+      "state": "US-FED",
+      "url": "https://sam.gov/workspace/contract/opp/8fcbdcef78b741d4aa8a340cd06abed5/view",
+      "naics": "541519",
+      "psc": "DA01",
+      "set_aside": "",
+      "posted_date": "2026-09-28",
+      "due_date": "2026-10-12",
+      "it_score": 50,
+      "is_new": true,
+      "first_seen": "2026-09-28",
+      "matched_keywords": []
     },
     {
       "id": "samgov:AEROS",
@@ -1624,27 +1858,6 @@
       ]
     },
     {
-      "id": "hf3r-utnq:217365",
-      "source_name": "Los Angeles County CA — RAMP Open Bids",
-      "title": "HS-1129 - Equipment Maintenance and Repair (EMARS) - Automated Pharmacy Workflow System (RFR) - Closing: Continuous",
-      "description": "Personal Services",
-      "agency": "Los Angeles County",
-      "state": "CA",
-      "url": "https://www.rampla.org/s/opportunity-details?id=006Ql00000Dv11dIAB",
-      "naics": "",
-      "psc": "",
-      "set_aside": "",
-      "posted_date": "2024-09-28",
-      "due_date": "2026-09-28",
-      "it_score": 42,
-      "is_new": false,
-      "first_seen": "2026-09-23",
-      "matched_keywords": [
-        "system",
-        "workflow"
-      ]
-    },
-    {
       "id": "civicplus:https://www.washingtoncountymn.gov/bids.aspx?bidID=799",
       "source_name": "CivicPlus Bids — Washington County, MN",
       "title": "Artificial Intelligence (AI) Policy",
@@ -1666,10 +1879,10 @@
       ]
     },
     {
-      "id": "eeq6-nnwe:1201279",
+      "id": "eeq6-nnwe:1201278",
       "source_name": "Montgomery County MD — Solicitations",
-      "title": "National Fire Protection Association (NFPA) Digital / Electronic Subscription of Code Books for an Enterprise Organization",
-      "description": "National Fire Protection Association (NFPA) Digital / Electronic Subscription of Code Books for an Enterprise Organization",
+      "title": "The International Code Compliance (ICC) Digital / Electronic Subscriptions for Code Books for an Enterprise Organization",
+      "description": "The International Code Compliance (ICC) Digital / Electronic Subscriptions for Code Books for an Enterprise Organization",
       "agency": "Department of Permitting Services",
       "state": "MD",
       "url": "https://www.montgomerycountymd.gov/office-procurement/solicitations-contracts",
@@ -1686,10 +1899,10 @@
       ]
     },
     {
-      "id": "eeq6-nnwe:1201278",
+      "id": "eeq6-nnwe:1201279",
       "source_name": "Montgomery County MD — Solicitations",
-      "title": "The International Code Compliance (ICC) Digital / Electronic Subscriptions for Code Books for an Enterprise Organization",
-      "description": "The International Code Compliance (ICC) Digital / Electronic Subscriptions for Code Books for an Enterprise Organization",
+      "title": "National Fire Protection Association (NFPA) Digital / Electronic Subscription of Code Books for an Enterprise Organization",
+      "description": "National Fire Protection Association (NFPA) Digital / Electronic Subscription of Code Books for an Enterprise Organization",
       "agency": "Department of Permitting Services",
       "state": "MD",
       "url": "https://www.montgomerycountymd.gov/office-procurement/solicitations-contracts",
@@ -1723,6 +1936,26 @@
       "first_seen": "2026-09-24",
       "matched_keywords": [
         "license"
+      ]
+    },
+    {
+      "id": "eshn-8t3a:SFGOV~0000011913",
+      "source_name": "San Francisco CA — Open Bids",
+      "title": "TIS | RFP for Cybersecurity Staffing Firms",
+      "description": "Seeking Bids",
+      "agency": "Department of Technology",
+      "state": "CA",
+      "url": "https://sfcitypartner.sfgov.org/pages/Events-BS3/event-details.aspx?Page=AUC_RESP_INQ_DTL&Action=U&AUC_ID=0000011913&AUC_ROUND=1&AUC_VERSION=1&BIDDER_ID=0000000001&BIDDER_LOC=1&BIDDER_SETID=SHARE&BIDDER_TYPE=B&BUSINESS_UNIT=SFGOV",
+      "naics": "",
+      "psc": "",
+      "set_aside": "",
+      "posted_date": "2026-09-22",
+      "due_date": "2026-10-20",
+      "it_score": 36,
+      "is_new": true,
+      "first_seen": "2026-09-28",
+      "matched_keywords": [
+        "cybersecurity"
       ]
     },
     {
@@ -1803,26 +2036,6 @@
       "first_seen": "2026-09-26",
       "matched_keywords": [
         "license"
-      ]
-    },
-    {
-      "id": "hf3r-utnq:231537",
-      "source_name": "Los Angeles County CA — RAMP Open Bids",
-      "title": "Los Angeles World Airports Salesforce-Based eSourcing Solution (RAMP-LAWA)",
-      "description": "Personal Services",
-      "agency": "Information Technology Agency",
-      "state": "CA",
-      "url": "https://www.rampla.org/s/opportunity-details?id=006Ql00000k98OrIAI",
-      "naics": "",
-      "psc": "",
-      "set_aside": "",
-      "posted_date": "2026-09-10",
-      "due_date": "2026-10-10",
-      "it_score": 36,
-      "is_new": false,
-      "first_seen": "2026-09-23",
-      "matched_keywords": [
-        "information technology"
       ]
     },
     {
@@ -2123,26 +2336,6 @@
       "first_seen": "2026-09-23",
       "matched_keywords": [
         "records management"
-      ]
-    },
-    {
-      "id": "hf3r-utnq:217293",
-      "source_name": "Los Angeles County CA — RAMP Open Bids",
-      "title": "DBH-61B-WEBSITE DESIGN - AS-NEEDED PROFESSIONAL DESIGN SERVICES - Closing: Continuous",
-      "description": "Personal Services",
-      "agency": "Los Angeles County",
-      "state": "CA",
-      "url": "https://www.rampla.org/s/opportunity-details?id=006Ql00000DurVHIAZ",
-      "naics": "",
-      "psc": "",
-      "set_aside": "",
-      "posted_date": "2024-09-28",
-      "due_date": "2026-09-28",
-      "it_score": 36,
-      "is_new": false,
-      "first_seen": "2026-09-23",
-      "matched_keywords": [
-        "website"
       ]
     },
     {

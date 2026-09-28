@@ -5,6 +5,9 @@
   "Bonfire \u2014 Broward County, FL::bonfire:broward:253616": {
     "first_seen": "2026-09-26"
   },
+  "Bonfire \u2014 Broward County, FL::bonfire:broward:253687": {
+    "first_seen": "2026-09-28"
+  },
   "Bonfire \u2014 Kansas City, MO::bonfire:kcmo:252037": {
     "first_seen": "2026-09-26"
   },
@@ -338,11 +341,17 @@
   "SAM.gov (Federal)::samgov:363159766cbc4b45b1e50a28c3a619b1": {
     "first_seen": "2026-09-23"
   },
+  "SAM.gov (Federal)::samgov:36C10B26Q0837": {
+    "first_seen": "2026-09-28"
+  },
   "SAM.gov (Federal)::samgov:36C24C26Q0042": {
     "first_seen": "2026-09-26"
   },
   "SAM.gov (Federal)::samgov:36C26026Q0472": {
     "first_seen": "2026-09-26"
+  },
+  "SAM.gov (Federal)::samgov:36C26026Q1017": {
+    "first_seen": "2026-09-28"
   },
   "SAM.gov (Federal)::samgov:36C26026Q1039": {
     "first_seen": "2026-09-26"
@@ -370,6 +379,9 @@
   },
   "SAM.gov (Federal)::samgov:5924adbef41a4c5394f3f2a21dfaf190": {
     "first_seen": "2026-09-25"
+  },
+  "SAM.gov (Federal)::samgov:612675480": {
+    "first_seen": "2026-09-28"
   },
   "SAM.gov (Federal)::samgov:64a6a1117b6940ff94860cee2104782e": {
     "first_seen": "2026-09-24"
@@ -446,6 +458,9 @@
   "SAM.gov (Federal)::samgov:FA822226SSIUID": {
     "first_seen": "2026-09-26"
   },
+  "SAM.gov (Federal)::samgov:FA940126Mishap": {
+    "first_seen": "2026-09-28"
+  },
   "SAM.gov (Federal)::samgov:HT942726RFI707": {
     "first_seen": "2026-09-26"
   },
@@ -466,6 +481,9 @@
   },
   "SAM.gov (Federal)::samgov:OMAS-01-2026": {
     "first_seen": "2026-09-26"
+  },
+  "SAM.gov (Federal)::samgov:RFI-FCC-OEA_Optimization": {
+    "first_seen": "2026-09-28"
   },
   "SAM.gov (Federal)::samgov:W50NH9-26-R-A019": {
     "first_seen": "2026-09-26"
@@ -548,11 +566,20 @@
   "SAM.gov (Federal)::samgov:f7ab9d27007b47c9ab28c178a9d77953": {
     "first_seen": "2026-09-23"
   },
+  "San Francisco CA \u2014 Open Bids::eshn-8t3a:SFGOV~0000011913": {
+    "first_seen": "2026-09-28"
+  },
   "San Francisco CA \u2014 Open Bids::eshn-8t3a:SFGOV~0000012091": {
     "first_seen": "2026-09-23"
   },
   "San Francisco CA \u2014 Open Bids::eshn-8t3a:SFGOV~0000012096": {
     "first_seen": "2026-09-23"
+  },
+  "San Francisco CA \u2014 Open Bids::eshn-8t3a:SFGOV~0000012113": {
+    "first_seen": "2026-09-28"
+  },
+  "San Francisco CA \u2014 Open Bids::eshn-8t3a:SFGOV~0000012116": {
+    "first_seen": "2026-09-28"
   },
   "Texas \u2014 Spot Bid Fair FY2026::3iy3-r5vp:5185": {
     "first_seen": "2026-09-23"
