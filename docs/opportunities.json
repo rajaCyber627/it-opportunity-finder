@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-09-27T12:11:29.886406+00:00",
+  "generated_at": "2026-09-28T12:12:09.419123+00:00",
   "counts": {
-    "total": 55,
-    "new": 0
+    "total": 52,
+    "new": 3
   },
   "health": {
     "ok": 22,
@@ -17,13 +17,13 @@
       {
         "source": "Los Angeles County CA — RAMP Open Bids",
         "ok": true,
-        "count": 390,
+        "count": 239,
         "error": ""
       },
       {
         "source": "San Francisco CA — Open Bids",
         "ok": true,
-        "count": 39,
+        "count": 44,
         "error": ""
       },
       {
@@ -59,7 +59,7 @@
       {
         "source": "Texas DOT — Plan Holders (Open Lettings)",
         "ok": true,
-        "count": 472,
+        "count": 477,
         "error": ""
       },
       {
@@ -150,6 +150,45 @@
   },
   "product_themes": [
     {
+      "name": "Permitting & Licensing",
+      "opportunity_count": 3,
+      "agency_count": 2,
+      "state_count": 1,
+      "states": [
+        "CA"
+      ],
+      "demand_score": 7,
+      "examples": [
+        {
+          "title": "OCA DT | TM3 - Cybeready Software License Renewal",
+          "agency": "Office of Contract Administration",
+          "state": "CA",
+          "url": "https://sfcitypartner.sfgov.org/pages/Events-BS3/event-details.aspx?Page=AUC_RESP_INQ_DTL&Action=U&AUC_ID=0000012116&AUC_ROUND=1&AUC_VERSION=1&BIDDER_ID=0000000001&BIDDER_LOC=1&BIDDER_SETID=SHARE&BIDDER_TYPE=B&BUSINESS_UNIT=SFGOV",
+          "due_date": "2026-10-02",
+          "it_score": 57,
+          "source_name": "San Francisco CA — Open Bids"
+        },
+        {
+          "title": "RFB-IS-27200194 - SOFTWARE LICENSE - RENEWAL - PRINTERLOGIC - BRAND SPECIFIC - Closing: 10/7/2026 12:00 PM",
+          "agency": "Los Angeles County",
+          "state": "CA",
+          "url": "https://www.rampla.org/s/opportunity-details?id=006Ql00000lvsANIAY",
+          "due_date": "2026-10-07",
+          "it_score": 57,
+          "source_name": "Los Angeles County CA — RAMP Open Bids"
+        },
+        {
+          "title": "RFB-IS-27200205 - SUBSCRIPTION, LICENSE - 588889 - Closing: 10/7/2026 12:00 PM",
+          "agency": "Los Angeles County",
+          "state": "CA",
+          "url": "https://www.rampla.org/s/opportunity-details?id=006Ql00000m2hOdIAI",
+          "due_date": "2026-10-07",
+          "it_score": 36,
+          "source_name": "Los Angeles County CA — RAMP Open Bids"
+        }
+      ]
+    },
+    {
       "name": "Records & Document Management (ECM)",
       "opportunity_count": 2,
       "agency_count": 2,
@@ -174,36 +213,6 @@
           "state": "CA",
           "url": "https://www.rampla.org/s/opportunity-details?id=006Ql00000c2b0oIAA",
           "due_date": "2028-04-01",
-          "it_score": 36,
-          "source_name": "Los Angeles County CA — RAMP Open Bids"
-        }
-      ]
-    },
-    {
-      "name": "Website / Portal / Digital Services",
-      "opportunity_count": 2,
-      "agency_count": 2,
-      "state_count": 1,
-      "states": [
-        "CA"
-      ],
-      "demand_score": 7,
-      "examples": [
-        {
-          "title": "Website Redesign",
-          "agency": "Inland Empire Utilities Agency, CA",
-          "state": "CA",
-          "url": "https://vendors.planetbids.com/portal/27411/bo/bo-detail/144950",
-          "due_date": "2026-09-28",
-          "it_score": 56,
-          "source_name": "PlanetBids — Inland Empire Utilities Agency, CA"
-        },
-        {
-          "title": "DBH-61B-WEBSITE DESIGN - AS-NEEDED PROFESSIONAL DESIGN SERVICES - Closing: Continuous",
-          "agency": "Los Angeles County",
-          "state": "CA",
-          "url": "https://www.rampla.org/s/opportunity-details?id=006Ql00000DurVHIAZ",
-          "due_date": "2026-09-28",
           "it_score": 36,
           "source_name": "Los Angeles County CA — RAMP Open Bids"
         }
@@ -385,6 +394,27 @@
         "software",
         "cloud",
         "saas"
+      ]
+    },
+    {
+      "id": "eshn-8t3a:SFGOV~0000012116",
+      "source_name": "San Francisco CA — Open Bids",
+      "title": "OCA DT | TM3 - Cybeready Software License Renewal",
+      "description": "Seeking Bids",
+      "agency": "Office of Contract Administration",
+      "state": "CA",
+      "url": "https://sfcitypartner.sfgov.org/pages/Events-BS3/event-details.aspx?Page=AUC_RESP_INQ_DTL&Action=U&AUC_ID=0000012116&AUC_ROUND=1&AUC_VERSION=1&BIDDER_ID=0000000001&BIDDER_LOC=1&BIDDER_SETID=SHARE&BIDDER_TYPE=B&BUSINESS_UNIT=SFGOV",
+      "naics": "",
+      "psc": "",
+      "set_aside": "",
+      "posted_date": "2026-09-25",
+      "due_date": "2026-10-02",
+      "it_score": 57,
+      "is_new": true,
+      "first_seen": "2026-09-28",
+      "matched_keywords": [
+        "software",
+        "license"
       ]
     },
     {
@@ -588,6 +618,26 @@
       "it_score": 51,
       "is_new": false,
       "first_seen": "2026-09-26",
+      "matched_keywords": [
+        "software"
+      ]
+    },
+    {
+      "id": "eshn-8t3a:SFGOV~0000012113",
+      "source_name": "San Francisco CA — Open Bids",
+      "title": "OCA TTX | TM3 FY27 Adobe Software (Renewal)",
+      "description": "Seeking Bids",
+      "agency": "Office of Contract Administration",
+      "state": "CA",
+      "url": "https://sfcitypartner.sfgov.org/pages/Events-BS3/event-details.aspx?Page=AUC_RESP_INQ_DTL&Action=U&AUC_ID=0000012113&AUC_ROUND=1&AUC_VERSION=1&BIDDER_ID=0000000001&BIDDER_LOC=1&BIDDER_SETID=SHARE&BIDDER_TYPE=B&BUSINESS_UNIT=SFGOV",
+      "naics": "",
+      "psc": "",
+      "set_aside": "",
+      "posted_date": "2026-09-24",
+      "due_date": "2026-10-01",
+      "it_score": 51,
+      "is_new": true,
+      "first_seen": "2026-09-28",
       "matched_keywords": [
         "software"
       ]
@@ -1014,26 +1064,6 @@
       ]
     },
     {
-      "id": "hf3r-utnq:217293",
-      "source_name": "Los Angeles County CA — RAMP Open Bids",
-      "title": "DBH-61B-WEBSITE DESIGN - AS-NEEDED PROFESSIONAL DESIGN SERVICES - Closing: Continuous",
-      "description": "Personal Services",
-      "agency": "Los Angeles County",
-      "state": "CA",
-      "url": "https://www.rampla.org/s/opportunity-details?id=006Ql00000DurVHIAZ",
-      "naics": "",
-      "psc": "",
-      "set_aside": "",
-      "posted_date": "2024-09-28",
-      "due_date": "2026-09-28",
-      "it_score": 36,
-      "is_new": false,
-      "first_seen": "2026-07-14",
-      "matched_keywords": [
-        "website"
-      ]
-    },
-    {
       "id": "hf3r-utnq:232069",
       "source_name": "Los Angeles County CA — RAMP Open Bids",
       "title": "146650 UNIT, INTERFACE, DIGITAL OPTICAL",
@@ -1194,26 +1224,6 @@
       ]
     },
     {
-      "id": "hf3r-utnq:232178",
-      "source_name": "Los Angeles County CA — RAMP Open Bids",
-      "title": "RFB-IS-27200202 - 7903674-COMPUTER TABLETS - APPLE IPAD 11-INCH - BRAND SPECIF - Closing: 10/7/2026 12:00 PM",
-      "description": "Commodity",
-      "agency": "Los Angeles County",
-      "state": "CA",
-      "url": "https://www.rampla.org/s/opportunity-details?id=006Ql00000m2hOcIAI",
-      "naics": "",
-      "psc": "",
-      "set_aside": "",
-      "posted_date": "2026-09-24",
-      "due_date": "2026-10-07",
-      "it_score": 36,
-      "is_new": false,
-      "first_seen": "2026-09-25",
-      "matched_keywords": [
-        "computer"
-      ]
-    },
-    {
       "id": "hf3r-utnq:232179",
       "source_name": "Los Angeles County CA — RAMP Open Bids",
       "title": "RFB-IS-27200205 - SUBSCRIPTION, LICENSE - 588889 - Closing: 10/7/2026 12:00 PM",
@@ -1234,6 +1244,26 @@
       ]
     },
     {
+      "id": "hf3r-utnq:232178",
+      "source_name": "Los Angeles County CA — RAMP Open Bids",
+      "title": "RFB-IS-27200202 - 7903674-COMPUTER TABLETS - APPLE IPAD 11-INCH - BRAND SPECIF - Closing: 10/7/2026 12:00 PM",
+      "description": "Commodity",
+      "agency": "Los Angeles County",
+      "state": "CA",
+      "url": "https://www.rampla.org/s/opportunity-details?id=006Ql00000m2hOcIAI",
+      "naics": "",
+      "psc": "",
+      "set_aside": "",
+      "posted_date": "2026-09-24",
+      "due_date": "2026-10-07",
+      "it_score": 36,
+      "is_new": false,
+      "first_seen": "2026-09-25",
+      "matched_keywords": [
+        "computer"
+      ]
+    },
+    {
       "id": "hf3r-utnq:231537",
       "source_name": "Los Angeles County CA — RAMP Open Bids",
       "title": "Los Angeles World Airports Salesforce-Based eSourcing Solution (RAMP-LAWA)",
@@ -1251,6 +1281,26 @@
       "first_seen": "2026-09-11",
       "matched_keywords": [
         "information technology"
+      ]
+    },
+    {
+      "id": "eshn-8t3a:SFGOV~0000011913",
+      "source_name": "San Francisco CA — Open Bids",
+      "title": "TIS | RFP for Cybersecurity Staffing Firms",
+      "description": "Seeking Bids",
+      "agency": "Department of Technology",
+      "state": "CA",
+      "url": "https://sfcitypartner.sfgov.org/pages/Events-BS3/event-details.aspx?Page=AUC_RESP_INQ_DTL&Action=U&AUC_ID=0000011913&AUC_ROUND=1&AUC_VERSION=1&BIDDER_ID=0000000001&BIDDER_LOC=1&BIDDER_SETID=SHARE&BIDDER_TYPE=B&BUSINESS_UNIT=SFGOV",
+      "naics": "",
+      "psc": "",
+      "set_aside": "",
+      "posted_date": "2026-09-22",
+      "due_date": "2026-10-20",
+      "it_score": 36,
+      "is_new": true,
+      "first_seen": "2026-09-28",
+      "matched_keywords": [
+        "cybersecurity"
       ]
     },
     {
@@ -1331,106 +1381,6 @@
       "first_seen": "2026-07-14",
       "matched_keywords": [
         "ai"
-      ]
-    },
-    {
-      "id": "3iy3-r5vp:PW 3117",
-      "source_name": "Texas — Spot Bid Fair FY2026",
-      "title": "LG 55 Inch Class UA77 Series LED AI 4K Smart webOS TV (2025 Model) + HDMI Cable + 12 Month CPS Warranty + Streaming Bundle – HDR10, ThinQ AI, Wi-Fi 6, Voice Control, Slim Design (55 inch)",
-      "description": "LG 55 Inch Class UA77 Series LED AI 4K Smart webOS TV (2025 Model) + HDMI Cable + 12 Month CPS Warranty + Streaming Bundle – HDR10, ThinQ AI, Wi-Fi 6, Voice Control, Slim Design (55 inch)",
-      "agency": "Texas Workforce Commission",
-      "state": "TX",
-      "url": "https://drive.google.com/open?id=1VBQ-FoLC155G1vN9zBCfLyZcDJYIWIra",
-      "naics": "",
-      "psc": "",
-      "set_aside": "",
-      "posted_date": "2026-04-30",
-      "due_date": "",
-      "it_score": 36,
-      "is_new": false,
-      "first_seen": "2026-07-14",
-      "matched_keywords": [
-        "ai"
-      ]
-    },
-    {
-      "id": "3iy3-r5vp:PW 2117",
-      "source_name": "Texas — Spot Bid Fair FY2026",
-      "title": "Digital Microwave Oven with Turntable, Push-Button Door, Child Safety Lock, 1000W, Express cooking, 1.1 cu.ft.",
-      "description": "Digital Microwave Oven with Turntable, Push-Button Door, Child Safety Lock, 1000W, Express cooking, 1.1 cu.ft.",
-      "agency": "Texas Workforce Commission",
-      "state": "TX",
-      "url": "https://drive.google.com/open?id=1FohX8HjhPi7MFGM298BZAwY7iA-wW2VF",
-      "naics": "",
-      "psc": "",
-      "set_aside": "",
-      "posted_date": "2026-04-30",
-      "due_date": "",
-      "it_score": 36,
-      "is_new": false,
-      "first_seen": "2026-07-14",
-      "matched_keywords": [
-        "digital"
-      ]
-    },
-    {
-      "id": "3iy3-r5vp:PW 1117",
-      "source_name": "Texas — Spot Bid Fair FY2026",
-      "title": "Computer Docking Stations, Dual Monitor, USB-C + HDMI + Dual DP Port. Laptop & Workstation",
-      "description": "Computer Docking Stations, Dual Monitor, USB-C + HDMI + Dual DP Port. Laptop & Workstation",
-      "agency": "Texas Workforce Commission",
-      "state": "TX",
-      "url": "https://drive.google.com/open?id=1XUnzgK-m-3270sPXuKe0YQTHc9nxa28P",
-      "naics": "",
-      "psc": "",
-      "set_aside": "",
-      "posted_date": "2026-04-30",
-      "due_date": "",
-      "it_score": 36,
-      "is_new": false,
-      "first_seen": "2026-07-14",
-      "matched_keywords": [
-        "computer"
-      ]
-    },
-    {
-      "id": "3iy3-r5vp:PR 56737",
-      "source_name": "Texas — Spot Bid Fair FY2026",
-      "title": "FIELDPIECE Digital Psychrometer: Onboard, Ambient Temp/Dew Point/Relative Humidity, -40°F to 257°F",
-      "description": "FIELDPIECE Digital Psychrometer: Onboard, Ambient Temp/Dew Point/Relative Humidity, -40°F to 257°F",
-      "agency": "Texas Workforce Commission",
-      "state": "TX",
-      "url": "https://drive.google.com/open?id=123_Qj45o3aA2poW3VYg2c8Fg1YyUDi95",
-      "naics": "",
-      "psc": "",
-      "set_aside": "",
-      "posted_date": "2026-04-30",
-      "due_date": "",
-      "it_score": 36,
-      "is_new": false,
-      "first_seen": "2026-07-14",
-      "matched_keywords": [
-        "digital"
-      ]
-    },
-    {
-      "id": "3iy3-r5vp:OIG Voice Recorders",
-      "source_name": "Texas — Spot Bid Fair FY2026",
-      "title": "DVT2015 Digital Recorders Voice Tracer/Recorder",
-      "description": "DVT2015 Digital Recorders Voice Tracer/Recorder",
-      "agency": "Texas Juvenile Justice Department",
-      "state": "TX",
-      "url": "https://drive.google.com/open?id=1BpMaKSdYGTFjeR74gxmAl3a9hoioVXcB",
-      "naics": "",
-      "psc": "",
-      "set_aside": "",
-      "posted_date": "2026-04-30",
-      "due_date": "",
-      "it_score": 36,
-      "is_new": false,
-      "first_seen": "2026-07-14",
-      "matched_keywords": [
-        "digital"
       ]
     }
   ]
