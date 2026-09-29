@@ -34,6 +34,7 @@ from .products import build_product_themes
 from .history import load_history, save_history
 from .email_digest import send_digest
 from .models import Opportunity
+from .util import today_iso
 
 _HERE = os.path.dirname(os.path.abspath(__file__))
 _OUTPUT_PATH = os.path.normpath(os.path.join(_HERE, "..", "docs", "opportunities.json"))
@@ -81,14 +82,17 @@ def main(argv=None) -> int:
     history = load_history()
     kept, history = run_pipeline(raw, config, history)
     new_items = [o for o in kept if o.is_new]
-    print(f"   {len(kept)} kept after filtering; {len(new_items)} new since last run.")
+    # Carried = still-open items no source returned today, re-added from history.
+    carried = [o for o in kept if o.last_seen != today_iso()]
+    print(f"   {len(kept)} kept after filtering; {len(new_items)} new since last run; "
+          f"{len(carried)} carried forward (still open, not in today's fetch).")
 
     print("4) Building product opportunities + writing dashboard data...")
     product_themes = build_product_themes(kept, config)
     print(f"   {len(product_themes)} product themes with multi-agency demand.")
     output = {
         "generated_at": datetime.now(timezone.utc).isoformat(),
-        "counts": {"total": len(kept), "new": len(new_items)},
+        "counts": {"total": len(kept), "new": len(new_items), "carried": len(carried)},
         "health": {
             "ok": ok_count,
             "total": len(health),

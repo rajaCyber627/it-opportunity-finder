@@ -176,6 +176,83 @@ def keep_and_score(opp: Opportunity, filters: Filters) -> tuple[bool, int, list]
     return True, score, matched
 
 
+def _storable(opp: Opportunity) -> dict:
+    """The record we persist to history for carry-forward.
+
+    `is_new` is per-run state, never persisted — otherwise an item stored while
+    new would come back flagged new forever and keep re-appearing in the email.
+    """
+    d = opp.to_dict()
+    d["is_new"] = False
+    return d
+
+
+def _carried_is_active(opp: Opportunity, entry: dict, today: date, stale_after_days: int) -> bool:
+    """is_active(), but for an item no source returned this run.
+
+    Same rules, with one difference in the last case. is_active() keeps an item
+    with no dates at all ("we can't tell, let a human decide") — safe for a live
+    fetch, since the source vouching for it this morning is itself evidence it's
+    open. A carried item has no such vouching, so keeping it on "can't tell"
+    would pin it to the dashboard permanently with nothing to ever remove it.
+    We fall back to how long ago a source last returned it.
+    """
+    due = _parse_iso(opp.due_date)
+    if due is not None:
+        return due >= today                      # the deadline is the only real test
+    posted = _parse_iso(opp.posted_date)
+    if posted is not None:
+        return posted >= today - timedelta(days=stale_after_days)
+    anchor = _parse_iso(entry.get("last_seen") or entry.get("first_seen") or "")
+    if anchor is not None:
+        return anchor >= today - timedelta(days=stale_after_days)
+    return False
+
+
+def _carry_forward(history, filters, today_date, fetched_keys, seen_cross, kept) -> None:
+    """Re-add stored opportunities that are still open but absent from today's fetch.
+
+    A source dropping an item is NOT evidence the bid closed — SAM.gov only
+    returns the last few days of notices, capped feeds truncate, and a failing
+    source returns nothing at all. So we re-add from history and let the
+    deadline decide. Appends to `kept` in place.
+
+    Carried items are re-filtered and re-scored rather than trusted as stored,
+    so tuning config.yaml still applies retroactively to everything on the
+    dashboard, not just to whatever happened to be fetched today.
+    """
+    for pkey, entry in history.items():
+        if pkey in fetched_keys:
+            # A source returned it this run, so the fresh copy is authoritative
+            # and was already handled above — kept if open, dropped if the source
+            # now shows it closed. Either way, don't resurrect the stored one.
+            continue
+        stored = entry.get("record")
+        if not stored:
+            continue                    # legacy entry: first_seen only, nothing to revive
+
+        opp = Opportunity.from_dict(stored)
+        keep, score, matched = keep_and_score(opp, filters)
+        if not keep:
+            continue
+        if filters.drop_expired and not _carried_is_active(
+            opp, entry, today_date, filters.stale_after_days
+        ):
+            continue
+
+        ckey = _cross_source_key(opp)
+        if ckey in seen_cross:
+            continue                    # a live source already supplied this same bid
+        seen_cross.add(ckey)
+
+        opp.it_score = score
+        opp.matched_keywords = matched
+        opp.first_seen = entry.get("first_seen", "")
+        opp.last_seen = entry.get("last_seen", opp.first_seen)
+        opp.is_new = False              # carried items are by definition not new
+        kept.append(opp)
+
+
 def _dedupe_key(opp: Opportunity) -> str:
     """Primary dedupe key: source + stable id."""
     return f"{opp.source_name}::{opp.id}"
@@ -192,11 +269,15 @@ def _cross_source_key(opp: Opportunity) -> str:
 
 
 def run_pipeline(raw: list[Opportunity], config: dict, history: dict) -> tuple[list, dict]:
-    """Filter, score, dedupe, and mark new items.
+    """Filter, score, dedupe, mark new items, and carry forward still-open ones.
 
     Returns (kept_opportunities, updated_history).
-    `history` maps dedupe_key -> {"first_seen": "YYYY-MM-DD"} and is updated
-    in place with any newly-seen keys.
+
+    `history` maps dedupe_key -> {"first_seen", "last_seen", "record"} and is
+    updated in place. The result is NOT just today's fetch: any stored
+    opportunity the sources didn't return is re-added if its deadline hasn't
+    passed, because a source dropping an item doesn't mean the bid closed (see
+    history.py). An item leaves the dashboard only when it actually expires.
     """
     filters = Filters(config)
     today = today_iso()
@@ -205,6 +286,10 @@ def run_pipeline(raw: list[Opportunity], config: dict, history: dict) -> tuple[l
     kept: list[Opportunity] = []
     seen_primary: set[str] = set()
     seen_cross: set[str] = set()
+    # Every key a source returned this run, whether or not we ended up keeping
+    # it. A fetched record is the authoritative copy, so carry-forward must not
+    # second-guess it — including when what the source told us is "this closed".
+    fetched_keys = {_dedupe_key(o) for o in raw}
 
     for opp in raw:
         keep, score, matched = keep_and_score(opp, filters)
@@ -213,6 +298,14 @@ def run_pipeline(raw: list[Opportunity], config: dict, history: dict) -> tuple[l
 
         # Active-only: drop opportunities whose bidding window has clearly closed.
         if filters.drop_expired and not is_active(opp, today_date, filters.stale_after_days):
+            prior = history.get(_dedupe_key(opp))
+            if prior is not None:
+                # The source re-listed it with a deadline that has now passed.
+                # Refresh the stored copy so history agrees with the source and
+                # _prune can evict it; leaving the old record would otherwise
+                # keep a closed bid's earlier, still-future due date on file.
+                prior["record"] = _storable(opp)
+                prior["last_seen"] = today
             continue
 
         pkey = _dedupe_key(opp)
@@ -230,14 +323,26 @@ def run_pipeline(raw: list[Opportunity], config: dict, history: dict) -> tuple[l
         # New vs. seen-before, using our rolling history file.
         prior = history.get(pkey)
         if prior is None:
-            history[pkey] = {"first_seen": today}
             opp.first_seen = today
             opp.is_new = True
         else:
             opp.first_seen = prior.get("first_seen", today)
             opp.is_new = False
 
+        # A source returned it, so today is its last_seen. Store the whole
+        # record (not just the date) so carry-forward can re-add it on a day
+        # when the source doesn't return it.
+        opp.last_seen = today
+        history[pkey] = {
+            "first_seen": opp.first_seen,
+            "last_seen": today,
+            "record": _storable(opp),
+        }
+
         kept.append(opp)
+
+    # --- Carry forward still-open opportunities today's fetch didn't return --
+    _carry_forward(history, filters, today_date, fetched_keys, seen_cross, kept)
 
     # Sort: highest IT score first, then MOST RECENTLY POSTED first.
     #

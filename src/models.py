@@ -46,6 +46,7 @@ class Opportunity:
     it_score: int = 0           # 0-100 relevance score, used only for sorting
     is_new: bool = False        # True if first seen in the most recent run
     first_seen: str = ""        # ISO date this opportunity first appeared in our history
+    last_seen: str = ""         # ISO date a source last returned it (carried-forward items keep an older date)
     matched_keywords: list = field(default_factory=list)  # which include-terms hit (handy for debugging)
 
     def to_dict(self) -> dict:

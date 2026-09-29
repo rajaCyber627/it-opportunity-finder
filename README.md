@@ -67,7 +67,7 @@ src/
 docs/                      ← the dashboard (GitHub Pages serves this folder)
   index.html · app.js · style.css
   opportunities.json       ← committed output the dashboard reads (public, no keys)
-data/history.json          ← dedupe memory (committed)
+data/history.json          ← dedupe memory + carry-forward store (committed)
 scripts/gmail_setup.py     ← one-time local helper to authorize Gmail
 .github/workflows/daily.yml← the scheduler
 ```
