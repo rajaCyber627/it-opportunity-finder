@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-09-28T12:12:09.419123+00:00",
+  "generated_at": "2026-09-29T12:12:36.105300+00:00",
   "counts": {
-    "total": 52,
-    "new": 3
+    "total": 48,
+    "new": 1
   },
   "health": {
     "ok": 22,
@@ -11,13 +11,13 @@
       {
         "source": "Montgomery County MD — Solicitations",
         "ok": true,
-        "count": 22,
+        "count": 21,
         "error": ""
       },
       {
         "source": "Los Angeles County CA — RAMP Open Bids",
         "ok": true,
-        "count": 239,
+        "count": 213,
         "error": ""
       },
       {
@@ -47,7 +47,7 @@
       {
         "source": "Baton Rouge LA — Bid Openings",
         "ok": true,
-        "count": 499,
+        "count": 500,
         "error": ""
       },
       {
@@ -59,7 +59,7 @@
       {
         "source": "Texas DOT — Plan Holders (Open Lettings)",
         "ok": true,
-        "count": 477,
+        "count": 500,
         "error": ""
       },
       {
@@ -113,25 +113,25 @@
       {
         "source": "OpenGov",
         "ok": true,
-        "count": 183,
+        "count": 182,
         "error": ""
       },
       {
         "source": "Washington DC — Solicitations (PASS)",
         "ok": true,
-        "count": 26,
+        "count": 22,
         "error": ""
       },
       {
         "source": "BidNet Direct",
         "ok": true,
-        "count": 27,
+        "count": 24,
         "error": ""
       },
       {
         "source": "Biddingo",
         "ok": true,
-        "count": 23,
+        "count": 22,
         "error": ""
       },
       {
@@ -213,6 +213,36 @@
           "state": "CA",
           "url": "https://www.rampla.org/s/opportunity-details?id=006Ql00000c2b0oIAA",
           "due_date": "2028-04-01",
+          "it_score": 36,
+          "source_name": "Los Angeles County CA — RAMP Open Bids"
+        }
+      ]
+    },
+    {
+      "name": "Data / Analytics / Dashboards",
+      "opportunity_count": 2,
+      "agency_count": 2,
+      "state_count": 1,
+      "states": [
+        "CA"
+      ],
+      "demand_score": 7,
+      "examples": [
+        {
+          "title": "RFB-IS-27200191 - 709521 - NETWORKING - DATA MANAGEMENT - FALCONSTOR STORSAFE - Closing: 10/2/2026 12:00 PM",
+          "agency": "Los Angeles County",
+          "state": "CA",
+          "url": "https://www.rampla.org/s/opportunity-details?id=006Ql00000loViKIAU",
+          "due_date": "2026-10-02",
+          "it_score": 36,
+          "source_name": "Los Angeles County CA — RAMP Open Bids"
+        },
+        {
+          "title": "TOS CC-104 Multi-Location Near Miss and Street Safety Analytics Study for School Safety",
+          "agency": "Transportation",
+          "state": "CA",
+          "url": "https://www.rampla.org/s/opportunity-details?id=006Ql00000ZrchJIAR",
+          "due_date": "2026-11-04",
           "it_score": 36,
           "source_name": "Los Angeles County CA — RAMP Open Bids"
         }
@@ -410,7 +440,7 @@
       "posted_date": "2026-09-25",
       "due_date": "2026-10-02",
       "it_score": 57,
-      "is_new": true,
+      "is_new": false,
       "first_seen": "2026-09-28",
       "matched_keywords": [
         "software",
@@ -523,66 +553,6 @@
       ]
     },
     {
-      "id": "planetbids:27411:144950",
-      "source_name": "PlanetBids — Inland Empire Utilities Agency, CA",
-      "title": "Website Redesign",
-      "description": "RFP-GD-26-005",
-      "agency": "Inland Empire Utilities Agency, CA",
-      "state": "CA",
-      "url": "https://vendors.planetbids.com/portal/27411/bo/bo-detail/144950",
-      "naics": "",
-      "psc": "20854, 20954, 91596",
-      "set_aside": "",
-      "posted_date": "2026-08-11",
-      "due_date": "2026-09-28",
-      "it_score": 56,
-      "is_new": false,
-      "first_seen": "2026-08-12",
-      "matched_keywords": [
-        "website"
-      ]
-    },
-    {
-      "id": "eeq6-nnwe:1200627",
-      "source_name": "Montgomery County MD — Solicitations",
-      "title": "Equipment/Software Maintenance Services for ELKA Vehicle Access Barrier Gate",
-      "description": "Equipment/Software Maintenance Services for ELKA Vehicle Access Barrier Gate",
-      "agency": "Department of Transportation",
-      "state": "MD",
-      "url": "https://www.montgomerycountymd.gov/office-procurement/solicitations-contracts",
-      "naics": "",
-      "psc": "",
-      "set_aside": "N",
-      "posted_date": "2026-09-22",
-      "due_date": "2026-09-28",
-      "it_score": 51,
-      "is_new": false,
-      "first_seen": "2026-09-11",
-      "matched_keywords": [
-        "software"
-      ]
-    },
-    {
-      "id": "opengov:santa-monica-ca:288955",
-      "source_name": "OpenGov — City of Santa Monica, CA",
-      "title": "Waste Management Software - RFI",
-      "description": "The City of Santa Monica (“the City”) invites proposers to respond to a Request for Information (RFI) regarding the procurement of a software and hardware technology solution using emerging technologies to move toward a more efficient, data-driven, and user-friendly model of waste, recycling, and fleet tracking. Please review the details below and the relevant due dates for preparing a written response.",
-      "agency": "City of Santa Monica",
-      "state": "CA",
-      "url": "https://procurement.opengov.com/portal/santa-monica-ca/projects/288955",
-      "naics": "",
-      "psc": "",
-      "set_aside": "",
-      "posted_date": "2026-07-30",
-      "due_date": "2026-09-28",
-      "it_score": 51,
-      "is_new": false,
-      "first_seen": "2026-08-27",
-      "matched_keywords": [
-        "software"
-      ]
-    },
-    {
       "id": "hf3r-utnq:231405",
       "source_name": "Los Angeles County CA — RAMP Open Bids",
       "title": "LAUSD | NORMANDIE AVE ES (ALTERNATIVE DESIGN BUILD) - SEISMIC MODERNIZATION PROJECT",
@@ -636,7 +606,7 @@
       "posted_date": "2026-09-24",
       "due_date": "2026-10-01",
       "it_score": 51,
-      "is_new": true,
+      "is_new": false,
       "first_seen": "2026-09-28",
       "matched_keywords": [
         "software"
@@ -1043,27 +1013,6 @@
       "matched_keywords": []
     },
     {
-      "id": "hf3r-utnq:217365",
-      "source_name": "Los Angeles County CA — RAMP Open Bids",
-      "title": "HS-1129 - Equipment Maintenance and Repair (EMARS) - Automated Pharmacy Workflow System (RFR) - Closing: Continuous",
-      "description": "Personal Services",
-      "agency": "Los Angeles County",
-      "state": "CA",
-      "url": "https://www.rampla.org/s/opportunity-details?id=006Ql00000Dv11dIAB",
-      "naics": "",
-      "psc": "",
-      "set_aside": "",
-      "posted_date": "2024-09-28",
-      "due_date": "2026-09-28",
-      "it_score": 42,
-      "is_new": false,
-      "first_seen": "2026-07-14",
-      "matched_keywords": [
-        "system",
-        "workflow"
-      ]
-    },
-    {
       "id": "hf3r-utnq:232069",
       "source_name": "Los Angeles County CA — RAMP Open Bids",
       "title": "146650 UNIT, INTERFACE, DIGITAL OPTICAL",
@@ -1144,10 +1093,10 @@
       ]
     },
     {
-      "id": "eeq6-nnwe:1201278",
+      "id": "eeq6-nnwe:1201279",
       "source_name": "Montgomery County MD — Solicitations",
-      "title": "The International Code Compliance (ICC) Digital / Electronic Subscriptions for Code Books for an Enterprise Organization",
-      "description": "The International Code Compliance (ICC) Digital / Electronic Subscriptions for Code Books for an Enterprise Organization",
+      "title": "National Fire Protection Association (NFPA) Digital / Electronic Subscription of Code Books for an Enterprise Organization",
+      "description": "National Fire Protection Association (NFPA) Digital / Electronic Subscription of Code Books for an Enterprise Organization",
       "agency": "Department of Permitting Services",
       "state": "MD",
       "url": "https://www.montgomerycountymd.gov/office-procurement/solicitations-contracts",
@@ -1164,10 +1113,10 @@
       ]
     },
     {
-      "id": "eeq6-nnwe:1201279",
+      "id": "eeq6-nnwe:1201278",
       "source_name": "Montgomery County MD — Solicitations",
-      "title": "National Fire Protection Association (NFPA) Digital / Electronic Subscription of Code Books for an Enterprise Organization",
-      "description": "National Fire Protection Association (NFPA) Digital / Electronic Subscription of Code Books for an Enterprise Organization",
+      "title": "The International Code Compliance (ICC) Digital / Electronic Subscriptions for Code Books for an Enterprise Organization",
+      "description": "The International Code Compliance (ICC) Digital / Electronic Subscriptions for Code Books for an Enterprise Organization",
       "agency": "Department of Permitting Services",
       "state": "MD",
       "url": "https://www.montgomerycountymd.gov/office-procurement/solicitations-contracts",
@@ -1264,26 +1213,6 @@
       ]
     },
     {
-      "id": "hf3r-utnq:231537",
-      "source_name": "Los Angeles County CA — RAMP Open Bids",
-      "title": "Los Angeles World Airports Salesforce-Based eSourcing Solution (RAMP-LAWA)",
-      "description": "Personal Services",
-      "agency": "Information Technology Agency",
-      "state": "CA",
-      "url": "https://www.rampla.org/s/opportunity-details?id=006Ql00000k98OrIAI",
-      "naics": "",
-      "psc": "",
-      "set_aside": "",
-      "posted_date": "2026-09-10",
-      "due_date": "2026-10-10",
-      "it_score": 36,
-      "is_new": false,
-      "first_seen": "2026-09-11",
-      "matched_keywords": [
-        "information technology"
-      ]
-    },
-    {
       "id": "eshn-8t3a:SFGOV~0000011913",
       "source_name": "San Francisco CA — Open Bids",
       "title": "TIS | RFP for Cybersecurity Staffing Firms",
@@ -1297,10 +1226,30 @@
       "posted_date": "2026-09-22",
       "due_date": "2026-10-20",
       "it_score": 36,
-      "is_new": true,
+      "is_new": false,
       "first_seen": "2026-09-28",
       "matched_keywords": [
         "cybersecurity"
+      ]
+    },
+    {
+      "id": "hf3r-utnq:228081",
+      "source_name": "Los Angeles County CA — RAMP Open Bids",
+      "title": "TOS CC-104 Multi-Location Near Miss and Street Safety Analytics Study for School Safety",
+      "description": "Personal Services",
+      "agency": "Transportation",
+      "state": "CA",
+      "url": "https://www.rampla.org/s/opportunity-details?id=006Ql00000ZrchJIAR",
+      "naics": "",
+      "psc": "",
+      "set_aside": "",
+      "posted_date": "2026-09-28",
+      "due_date": "2026-11-04",
+      "it_score": 36,
+      "is_new": true,
+      "first_seen": "2026-09-29",
+      "matched_keywords": [
+        "analytics"
       ]
     },
     {
