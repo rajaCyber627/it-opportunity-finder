@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-29T12:12:36.105300+00:00",
+  "generated_at": "2026-09-30T12:13:07.547525+00:00",
   "counts": {
     "total": 48,
     "new": 1
@@ -17,7 +17,7 @@
       {
         "source": "Los Angeles County CA — RAMP Open Bids",
         "ok": true,
-        "count": 213,
+        "count": 214,
         "error": ""
       },
       {
@@ -83,7 +83,7 @@
       {
         "source": "Delaware — Open Bids (Statewide)",
         "ok": true,
-        "count": 49,
+        "count": 47,
         "error": ""
       },
       {
@@ -107,13 +107,13 @@
       {
         "source": "PlanetBids",
         "ok": true,
-        "count": 73,
+        "count": 65,
         "error": ""
       },
       {
         "source": "OpenGov",
         "ok": true,
-        "count": 182,
+        "count": 187,
         "error": ""
       },
       {
@@ -137,13 +137,13 @@
       {
         "source": "Bonfire",
         "ok": true,
-        "count": 5,
+        "count": 6,
         "error": ""
       },
       {
         "source": "Bids&Tenders",
         "ok": true,
-        "count": 3,
+        "count": 4,
         "error": ""
       }
     ]
@@ -245,36 +245,6 @@
           "due_date": "2026-11-04",
           "it_score": 36,
           "source_name": "Los Angeles County CA — RAMP Open Bids"
-        }
-      ]
-    },
-    {
-      "name": "Cloud Migration & Modernization",
-      "opportunity_count": 2,
-      "agency_count": 2,
-      "state_count": 1,
-      "states": [
-        "CA"
-      ],
-      "demand_score": 7,
-      "examples": [
-        {
-          "title": "LAUSD | NORMANDIE AVE ES (ALTERNATIVE DESIGN BUILD) - SEISMIC MODERNIZATION PROJECT",
-          "agency": "LAUSD",
-          "state": "CA",
-          "url": "https://www.rampla.org/s/opportunity-details?id=006Ql00000ji4KXIAY",
-          "due_date": "2026-09-29",
-          "it_score": 51,
-          "source_name": "Los Angeles County CA — RAMP Open Bids"
-        },
-        {
-          "title": "Administration Building Elevator Modernization",
-          "agency": "County of Alameda, CA",
-          "state": "CA",
-          "url": "https://procurement.opengov.com/portal/acgov/projects/244457",
-          "due_date": "2026-10-29",
-          "it_score": 51,
-          "source_name": "OpenGov — County of Alameda, CA"
         }
       ]
     }
@@ -553,26 +523,6 @@
       ]
     },
     {
-      "id": "hf3r-utnq:231405",
-      "source_name": "Los Angeles County CA — RAMP Open Bids",
-      "title": "LAUSD | NORMANDIE AVE ES (ALTERNATIVE DESIGN BUILD) - SEISMIC MODERNIZATION PROJECT",
-      "description": "Construction",
-      "agency": "LAUSD",
-      "state": "CA",
-      "url": "https://www.rampla.org/s/opportunity-details?id=006Ql00000ji4KXIAY",
-      "naics": "",
-      "psc": "",
-      "set_aside": "",
-      "posted_date": "2026-08-11",
-      "due_date": "2026-09-29",
-      "it_score": 51,
-      "is_new": false,
-      "first_seen": "2026-08-12",
-      "matched_keywords": [
-        "modernization"
-      ]
-    },
-    {
       "id": "hf3r-utnq:232197",
       "source_name": "Los Angeles County CA — RAMP Open Bids",
       "title": "RFB-IS-27200208 - 2709005 - SOFTWARE- RENEWAL - JOLLY GIANT (BRAND ONLY) - Closing: 10/1/2026 12:00 PM",
@@ -753,6 +703,26 @@
       ]
     },
     {
+      "id": "opengov:pasadena:292413",
+      "source_name": "OpenGov — City of Pasadena, CA",
+      "title": "P-57907 Enterprise Monitoring",
+      "description": "The City of Pasadena is seeking a vendor to provide an Enterprise Monitoring solution and associated implementation and support services. The goal of the Enterprise Monitoring project is to strengthen alert management and monitoring processes , and to proactively identify and address system performance issues before they impact customers. The City seeks a unified monitoring and observability platform that provides centralized visibility across infrastructure, networks, cloud services, databases, applications, integrations, and business services. The desired solution will correlate events and performance data across technology domains, improve operational awareness, reduce alert fatigue, accelerate root cause analysis, and enable proactive management of service health and availability. The platform should support the City's current hybrid and multi-cloud environment while providing a scalable foundation for future operational monitoring and automation initiatives.",
+      "agency": "City of Pasadena",
+      "state": "CA",
+      "url": "https://procurement.opengov.com/portal/pasadena/projects/292413",
+      "naics": "",
+      "psc": "",
+      "set_aside": "2026-RFP-0480",
+      "posted_date": "2026-08-11",
+      "due_date": "2026-10-29",
+      "it_score": 51,
+      "is_new": true,
+      "first_seen": "2026-09-30",
+      "matched_keywords": [
+        "cloud"
+      ]
+    },
+    {
       "id": "opengov:acgov:244457",
       "source_name": "OpenGov — County of Alameda, CA",
       "title": "Administration Building Elevator Modernization",
@@ -833,24 +803,6 @@
       ]
     },
     {
-      "id": "planetbids:29959:145834",
-      "source_name": "PlanetBids — City of Santa Barbara, CA",
-      "title": "Raw Water Quality Study for the Charles E. Meyer Desalination Plant",
-      "description": "RFP No. 5142",
-      "agency": "City of Santa Barbara, CA",
-      "state": "CA",
-      "url": "https://vendors.planetbids.com/portal/29959/bo/bo-detail/145834",
-      "naics": "",
-      "psc": "04000, 90624, 91843, 91897, 92600, 96132, 96143, 96245, 96892",
-      "set_aside": "",
-      "posted_date": "2026-09-03",
-      "due_date": "2026-10-01",
-      "it_score": 50,
-      "is_new": false,
-      "first_seen": "2026-09-24",
-      "matched_keywords": []
-    },
-    {
       "id": "planetbids:15927:145799",
       "source_name": "PlanetBids — City of Irvine, CA",
       "title": "Paseo Westpark and San Remo Traffic Signal Modification, CIP 332003",
@@ -869,21 +821,21 @@
       "matched_keywords": []
     },
     {
-      "id": "planetbids:16151:143009",
-      "source_name": "PlanetBids — Santa Clara Valley Water District, CA",
-      "title": "Copper Basin Reservoir Discharge Valve Replacement",
-      "description": "1947",
-      "agency": "Santa Clara Valley Water District, CA",
+      "id": "planetbids:29959:145834",
+      "source_name": "PlanetBids — City of Santa Barbara, CA",
+      "title": "Raw Water Quality Study for the Charles E. Meyer Desalination Plant",
+      "description": "RFP No. 5142",
+      "agency": "City of Santa Barbara, CA",
       "state": "CA",
-      "url": "https://vendors.planetbids.com/portal/16151/bo/bo-detail/143009",
+      "url": "https://vendors.planetbids.com/portal/29959/bo/bo-detail/145834",
       "naics": "",
-      "psc": "34505, 90638, 91082, 91200, 91300, 91360, 91362, 91438, 92531, 92567, 92658, 93458, 93972, 95939, 96226",
+      "psc": "04000, 90624, 91843, 91897, 92600, 96132, 96143, 96245, 96892",
       "set_aside": "",
-      "posted_date": "2026-08-11",
-      "due_date": "2026-10-06",
+      "posted_date": "2026-09-03",
+      "due_date": "2026-10-08",
       "it_score": 50,
       "is_new": false,
-      "first_seen": "2026-08-12",
+      "first_seen": "2026-09-24",
       "matched_keywords": []
     },
     {
@@ -920,6 +872,24 @@
       "it_score": 50,
       "is_new": false,
       "first_seen": "2026-09-24",
+      "matched_keywords": []
+    },
+    {
+      "id": "planetbids:16151:143009",
+      "source_name": "PlanetBids — Santa Clara Valley Water District, CA",
+      "title": "Copper Basin Reservoir Discharge Valve Replacement",
+      "description": "1947",
+      "agency": "Santa Clara Valley Water District, CA",
+      "state": "CA",
+      "url": "https://vendors.planetbids.com/portal/16151/bo/bo-detail/143009",
+      "naics": "",
+      "psc": "34505, 90638, 91082, 91200, 91300, 91360, 91362, 91438, 92531, 92567, 92658, 93458, 93972, 95939, 96226",
+      "set_aside": "",
+      "posted_date": "2026-08-11",
+      "due_date": "2026-10-20",
+      "it_score": 50,
+      "is_new": false,
+      "first_seen": "2026-08-12",
       "matched_keywords": []
     },
     {
@@ -1173,26 +1143,6 @@
       ]
     },
     {
-      "id": "hf3r-utnq:232179",
-      "source_name": "Los Angeles County CA — RAMP Open Bids",
-      "title": "RFB-IS-27200205 - SUBSCRIPTION, LICENSE - 588889 - Closing: 10/7/2026 12:00 PM",
-      "description": "Commodity",
-      "agency": "Los Angeles County",
-      "state": "CA",
-      "url": "https://www.rampla.org/s/opportunity-details?id=006Ql00000m2hOdIAI",
-      "naics": "",
-      "psc": "",
-      "set_aside": "",
-      "posted_date": "2026-09-24",
-      "due_date": "2026-10-07",
-      "it_score": 36,
-      "is_new": false,
-      "first_seen": "2026-09-25",
-      "matched_keywords": [
-        "license"
-      ]
-    },
-    {
       "id": "hf3r-utnq:232178",
       "source_name": "Los Angeles County CA — RAMP Open Bids",
       "title": "RFB-IS-27200202 - 7903674-COMPUTER TABLETS - APPLE IPAD 11-INCH - BRAND SPECIF - Closing: 10/7/2026 12:00 PM",
@@ -1210,6 +1160,26 @@
       "first_seen": "2026-09-25",
       "matched_keywords": [
         "computer"
+      ]
+    },
+    {
+      "id": "hf3r-utnq:232179",
+      "source_name": "Los Angeles County CA — RAMP Open Bids",
+      "title": "RFB-IS-27200205 - SUBSCRIPTION, LICENSE - 588889 - Closing: 10/7/2026 12:00 PM",
+      "description": "Commodity",
+      "agency": "Los Angeles County",
+      "state": "CA",
+      "url": "https://www.rampla.org/s/opportunity-details?id=006Ql00000m2hOdIAI",
+      "naics": "",
+      "psc": "",
+      "set_aside": "",
+      "posted_date": "2026-09-24",
+      "due_date": "2026-10-07",
+      "it_score": 36,
+      "is_new": false,
+      "first_seen": "2026-09-25",
+      "matched_keywords": [
+        "license"
       ]
     },
     {
@@ -1246,7 +1216,7 @@
       "posted_date": "2026-09-28",
       "due_date": "2026-11-04",
       "it_score": 36,
-      "is_new": true,
+      "is_new": false,
       "first_seen": "2026-09-29",
       "matched_keywords": [
         "analytics"
