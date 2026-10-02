@@ -1004,6 +1004,9 @@
   "Los Angeles County CA \u2014 RAMP Open Bids::hf3r-utnq:232271": {
     "first_seen": "2026-10-01"
   },
+  "Los Angeles County CA \u2014 RAMP Open Bids::hf3r-utnq:232320": {
+    "first_seen": "2026-10-02"
+  },
   "Los Angeles County CA \u2014 RAMP Open Bids::hf3r-utnq:40831": {
     "first_seen": "2026-07-14"
   },
@@ -2897,11 +2900,17 @@
   "OpenGov \u2014 County of San Mateo, CA::opengov:smcgov:301948": {
     "first_seen": "2026-09-16"
   },
+  "OpenGov \u2014 County of San Mateo, CA::opengov:smcgov:303048": {
+    "first_seen": "2026-10-02"
+  },
   "OpenGov \u2014 County of San Mateo, CA::opengov:smcgov:303757": {
     "first_seen": "2026-09-16"
   },
   "OpenGov \u2014 County of San Mateo, CA::opengov:smcgov:304179": {
     "first_seen": "2026-09-26"
+  },
+  "OpenGov \u2014 County of San Mateo, CA::opengov:smcgov:309231": {
+    "first_seen": "2026-10-02"
   },
   "OpenGov \u2014 County of Santa Cruz, CA::opengov:santacruzcounty:287244": {
     "first_seen": "2026-09-16"
@@ -2996,6 +3005,9 @@
   "PlanetBids \u2014 City of Irvine, CA::planetbids:15927:145799": {
     "first_seen": "2026-09-24"
   },
+  "PlanetBids \u2014 City of Irvine, CA::planetbids:15927:146875": {
+    "first_seen": "2026-10-02"
+  },
   "PlanetBids \u2014 City of Newport Beach, CA::planetbids:22078:146791": {
     "first_seen": "2026-10-01"
   },
@@ -3019,6 +3031,9 @@
   },
   "PlanetBids \u2014 City of Santa Barbara, CA::planetbids:29959:145834": {
     "first_seen": "2026-09-24"
+  },
+  "PlanetBids \u2014 City of Santa Barbara, CA::planetbids:29959:146823": {
+    "first_seen": "2026-10-02"
   },
   "PlanetBids \u2014 Inland Empire Utilities Agency, CA::planetbids:27411:144238": {
     "first_seen": "2026-07-22"

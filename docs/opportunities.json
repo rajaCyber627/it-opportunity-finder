@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-10-01T12:14:02.298984+00:00",
+  "generated_at": "2026-10-02T12:12:17.134108+00:00",
   "counts": {
-    "total": 46,
-    "new": 3
+    "total": 47,
+    "new": 5
   },
   "health": {
     "ok": 22,
@@ -11,13 +11,13 @@
       {
         "source": "Montgomery County MD — Solicitations",
         "ok": true,
-        "count": 21,
+        "count": 19,
         "error": ""
       },
       {
         "source": "Los Angeles County CA — RAMP Open Bids",
         "ok": true,
-        "count": 223,
+        "count": 218,
         "error": ""
       },
       {
@@ -107,31 +107,31 @@
       {
         "source": "PlanetBids",
         "ok": true,
-        "count": 69,
+        "count": 70,
         "error": ""
       },
       {
         "source": "OpenGov",
         "ok": true,
-        "count": 183,
+        "count": 192,
         "error": ""
       },
       {
         "source": "Washington DC — Solicitations (PASS)",
         "ok": true,
-        "count": 21,
+        "count": 27,
         "error": ""
       },
       {
         "source": "BidNet Direct",
         "ok": true,
-        "count": 24,
+        "count": 25,
         "error": ""
       },
       {
         "source": "Biddingo",
         "ok": true,
-        "count": 21,
+        "count": 19,
         "error": ""
       },
       {
@@ -143,7 +143,7 @@
       {
         "source": "Bids&Tenders",
         "ok": true,
-        "count": 4,
+        "count": 3,
         "error": ""
       }
     ]
@@ -523,46 +523,6 @@
       ]
     },
     {
-      "id": "hf3r-utnq:232197",
-      "source_name": "Los Angeles County CA — RAMP Open Bids",
-      "title": "RFB-IS-27200208 - 2709005 - SOFTWARE- RENEWAL - JOLLY GIANT (BRAND ONLY) - Closing: 10/1/2026 12:00 PM",
-      "description": "Commodity",
-      "agency": "Los Angeles County",
-      "state": "CA",
-      "url": "https://www.rampla.org/s/opportunity-details?id=006Ql00000m6RGPIA2",
-      "naics": "",
-      "psc": "",
-      "set_aside": "",
-      "posted_date": "2026-09-25",
-      "due_date": "2026-10-01",
-      "it_score": 51,
-      "is_new": false,
-      "first_seen": "2026-09-26",
-      "matched_keywords": [
-        "software"
-      ]
-    },
-    {
-      "id": "eshn-8t3a:SFGOV~0000012113",
-      "source_name": "San Francisco CA — Open Bids",
-      "title": "OCA TTX | TM3 FY27 Adobe Software (Renewal)",
-      "description": "Seeking Bids",
-      "agency": "Office of Contract Administration",
-      "state": "CA",
-      "url": "https://sfcitypartner.sfgov.org/pages/Events-BS3/event-details.aspx?Page=AUC_RESP_INQ_DTL&Action=U&AUC_ID=0000012113&AUC_ROUND=1&AUC_VERSION=1&BIDDER_ID=0000000001&BIDDER_LOC=1&BIDDER_SETID=SHARE&BIDDER_TYPE=B&BUSINESS_UNIT=SFGOV",
-      "naics": "",
-      "psc": "",
-      "set_aside": "",
-      "posted_date": "2026-09-24",
-      "due_date": "2026-10-01",
-      "it_score": 51,
-      "is_new": false,
-      "first_seen": "2026-09-28",
-      "matched_keywords": [
-        "software"
-      ]
-    },
-    {
       "id": "hf3r-utnq:232158",
       "source_name": "Los Angeles County CA — RAMP Open Bids",
       "title": "RFB-IS-27200201 - O2713755 SOFTWARE - MAINTENANCE - ANNUAL RENEWAL - NUTANIX - Closing: 10/6/2026 12:00 PM",
@@ -636,8 +596,28 @@
       "posted_date": "2026-09-30",
       "due_date": "2026-10-14",
       "it_score": 51,
-      "is_new": true,
+      "is_new": false,
       "first_seen": "2026-10-01",
+      "matched_keywords": [
+        "software"
+      ]
+    },
+    {
+      "id": "opengov:smcgov:303048",
+      "source_name": "OpenGov — County of San Mateo, CA",
+      "title": "NCRIC Analyst Notebook 2026-2027 Annual Renewal",
+      "description": "NCRIC is seeking quotes for annual renewal of our i2 Analyst Notebook software subscription. Quotes should be for i2 Analyst Notebook, concurrent user license, one year term (12/1/2026 - 11/30/2027), for a quantity of seven concurrent users. Please complete the Pricing Bid Table in section 3 and please also upload your competitive quotation including accurate lead times as well as any applicable freight and delivery costs for the items listed. Cost, conformity to specifications of goods, and product availability will be considered. After an evaluation of all quotations, a County purchase order is expected to be issued in association with the lowest, responsive bid received from a qualified, responsible, and manufacturer/publisher authorized vendor.",
+      "agency": "County of San Mateo",
+      "state": "CA",
+      "url": "https://procurement.opengov.com/portal/smcgov/projects/303048",
+      "naics": "",
+      "psc": "",
+      "set_aside": "",
+      "posted_date": "2026-09-14",
+      "due_date": "2026-10-17",
+      "it_score": 51,
+      "is_new": true,
+      "first_seen": "2026-10-02",
       "matched_keywords": [
         "software"
       ]
@@ -743,6 +723,26 @@
       ]
     },
     {
+      "id": "opengov:smcgov:309231",
+      "source_name": "OpenGov — County of San Mateo, CA",
+      "title": "Domain Transition and Implementation Services RFP",
+      "description": "The County of San Mateo (County) Technology Services Department (TSD) is seeking proposals from qualified contractors to fully transition the County from our current smcgov.org domain name to a .gov domain name in compliance with California Assembly Bill 1637 requiring all local agencies to adopt a .gov domain name for public websites and email addresses no later than January 1, 2029. This technical migration encompasses all County website domains and subdomains, email, Domain Name Systems (DNS), TSD owned and managed enterprise applications connected to Okta and Active Directory for authentication, enterprise platforms, and identifying departmental applications countywide impacted by this domain name transition.",
+      "agency": "County of San Mateo",
+      "state": "CA",
+      "url": "https://procurement.opengov.com/portal/smcgov/projects/309231",
+      "naics": "",
+      "psc": "",
+      "set_aside": "TSD-20271940",
+      "posted_date": "2026-09-28",
+      "due_date": "2026-11-04",
+      "it_score": 51,
+      "is_new": true,
+      "first_seen": "2026-10-02",
+      "matched_keywords": [
+        "migration"
+      ]
+    },
+    {
       "id": "knjg-wn2a:0522",
       "source_name": "Oregon — Active Statewide Price Agreements",
       "title": "Satellite Phones, Services and Additional Software and Equipment",
@@ -814,7 +814,7 @@
       "psc": "91066, 91200, 91240, 91300, 91350, 91382, 91396, 91400, 91430, 96882, 96883",
       "set_aside": "",
       "posted_date": "2026-09-02",
-      "due_date": "2026-10-01",
+      "due_date": "2026-10-06",
       "it_score": 50,
       "is_new": false,
       "first_seen": "2026-09-24",
@@ -906,7 +906,7 @@
       "posted_date": "2026-09-30",
       "due_date": "2026-10-21",
       "it_score": 50,
-      "is_new": true,
+      "is_new": false,
       "first_seen": "2026-10-01",
       "matched_keywords": []
     },
@@ -947,6 +947,24 @@
       "matched_keywords": []
     },
     {
+      "id": "planetbids:15927:146875",
+      "source_name": "PlanetBids — City of Irvine, CA",
+      "title": "Pre-Qualification of Bidders - Public Works Bid (Irvine Gateway Recreation Amenity Center Project)",
+      "description": "ST-26-0055",
+      "agency": "City of Irvine, CA",
+      "state": "CA",
+      "url": "https://vendors.planetbids.com/portal/15927/bo/bo-detail/146875",
+      "naics": "",
+      "psc": "90672, 90922, 91200, 91233, 91438",
+      "set_aside": "",
+      "posted_date": "2026-10-01",
+      "due_date": "2026-10-22",
+      "it_score": 50,
+      "is_new": true,
+      "first_seen": "2026-10-02",
+      "matched_keywords": []
+    },
+    {
       "id": "planetbids:16151:144554",
       "source_name": "PlanetBids — Santa Clara Valley Water District, CA",
       "title": "Inland Feeder/San Bernardino Valley Municipal Water District (SBVMWD) Foothill Pump Station Intertie, Stage 1",
@@ -962,6 +980,24 @@
       "it_score": 50,
       "is_new": false,
       "first_seen": "2026-08-05",
+      "matched_keywords": []
+    },
+    {
+      "id": "planetbids:29959:146823",
+      "source_name": "PlanetBids — City of Santa Barbara, CA",
+      "title": "Comprehensive Water and Wastewater Rate Studies",
+      "description": "RFP No. 5143",
+      "agency": "City of Santa Barbara, CA",
+      "state": "CA",
+      "url": "https://vendors.planetbids.com/portal/29959/bo/bo-detail/146823",
+      "naics": "",
+      "psc": "91800, 91812, 91843, 91849, 91855, 91897",
+      "set_aside": "",
+      "posted_date": "2026-10-01",
+      "due_date": "2026-10-28",
+      "it_score": 50,
+      "is_new": true,
+      "first_seen": "2026-10-02",
       "matched_keywords": []
     },
     {
@@ -1014,49 +1050,9 @@
       "posted_date": "2026-09-30",
       "due_date": "2026-11-17",
       "it_score": 50,
-      "is_new": true,
+      "is_new": false,
       "first_seen": "2026-10-01",
       "matched_keywords": []
-    },
-    {
-      "id": "eeq6-nnwe:1201278",
-      "source_name": "Montgomery County MD — Solicitations",
-      "title": "The International Code Compliance (ICC) Digital / Electronic Subscriptions for Code Books for an Enterprise Organization",
-      "description": "The International Code Compliance (ICC) Digital / Electronic Subscriptions for Code Books for an Enterprise Organization",
-      "agency": "Department of Permitting Services",
-      "state": "MD",
-      "url": "https://www.montgomerycountymd.gov/office-procurement/solicitations-contracts",
-      "naics": "",
-      "psc": "",
-      "set_aside": "N",
-      "posted_date": "2026-09-24",
-      "due_date": "2026-10-01",
-      "it_score": 36,
-      "is_new": false,
-      "first_seen": "2026-09-10",
-      "matched_keywords": [
-        "digital"
-      ]
-    },
-    {
-      "id": "eeq6-nnwe:1201279",
-      "source_name": "Montgomery County MD — Solicitations",
-      "title": "National Fire Protection Association (NFPA) Digital / Electronic Subscription of Code Books for an Enterprise Organization",
-      "description": "National Fire Protection Association (NFPA) Digital / Electronic Subscription of Code Books for an Enterprise Organization",
-      "agency": "Department of Permitting Services",
-      "state": "MD",
-      "url": "https://www.montgomerycountymd.gov/office-procurement/solicitations-contracts",
-      "naics": "",
-      "psc": "",
-      "set_aside": "N",
-      "posted_date": "2026-09-24",
-      "due_date": "2026-10-01",
-      "it_score": 36,
-      "is_new": false,
-      "first_seen": "2026-09-10",
-      "matched_keywords": [
-        "digital"
-      ]
     },
     {
       "id": "hf3r-utnq:232099",
@@ -1176,6 +1172,26 @@
       "first_seen": "2026-09-29",
       "matched_keywords": [
         "analytics"
+      ]
+    },
+    {
+      "id": "hf3r-utnq:232320",
+      "source_name": "Los Angeles County CA — RAMP Open Bids",
+      "title": "Managed Information Technology Services",
+      "description": "Personal Services",
+      "agency": "Housing Authority, City of Los Angeles",
+      "state": "CA",
+      "url": "https://www.rampla.org/s/opportunity-details?id=006Ql00000mPfFeIAK",
+      "naics": "",
+      "psc": "",
+      "set_aside": "",
+      "posted_date": "2026-10-01",
+      "due_date": "2026-11-16",
+      "it_score": 36,
+      "is_new": true,
+      "first_seen": "2026-10-02",
+      "matched_keywords": [
+        "information technology"
       ]
     },
     {
