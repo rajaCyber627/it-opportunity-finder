@@ -2489,6 +2489,9 @@
   "OpenGov \u2014 County of Alameda, CA::opengov:acgov:299990": {
     "first_seen": "2026-09-04"
   },
+  "OpenGov \u2014 County of Alameda, CA::opengov:acgov:306819": {
+    "first_seen": "2026-10-03"
+  },
   "OpenGov \u2014 County of Orange, CA::opengov:ocgov:218774": {
     "first_seen": "2026-08-11"
   },
@@ -2911,6 +2914,9 @@
   },
   "OpenGov \u2014 County of San Mateo, CA::opengov:smcgov:309231": {
     "first_seen": "2026-10-02"
+  },
+  "OpenGov \u2014 County of San Mateo, CA::opengov:smcgov:309506": {
+    "first_seen": "2026-10-03"
   },
   "OpenGov \u2014 County of Santa Cruz, CA::opengov:santacruzcounty:287244": {
     "first_seen": "2026-09-16"

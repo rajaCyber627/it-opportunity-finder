@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-10-02T12:12:17.134108+00:00",
+  "generated_at": "2026-10-03T14:56:25.972769+00:00",
   "counts": {
     "total": 47,
-    "new": 5
+    "new": 2
   },
   "health": {
     "ok": 22,
@@ -11,13 +11,13 @@
       {
         "source": "Montgomery County MD — Solicitations",
         "ok": true,
-        "count": 19,
+        "count": 18,
         "error": ""
       },
       {
         "source": "Los Angeles County CA — RAMP Open Bids",
         "ok": true,
-        "count": 218,
+        "count": 224,
         "error": ""
       },
       {
@@ -107,25 +107,25 @@
       {
         "source": "PlanetBids",
         "ok": true,
-        "count": 70,
+        "count": 72,
         "error": ""
       },
       {
         "source": "OpenGov",
         "ok": true,
-        "count": 192,
+        "count": 190,
         "error": ""
       },
       {
         "source": "Washington DC — Solicitations (PASS)",
         "ok": true,
-        "count": 27,
+        "count": 29,
         "error": ""
       },
       {
         "source": "BidNet Direct",
         "ok": true,
-        "count": 25,
+        "count": 24,
         "error": ""
       },
       {
@@ -137,7 +137,7 @@
       {
         "source": "Bonfire",
         "ok": true,
-        "count": 6,
+        "count": 7,
         "error": ""
       },
       {
@@ -149,45 +149,6 @@
     ]
   },
   "product_themes": [
-    {
-      "name": "Permitting & Licensing",
-      "opportunity_count": 3,
-      "agency_count": 2,
-      "state_count": 1,
-      "states": [
-        "CA"
-      ],
-      "demand_score": 7,
-      "examples": [
-        {
-          "title": "OCA DT | TM3 - Cybeready Software License Renewal",
-          "agency": "Office of Contract Administration",
-          "state": "CA",
-          "url": "https://sfcitypartner.sfgov.org/pages/Events-BS3/event-details.aspx?Page=AUC_RESP_INQ_DTL&Action=U&AUC_ID=0000012116&AUC_ROUND=1&AUC_VERSION=1&BIDDER_ID=0000000001&BIDDER_LOC=1&BIDDER_SETID=SHARE&BIDDER_TYPE=B&BUSINESS_UNIT=SFGOV",
-          "due_date": "2026-10-02",
-          "it_score": 57,
-          "source_name": "San Francisco CA — Open Bids"
-        },
-        {
-          "title": "RFB-IS-27200194 - SOFTWARE LICENSE - RENEWAL - PRINTERLOGIC - BRAND SPECIFIC - Closing: 10/7/2026 12:00 PM",
-          "agency": "Los Angeles County",
-          "state": "CA",
-          "url": "https://www.rampla.org/s/opportunity-details?id=006Ql00000lvsANIAY",
-          "due_date": "2026-10-07",
-          "it_score": 57,
-          "source_name": "Los Angeles County CA — RAMP Open Bids"
-        },
-        {
-          "title": "RFB-IS-27200205 - SUBSCRIPTION, LICENSE - 588889 - Closing: 10/7/2026 12:00 PM",
-          "agency": "Los Angeles County",
-          "state": "CA",
-          "url": "https://www.rampla.org/s/opportunity-details?id=006Ql00000m2hOdIAI",
-          "due_date": "2026-10-07",
-          "it_score": 36,
-          "source_name": "Los Angeles County CA — RAMP Open Bids"
-        }
-      ]
-    },
     {
       "name": "Records & Document Management (ECM)",
       "opportunity_count": 2,
@@ -213,36 +174,6 @@
           "state": "CA",
           "url": "https://www.rampla.org/s/opportunity-details?id=006Ql00000c2b0oIAA",
           "due_date": "2028-04-01",
-          "it_score": 36,
-          "source_name": "Los Angeles County CA — RAMP Open Bids"
-        }
-      ]
-    },
-    {
-      "name": "Data / Analytics / Dashboards",
-      "opportunity_count": 2,
-      "agency_count": 2,
-      "state_count": 1,
-      "states": [
-        "CA"
-      ],
-      "demand_score": 7,
-      "examples": [
-        {
-          "title": "RFB-IS-27200191 - 709521 - NETWORKING - DATA MANAGEMENT - FALCONSTOR STORSAFE - Closing: 10/2/2026 12:00 PM",
-          "agency": "Los Angeles County",
-          "state": "CA",
-          "url": "https://www.rampla.org/s/opportunity-details?id=006Ql00000loViKIAU",
-          "due_date": "2026-10-02",
-          "it_score": 36,
-          "source_name": "Los Angeles County CA — RAMP Open Bids"
-        },
-        {
-          "title": "TOS CC-104 Multi-Location Near Miss and Street Safety Analytics Study for School Safety",
-          "agency": "Transportation",
-          "state": "CA",
-          "url": "https://www.rampla.org/s/opportunity-details?id=006Ql00000ZrchJIAR",
-          "due_date": "2026-11-04",
           "it_score": 36,
           "source_name": "Los Angeles County CA — RAMP Open Bids"
         }
@@ -394,27 +325,6 @@
         "software",
         "cloud",
         "saas"
-      ]
-    },
-    {
-      "id": "eshn-8t3a:SFGOV~0000012116",
-      "source_name": "San Francisco CA — Open Bids",
-      "title": "OCA DT | TM3 - Cybeready Software License Renewal",
-      "description": "Seeking Bids",
-      "agency": "Office of Contract Administration",
-      "state": "CA",
-      "url": "https://sfcitypartner.sfgov.org/pages/Events-BS3/event-details.aspx?Page=AUC_RESP_INQ_DTL&Action=U&AUC_ID=0000012116&AUC_ROUND=1&AUC_VERSION=1&BIDDER_ID=0000000001&BIDDER_LOC=1&BIDDER_SETID=SHARE&BIDDER_TYPE=B&BUSINESS_UNIT=SFGOV",
-      "naics": "",
-      "psc": "",
-      "set_aside": "",
-      "posted_date": "2026-09-25",
-      "due_date": "2026-10-02",
-      "it_score": 57,
-      "is_new": false,
-      "first_seen": "2026-09-28",
-      "matched_keywords": [
-        "software",
-        "license"
       ]
     },
     {
@@ -603,6 +513,26 @@
       ]
     },
     {
+      "id": "opengov:smcgov:309506",
+      "source_name": "OpenGov — County of San Mateo, CA",
+      "title": "Invasive Species Management for Shaded Fuel Break Maintenance (Memorial County Park & Sam McDonald County Park)",
+      "description": "The County of San Mateo (“County”) covers most of the San Francisco Peninsula. The region covers 744 mi 2 and is home to approximately 750,000 residents. The County is made up of 20 incorporated cities. The County provides for the health and welfare of all people within its borders and serves as the local government for the unincorporated areas. Innovation thrives here in industries including bioscience, computer software, green technology, hospitality, financial management, health care, education, and transportation. The County prides itself on how that prosperity fosters its commitment to protecting and enhancing the health, safety, welfare, and natural resources of the community. The San Mateo County Parks Department (“Department”) serves nearly three million visitors every year. Visitors have many options when visiting the County’s unique park system. With 24 parks and recreation areas, over 16,000 acres of park land, and 190 miles of trails, the Department provides healthy outdoor activities, educational opportunities, and lasting memories. Due to the diversity of the park system, visitors can enjoy an array of recreational opportunities, including walking; running; hiking; picnicking; horseback riding; kite surfing; fishing; camping; gardening; tide pooling; volunteering; learning; sports courts; and playing on playgrounds.",
+      "agency": "County of San Mateo",
+      "state": "CA",
+      "url": "https://procurement.opengov.com/portal/smcgov/projects/309506",
+      "naics": "",
+      "psc": "",
+      "set_aside": "MCP_SMP_Maintenance_InvasiveSpp_2026",
+      "posted_date": "2026-09-28",
+      "due_date": "2026-10-16",
+      "it_score": 51,
+      "is_new": true,
+      "first_seen": "2026-10-03",
+      "matched_keywords": [
+        "software"
+      ]
+    },
+    {
       "id": "opengov:smcgov:303048",
       "source_name": "OpenGov — County of San Mateo, CA",
       "title": "NCRIC Analyst Notebook 2026-2027 Annual Renewal",
@@ -616,7 +546,7 @@
       "posted_date": "2026-09-14",
       "due_date": "2026-10-17",
       "it_score": 51,
-      "is_new": true,
+      "is_new": false,
       "first_seen": "2026-10-02",
       "matched_keywords": [
         "software"
@@ -736,10 +666,30 @@
       "posted_date": "2026-09-28",
       "due_date": "2026-11-04",
       "it_score": 51,
-      "is_new": true,
+      "is_new": false,
       "first_seen": "2026-10-02",
       "matched_keywords": [
         "migration"
+      ]
+    },
+    {
+      "id": "opengov:acgov:306819",
+      "source_name": "OpenGov — County of Alameda, CA",
+      "title": "RFP 902787 Elevator Condition Assessment & Modernization Plan",
+      "description": "It is the intent of these specifications, terms, and conditions to describe elevator condition assessment and modernization plan services for the elevators at several County buildings being requested by the County. The County intends to award a three (3) year contract (with the option to renew for two [2] years) to the Bidder selected as the most responsive and responsible Bidder whose response conforms to the RFP and meets the County’s requirements.",
+      "agency": "County of Alameda, CA",
+      "state": "CA",
+      "url": "https://procurement.opengov.com/portal/acgov/projects/306819",
+      "naics": "",
+      "psc": "",
+      "set_aside": "902787",
+      "posted_date": "2026-09-23",
+      "due_date": "2026-11-17",
+      "it_score": 51,
+      "is_new": true,
+      "first_seen": "2026-10-03",
+      "matched_keywords": [
+        "modernization"
       ]
     },
     {
@@ -960,7 +910,7 @@
       "posted_date": "2026-10-01",
       "due_date": "2026-10-22",
       "it_score": 50,
-      "is_new": true,
+      "is_new": false,
       "first_seen": "2026-10-02",
       "matched_keywords": []
     },
@@ -996,7 +946,7 @@
       "posted_date": "2026-10-01",
       "due_date": "2026-10-28",
       "it_score": 50,
-      "is_new": true,
+      "is_new": false,
       "first_seen": "2026-10-02",
       "matched_keywords": []
     },
@@ -1053,26 +1003,6 @@
       "is_new": false,
       "first_seen": "2026-10-01",
       "matched_keywords": []
-    },
-    {
-      "id": "hf3r-utnq:232099",
-      "source_name": "Los Angeles County CA — RAMP Open Bids",
-      "title": "RFB-IS-27200191 - 709521 - NETWORKING - DATA MANAGEMENT - FALCONSTOR STORSAFE - Closing: 10/2/2026 12:00 PM",
-      "description": "Commodity",
-      "agency": "Los Angeles County",
-      "state": "CA",
-      "url": "https://www.rampla.org/s/opportunity-details?id=006Ql00000loViKIAU",
-      "naics": "",
-      "psc": "",
-      "set_aside": "",
-      "posted_date": "2026-09-19",
-      "due_date": "2026-10-02",
-      "it_score": 36,
-      "is_new": false,
-      "first_seen": "2026-09-23",
-      "matched_keywords": [
-        "data"
-      ]
     },
     {
       "id": "hf3r-utnq:231831",
@@ -1188,7 +1118,7 @@
       "posted_date": "2026-10-01",
       "due_date": "2026-11-16",
       "it_score": 36,
-      "is_new": true,
+      "is_new": false,
       "first_seen": "2026-10-02",
       "matched_keywords": [
         "information technology"
