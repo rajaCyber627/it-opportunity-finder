@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-10-04T18:13:07.436473+00:00",
+  "generated_at": "2026-10-05T12:13:55.113760+00:00",
   "counts": {
-    "total": 47,
-    "new": 0
+    "total": 49,
+    "new": 2
   },
   "health": {
-    "ok": 22,
+    "ok": 21,
     "total": 23,
     "sources": [
       {
@@ -23,7 +23,7 @@
       {
         "source": "San Francisco CA — Open Bids",
         "ok": true,
-        "count": 44,
+        "count": 47,
         "error": ""
       },
       {
@@ -142,13 +142,52 @@
       },
       {
         "source": "Bids&Tenders",
-        "ok": true,
-        "count": 3,
-        "error": ""
+        "ok": false,
+        "count": 0,
+        "error": "Error: Page.goto: net::ERR_CERT_DATE_INVALID at https://placer.bidsandtenders.net/Module/Tenders/en\nCall log:\n  - navigating to \"https://placer.bidsandtenders.net/Module/Tenders/en\", waiting until \"networkidle\"\n"
       }
     ]
   },
   "product_themes": [
+    {
+      "name": "Permitting & Licensing",
+      "opportunity_count": 3,
+      "agency_count": 2,
+      "state_count": 1,
+      "states": [
+        "CA"
+      ],
+      "demand_score": 7,
+      "examples": [
+        {
+          "title": "OCA HSA | TM3 –Checkpoint Software License Renewal",
+          "agency": "Office of Contract Administration",
+          "state": "CA",
+          "url": "https://sfcitypartner.sfgov.org/pages/Events-BS3/event-details.aspx?Page=AUC_RESP_INQ_DTL&Action=U&AUC_ID=0000012121&AUC_ROUND=1&AUC_VERSION=1&BIDDER_ID=0000000001&BIDDER_LOC=1&BIDDER_SETID=SHARE&BIDDER_TYPE=B&BUSINESS_UNIT=SFGOV",
+          "due_date": "2026-10-05",
+          "it_score": 57,
+          "source_name": "San Francisco CA — Open Bids"
+        },
+        {
+          "title": "RFB-IS-27200194 - SOFTWARE LICENSE - RENEWAL - PRINTERLOGIC - BRAND SPECIFIC - Closing: 10/7/2026 12:00 PM",
+          "agency": "Los Angeles County",
+          "state": "CA",
+          "url": "https://www.rampla.org/s/opportunity-details?id=006Ql00000lvsANIAY",
+          "due_date": "2026-10-07",
+          "it_score": 57,
+          "source_name": "Los Angeles County CA — RAMP Open Bids"
+        },
+        {
+          "title": "RFB-IS-27200205 - SUBSCRIPTION, LICENSE - 588889 - Closing: 10/7/2026 12:00 PM",
+          "agency": "Los Angeles County",
+          "state": "CA",
+          "url": "https://www.rampla.org/s/opportunity-details?id=006Ql00000m2hOdIAI",
+          "due_date": "2026-10-07",
+          "it_score": 36,
+          "source_name": "Los Angeles County CA — RAMP Open Bids"
+        }
+      ]
+    },
     {
       "name": "Records & Document Management (ECM)",
       "opportunity_count": 2,
@@ -328,6 +367,27 @@
       ]
     },
     {
+      "id": "eshn-8t3a:SFGOV~0000012121",
+      "source_name": "San Francisco CA — Open Bids",
+      "title": "OCA HSA | TM3 –Checkpoint Software License Renewal",
+      "description": "Seeking Bids",
+      "agency": "Office of Contract Administration",
+      "state": "CA",
+      "url": "https://sfcitypartner.sfgov.org/pages/Events-BS3/event-details.aspx?Page=AUC_RESP_INQ_DTL&Action=U&AUC_ID=0000012121&AUC_ROUND=1&AUC_VERSION=1&BIDDER_ID=0000000001&BIDDER_LOC=1&BIDDER_SETID=SHARE&BIDDER_TYPE=B&BUSINESS_UNIT=SFGOV",
+      "naics": "",
+      "psc": "",
+      "set_aside": "",
+      "posted_date": "2026-09-28",
+      "due_date": "2026-10-05",
+      "it_score": 57,
+      "is_new": true,
+      "first_seen": "2026-10-05",
+      "matched_keywords": [
+        "software",
+        "license"
+      ]
+    },
+    {
       "id": "hf3r-utnq:232140",
       "source_name": "Los Angeles County CA — RAMP Open Bids",
       "title": "RFB-IS-27200194 - SOFTWARE LICENSE - RENEWAL - PRINTERLOGIC - BRAND SPECIFIC - Closing: 10/7/2026 12:00 PM",
@@ -448,6 +508,26 @@
       "it_score": 51,
       "is_new": false,
       "first_seen": "2026-09-23",
+      "matched_keywords": [
+        "software"
+      ]
+    },
+    {
+      "id": "eshn-8t3a:SFGOV~0000012129",
+      "source_name": "San Francisco CA — Open Bids",
+      "title": "OCA DT | TM3 EMMA SOFTWARE SUBSCRIPTION RENEWAL",
+      "description": "Seeking Bids",
+      "agency": "Office of Contract Administration",
+      "state": "CA",
+      "url": "https://sfcitypartner.sfgov.org/pages/Events-BS3/event-details.aspx?Page=AUC_RESP_INQ_DTL&Action=U&AUC_ID=0000012129&AUC_ROUND=1&AUC_VERSION=1&BIDDER_ID=0000000001&BIDDER_LOC=1&BIDDER_SETID=SHARE&BIDDER_TYPE=B&BUSINESS_UNIT=SFGOV",
+      "naics": "",
+      "psc": "",
+      "set_aside": "",
+      "posted_date": "2026-10-01",
+      "due_date": "2026-10-08",
+      "it_score": 51,
+      "is_new": true,
+      "first_seen": "2026-10-05",
       "matched_keywords": [
         "software"
       ]
