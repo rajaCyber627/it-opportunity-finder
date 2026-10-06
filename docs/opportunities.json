@@ -1,23 +1,23 @@
 {
-  "generated_at": "2026-10-05T12:13:55.113760+00:00",
+  "generated_at": "2026-10-06T12:12:34.260222+00:00",
   "counts": {
     "total": 49,
-    "new": 2
+    "new": 1
   },
   "health": {
-    "ok": 21,
+    "ok": 22,
     "total": 23,
     "sources": [
       {
         "source": "Montgomery County MD — Solicitations",
         "ok": true,
-        "count": 18,
+        "count": 16,
         "error": ""
       },
       {
         "source": "Los Angeles County CA — RAMP Open Bids",
         "ok": true,
-        "count": 226,
+        "count": 232,
         "error": ""
       },
       {
@@ -107,13 +107,13 @@
       {
         "source": "PlanetBids",
         "ok": true,
-        "count": 72,
+        "count": 73,
         "error": ""
       },
       {
         "source": "OpenGov",
         "ok": true,
-        "count": 190,
+        "count": 192,
         "error": ""
       },
       {
@@ -131,7 +131,7 @@
       {
         "source": "Biddingo",
         "ok": true,
-        "count": 19,
+        "count": 20,
         "error": ""
       },
       {
@@ -142,52 +142,13 @@
       },
       {
         "source": "Bids&Tenders",
-        "ok": false,
-        "count": 0,
-        "error": "Error: Page.goto: net::ERR_CERT_DATE_INVALID at https://placer.bidsandtenders.net/Module/Tenders/en\nCall log:\n  - navigating to \"https://placer.bidsandtenders.net/Module/Tenders/en\", waiting until \"networkidle\"\n"
+        "ok": true,
+        "count": 2,
+        "error": ""
       }
     ]
   },
   "product_themes": [
-    {
-      "name": "Permitting & Licensing",
-      "opportunity_count": 3,
-      "agency_count": 2,
-      "state_count": 1,
-      "states": [
-        "CA"
-      ],
-      "demand_score": 7,
-      "examples": [
-        {
-          "title": "OCA HSA | TM3 –Checkpoint Software License Renewal",
-          "agency": "Office of Contract Administration",
-          "state": "CA",
-          "url": "https://sfcitypartner.sfgov.org/pages/Events-BS3/event-details.aspx?Page=AUC_RESP_INQ_DTL&Action=U&AUC_ID=0000012121&AUC_ROUND=1&AUC_VERSION=1&BIDDER_ID=0000000001&BIDDER_LOC=1&BIDDER_SETID=SHARE&BIDDER_TYPE=B&BUSINESS_UNIT=SFGOV",
-          "due_date": "2026-10-05",
-          "it_score": 57,
-          "source_name": "San Francisco CA — Open Bids"
-        },
-        {
-          "title": "RFB-IS-27200194 - SOFTWARE LICENSE - RENEWAL - PRINTERLOGIC - BRAND SPECIFIC - Closing: 10/7/2026 12:00 PM",
-          "agency": "Los Angeles County",
-          "state": "CA",
-          "url": "https://www.rampla.org/s/opportunity-details?id=006Ql00000lvsANIAY",
-          "due_date": "2026-10-07",
-          "it_score": 57,
-          "source_name": "Los Angeles County CA — RAMP Open Bids"
-        },
-        {
-          "title": "RFB-IS-27200205 - SUBSCRIPTION, LICENSE - 588889 - Closing: 10/7/2026 12:00 PM",
-          "agency": "Los Angeles County",
-          "state": "CA",
-          "url": "https://www.rampla.org/s/opportunity-details?id=006Ql00000m2hOdIAI",
-          "due_date": "2026-10-07",
-          "it_score": 36,
-          "source_name": "Los Angeles County CA — RAMP Open Bids"
-        }
-      ]
-    },
     {
       "name": "Records & Document Management (ECM)",
       "opportunity_count": 2,
@@ -367,27 +328,6 @@
       ]
     },
     {
-      "id": "eshn-8t3a:SFGOV~0000012121",
-      "source_name": "San Francisco CA — Open Bids",
-      "title": "OCA HSA | TM3 –Checkpoint Software License Renewal",
-      "description": "Seeking Bids",
-      "agency": "Office of Contract Administration",
-      "state": "CA",
-      "url": "https://sfcitypartner.sfgov.org/pages/Events-BS3/event-details.aspx?Page=AUC_RESP_INQ_DTL&Action=U&AUC_ID=0000012121&AUC_ROUND=1&AUC_VERSION=1&BIDDER_ID=0000000001&BIDDER_LOC=1&BIDDER_SETID=SHARE&BIDDER_TYPE=B&BUSINESS_UNIT=SFGOV",
-      "naics": "",
-      "psc": "",
-      "set_aside": "",
-      "posted_date": "2026-09-28",
-      "due_date": "2026-10-05",
-      "it_score": 57,
-      "is_new": true,
-      "first_seen": "2026-10-05",
-      "matched_keywords": [
-        "software",
-        "license"
-      ]
-    },
-    {
       "id": "hf3r-utnq:232140",
       "source_name": "Los Angeles County CA — RAMP Open Bids",
       "title": "RFB-IS-27200194 - SOFTWARE LICENSE - RENEWAL - PRINTERLOGIC - BRAND SPECIFIC - Closing: 10/7/2026 12:00 PM",
@@ -526,7 +466,7 @@
       "posted_date": "2026-10-01",
       "due_date": "2026-10-08",
       "it_score": 51,
-      "is_new": true,
+      "is_new": false,
       "first_seen": "2026-10-05",
       "matched_keywords": [
         "software"
@@ -1105,6 +1045,26 @@
       ]
     },
     {
+      "id": "hf3r-utnq:232178",
+      "source_name": "Los Angeles County CA — RAMP Open Bids",
+      "title": "RFB-IS-27200202 - 7903674-COMPUTER TABLETS - APPLE IPAD 11-INCH - BRAND SPECIF - Closing: 10/7/2026 12:00 PM",
+      "description": "Commodity",
+      "agency": "Los Angeles County",
+      "state": "CA",
+      "url": "https://www.rampla.org/s/opportunity-details?id=006Ql00000m2hOcIAI",
+      "naics": "",
+      "psc": "",
+      "set_aside": "",
+      "posted_date": "2026-09-24",
+      "due_date": "2026-10-07",
+      "it_score": 36,
+      "is_new": false,
+      "first_seen": "2026-09-25",
+      "matched_keywords": [
+        "computer"
+      ]
+    },
+    {
       "id": "hf3r-utnq:232179",
       "source_name": "Los Angeles County CA — RAMP Open Bids",
       "title": "RFB-IS-27200205 - SUBSCRIPTION, LICENSE - 588889 - Closing: 10/7/2026 12:00 PM",
@@ -1125,23 +1085,23 @@
       ]
     },
     {
-      "id": "hf3r-utnq:232178",
+      "id": "hf3r-utnq:232353",
       "source_name": "Los Angeles County CA — RAMP Open Bids",
-      "title": "RFB-IS-27200202 - 7903674-COMPUTER TABLETS - APPLE IPAD 11-INCH - BRAND SPECIF - Closing: 10/7/2026 12:00 PM",
-      "description": "Commodity",
-      "agency": "Los Angeles County",
+      "title": "Bench IT Services TOS 2026ITB018",
+      "description": "Personal Services",
+      "agency": "Building and Safety",
       "state": "CA",
-      "url": "https://www.rampla.org/s/opportunity-details?id=006Ql00000m2hOcIAI",
+      "url": "https://www.rampla.org/s/opportunity-details?id=006Ql00000mTMnvIAG",
       "naics": "",
       "psc": "",
       "set_aside": "",
-      "posted_date": "2026-09-24",
-      "due_date": "2026-10-07",
+      "posted_date": "2026-10-05",
+      "due_date": "2026-10-15",
       "it_score": 36,
-      "is_new": false,
-      "first_seen": "2026-09-25",
+      "is_new": true,
+      "first_seen": "2026-10-06",
       "matched_keywords": [
-        "computer"
+        "it services"
       ]
     },
     {
