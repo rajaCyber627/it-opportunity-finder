@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-10-06T12:12:34.260222+00:00",
+  "generated_at": "2026-10-07T12:14:16.773431+00:00",
   "counts": {
-    "total": 49,
-    "new": 1
+    "total": 46,
+    "new": 0
   },
   "health": {
     "ok": 22,
@@ -11,13 +11,13 @@
       {
         "source": "Montgomery County MD — Solicitations",
         "ok": true,
-        "count": 16,
+        "count": 17,
         "error": ""
       },
       {
         "source": "Los Angeles County CA — RAMP Open Bids",
         "ok": true,
-        "count": 232,
+        "count": 223,
         "error": ""
       },
       {
@@ -59,7 +59,7 @@
       {
         "source": "Texas DOT — Plan Holders (Open Lettings)",
         "ok": true,
-        "count": 500,
+        "count": 492,
         "error": ""
       },
       {
@@ -107,25 +107,25 @@
       {
         "source": "PlanetBids",
         "ok": true,
-        "count": 73,
+        "count": 67,
         "error": ""
       },
       {
         "source": "OpenGov",
         "ok": true,
-        "count": 192,
+        "count": 195,
         "error": ""
       },
       {
         "source": "Washington DC — Solicitations (PASS)",
         "ok": true,
-        "count": 29,
+        "count": 25,
         "error": ""
       },
       {
         "source": "BidNet Direct",
         "ok": true,
-        "count": 24,
+        "count": 23,
         "error": ""
       },
       {
@@ -137,7 +137,7 @@
       {
         "source": "Bonfire",
         "ok": true,
-        "count": 7,
+        "count": 6,
         "error": ""
       },
       {
@@ -433,26 +433,6 @@
       ]
     },
     {
-      "id": "hf3r-utnq:232158",
-      "source_name": "Los Angeles County CA — RAMP Open Bids",
-      "title": "RFB-IS-27200201 - O2713755 SOFTWARE - MAINTENANCE - ANNUAL RENEWAL - NUTANIX - Closing: 10/6/2026 12:00 PM",
-      "description": "Commodity",
-      "agency": "Los Angeles County",
-      "state": "CA",
-      "url": "https://www.rampla.org/s/opportunity-details?id=006Ql00000lykL6IAI",
-      "naics": "",
-      "psc": "",
-      "set_aside": "",
-      "posted_date": "2026-09-23",
-      "due_date": "2026-10-06",
-      "it_score": 51,
-      "is_new": false,
-      "first_seen": "2026-09-23",
-      "matched_keywords": [
-        "software"
-      ]
-    },
-    {
       "id": "eshn-8t3a:SFGOV~0000012129",
       "source_name": "San Francisco CA — Open Bids",
       "title": "OCA DT | TM3 EMMA SOFTWARE SUBSCRIPTION RENEWAL",
@@ -468,26 +448,6 @@
       "it_score": 51,
       "is_new": false,
       "first_seen": "2026-10-05",
-      "matched_keywords": [
-        "software"
-      ]
-    },
-    {
-      "id": "opengov:smcgov:304179",
-      "source_name": "OpenGov — County of San Mateo, CA",
-      "title": "Virtual Blood Bourne Pathogens Course",
-      "description": "The County of San Mateo (the “County” or “SMC”) covers most of the San Francisco Peninsula. The region covers 744 mi and is home to nearly 800,000 residents and 20 incorporated cities. The County provides for the health and welfare of all people within its borders and serves as the local government for the unincorporated areas. Innovation thrives here in industries including bioscience, computer software, green technology, hospitality, financial management, health care, education and transportation. The County prides itself on how that prosperity fosters its commitment to protecting and enhancing the health, safety, welfare and natural resources of the community. The agency is seeking qualified vendors to provide a virtual Bloodborne Pathogens training course for employees. The goal of this solicitation is to identify an engaging, accessible, and user-friendly online training solution that provides employees with the knowledge and practical guidance necessary to recognize and prevent occupational exposure to bloodborne pathogens and to respond appropriately to potential exposures. The selected vendor should provide a high-quality virtual course that is appropriate for workplace use, supports employee participation and completion, and includes a method for documenting or verifying successful completion. Vendors are encouraged to propose solutions that offer clear instruction, engaging content, convenient online access, and reliable reporting or recordkeeping capabilities.",
-      "agency": "County of San Mateo",
-      "state": "CA",
-      "url": "https://procurement.opengov.com/portal/smcgov/projects/304179",
-      "naics": "",
-      "psc": "",
-      "set_aside": "2027-RFP - Informal-00114",
-      "posted_date": "2026-09-16",
-      "due_date": "2026-10-10",
-      "it_score": 51,
-      "is_new": false,
-      "first_seen": "2026-09-26",
       "matched_keywords": [
         "software"
       ]
@@ -568,6 +528,26 @@
       "it_score": 51,
       "is_new": false,
       "first_seen": "2026-10-02",
+      "matched_keywords": [
+        "software"
+      ]
+    },
+    {
+      "id": "opengov:smcgov:304179",
+      "source_name": "OpenGov — County of San Mateo, CA",
+      "title": "Virtual Blood Bourne Pathogens Course",
+      "description": "The County of San Mateo (the “County” or “SMC”) covers most of the San Francisco Peninsula. The region covers 744 mi and is home to nearly 800,000 residents and 20 incorporated cities. The County provides for the health and welfare of all people within its borders and serves as the local government for the unincorporated areas. Innovation thrives here in industries including bioscience, computer software, green technology, hospitality, financial management, health care, education and transportation. The County prides itself on how that prosperity fosters its commitment to protecting and enhancing the health, safety, welfare and natural resources of the community. The agency is seeking qualified vendors to provide a virtual Bloodborne Pathogens training course for employees. The goal of this solicitation is to identify an engaging, accessible, and user-friendly online training solution that provides employees with the knowledge and practical guidance necessary to recognize and prevent occupational exposure to bloodborne pathogens and to respond appropriately to potential exposures. The selected vendor should provide a high-quality virtual course that is appropriate for workplace use, supports employee participation and completion, and includes a method for documenting or verifying successful completion. Vendors are encouraged to propose solutions that offer clear instruction, engaging content, convenient online access, and reliable reporting or recordkeeping capabilities.",
+      "agency": "County of San Mateo",
+      "state": "CA",
+      "url": "https://procurement.opengov.com/portal/smcgov/projects/304179",
+      "naics": "",
+      "psc": "",
+      "set_aside": "2027-RFP - Informal-00114",
+      "posted_date": "2026-09-16",
+      "due_date": "2026-10-17",
+      "it_score": 51,
+      "is_new": false,
+      "first_seen": "2026-09-26",
       "matched_keywords": [
         "software"
       ]
@@ -771,24 +751,6 @@
       "matched_keywords": [
         "crm"
       ]
-    },
-    {
-      "id": "planetbids:15927:145799",
-      "source_name": "PlanetBids — City of Irvine, CA",
-      "title": "Paseo Westpark and San Remo Traffic Signal Modification, CIP 332003",
-      "description": "SG-26-0034",
-      "agency": "City of Irvine, CA",
-      "state": "CA",
-      "url": "https://vendors.planetbids.com/portal/15927/bo/bo-detail/145799",
-      "naics": "",
-      "psc": "91066, 91200, 91240, 91300, 91350, 91382, 91396, 91400, 91430, 96882, 96883",
-      "set_aside": "",
-      "posted_date": "2026-09-02",
-      "due_date": "2026-10-06",
-      "it_score": 50,
-      "is_new": false,
-      "first_seen": "2026-09-24",
-      "matched_keywords": []
     },
     {
       "id": "planetbids:29959:145834",
@@ -1025,26 +987,6 @@
       "matched_keywords": []
     },
     {
-      "id": "hf3r-utnq:231831",
-      "source_name": "Los Angeles County CA — RAMP Open Bids",
-      "title": "On-Call Professional Information Technology Services",
-      "description": "Personal Services",
-      "agency": "Port of Long Beach",
-      "state": "CA",
-      "url": "https://www.rampla.org/s/opportunity-details?id=006Ql00000kxhHoIAI",
-      "naics": "",
-      "psc": "",
-      "set_aside": "",
-      "posted_date": "2026-09-03",
-      "due_date": "2026-10-06",
-      "it_score": 36,
-      "is_new": false,
-      "first_seen": "2026-09-04",
-      "matched_keywords": [
-        "information technology"
-      ]
-    },
-    {
       "id": "hf3r-utnq:232178",
       "source_name": "Los Angeles County CA — RAMP Open Bids",
       "title": "RFB-IS-27200202 - 7903674-COMPUTER TABLETS - APPLE IPAD 11-INCH - BRAND SPECIF - Closing: 10/7/2026 12:00 PM",
@@ -1098,7 +1040,7 @@
       "posted_date": "2026-10-05",
       "due_date": "2026-10-15",
       "it_score": 36,
-      "is_new": true,
+      "is_new": false,
       "first_seen": "2026-10-06",
       "matched_keywords": [
         "it services"
