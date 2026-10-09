@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-10-08T12:13:47.951365+00:00",
+  "generated_at": "2026-10-09T12:12:59.708116+00:00",
   "counts": {
-    "total": 43,
-    "new": 0
+    "total": 44,
+    "new": 5
   },
   "health": {
     "ok": 22,
@@ -11,13 +11,13 @@
       {
         "source": "Montgomery County MD — Solicitations",
         "ok": true,
-        "count": 17,
+        "count": 19,
         "error": ""
       },
       {
         "source": "Los Angeles County CA — RAMP Open Bids",
         "ok": true,
-        "count": 209,
+        "count": 216,
         "error": ""
       },
       {
@@ -59,7 +59,7 @@
       {
         "source": "Texas DOT — Plan Holders (Open Lettings)",
         "ok": true,
-        "count": 250,
+        "count": 244,
         "error": ""
       },
       {
@@ -83,7 +83,7 @@
       {
         "source": "Delaware — Open Bids (Statewide)",
         "ok": true,
-        "count": 47,
+        "count": 51,
         "error": ""
       },
       {
@@ -107,31 +107,31 @@
       {
         "source": "PlanetBids",
         "ok": true,
-        "count": 64,
+        "count": 62,
         "error": ""
       },
       {
         "source": "OpenGov",
         "ok": true,
-        "count": 198,
+        "count": 201,
         "error": ""
       },
       {
         "source": "Washington DC — Solicitations (PASS)",
         "ok": true,
-        "count": 28,
+        "count": 29,
         "error": ""
       },
       {
         "source": "BidNet Direct",
         "ok": true,
-        "count": 23,
+        "count": 22,
         "error": ""
       },
       {
         "source": "Biddingo",
         "ok": true,
-        "count": 21,
+        "count": 19,
         "error": ""
       },
       {
@@ -148,38 +148,7 @@
       }
     ]
   },
-  "product_themes": [
-    {
-      "name": "Records & Document Management (ECM)",
-      "opportunity_count": 2,
-      "agency_count": 2,
-      "state_count": 1,
-      "states": [
-        "CA"
-      ],
-      "demand_score": 7,
-      "examples": [
-        {
-          "title": "RFP2241293798 ENTERPRISE DOCUMENT MANAGEMENT SYSTEM",
-          "agency": "LAUSD",
-          "state": "CA",
-          "url": "https://www.rampla.org/s/opportunity-details?id=006Ql00000lHzK9IAK",
-          "due_date": "2026-10-08",
-          "it_score": 57,
-          "source_name": "Los Angeles County CA — RAMP Open Bids"
-        },
-        {
-          "title": "GCS-10637-S - REQUEST FOR STATEMENT OF QUALIFICATIONS (RFSQ) FOR RECORDS MANAGEMENT SERVICES - Closing: Continuous",
-          "agency": "Los Angeles County",
-          "state": "CA",
-          "url": "https://www.rampla.org/s/opportunity-details?id=006Ql00000c2b0oIAA",
-          "due_date": "2028-04-01",
-          "it_score": 36,
-          "source_name": "Los Angeles County CA — RAMP Open Bids"
-        }
-      ]
-    }
-  ],
+  "product_themes": [],
   "it_code_reference": [
     {
       "type": "NAICS",
@@ -328,27 +297,6 @@
       ]
     },
     {
-      "id": "hf3r-utnq:231906",
-      "source_name": "Los Angeles County CA — RAMP Open Bids",
-      "title": "RFP2241293798 ENTERPRISE DOCUMENT MANAGEMENT SYSTEM",
-      "description": "None",
-      "agency": "LAUSD",
-      "state": "CA",
-      "url": "https://www.rampla.org/s/opportunity-details?id=006Ql00000lHzK9IAK",
-      "naics": "",
-      "psc": "",
-      "set_aside": "",
-      "posted_date": "2026-09-09",
-      "due_date": "2026-10-08",
-      "it_score": 57,
-      "is_new": false,
-      "first_seen": "2026-09-10",
-      "matched_keywords": [
-        "system",
-        "document management"
-      ]
-    },
-    {
       "id": "opengov:smcgov:303757",
       "source_name": "OpenGov — County of San Mateo, CA",
       "title": "CHIP and CHA implementation, Governance, Community Engagement, and Data Integration Support",
@@ -409,26 +357,6 @@
       "matched_keywords": [
         "software",
         "development"
-      ]
-    },
-    {
-      "id": "eshn-8t3a:SFGOV~0000012129",
-      "source_name": "San Francisco CA — Open Bids",
-      "title": "OCA DT | TM3 EMMA SOFTWARE SUBSCRIPTION RENEWAL",
-      "description": "Seeking Bids",
-      "agency": "Office of Contract Administration",
-      "state": "CA",
-      "url": "https://sfcitypartner.sfgov.org/pages/Events-BS3/event-details.aspx?Page=AUC_RESP_INQ_DTL&Action=U&AUC_ID=0000012129&AUC_ROUND=1&AUC_VERSION=1&BIDDER_ID=0000000001&BIDDER_LOC=1&BIDDER_SETID=SHARE&BIDDER_TYPE=B&BUSINESS_UNIT=SFGOV",
-      "naics": "",
-      "psc": "",
-      "set_aside": "",
-      "posted_date": "2026-10-01",
-      "due_date": "2026-10-08",
-      "it_score": 51,
-      "is_new": false,
-      "first_seen": "2026-10-05",
-      "matched_keywords": [
-        "software"
       ]
     },
     {
@@ -732,24 +660,6 @@
       ]
     },
     {
-      "id": "planetbids:29959:145834",
-      "source_name": "PlanetBids — City of Santa Barbara, CA",
-      "title": "Raw Water Quality Study for the Charles E. Meyer Desalination Plant",
-      "description": "RFP No. 5142",
-      "agency": "City of Santa Barbara, CA",
-      "state": "CA",
-      "url": "https://vendors.planetbids.com/portal/29959/bo/bo-detail/145834",
-      "naics": "",
-      "psc": "04000, 90624, 91843, 91897, 92600, 96132, 96143, 96245, 96892",
-      "set_aside": "",
-      "posted_date": "2026-09-03",
-      "due_date": "2026-10-08",
-      "it_score": 50,
-      "is_new": false,
-      "first_seen": "2026-09-24",
-      "matched_keywords": []
-    },
-    {
       "id": "planetbids:15300:145376",
       "source_name": "PlanetBids — City of Sacramento, CA",
       "title": "On-Call Consultant Services for the Water Forum",
@@ -966,6 +876,69 @@
       "matched_keywords": []
     },
     {
+      "id": "eeq6-nnwe:1200288",
+      "source_name": "Montgomery County MD — Solicitations",
+      "title": "Digital Data Logger Purchases, Recalibration, Repair, and Maintenance",
+      "description": "Digital Data Logger Purchases, Recalibration, Repair, and Maintenance",
+      "agency": "Department of Health & Human Svcs",
+      "state": "MD",
+      "url": "https://www.montgomerycountymd.gov/office-procurement/solicitations-contracts",
+      "naics": "",
+      "psc": "",
+      "set_aside": "Y",
+      "posted_date": "2026-10-09",
+      "due_date": "2026-10-16",
+      "it_score": 42,
+      "is_new": true,
+      "first_seen": "2026-10-09",
+      "matched_keywords": [
+        "data",
+        "digital"
+      ]
+    },
+    {
+      "id": "hf3r-utnq:232441",
+      "source_name": "Los Angeles County CA — RAMP Open Bids",
+      "title": "146385 BOOM DOLLY, FOR GROVE MODEL 5150L-1 CRANE, SCALE SYSTEM, DIGITAL",
+      "description": "Commodity",
+      "agency": "Water & Power",
+      "state": "CA",
+      "url": "https://www.rampla.org/s/opportunity-details?id=006Ql00000mkqpZIAQ",
+      "naics": "",
+      "psc": "",
+      "set_aside": "",
+      "posted_date": "2026-10-08",
+      "due_date": "2026-10-20",
+      "it_score": 42,
+      "is_new": true,
+      "first_seen": "2026-10-09",
+      "matched_keywords": [
+        "system",
+        "digital"
+      ]
+    },
+    {
+      "id": "arcgis:Doc847596",
+      "source_name": "Washington DC — Solicitations (PASS)",
+      "title": "RFP - Provider Data Management System and Services",
+      "description": "RFP - Provider Data Management System and Services",
+      "agency": "Department of Health Care Finance",
+      "state": "DC",
+      "url": "https://ocp.dc.gov/service/solicitations",
+      "naics": "",
+      "psc": "",
+      "set_aside": "",
+      "posted_date": "",
+      "due_date": "2026-11-09",
+      "it_score": 42,
+      "is_new": true,
+      "first_seen": "2026-10-09",
+      "matched_keywords": [
+        "system",
+        "data"
+      ]
+    },
+    {
       "id": "hf3r-utnq:232353",
       "source_name": "Los Angeles County CA — RAMP Open Bids",
       "title": "Bench IT Services TOS 2026ITB018",
@@ -1006,23 +979,43 @@
       ]
     },
     {
-      "id": "hf3r-utnq:228081",
+      "id": "hf3r-utnq:232424",
       "source_name": "Los Angeles County CA — RAMP Open Bids",
-      "title": "TOS CC-104 Multi-Location Near Miss and Street Safety Analytics Study for School Safety",
-      "description": "Personal Services",
-      "agency": "Transportation",
+      "title": "RFB-IS-27200239 - 1091153 - NETAPP A400 STORAGE ARRAY DATA ERASURES - Closing: 10/21/2026 12:00 PM",
+      "description": "Commodity",
+      "agency": "Los Angeles County",
       "state": "CA",
-      "url": "https://www.rampla.org/s/opportunity-details?id=006Ql00000ZrchJIAR",
+      "url": "https://www.rampla.org/s/opportunity-details?id=006Ql00000mj6QfIAI",
       "naics": "",
       "psc": "",
       "set_aside": "",
-      "posted_date": "2026-09-28",
-      "due_date": "2026-11-04",
+      "posted_date": "2026-10-08",
+      "due_date": "2026-10-21",
       "it_score": 36,
-      "is_new": false,
-      "first_seen": "2026-09-29",
+      "is_new": true,
+      "first_seen": "2026-10-09",
       "matched_keywords": [
-        "analytics"
+        "data"
+      ]
+    },
+    {
+      "id": "2hnj-zwix:GSS27608A-DOC_DESTRUCT",
+      "source_name": "Delaware — Open Bids (Statewide)",
+      "title": "Secure Document and Data Destruction",
+      "description": "Secure Document and Data Destruction",
+      "agency": "GSS",
+      "state": "DE",
+      "url": "https://mmp.delaware.gov/Bids/Details/9352",
+      "naics": "",
+      "psc": "",
+      "set_aside": "",
+      "posted_date": "2026-09-29",
+      "due_date": "2026-10-22",
+      "it_score": 36,
+      "is_new": true,
+      "first_seen": "2026-10-09",
+      "matched_keywords": [
+        "data"
       ]
     },
     {

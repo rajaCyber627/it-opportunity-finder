@@ -548,6 +548,9 @@
   "Delaware \u2014 Open Bids (Statewide)::2hnj-zwix:GSS27608-DOC_DESTRUCT": {
     "first_seen": "2026-08-12"
   },
+  "Delaware \u2014 Open Bids (Statewide)::2hnj-zwix:GSS27608A-DOC_DESTRUCT": {
+    "first_seen": "2026-10-09"
+  },
   "Delaware \u2014 Open Bids (Statewide)::2hnj-zwix:HSS26038-EMCCDDMS": {
     "first_seen": "2026-07-14"
   },
@@ -1010,6 +1013,12 @@
   "Los Angeles County CA \u2014 RAMP Open Bids::hf3r-utnq:232353": {
     "first_seen": "2026-10-06"
   },
+  "Los Angeles County CA \u2014 RAMP Open Bids::hf3r-utnq:232424": {
+    "first_seen": "2026-10-09"
+  },
+  "Los Angeles County CA \u2014 RAMP Open Bids::hf3r-utnq:232441": {
+    "first_seen": "2026-10-09"
+  },
   "Los Angeles County CA \u2014 RAMP Open Bids::hf3r-utnq:40831": {
     "first_seen": "2026-07-14"
   },
@@ -1204,6 +1213,9 @@
   },
   "Montgomery County MD \u2014 Solicitations::eeq6-nnwe:1193673": {
     "first_seen": "2026-07-14"
+  },
+  "Montgomery County MD \u2014 Solicitations::eeq6-nnwe:1200288": {
+    "first_seen": "2026-10-09"
   },
   "Montgomery County MD \u2014 Solicitations::eeq6-nnwe:1200627": {
     "first_seen": "2026-09-11"
@@ -6484,5 +6496,8 @@
   },
   "Washington DC \u2014 Solicitations (PASS)::arcgis:Doc846589": {
     "first_seen": "2026-09-12"
+  },
+  "Washington DC \u2014 Solicitations (PASS)::arcgis:Doc847596": {
+    "first_seen": "2026-10-09"
   }
 }
