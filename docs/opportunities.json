@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-10-09T12:12:59.708116+00:00",
+  "generated_at": "2026-10-10T12:11:15.417060+00:00",
   "counts": {
-    "total": 44,
-    "new": 5
+    "total": 43,
+    "new": 1
   },
   "health": {
     "ok": 22,
@@ -11,13 +11,13 @@
       {
         "source": "Montgomery County MD — Solicitations",
         "ok": true,
-        "count": 19,
+        "count": 21,
         "error": ""
       },
       {
         "source": "Los Angeles County CA — RAMP Open Bids",
         "ok": true,
-        "count": 216,
+        "count": 211,
         "error": ""
       },
       {
@@ -59,7 +59,7 @@
       {
         "source": "Texas DOT — Plan Holders (Open Lettings)",
         "ok": true,
-        "count": 244,
+        "count": 285,
         "error": ""
       },
       {
@@ -107,25 +107,25 @@
       {
         "source": "PlanetBids",
         "ok": true,
-        "count": 62,
+        "count": 59,
         "error": ""
       },
       {
         "source": "OpenGov",
         "ok": true,
-        "count": 201,
+        "count": 199,
         "error": ""
       },
       {
         "source": "Washington DC — Solicitations (PASS)",
         "ok": true,
-        "count": 29,
+        "count": 33,
         "error": ""
       },
       {
         "source": "BidNet Direct",
         "ok": true,
-        "count": 22,
+        "count": 21,
         "error": ""
       },
       {
@@ -137,7 +137,7 @@
       {
         "source": "Bonfire",
         "ok": true,
-        "count": 6,
+        "count": 5,
         "error": ""
       },
       {
@@ -297,27 +297,6 @@
       ]
     },
     {
-      "id": "opengov:smcgov:303757",
-      "source_name": "OpenGov — County of San Mateo, CA",
-      "title": "CHIP and CHA implementation, Governance, Community Engagement, and Data Integration Support",
-      "description": "San Mateo County Health, Public Health, Policy & Planning (County) seeks proposals from qualified consulting firms or organizations to provide specialized expertise in a time-limited capacity to provide advisory, facilitation, and capacity-building services supporting the County’s Community Health Improvement Plan (CHIP) and Community Health Assessment (CHA). The selected contractor will provide independent subject-matter expertise, structured facilitation, planning tools, technical consultation, coaching, and implementation-readiness recommendations. The work will help the County establish an effective CHIP/CHA governance structure; refine engagement approaches and implementation protocols; strengthen coordination with trusted-messenger community-based organizations (“CBOs”) and the CHIP backbone organization; and prepare the County to conduct comprehensive, equity-centered CHA/CHIP for future cycles. This procurement is for defined professional consulting deliverables. It is not intended to provide ongoing operational staffing, fill a County position, or delegate the County’s continuing public-health planning, program-management, data-governance, community-engagement, or policy-making responsibilities. The County will retain responsibility for the operational delivery of the CHA, including County decisions; community-engagement fieldwork; participant recruitment; survey administration; incentive administration; identifiable-data stewardship; language access services; final analysis and validation; and preparation, approval, and issuance of the final CHA/CHIP reports. Contract Structure Maximum contract amount: $85,000, not to exceed. Recommended contract term: 9–12 months, beginning after full execution of the County agreement. One contractor award is recommended. Compensation should be deliverable-based; payment is contingent on County review and acceptance of work products in accordance with the deliverable requirements and acceptance process described in this solicitation. No work may begin before the agreement is fully executed and the contractor receives authorization to proceed.",
-      "agency": "County of San Mateo",
-      "state": "CA",
-      "url": "https://procurement.opengov.com/portal/smcgov/projects/303757",
-      "naics": "",
-      "psc": "",
-      "set_aside": "2027-RFP - Informal-00108",
-      "posted_date": "2026-09-15",
-      "due_date": "2026-10-09",
-      "it_score": 57,
-      "is_new": false,
-      "first_seen": "2026-09-16",
-      "matched_keywords": [
-        "integration",
-        "data"
-      ]
-    },
-    {
       "id": "opengov:smcgov:271502",
       "source_name": "OpenGov — County of San Mateo, CA",
       "title": "Access Control System Replacement and Maintenance",
@@ -333,6 +312,27 @@
       "it_score": 57,
       "is_new": false,
       "first_seen": "2026-09-10",
+      "matched_keywords": [
+        "system",
+        "integration"
+      ]
+    },
+    {
+      "id": "opengov:santa-monica-ca:315034",
+      "source_name": "OpenGov — City of Santa Monica, CA",
+      "title": "Request for Proposals for Onboard Bus Video Surveillance System",
+      "description": "The City of Santa Monica Department of Transportation (SMDOT) seeks proposals for a turnkey Onboard Bus Video Surveillance System (OBVSS) for the Big Blue Bus fleet. The project includes the design, equipment, installation, integration, maintenance and warranty services necessary to replace and modernize the existing OBVSS.",
+      "agency": "City of Santa Monica",
+      "state": "CA",
+      "url": "https://procurement.opengov.com/portal/santa-monica-ca/projects/315034",
+      "naics": "",
+      "psc": "",
+      "set_aside": "491",
+      "posted_date": "2026-10-08",
+      "due_date": "2026-11-05",
+      "it_score": 57,
+      "is_new": true,
+      "first_seen": "2026-10-10",
       "matched_keywords": [
         "system",
         "integration"
@@ -660,24 +660,6 @@
       ]
     },
     {
-      "id": "planetbids:15300:145376",
-      "source_name": "PlanetBids — City of Sacramento, CA",
-      "title": "On-Call Consultant Services for the Water Forum",
-      "description": "Q27141051001",
-      "agency": "City of Sacramento, CA",
-      "state": "CA",
-      "url": "https://vendors.planetbids.com/portal/15300/bo/bo-detail/145376",
-      "naics": "",
-      "psc": "20880, 30542, 49396, 59510, 59535, 59575, 79020, 79050, 80186, 90505, 90510, 90607, 90625, 90656, 91826, 92002, 92021, 92045, 92536, 92586, 92642, 93831, 96129, 96132, 96148, 96252, 96272, 96676, 96686, 96888, 97935, 98826, 98852, 98863, 98888, 98889",
-      "set_aside": "",
-      "posted_date": "2026-08-25",
-      "due_date": "2026-10-09",
-      "it_score": 50,
-      "is_new": false,
-      "first_seen": "2026-08-26",
-      "matched_keywords": []
-    },
-    {
       "id": "planetbids:16151:146410",
       "source_name": "PlanetBids — Santa Clara Valley Water District, CA",
       "title": "Foothill Feeder Pressure Control Structure Chemical Injection Stage 1",
@@ -889,7 +871,7 @@
       "posted_date": "2026-10-09",
       "due_date": "2026-10-16",
       "it_score": 42,
-      "is_new": true,
+      "is_new": false,
       "first_seen": "2026-10-09",
       "matched_keywords": [
         "data",
@@ -910,7 +892,7 @@
       "posted_date": "2026-10-08",
       "due_date": "2026-10-20",
       "it_score": 42,
-      "is_new": true,
+      "is_new": false,
       "first_seen": "2026-10-09",
       "matched_keywords": [
         "system",
@@ -931,7 +913,7 @@
       "posted_date": "",
       "due_date": "2026-11-09",
       "it_score": 42,
-      "is_new": true,
+      "is_new": false,
       "first_seen": "2026-10-09",
       "matched_keywords": [
         "system",
@@ -992,7 +974,7 @@
       "posted_date": "2026-10-08",
       "due_date": "2026-10-21",
       "it_score": 36,
-      "is_new": true,
+      "is_new": false,
       "first_seen": "2026-10-09",
       "matched_keywords": [
         "data"
@@ -1012,7 +994,7 @@
       "posted_date": "2026-09-29",
       "due_date": "2026-10-22",
       "it_score": 36,
-      "is_new": true,
+      "is_new": false,
       "first_seen": "2026-10-09",
       "matched_keywords": [
         "data"
