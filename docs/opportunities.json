@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-10-10T12:11:15.417060+00:00",
+  "generated_at": "2026-10-11T12:11:49.411885+00:00",
   "counts": {
     "total": 43,
-    "new": 1
+    "new": 0
   },
   "health": {
     "ok": 22,
@@ -17,7 +17,7 @@
       {
         "source": "Los Angeles County CA — RAMP Open Bids",
         "ok": true,
-        "count": 211,
+        "count": 210,
         "error": ""
       },
       {
@@ -59,7 +59,7 @@
       {
         "source": "Texas DOT — Plan Holders (Open Lettings)",
         "ok": true,
-        "count": 285,
+        "count": 295,
         "error": ""
       },
       {
@@ -331,7 +331,7 @@
       "posted_date": "2026-10-08",
       "due_date": "2026-11-05",
       "it_score": 57,
-      "is_new": true,
+      "is_new": false,
       "first_seen": "2026-10-10",
       "matched_keywords": [
         "system",
