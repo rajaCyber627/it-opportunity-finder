@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-10-11T12:11:49.411885+00:00",
+  "generated_at": "2026-10-12T12:18:34.643113+00:00",
   "counts": {
-    "total": 43,
-    "new": 0
+    "total": 47,
+    "new": 5
   },
   "health": {
     "ok": 22,
@@ -23,7 +23,7 @@
       {
         "source": "San Francisco CA — Open Bids",
         "ok": true,
-        "count": 47,
+        "count": 50,
         "error": ""
       },
       {
@@ -59,7 +59,7 @@
       {
         "source": "Texas DOT — Plan Holders (Open Lettings)",
         "ok": true,
-        "count": 295,
+        "count": 297,
         "error": ""
       },
       {
@@ -318,6 +318,27 @@
       ]
     },
     {
+      "id": "eshn-8t3a:SFGOV~0000012158",
+      "source_name": "San Francisco CA — Open Bids",
+      "title": "OCA ADM | TM3 ReLeased Software License Renewal",
+      "description": "Seeking Bids",
+      "agency": "Office of Contract Administration",
+      "state": "CA",
+      "url": "https://sfcitypartner.sfgov.org/pages/Events-BS3/event-details.aspx?Page=AUC_RESP_INQ_DTL&Action=U&AUC_ID=0000012158&AUC_ROUND=1&AUC_VERSION=1&BIDDER_ID=0000000001&BIDDER_LOC=1&BIDDER_SETID=SHARE&BIDDER_TYPE=B&BUSINESS_UNIT=SFGOV",
+      "naics": "",
+      "psc": "",
+      "set_aside": "",
+      "posted_date": "2026-10-09",
+      "due_date": "2026-10-15",
+      "it_score": 57,
+      "is_new": true,
+      "first_seen": "2026-10-12",
+      "matched_keywords": [
+        "software",
+        "license"
+      ]
+    },
+    {
       "id": "opengov:santa-monica-ca:315034",
       "source_name": "OpenGov — City of Santa Monica, CA",
       "title": "Request for Proposals for Onboard Bus Video Surveillance System",
@@ -375,6 +396,46 @@
       "it_score": 51,
       "is_new": false,
       "first_seen": "2026-10-01",
+      "matched_keywords": [
+        "software"
+      ]
+    },
+    {
+      "id": "eshn-8t3a:SFGOV~0000012150",
+      "source_name": "San Francisco CA — Open Bids",
+      "title": "OCA AIR | TM3 - Frontline Software and Support",
+      "description": "Seeking Bids",
+      "agency": "Office of Contract Administration",
+      "state": "CA",
+      "url": "https://sfcitypartner.sfgov.org/pages/Events-BS3/event-details.aspx?Page=AUC_RESP_INQ_DTL&Action=U&AUC_ID=0000012150&AUC_ROUND=1&AUC_VERSION=1&BIDDER_ID=0000000001&BIDDER_LOC=1&BIDDER_SETID=SHARE&BIDDER_TYPE=B&BUSINESS_UNIT=SFGOV",
+      "naics": "",
+      "psc": "",
+      "set_aside": "",
+      "posted_date": "2026-10-07",
+      "due_date": "2026-10-15",
+      "it_score": 51,
+      "is_new": true,
+      "first_seen": "2026-10-12",
+      "matched_keywords": [
+        "software"
+      ]
+    },
+    {
+      "id": "eshn-8t3a:SFGOV~0000012137",
+      "source_name": "San Francisco CA — Open Bids",
+      "title": "OCA PUC | TM3 EnergyCAP Software Lic.Subscrip Rnwl",
+      "description": "Seeking Bids",
+      "agency": "Office of Contract Administration",
+      "state": "CA",
+      "url": "https://sfcitypartner.sfgov.org/pages/Events-BS3/event-details.aspx?Page=AUC_RESP_INQ_DTL&Action=U&AUC_ID=0000012137&AUC_ROUND=1&AUC_VERSION=1&BIDDER_ID=0000000001&BIDDER_LOC=1&BIDDER_SETID=SHARE&BIDDER_TYPE=B&BUSINESS_UNIT=SFGOV",
+      "naics": "",
+      "psc": "",
+      "set_aside": "",
+      "posted_date": "2026-10-07",
+      "due_date": "2026-10-15",
+      "it_score": 51,
+      "is_new": true,
+      "first_seen": "2026-10-12",
       "matched_keywords": [
         "software"
       ]
@@ -457,6 +518,26 @@
       "first_seen": "2026-09-15",
       "matched_keywords": [
         "software"
+      ]
+    },
+    {
+      "id": "eshn-8t3a:SFGOV~0000012156",
+      "source_name": "San Francisco CA — Open Bids",
+      "title": "OCA PUC | TM3 - Cornerstone Talent Suite SaaS LMS",
+      "description": "Seeking Bids",
+      "agency": "Office of Contract Administration",
+      "state": "CA",
+      "url": "https://sfcitypartner.sfgov.org/pages/Events-BS3/event-details.aspx?Page=AUC_RESP_INQ_DTL&Action=U&AUC_ID=0000012156&AUC_ROUND=1&AUC_VERSION=1&BIDDER_ID=0000000001&BIDDER_LOC=1&BIDDER_SETID=SHARE&BIDDER_TYPE=B&BUSINESS_UNIT=SFGOV",
+      "naics": "",
+      "psc": "",
+      "set_aside": "",
+      "posted_date": "2026-10-09",
+      "due_date": "2026-10-19",
+      "it_score": 51,
+      "is_new": true,
+      "first_seen": "2026-10-12",
+      "matched_keywords": [
+        "saas"
       ]
     },
     {
@@ -941,23 +1022,23 @@
       ]
     },
     {
-      "id": "eshn-8t3a:SFGOV~0000011913",
+      "id": "eshn-8t3a:SFGOV~0000012157",
       "source_name": "San Francisco CA — Open Bids",
-      "title": "TIS | RFP for Cybersecurity Staffing Firms",
+      "title": "OCA LIB | TM3 - Everpure License Renewal",
       "description": "Seeking Bids",
-      "agency": "Department of Technology",
+      "agency": "Office of Contract Administration",
       "state": "CA",
-      "url": "https://sfcitypartner.sfgov.org/pages/Events-BS3/event-details.aspx?Page=AUC_RESP_INQ_DTL&Action=U&AUC_ID=0000011913&AUC_ROUND=1&AUC_VERSION=1&BIDDER_ID=0000000001&BIDDER_LOC=1&BIDDER_SETID=SHARE&BIDDER_TYPE=B&BUSINESS_UNIT=SFGOV",
+      "url": "https://sfcitypartner.sfgov.org/pages/Events-BS3/event-details.aspx?Page=AUC_RESP_INQ_DTL&Action=U&AUC_ID=0000012157&AUC_ROUND=1&AUC_VERSION=1&BIDDER_ID=0000000001&BIDDER_LOC=1&BIDDER_SETID=SHARE&BIDDER_TYPE=B&BUSINESS_UNIT=SFGOV",
       "naics": "",
       "psc": "",
       "set_aside": "",
-      "posted_date": "2026-09-22",
-      "due_date": "2026-10-20",
+      "posted_date": "2026-10-09",
+      "due_date": "2026-10-19",
       "it_score": 36,
-      "is_new": false,
-      "first_seen": "2026-09-28",
+      "is_new": true,
+      "first_seen": "2026-10-12",
       "matched_keywords": [
-        "cybersecurity"
+        "license"
       ]
     },
     {
