@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-10-12T12:18:34.643113+00:00",
+  "generated_at": "2026-10-13T12:15:46.493182+00:00",
   "counts": {
     "total": 47,
-    "new": 5
+    "new": 0
   },
   "health": {
     "ok": 22,
@@ -11,13 +11,13 @@
       {
         "source": "Montgomery County MD — Solicitations",
         "ok": true,
-        "count": 21,
+        "count": 20,
         "error": ""
       },
       {
         "source": "Los Angeles County CA — RAMP Open Bids",
         "ok": true,
-        "count": 210,
+        "count": 207,
         "error": ""
       },
       {
@@ -59,7 +59,7 @@
       {
         "source": "Texas DOT — Plan Holders (Open Lettings)",
         "ok": true,
-        "count": 297,
+        "count": 378,
         "error": ""
       },
       {
@@ -107,25 +107,25 @@
       {
         "source": "PlanetBids",
         "ok": true,
-        "count": 59,
+        "count": 61,
         "error": ""
       },
       {
         "source": "OpenGov",
         "ok": true,
-        "count": 199,
+        "count": 196,
         "error": ""
       },
       {
         "source": "Washington DC — Solicitations (PASS)",
         "ok": true,
-        "count": 33,
+        "count": 32,
         "error": ""
       },
       {
         "source": "BidNet Direct",
         "ok": true,
-        "count": 21,
+        "count": 20,
         "error": ""
       },
       {
@@ -331,7 +331,7 @@
       "posted_date": "2026-10-09",
       "due_date": "2026-10-15",
       "it_score": 57,
-      "is_new": true,
+      "is_new": false,
       "first_seen": "2026-10-12",
       "matched_keywords": [
         "software",
@@ -414,7 +414,7 @@
       "posted_date": "2026-10-07",
       "due_date": "2026-10-15",
       "it_score": 51,
-      "is_new": true,
+      "is_new": false,
       "first_seen": "2026-10-12",
       "matched_keywords": [
         "software"
@@ -434,7 +434,7 @@
       "posted_date": "2026-10-07",
       "due_date": "2026-10-15",
       "it_score": 51,
-      "is_new": true,
+      "is_new": false,
       "first_seen": "2026-10-12",
       "matched_keywords": [
         "software"
@@ -534,30 +534,10 @@
       "posted_date": "2026-10-09",
       "due_date": "2026-10-19",
       "it_score": 51,
-      "is_new": true,
+      "is_new": false,
       "first_seen": "2026-10-12",
       "matched_keywords": [
         "saas"
-      ]
-    },
-    {
-      "id": "opengov:pasadena:264045",
-      "source_name": "OpenGov — City of Pasadena, CA",
-      "title": "Power Delivery General Engineering Services",
-      "description": "The City of Pasadena is seeking qualified professional engineering firms to supplement its internal resources within the Water and Power Department (PWP), Power Delivery Division. Engineering services provided under the resulting contracts will support the safe, reliable, and efficient operation, maintenance, modernization, and improvement of PWP's electric power delivery system. Engineering services under this RFP are organized into the following Scope of Work Groups: Receiving Station and Substation Design SCADA, Automation, Communications, and Control Design System Planning Civil and Structural Engineering Electric Vehicle Charging Infrastructure Renewable Energy, Energy Storage, Interconnection, and Technical Advisory Services Associated services, including construction management, inspection, drafting, and other technical support, may be required as part of an individual task order where applicable to the assigned Scope of Work Group. Engineering services under the resulting contracts are intended to supplement, not replace, PWP's internal engineering resources. Consultants may be assigned work based on project-specific needs, staff availability, schedule requirements, temporary workload conditions, and the need for specialized expertise. All consultant designs and deliverables shall be subject to review and approval by the responsible PWP engineering group. Consultants shall not supervise City employees or exercise project management authority over City staff. Work that is ongoing, predictable, or programmatic over multi-year periods will generally be performed by permanent PWP staff. The City intends to award multiple contracts under this solicitation to establish a pool of qualified engineering consultants. Work will be authorized through individual task orders based on the requirements of the assignment, including consultant availability, applicable expertise, capacity, schedule, and other considerations identified by the City. Award of a contract does not guarantee any minimum quantity or value of work. Current priority programs anticipated for consultant support include, but are not limited to: SCE Upgrade of the TMG 220 kV Gould Circuit; Jungle-MUX Fiber Optic Upgrades; SCADA/OMS/DMS upgrades; Mobile Substation protection, housing, and station upgrades; substation equipment specifications; EV charging infrastructure at Aquatic Center, Sunset Reservoir, and Del Mar Garage; the Avon Ramp and Arroyo Charging Depots Progressive Design-Build project; Municipal Solar, Energy Storage, and Resilience Projects; System Impact Studies for Large Resource Interconnections; System Modeling for Compliance Studies; TMG Receiving Station capacity studies; and Subtransmission System short-circuit current reduction studies. This list is illustrative and does not constitute a guarantee that any particular project or assignment will be issued under the resulting contracts. Proposers must demonstrate, at a minimum, five (5) years of relevant experience and at least five (5) completed projects within the past five (5) years for each Scope of Work Group proposed. Consultant staff shall include engineers registered in the State of California in the relevant disciplines, including civil, electrical, structural, mechanical, control systems, and/or fire protection engineering, as applicable to the services being performed. Specific minimum qualifications for each Scope of Work Group are stated in Section 6.",
-      "agency": "City of Pasadena",
-      "state": "CA",
-      "url": "https://procurement.opengov.com/portal/pasadena/projects/264045",
-      "naics": "",
-      "psc": "",
-      "set_aside": "2026-RFP-0300",
-      "posted_date": "2026-05-07",
-      "due_date": "2026-10-22",
-      "it_score": 51,
-      "is_new": false,
-      "first_seen": "2026-09-25",
-      "matched_keywords": [
-        "modernization"
       ]
     },
     {
@@ -658,6 +638,26 @@
       "first_seen": "2026-10-02",
       "matched_keywords": [
         "migration"
+      ]
+    },
+    {
+      "id": "opengov:pasadena:264045",
+      "source_name": "OpenGov — City of Pasadena, CA",
+      "title": "Power Delivery General Engineering Services",
+      "description": "The City of Pasadena is seeking qualified professional engineering firms to supplement its internal resources within the Water and Power Department (PWP), Power Delivery Division. Engineering services provided under the resulting contracts will support the safe, reliable, and efficient operation, maintenance, modernization, and improvement of PWP's electric power delivery system. Engineering services under this RFP are organized into the following Scope of Work Groups: Receiving Station and Substation Design SCADA, Automation, Communications, and Control Design System Planning Civil and Structural Engineering Electric Vehicle Charging Infrastructure Renewable Energy, Energy Storage, Interconnection, and Technical Advisory Services Associated services, including construction management, inspection, drafting, and other technical support, may be required as part of an individual task order where applicable to the assigned Scope of Work Group. Engineering services under the resulting contracts are intended to supplement, not replace, PWP's internal engineering resources. Consultants may be assigned work based on project-specific needs, staff availability, schedule requirements, temporary workload conditions, and the need for specialized expertise. All consultant designs and deliverables shall be subject to review and approval by the responsible PWP engineering group. Consultants shall not supervise City employees or exercise project management authority over City staff. Work that is ongoing, predictable, or programmatic over multi-year periods will generally be performed by permanent PWP staff. The City intends to award multiple contracts under this solicitation to establish a pool of qualified engineering consultants. Work will be authorized through individual task orders based on the requirements of the assignment, including consultant availability, applicable expertise, capacity, schedule, and other considerations identified by the City. Award of a contract does not guarantee any minimum quantity or value of work. Current priority programs anticipated for consultant support include, but are not limited to: SCE Upgrade of the TMG 220 kV Gould Circuit; Jungle-MUX Fiber Optic Upgrades; SCADA/OMS/DMS upgrades; Mobile Substation protection, housing, and station upgrades; substation equipment specifications; EV charging infrastructure at Aquatic Center, Sunset Reservoir, and Del Mar Garage; the Avon Ramp and Arroyo Charging Depots Progressive Design-Build project; Municipal Solar, Energy Storage, and Resilience Projects; System Impact Studies for Large Resource Interconnections; System Modeling for Compliance Studies; TMG Receiving Station capacity studies; and Subtransmission System short-circuit current reduction studies. This list is illustrative and does not constitute a guarantee that any particular project or assignment will be issued under the resulting contracts. Proposers must demonstrate, at a minimum, five (5) years of relevant experience and at least five (5) completed projects within the past five (5) years for each Scope of Work Group proposed. Consultant staff shall include engineers registered in the State of California in the relevant disciplines, including civil, electrical, structural, mechanical, control systems, and/or fire protection engineering, as applicable to the services being performed. Specific minimum qualifications for each Scope of Work Group are stated in Section 6.",
+      "agency": "City of Pasadena",
+      "state": "CA",
+      "url": "https://procurement.opengov.com/portal/pasadena/projects/264045",
+      "naics": "",
+      "psc": "",
+      "set_aside": "2026-RFP-0300",
+      "posted_date": "2026-05-07",
+      "due_date": "2026-11-05",
+      "it_score": 51,
+      "is_new": false,
+      "first_seen": "2026-09-25",
+      "matched_keywords": [
+        "modernization"
       ]
     },
     {
@@ -1035,7 +1035,7 @@
       "posted_date": "2026-10-09",
       "due_date": "2026-10-19",
       "it_score": 36,
-      "is_new": true,
+      "is_new": false,
       "first_seen": "2026-10-12",
       "matched_keywords": [
         "license"
