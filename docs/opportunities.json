@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-10-13T12:15:46.493182+00:00",
+  "generated_at": "2026-10-14T12:26:14.801864+00:00",
   "counts": {
-    "total": 47,
-    "new": 0
+    "total": 48,
+    "new": 3
   },
   "health": {
     "ok": 22,
@@ -11,13 +11,13 @@
       {
         "source": "Montgomery County MD — Solicitations",
         "ok": true,
-        "count": 20,
+        "count": 21,
         "error": ""
       },
       {
         "source": "Los Angeles County CA — RAMP Open Bids",
         "ok": true,
-        "count": 207,
+        "count": 199,
         "error": ""
       },
       {
@@ -59,7 +59,7 @@
       {
         "source": "Texas DOT — Plan Holders (Open Lettings)",
         "ok": true,
-        "count": 378,
+        "count": 397,
         "error": ""
       },
       {
@@ -83,7 +83,7 @@
       {
         "source": "Delaware — Open Bids (Statewide)",
         "ok": true,
-        "count": 51,
+        "count": 53,
         "error": ""
       },
       {
@@ -107,25 +107,25 @@
       {
         "source": "PlanetBids",
         "ok": true,
-        "count": 61,
+        "count": 60,
         "error": ""
       },
       {
         "source": "OpenGov",
         "ok": true,
-        "count": 196,
+        "count": 201,
         "error": ""
       },
       {
         "source": "Washington DC — Solicitations (PASS)",
         "ok": true,
-        "count": 32,
+        "count": 31,
         "error": ""
       },
       {
         "source": "BidNet Direct",
         "ok": true,
-        "count": 20,
+        "count": 19,
         "error": ""
       },
       {
@@ -148,7 +148,47 @@
       }
     ]
   },
-  "product_themes": [],
+  "product_themes": [
+    {
+      "name": "Permitting & Licensing",
+      "opportunity_count": 3,
+      "agency_count": 2,
+      "state_count": 1,
+      "states": [
+        "CA"
+      ],
+      "demand_score": 7,
+      "examples": [
+        {
+          "title": "OCA ADM | TM3 ReLeased Software License Renewal",
+          "agency": "Office of Contract Administration",
+          "state": "CA",
+          "url": "https://sfcitypartner.sfgov.org/pages/Events-BS3/event-details.aspx?Page=AUC_RESP_INQ_DTL&Action=U&AUC_ID=0000012158&AUC_ROUND=1&AUC_VERSION=1&BIDDER_ID=0000000001&BIDDER_LOC=1&BIDDER_SETID=SHARE&BIDDER_TYPE=B&BUSINESS_UNIT=SFGOV",
+          "due_date": "2026-10-15",
+          "it_score": 57,
+          "source_name": "San Francisco CA — Open Bids"
+        },
+        {
+          "title": "DOMO PROFESSIONAL BUNDLE PLATFORM ACCESS SUBSCRIPTION LICENSE RENEWAL FY26-27",
+          "agency": "County of San Mateo",
+          "state": "CA",
+          "url": "https://procurement.opengov.com/portal/smcgov/projects/315557",
+          "due_date": "2026-10-26",
+          "it_score": 42,
+          "source_name": "OpenGov — County of San Mateo, CA"
+        },
+        {
+          "title": "OCA LIB | TM3 - Everpure License Renewal",
+          "agency": "Office of Contract Administration",
+          "state": "CA",
+          "url": "https://sfcitypartner.sfgov.org/pages/Events-BS3/event-details.aspx?Page=AUC_RESP_INQ_DTL&Action=U&AUC_ID=0000012157&AUC_ROUND=1&AUC_VERSION=1&BIDDER_ID=0000000001&BIDDER_LOC=1&BIDDER_SETID=SHARE&BIDDER_TYPE=B&BUSINESS_UNIT=SFGOV",
+          "due_date": "2026-10-19",
+          "it_score": 36,
+          "source_name": "San Francisco CA — Open Bids"
+        }
+      ]
+    }
+  ],
   "it_code_reference": [
     {
       "type": "NAICS",
@@ -253,28 +293,6 @@
   ],
   "opportunities": [
     {
-      "id": "opengov:acgov:299786",
-      "source_name": "OpenGov — County of Alameda, CA",
-      "title": "RFP 902737 EVACUATION PLANNING SOFTWARE SOLUTION",
-      "description": "It is the intent of these specifications, terms, and conditions to describe the evacuation planning solution being requested by the Alameda County Sheriff's Office (ACSO) for the Office of Emergency Services (OES). Contractor must provide a secure, cloud-based evacuation planning and modeling software solution capable of supporting evacuation analysis, scenario planning, operational decision-making, and real-time evacuation management. The proposed solution must support Alameda County OES and all Operational Area partners, including fourteen (14) incorporated cities, special districts, County departments, and critical infrastructure partners. The platform must be scalable and configurable to allow jurisdiction-specific access while maintaining Operational Area-level visibility, coordination capability, and governance. The Contractor must provide full implementation services, including configuration, data integration, training, technical support, and ongoing maintenance. The County intends to award a three (3)-year contract (with the option to renew for two [2] years) to the Bidder selected as the most responsive and responsible Bidder whose response conforms to the RFP and meets the County’s requirements.",
-      "agency": "County of Alameda, CA",
-      "state": "CA",
-      "url": "https://procurement.opengov.com/portal/acgov/projects/299786",
-      "naics": "",
-      "psc": "",
-      "set_aside": "",
-      "posted_date": "2026-09-02",
-      "due_date": "2026-10-13",
-      "it_score": 93,
-      "is_new": false,
-      "first_seen": "2026-09-04",
-      "matched_keywords": [
-        "software",
-        "cloud",
-        "integration"
-      ]
-    },
-    {
       "id": "opengov:pasadena:279920",
       "source_name": "OpenGov — City of Pasadena, CA",
       "title": "GPS Asset Tracking Solution",
@@ -354,6 +372,27 @@
       "it_score": 57,
       "is_new": false,
       "first_seen": "2026-10-10",
+      "matched_keywords": [
+        "system",
+        "integration"
+      ]
+    },
+    {
+      "id": "opengov:pasadena:237617",
+      "source_name": "OpenGov — City of Pasadena, CA",
+      "title": "Advanced Metering Infrastructure (AMI) System and Installation Services",
+      "description": "The City of Pasadena (“City”) is seeking proposals from qualified firms to provide a comprehensive Advanced Metering Infrastructure (“AMI”) solution, together with associated installation services, for the City’s water and electric utilities. The objective of this RFP is to select a vendor capable of providing a vendor-hosted AMI headend system with a supporting communications network, as well as electric meters, water meters, water endpoints, and related components as required. The selected vendor will also perform field deployment, integration with the City’s Oracle C2M and Oracle Meter Data Management environment, testing, commissioning, training, and go-live support needed for full AMI operations. The selected vendor will play a critical role in meeting performance, reliability, security, and interoperability requirements while advancing operational efficiency and customer service.",
+      "agency": "City of Pasadena",
+      "state": "CA",
+      "url": "https://procurement.opengov.com/portal/pasadena/projects/237617",
+      "naics": "",
+      "psc": "",
+      "set_aside": "2026-RFP-0143",
+      "posted_date": "2026-02-13",
+      "due_date": "2026-12-01",
+      "it_score": 57,
+      "is_new": true,
+      "first_seen": "2026-10-14",
       "matched_keywords": [
         "system",
         "integration"
@@ -981,7 +1020,28 @@
       ]
     },
     {
-      "id": "arcgis:Doc847596",
+      "id": "opengov:smcgov:315557",
+      "source_name": "OpenGov — County of San Mateo, CA",
+      "title": "DOMO PROFESSIONAL BUNDLE PLATFORM ACCESS SUBSCRIPTION LICENSE RENEWAL FY26-27",
+      "description": "The County of San Mateo Technology Services Department (TSD) is seeking quotations exclusively for DOMO Professional Bundle Platform Access Subscription License for 1 year. \"Please complete the Pricing Bid Table in section 3 and please also upload your competitive quotation including accurate lead times as well as any applicable freight and delivery costs for the items listed.\" Cost, conformity to specifications of goods, and product availability will be considered. After an evaluation of all quotations, a County purchase order is expected to be issued in association with the lowest, responsive bid received from a qualified, responsible, and manufacturer/publisher authorized vendor.",
+      "agency": "County of San Mateo",
+      "state": "CA",
+      "url": "https://procurement.opengov.com/portal/smcgov/projects/315557",
+      "naics": "",
+      "psc": "",
+      "set_aside": "AK_RITM0184229",
+      "posted_date": "2026-10-09",
+      "due_date": "2026-10-26",
+      "it_score": 42,
+      "is_new": true,
+      "first_seen": "2026-10-14",
+      "matched_keywords": [
+        "license",
+        "platform"
+      ]
+    },
+    {
+      "id": "arcgis:Doc850821",
       "source_name": "Washington DC — Solicitations (PASS)",
       "title": "RFP - Provider Data Management System and Services",
       "description": "RFP - Provider Data Management System and Services",
@@ -994,8 +1054,8 @@
       "posted_date": "",
       "due_date": "2026-11-09",
       "it_score": 42,
-      "is_new": false,
-      "first_seen": "2026-10-09",
+      "is_new": true,
+      "first_seen": "2026-10-14",
       "matched_keywords": [
         "system",
         "data"

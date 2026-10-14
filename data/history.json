@@ -2186,6 +2186,9 @@
   "OpenGov \u2014 City of Naperville, IL::opengov:naperville:295528": {
     "first_seen": "2026-09-16"
   },
+  "OpenGov \u2014 City of Pasadena, CA::opengov:pasadena:237617": {
+    "first_seen": "2026-10-14"
+  },
   "OpenGov \u2014 City of Pasadena, CA::opengov:pasadena:263470": {
     "first_seen": "2026-09-02"
   },
@@ -2935,6 +2938,9 @@
   },
   "OpenGov \u2014 County of San Mateo, CA::opengov:smcgov:309506": {
     "first_seen": "2026-10-03"
+  },
+  "OpenGov \u2014 County of San Mateo, CA::opengov:smcgov:315557": {
+    "first_seen": "2026-10-14"
   },
   "OpenGov \u2014 County of Santa Cruz, CA::opengov:santacruzcounty:287244": {
     "first_seen": "2026-09-16"
@@ -6517,5 +6523,8 @@
   },
   "Washington DC \u2014 Solicitations (PASS)::arcgis:Doc847596": {
     "first_seen": "2026-10-09"
+  },
+  "Washington DC \u2014 Solicitations (PASS)::arcgis:Doc850821": {
+    "first_seen": "2026-10-14"
   }
 }
