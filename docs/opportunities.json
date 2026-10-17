@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-10-16T12:25:00.874182+00:00",
+  "generated_at": "2026-10-17T14:54:08.367568+00:00",
   "counts": {
-    "total": 49,
-    "new": 2
+    "total": 51,
+    "new": 5
   },
   "health": {
-    "ok": 21,
+    "ok": 22,
     "total": 23,
     "sources": [
       {
@@ -17,7 +17,7 @@
       {
         "source": "Los Angeles County CA — RAMP Open Bids",
         "ok": true,
-        "count": 194,
+        "count": 196,
         "error": ""
       },
       {
@@ -59,14 +59,14 @@
       {
         "source": "Texas DOT — Plan Holders (Open Lettings)",
         "ok": true,
-        "count": 362,
+        "count": 384,
         "error": ""
       },
       {
         "source": "New York City — City Record (Procurement)",
-        "ok": false,
-        "count": 0,
-        "error": "HTTPError: 500 Server Error: Server Error for url: https://data.cityofnewyork.us/resource/dg92-zbpx.json?%24limit=500&%24where=section_name%3D%27Procurement%27&%24order=start_date+DESC"
+        "ok": true,
+        "count": 500,
+        "error": ""
       },
       {
         "source": "New York City — Current RFP (MOCS)",
@@ -107,37 +107,37 @@
       {
         "source": "PlanetBids",
         "ok": true,
-        "count": 63,
+        "count": 67,
         "error": ""
       },
       {
         "source": "OpenGov",
         "ok": true,
-        "count": 198,
+        "count": 195,
         "error": ""
       },
       {
         "source": "Washington DC — Solicitations (PASS)",
         "ok": true,
-        "count": 24,
+        "count": 26,
         "error": ""
       },
       {
         "source": "BidNet Direct",
         "ok": true,
-        "count": 20,
+        "count": 18,
         "error": ""
       },
       {
         "source": "Biddingo",
         "ok": true,
-        "count": 16,
+        "count": 17,
         "error": ""
       },
       {
         "source": "Bonfire",
         "ok": true,
-        "count": 3,
+        "count": 4,
         "error": ""
       },
       {
@@ -149,6 +149,54 @@
     ]
   },
   "product_themes": [
+    {
+      "name": "Cloud Migration & Modernization",
+      "opportunity_count": 4,
+      "agency_count": 3,
+      "state_count": 1,
+      "states": [
+        "CA"
+      ],
+      "demand_score": 10,
+      "examples": [
+        {
+          "title": "Administration Building Elevator Modernization",
+          "agency": "County of Alameda, CA",
+          "state": "CA",
+          "url": "https://procurement.opengov.com/portal/acgov/projects/244457",
+          "due_date": "2026-10-29",
+          "it_score": 51,
+          "source_name": "OpenGov — County of Alameda, CA"
+        },
+        {
+          "title": "RFP 902787 Elevator Condition Assessment & Modernization Plan",
+          "agency": "County of Alameda, CA",
+          "state": "CA",
+          "url": "https://procurement.opengov.com/portal/acgov/projects/306819",
+          "due_date": "2026-11-17",
+          "it_score": 51,
+          "source_name": "OpenGov — County of Alameda, CA"
+        },
+        {
+          "title": "County Office Building 1 Renovation and Modernization Work Package 2 (WP2) Project (Project No. P33Z1)",
+          "agency": "County of San Mateo",
+          "state": "CA",
+          "url": "https://procurement.opengov.com/portal/smcgov/projects/304422",
+          "due_date": "2026-11-18",
+          "it_score": 51,
+          "source_name": "OpenGov — County of San Mateo, CA"
+        },
+        {
+          "title": "DESIGN BUILD | RFQ # R-27016 - 107TH STREET ELEMENTARY | SEISMIC MODERNIZATION PROJECT",
+          "agency": "LAUSD",
+          "state": "CA",
+          "url": "https://www.rampla.org/s/opportunity-details?id=006Ql00000n7pXpIAI",
+          "due_date": "2026-12-21",
+          "it_score": 51,
+          "source_name": "Los Angeles County CA — RAMP Open Bids"
+        }
+      ]
+    },
     {
       "name": "Permitting & Licensing",
       "opportunity_count": 3,
@@ -184,45 +232,6 @@
           "url": "https://procurement.opengov.com/portal/smcgov/projects/311143",
           "due_date": "2026-10-27",
           "it_score": 36,
-          "source_name": "OpenGov — County of San Mateo, CA"
-        }
-      ]
-    },
-    {
-      "name": "Cloud Migration & Modernization",
-      "opportunity_count": 3,
-      "agency_count": 2,
-      "state_count": 1,
-      "states": [
-        "CA"
-      ],
-      "demand_score": 7,
-      "examples": [
-        {
-          "title": "Administration Building Elevator Modernization",
-          "agency": "County of Alameda, CA",
-          "state": "CA",
-          "url": "https://procurement.opengov.com/portal/acgov/projects/244457",
-          "due_date": "2026-10-29",
-          "it_score": 51,
-          "source_name": "OpenGov — County of Alameda, CA"
-        },
-        {
-          "title": "RFP 902787 Elevator Condition Assessment & Modernization Plan",
-          "agency": "County of Alameda, CA",
-          "state": "CA",
-          "url": "https://procurement.opengov.com/portal/acgov/projects/306819",
-          "due_date": "2026-11-17",
-          "it_score": 51,
-          "source_name": "OpenGov — County of Alameda, CA"
-        },
-        {
-          "title": "County Office Building 1 Renovation and Modernization Work Package 2 (WP2) Project (Project No. P33Z1)",
-          "agency": "County of San Mateo",
-          "state": "CA",
-          "url": "https://procurement.opengov.com/portal/smcgov/projects/304422",
-          "due_date": "2026-11-18",
-          "it_score": 51,
           "source_name": "OpenGov — County of San Mateo, CA"
         }
       ]
@@ -354,6 +363,70 @@
       ]
     },
     {
+      "id": "opengov:smcgov:313156",
+      "source_name": "OpenGov — County of San Mateo, CA",
+      "title": "Request for Proposals (RFP) for Project Management Services",
+      "description": "The County’s objective in issuing this Request for Proposals (RFP) is to establish agreements with one or more qualified contractors to provide project management, project implementation, and related consulting services on an as-needed basis. Services may support a range of County initiatives, including the planning, design, procurement, implementation, integration, and rollout of software-as-a-service (SaaS) and other technology systems, as well as non-technology operational, organizational, and business-process improvement projects. Selected contractor(s) may be engaged to provide experienced project managers and related subject-matter support to lead or augment County project teams, develop and maintain project plans and governance structures, coordinate stakeholders and vendors, manage risks, issues, schedules, budgets, communications, change management, and implementation activities, and otherwise support successful project delivery. The County does not guarantee a minimum volume of work; specific assignments within the scope of this RFP, duration, and staffing needs will be established through individual contracts. The County’s standard contract template is included as an appendix to this solicitation. Awarded contractor(s) will be expected to enter into an agreement prepared by the County using this template. Proposers should ensure that their firms have completed legal review of the contract terms before submitting a proposal. If a proposer wishes to request exceptions to the County’s standard terms, it must submit a Contract Exceptions Request by the Deadline for Questions, Comments, and Contract Exceptions identified in the Solicitation Schedule. The County will consider requested exceptions but reserves the right to reject proposed modifications to its standard contract terms.",
+      "agency": "County of San Mateo",
+      "state": "CA",
+      "url": "https://procurement.opengov.com/portal/smcgov/projects/313156",
+      "naics": "",
+      "psc": "",
+      "set_aside": "",
+      "posted_date": "2026-10-05",
+      "due_date": "2026-11-13",
+      "it_score": 93,
+      "is_new": true,
+      "first_seen": "2026-10-17",
+      "matched_keywords": [
+        "software",
+        "saas",
+        "integration"
+      ]
+    },
+    {
+      "id": "opengov:smcgov:313065",
+      "source_name": "OpenGov — County of San Mateo, CA",
+      "title": "Request for Proposals (RFP) for Quality Assurance Testing Services",
+      "description": "The County’s objective in issuing this Request for Proposals (RFP) is to establish agreements with one or more qualified contractors to provide quality assurance (QA), testing, and related consulting services on an as-needed basis in connection with software and related technology used by the County. Services may support a range of County initiatives, including the planning, design, implementation, integration, enhancement, and ongoing maintenance of software-as-a-service (SaaS) and other technology systems, as well as other County applications, business processes, and operational initiatives requiring structured testing and quality assurance support. Selected contractor(s) may be engaged to provide experienced QA testers, test leads, and related subject-matter support to lead or augment County project teams. Services may include developing and executing test strategies, test plans, test cases, test scripts, and test data; conducting functional, regression, integration, system, user acceptance, accessibility, performance, and other appropriate testing; documenting and tracking defects; coordinating testing activities among County staff, vendors, and other stakeholders; validating defect resolutions; supporting user acceptance testing; and providing testing status reports, recommendations, and other deliverables necessary to support successful project implementation and system quality. The County does not guarantee a minimum volume of work; specific assignments within the scope of this RFP, duration, and staffing needs will be established through individual contracts. The County’s standard contract template is included as an appendix to this solicitation. Awarded contractor(s) will be expected to enter into an agreement prepared by the County using this template. Proposers should ensure that their firms have completed legal review of the contract terms before submitting a proposal. If a proposer wishes to request exceptions to the County’s standard terms, it must submit a Contract Exceptions Request by the Deadline for Questions, Comments, and Contract Exceptions identified in the Solicitation Schedule. The County will consider requested exceptions but reserves the right to reject proposed modifications to its standard contract terms.",
+      "agency": "County of San Mateo",
+      "state": "CA",
+      "url": "https://procurement.opengov.com/portal/smcgov/projects/313065",
+      "naics": "",
+      "psc": "",
+      "set_aside": "",
+      "posted_date": "2026-10-05",
+      "due_date": "2026-11-13",
+      "it_score": 93,
+      "is_new": true,
+      "first_seen": "2026-10-17",
+      "matched_keywords": [
+        "software",
+        "saas",
+        "integration"
+      ]
+    },
+    {
+      "id": "planetbids:16151:147396",
+      "source_name": "PlanetBids — Santa Clara Valley Water District, CA",
+      "title": "Red Hat Enterprise Linux Software Technical Support",
+      "description": "RFB-DV-481328",
+      "agency": "Santa Clara Valley Water District, CA",
+      "state": "CA",
+      "url": "https://vendors.planetbids.com/portal/16151/bo/bo-detail/147396",
+      "naics": "",
+      "psc": "92045, 92047, 98574",
+      "set_aside": "",
+      "posted_date": "2026-10-16",
+      "due_date": "2026-11-04",
+      "it_score": 71,
+      "is_new": true,
+      "first_seen": "2026-10-17",
+      "matched_keywords": [
+        "software"
+      ]
+    },
+    {
       "id": "opengov:santa-monica-ca:315034",
       "source_name": "OpenGov — City of Santa Monica, CA",
       "title": "Request for Proposals for Onboard Bus Video Surveillance System",
@@ -430,70 +503,10 @@
       "posted_date": "2026-10-15",
       "due_date": "2026-11-10",
       "it_score": 56,
-      "is_new": true,
+      "is_new": false,
       "first_seen": "2026-10-16",
       "matched_keywords": [
         "development"
-      ]
-    },
-    {
-      "id": "opengov:smcgov:303048",
-      "source_name": "OpenGov — County of San Mateo, CA",
-      "title": "NCRIC Analyst Notebook 2026-2027 Annual Renewal",
-      "description": "NCRIC is seeking quotes for annual renewal of our i2 Analyst Notebook software subscription. Quotes should be for i2 Analyst Notebook, concurrent user license, one year term (12/1/2026 - 11/30/2027), for a quantity of seven concurrent users. Please complete the Pricing Bid Table in section 3 and please also upload your competitive quotation including accurate lead times as well as any applicable freight and delivery costs for the items listed. Cost, conformity to specifications of goods, and product availability will be considered. After an evaluation of all quotations, a County purchase order is expected to be issued in association with the lowest, responsive bid received from a qualified, responsible, and manufacturer/publisher authorized vendor.",
-      "agency": "County of San Mateo",
-      "state": "CA",
-      "url": "https://procurement.opengov.com/portal/smcgov/projects/303048",
-      "naics": "",
-      "psc": "",
-      "set_aside": "",
-      "posted_date": "2026-09-14",
-      "due_date": "2026-10-17",
-      "it_score": 51,
-      "is_new": false,
-      "first_seen": "2026-10-02",
-      "matched_keywords": [
-        "software"
-      ]
-    },
-    {
-      "id": "opengov:smcgov:304179",
-      "source_name": "OpenGov — County of San Mateo, CA",
-      "title": "Virtual Blood Bourne Pathogens Course",
-      "description": "The County of San Mateo (the “County” or “SMC”) covers most of the San Francisco Peninsula. The region covers 744 mi and is home to nearly 800,000 residents and 20 incorporated cities. The County provides for the health and welfare of all people within its borders and serves as the local government for the unincorporated areas. Innovation thrives here in industries including bioscience, computer software, green technology, hospitality, financial management, health care, education and transportation. The County prides itself on how that prosperity fosters its commitment to protecting and enhancing the health, safety, welfare and natural resources of the community. The agency is seeking qualified vendors to provide a virtual Bloodborne Pathogens training course for employees. The goal of this solicitation is to identify an engaging, accessible, and user-friendly online training solution that provides employees with the knowledge and practical guidance necessary to recognize and prevent occupational exposure to bloodborne pathogens and to respond appropriately to potential exposures. The selected vendor should provide a high-quality virtual course that is appropriate for workplace use, supports employee participation and completion, and includes a method for documenting or verifying successful completion. Vendors are encouraged to propose solutions that offer clear instruction, engaging content, convenient online access, and reliable reporting or recordkeeping capabilities.",
-      "agency": "County of San Mateo",
-      "state": "CA",
-      "url": "https://procurement.opengov.com/portal/smcgov/projects/304179",
-      "naics": "",
-      "psc": "",
-      "set_aside": "2027-RFP - Informal-00114",
-      "posted_date": "2026-09-16",
-      "due_date": "2026-10-17",
-      "it_score": 51,
-      "is_new": false,
-      "first_seen": "2026-09-26",
-      "matched_keywords": [
-        "software"
-      ]
-    },
-    {
-      "id": "opengov:smcgov:300941",
-      "source_name": "OpenGov — County of San Mateo, CA",
-      "title": "Technology of Participation (ToP)",
-      "description": "The County of San Mateo (the “County” or “SMC”) covers most of the San Francisco Peninsula. The region covers 744 square miles and is home to nearly 800,000 residents and 20 incorporated cities. The County provides for the health and welfare of all people within its borders and serves as the local government for the unincorporated areas. Innovation thrives here in industries including bioscience, computer software, green technology, hospitality, financial management, health care, education and transportation. The County prides itself on how that prosperity fosters its commitment to protecting and enhancing the health, safety, welfare and natural resources of the community. Formed in July 2014, the San Mateo County Sustainability Department strives to improve the sustainability of the County’s operations and the greater community through work that is designed to bring solutions today while solving for tomorrow. The Sustainability Department has programs to help the county both fight and prepare for climate change, ensure clean energy, water, and air, and conserve resources for future generations through waste reduction. The Sustainability Department has approximately 40 staff members and provides services in the following areas: Communications, Climate Resilience, Climate Protection, Waste Reduction, and Special Districts with similar but varying community needs. The department is seeking a vendor that will provide meeting facilitation using Technology of Participation as a core aspect of the facilitation. We are also looking to have staff trained with these skills and philosophy.",
-      "agency": "County of San Mateo",
-      "state": "CA",
-      "url": "https://procurement.opengov.com/portal/smcgov/projects/300941",
-      "naics": "",
-      "psc": "",
-      "set_aside": "",
-      "posted_date": "2026-09-04",
-      "due_date": "2026-10-17",
-      "it_score": 51,
-      "is_new": false,
-      "first_seen": "2026-09-15",
-      "matched_keywords": [
-        "software"
       ]
     },
     {
@@ -517,13 +530,13 @@
       ]
     },
     {
-      "id": "hf3r-utnq:232496",
+      "id": "hf3r-utnq:232492",
       "source_name": "Los Angeles County CA — RAMP Open Bids",
-      "title": "RFB-IS-27200245 - 937042 - SOFTWARE - MAINTENANCE - VERITAS NETBACKUP - Closing: 10/22/2026 12:00 PM",
+      "title": "RFB-IS-27200241 - 2710001 SOFTWARE - MAINTENANCE - ANNUAL RENEWAL - SPLUNK - Closing: 10/22/2026 12:00 PM",
       "description": "Commodity",
       "agency": "Los Angeles County",
       "state": "CA",
-      "url": "https://www.rampla.org/s/opportunity-details?id=006Ql00000mzywbIAA",
+      "url": "https://www.rampla.org/s/opportunity-details?id=006Ql00000mzywXIAQ",
       "naics": "",
       "psc": "",
       "set_aside": "",
@@ -537,13 +550,13 @@
       ]
     },
     {
-      "id": "hf3r-utnq:232492",
+      "id": "hf3r-utnq:232496",
       "source_name": "Los Angeles County CA — RAMP Open Bids",
-      "title": "RFB-IS-27200241 - 2710001 SOFTWARE - MAINTENANCE - ANNUAL RENEWAL - SPLUNK - Closing: 10/22/2026 12:00 PM",
+      "title": "RFB-IS-27200245 - 937042 - SOFTWARE - MAINTENANCE - VERITAS NETBACKUP - Closing: 10/22/2026 12:00 PM",
       "description": "Commodity",
       "agency": "Los Angeles County",
       "state": "CA",
-      "url": "https://www.rampla.org/s/opportunity-details?id=006Ql00000mzywXIAQ",
+      "url": "https://www.rampla.org/s/opportunity-details?id=006Ql00000mzywbIAA",
       "naics": "",
       "psc": "",
       "set_aside": "",
@@ -730,7 +743,7 @@
       "posted_date": "2026-10-15",
       "due_date": "2026-11-13",
       "it_score": 51,
-      "is_new": true,
+      "is_new": false,
       "first_seen": "2026-10-16",
       "matched_keywords": [
         "software"
@@ -772,6 +785,26 @@
       "it_score": 51,
       "is_new": false,
       "first_seen": "2026-10-15",
+      "matched_keywords": [
+        "modernization"
+      ]
+    },
+    {
+      "id": "hf3r-utnq:232553",
+      "source_name": "Los Angeles County CA — RAMP Open Bids",
+      "title": "DESIGN BUILD | RFQ # R-27016 - 107TH STREET ELEMENTARY | SEISMIC MODERNIZATION PROJECT",
+      "description": "Construction",
+      "agency": "LAUSD",
+      "state": "CA",
+      "url": "https://www.rampla.org/s/opportunity-details?id=006Ql00000n7pXpIAI",
+      "naics": "",
+      "psc": "",
+      "set_aside": "",
+      "posted_date": "2026-10-16",
+      "due_date": "2026-12-21",
+      "it_score": 51,
+      "is_new": true,
+      "first_seen": "2026-10-17",
       "matched_keywords": [
         "modernization"
       ]
@@ -1035,27 +1068,6 @@
       "matched_keywords": []
     },
     {
-      "id": "eeq6-nnwe:1200288",
-      "source_name": "Montgomery County MD — Solicitations",
-      "title": "Digital Data Logger Purchases, Recalibration, Repair, and Maintenance",
-      "description": "Digital Data Logger Purchases, Recalibration, Repair, and Maintenance",
-      "agency": "Department of Health & Human Svcs",
-      "state": "MD",
-      "url": "https://www.montgomerycountymd.gov/office-procurement/solicitations-contracts",
-      "naics": "",
-      "psc": "",
-      "set_aside": "Y",
-      "posted_date": "2026-10-09",
-      "due_date": "2026-10-16",
-      "it_score": 42,
-      "is_new": false,
-      "first_seen": "2026-10-09",
-      "matched_keywords": [
-        "data",
-        "digital"
-      ]
-    },
-    {
       "id": "hf3r-utnq:232441",
       "source_name": "Los Angeles County CA — RAMP Open Bids",
       "title": "146385 BOOM DOLLY, FOR GROVE MODEL 5150L-1 CRANE, SCALE SYSTEM, DIGITAL",
@@ -1116,6 +1128,27 @@
       "matched_keywords": [
         "system",
         "data"
+      ]
+    },
+    {
+      "id": "eeq6-nnwe:1200288",
+      "source_name": "Montgomery County MD — Solicitations",
+      "title": "Digital Data Logger Purchases, Recalibration, Repair, and Maintenance",
+      "description": "Digital Data Logger Purchases, Recalibration, Repair, and Maintenance",
+      "agency": "Department of Health & Human Svcs",
+      "state": "MD",
+      "url": "https://www.montgomerycountymd.gov/office-procurement/solicitations-contracts",
+      "naics": "",
+      "psc": "",
+      "set_aside": "N",
+      "posted_date": "2026-10-19",
+      "due_date": "2026-11-13",
+      "it_score": 42,
+      "is_new": false,
+      "first_seen": "2026-10-09",
+      "matched_keywords": [
+        "data",
+        "digital"
       ]
     },
     {
@@ -1217,6 +1250,26 @@
       "first_seen": "2026-10-15",
       "matched_keywords": [
         "license"
+      ]
+    },
+    {
+      "id": "hf3r-utnq:232551",
+      "source_name": "Los Angeles County CA — RAMP Open Bids",
+      "title": "RFB-IS-27200258 - COMPUTER - HARDWARE MAINTENANCE - PURE STORAGE - Closing: 10/29/2026 12:00 PM",
+      "description": "Commodity",
+      "agency": "Los Angeles County",
+      "state": "CA",
+      "url": "https://www.rampla.org/s/opportunity-details?id=006Ql00000n7FEEIA2",
+      "naics": "",
+      "psc": "",
+      "set_aside": "",
+      "posted_date": "2026-10-16",
+      "due_date": "2026-10-29",
+      "it_score": 36,
+      "is_new": true,
+      "first_seen": "2026-10-17",
+      "matched_keywords": [
+        "computer"
       ]
     },
     {
