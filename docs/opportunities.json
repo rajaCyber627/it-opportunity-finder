@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-10-17T14:54:08.367568+00:00",
+  "generated_at": "2026-10-18T15:19:52.759417+00:00",
   "counts": {
-    "total": 51,
-    "new": 5
+    "total": 52,
+    "new": 1
   },
   "health": {
     "ok": 22,
@@ -17,7 +17,7 @@
       {
         "source": "Los Angeles County CA — RAMP Open Bids",
         "ok": true,
-        "count": 196,
+        "count": 199,
         "error": ""
       },
       {
@@ -59,7 +59,7 @@
       {
         "source": "Texas DOT — Plan Holders (Open Lettings)",
         "ok": true,
-        "count": 384,
+        "count": 378,
         "error": ""
       },
       {
@@ -376,7 +376,7 @@
       "posted_date": "2026-10-05",
       "due_date": "2026-11-13",
       "it_score": 93,
-      "is_new": true,
+      "is_new": false,
       "first_seen": "2026-10-17",
       "matched_keywords": [
         "software",
@@ -398,7 +398,7 @@
       "posted_date": "2026-10-05",
       "due_date": "2026-11-13",
       "it_score": 93,
-      "is_new": true,
+      "is_new": false,
       "first_seen": "2026-10-17",
       "matched_keywords": [
         "software",
@@ -420,7 +420,7 @@
       "posted_date": "2026-10-16",
       "due_date": "2026-11-04",
       "it_score": 71,
-      "is_new": true,
+      "is_new": false,
       "first_seen": "2026-10-17",
       "matched_keywords": [
         "software"
@@ -565,6 +565,26 @@
       "it_score": 51,
       "is_new": false,
       "first_seen": "2026-10-15",
+      "matched_keywords": [
+        "software"
+      ]
+    },
+    {
+      "id": "hf3r-utnq:232561",
+      "source_name": "Los Angeles County CA — RAMP Open Bids",
+      "title": "RFB-IS-27200262 - SOFTWARE (SALESFORCE) APPLICATIONS RENEWAL, BRAND ONLY - Closing: 10/23/2026 12:00 AM",
+      "description": "Commodity",
+      "agency": "Los Angeles County",
+      "state": "CA",
+      "url": "https://www.rampla.org/s/opportunity-details?id=006Ql00000nAfk3IAC",
+      "naics": "",
+      "psc": "",
+      "set_aside": "",
+      "posted_date": "2026-10-17",
+      "due_date": "2026-10-23",
+      "it_score": 51,
+      "is_new": true,
+      "first_seen": "2026-10-18",
       "matched_keywords": [
         "software"
       ]
@@ -803,7 +823,7 @@
       "posted_date": "2026-10-16",
       "due_date": "2026-12-21",
       "it_score": 51,
-      "is_new": true,
+      "is_new": false,
       "first_seen": "2026-10-17",
       "matched_keywords": [
         "modernization"
@@ -1266,7 +1286,7 @@
       "posted_date": "2026-10-16",
       "due_date": "2026-10-29",
       "it_score": 36,
-      "is_new": true,
+      "is_new": false,
       "first_seen": "2026-10-17",
       "matched_keywords": [
         "computer"
