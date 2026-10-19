@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-10-18T15:19:52.759417+00:00",
+  "generated_at": "2026-10-19T18:17:52.075150+00:00",
   "counts": {
-    "total": 52,
-    "new": 1
+    "total": 58,
+    "new": 6
   },
   "health": {
     "ok": 22,
@@ -17,13 +17,13 @@
       {
         "source": "Los Angeles County CA — RAMP Open Bids",
         "ok": true,
-        "count": 199,
+        "count": 198,
         "error": ""
       },
       {
         "source": "San Francisco CA — Open Bids",
         "ok": true,
-        "count": 50,
+        "count": 40,
         "error": ""
       },
       {
@@ -59,7 +59,7 @@
       {
         "source": "Texas DOT — Plan Holders (Open Lettings)",
         "ok": true,
-        "count": 378,
+        "count": 426,
         "error": ""
       },
       {
@@ -113,7 +113,7 @@
       {
         "source": "OpenGov",
         "ok": true,
-        "count": 195,
+        "count": 203,
         "error": ""
       },
       {
@@ -131,7 +131,7 @@
       {
         "source": "Biddingo",
         "ok": true,
-        "count": 17,
+        "count": 18,
         "error": ""
       },
       {
@@ -530,6 +530,46 @@
       ]
     },
     {
+      "id": "dg92-zbpx:20261009006",
+      "source_name": "New York City — City Record (Procurement)",
+      "title": "81627Y0872-Software Service to Validate Addresses and Client Services",
+      "description": "81627Y0872-Software Service to Validate Addresses and Client Services",
+      "agency": "Health and Mental Hygiene",
+      "state": "NY",
+      "url": "https://a856-cityrecord.nyc.gov/",
+      "naics": "",
+      "psc": "",
+      "set_aside": "",
+      "posted_date": "2026-10-19",
+      "due_date": "2026-10-19",
+      "it_score": 51,
+      "is_new": true,
+      "first_seen": "2026-10-19",
+      "matched_keywords": [
+        "software"
+      ]
+    },
+    {
+      "id": "dg92-zbpx:20261013005",
+      "source_name": "New York City — City Record (Procurement)",
+      "title": "IT SOFTWARE SUBSCRIPTION AND HARDWARE MAINTENANCE",
+      "description": "IT SOFTWARE SUBSCRIPTION AND HARDWARE MAINTENANCE",
+      "agency": "School Construction Authority",
+      "state": "NY",
+      "url": "https://a856-cityrecord.nyc.gov/",
+      "naics": "",
+      "psc": "",
+      "set_aside": "",
+      "posted_date": "2026-10-19",
+      "due_date": "2026-10-19",
+      "it_score": 51,
+      "is_new": true,
+      "first_seen": "2026-10-19",
+      "matched_keywords": [
+        "software"
+      ]
+    },
+    {
       "id": "hf3r-utnq:232492",
       "source_name": "Los Angeles County CA — RAMP Open Bids",
       "title": "RFB-IS-27200241 - 2710001 SOFTWARE - MAINTENANCE - ANNUAL RENEWAL - SPLUNK - Closing: 10/22/2026 12:00 PM",
@@ -583,8 +623,48 @@
       "posted_date": "2026-10-17",
       "due_date": "2026-10-23",
       "it_score": 51,
-      "is_new": true,
+      "is_new": false,
       "first_seen": "2026-10-18",
+      "matched_keywords": [
+        "software"
+      ]
+    },
+    {
+      "id": "eshn-8t3a:SFGOV~0000012170",
+      "source_name": "San Francisco CA — Open Bids",
+      "title": "OCA HSA | TM3 – Rubrik Software & Maint Renewal",
+      "description": "Seeking Bids",
+      "agency": "Office of Contract Administration",
+      "state": "CA",
+      "url": "https://sfcitypartner.sfgov.org/pages/Events-BS3/event-details.aspx?Page=AUC_RESP_INQ_DTL&Action=U&AUC_ID=0000012170&AUC_ROUND=1&AUC_VERSION=1&BIDDER_ID=0000000001&BIDDER_LOC=1&BIDDER_SETID=SHARE&BIDDER_TYPE=B&BUSINESS_UNIT=SFGOV",
+      "naics": "",
+      "psc": "",
+      "set_aside": "",
+      "posted_date": "2026-10-16",
+      "due_date": "2026-10-23",
+      "it_score": 51,
+      "is_new": true,
+      "first_seen": "2026-10-19",
+      "matched_keywords": [
+        "software"
+      ]
+    },
+    {
+      "id": "eshn-8t3a:SFGOV~0000012169",
+      "source_name": "San Francisco CA — Open Bids",
+      "title": "OCA DT | TM3 – Infoblox Software & Maint. Renewal",
+      "description": "Seeking Bids",
+      "agency": "Office of Contract Administration",
+      "state": "CA",
+      "url": "https://sfcitypartner.sfgov.org/pages/Events-BS3/event-details.aspx?Page=AUC_RESP_INQ_DTL&Action=U&AUC_ID=0000012169&AUC_ROUND=1&AUC_VERSION=1&BIDDER_ID=0000000001&BIDDER_LOC=1&BIDDER_SETID=SHARE&BIDDER_TYPE=B&BUSINESS_UNIT=SFGOV",
+      "naics": "",
+      "psc": "",
+      "set_aside": "",
+      "posted_date": "2026-10-16",
+      "due_date": "2026-10-23",
+      "it_score": 51,
+      "is_new": true,
+      "first_seen": "2026-10-19",
       "matched_keywords": [
         "software"
       ]
@@ -1086,6 +1166,50 @@
       "is_new": false,
       "first_seen": "2026-10-01",
       "matched_keywords": []
+    },
+    {
+      "id": "dg92-zbpx:20261009015",
+      "source_name": "New York City — City Record (Procurement)",
+      "title": "Offender and Jail Management System (OJMS) Digital Solutions Platform",
+      "description": "Offender and Jail Management System (OJMS) Digital Solutions Platform",
+      "agency": "Correction",
+      "state": "NY",
+      "url": "https://a856-cityrecord.nyc.gov/",
+      "naics": "",
+      "psc": "",
+      "set_aside": "",
+      "posted_date": "2026-10-19",
+      "due_date": "2026-10-19",
+      "it_score": 48,
+      "is_new": true,
+      "first_seen": "2026-10-19",
+      "matched_keywords": [
+        "system",
+        "digital",
+        "platform"
+      ]
+    },
+    {
+      "id": "dg92-zbpx:20261009016",
+      "source_name": "New York City — City Record (Procurement)",
+      "title": "Offender and Jail Management System (OJMS) Unified Data and Application Services Transformation Initiative",
+      "description": "Offender and Jail Management System (OJMS) Unified Data and Application Services Transformation Initiative",
+      "agency": "Correction",
+      "state": "NY",
+      "url": "https://a856-cityrecord.nyc.gov/",
+      "naics": "",
+      "psc": "",
+      "set_aside": "",
+      "posted_date": "2026-10-19",
+      "due_date": "2026-10-19",
+      "it_score": 48,
+      "is_new": true,
+      "first_seen": "2026-10-19",
+      "matched_keywords": [
+        "application",
+        "system",
+        "data"
+      ]
     },
     {
       "id": "hf3r-utnq:232441",
