@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-10-19T18:17:52.075150+00:00",
+  "generated_at": "2026-10-20T16:18:18.341171+00:00",
   "counts": {
-    "total": 58,
+    "total": 57,
     "new": 6
   },
   "health": {
@@ -11,13 +11,13 @@
       {
         "source": "Montgomery County MD — Solicitations",
         "ok": true,
-        "count": 22,
+        "count": 23,
         "error": ""
       },
       {
         "source": "Los Angeles County CA — RAMP Open Bids",
         "ok": true,
-        "count": 198,
+        "count": 189,
         "error": ""
       },
       {
@@ -59,7 +59,7 @@
       {
         "source": "Texas DOT — Plan Holders (Open Lettings)",
         "ok": true,
-        "count": 426,
+        "count": 434,
         "error": ""
       },
       {
@@ -107,19 +107,19 @@
       {
         "source": "PlanetBids",
         "ok": true,
-        "count": 67,
+        "count": 68,
         "error": ""
       },
       {
         "source": "OpenGov",
         "ok": true,
-        "count": 203,
+        "count": 202,
         "error": ""
       },
       {
         "source": "Washington DC — Solicitations (PASS)",
         "ok": true,
-        "count": 26,
+        "count": 19,
         "error": ""
       },
       {
@@ -131,13 +131,13 @@
       {
         "source": "Biddingo",
         "ok": true,
-        "count": 18,
+        "count": 19,
         "error": ""
       },
       {
         "source": "Bonfire",
         "ok": true,
-        "count": 4,
+        "count": 5,
         "error": ""
       },
       {
@@ -194,45 +194,6 @@
           "due_date": "2026-12-21",
           "it_score": 51,
           "source_name": "Los Angeles County CA — RAMP Open Bids"
-        }
-      ]
-    },
-    {
-      "name": "Permitting & Licensing",
-      "opportunity_count": 3,
-      "agency_count": 2,
-      "state_count": 1,
-      "states": [
-        "CA"
-      ],
-      "demand_score": 7,
-      "examples": [
-        {
-          "title": "DOMO PROFESSIONAL BUNDLE PLATFORM ACCESS SUBSCRIPTION LICENSE RENEWAL FY26-27",
-          "agency": "County of San Mateo",
-          "state": "CA",
-          "url": "https://procurement.opengov.com/portal/smcgov/projects/315557",
-          "due_date": "2026-10-26",
-          "it_score": 42,
-          "source_name": "OpenGov — County of San Mateo, CA"
-        },
-        {
-          "title": "OCA LIB | TM3 - Everpure License Renewal",
-          "agency": "Office of Contract Administration",
-          "state": "CA",
-          "url": "https://sfcitypartner.sfgov.org/pages/Events-BS3/event-details.aspx?Page=AUC_RESP_INQ_DTL&Action=U&AUC_ID=0000012157&AUC_ROUND=1&AUC_VERSION=1&BIDDER_ID=0000000001&BIDDER_LOC=1&BIDDER_SETID=SHARE&BIDDER_TYPE=B&BUSINESS_UNIT=SFGOV",
-          "due_date": "2026-10-19",
-          "it_score": 36,
-          "source_name": "San Francisco CA — Open Bids"
-        },
-        {
-          "title": "Silver Peak License Renewal FY26-29",
-          "agency": "County of San Mateo",
-          "state": "CA",
-          "url": "https://procurement.opengov.com/portal/smcgov/projects/311143",
-          "due_date": "2026-10-27",
-          "it_score": 36,
-          "source_name": "OpenGov — County of San Mateo, CA"
         }
       ]
     }
@@ -510,61 +471,41 @@
       ]
     },
     {
-      "id": "eshn-8t3a:SFGOV~0000012156",
-      "source_name": "San Francisco CA — Open Bids",
-      "title": "OCA PUC | TM3 - Cornerstone Talent Suite SaaS LMS",
-      "description": "Seeking Bids",
-      "agency": "Office of Contract Administration",
-      "state": "CA",
-      "url": "https://sfcitypartner.sfgov.org/pages/Events-BS3/event-details.aspx?Page=AUC_RESP_INQ_DTL&Action=U&AUC_ID=0000012156&AUC_ROUND=1&AUC_VERSION=1&BIDDER_ID=0000000001&BIDDER_LOC=1&BIDDER_SETID=SHARE&BIDDER_TYPE=B&BUSINESS_UNIT=SFGOV",
-      "naics": "",
-      "psc": "",
-      "set_aside": "",
-      "posted_date": "2026-10-09",
-      "due_date": "2026-10-19",
-      "it_score": 51,
-      "is_new": false,
-      "first_seen": "2026-10-12",
-      "matched_keywords": [
-        "saas"
-      ]
-    },
-    {
-      "id": "dg92-zbpx:20261009006",
+      "id": "dg92-zbpx:20261014018",
       "source_name": "New York City — City Record (Procurement)",
-      "title": "81627Y0872-Software Service to Validate Addresses and Client Services",
-      "description": "81627Y0872-Software Service to Validate Addresses and Client Services",
-      "agency": "Health and Mental Hygiene",
+      "title": "AvePoint Cloud Governance M365 and Backup",
+      "description": "AvePoint Cloud Governance M365 and Backup",
+      "agency": "Transportation",
       "state": "NY",
       "url": "https://a856-cityrecord.nyc.gov/",
       "naics": "",
       "psc": "",
       "set_aside": "",
-      "posted_date": "2026-10-19",
-      "due_date": "2026-10-19",
+      "posted_date": "2026-10-20",
+      "due_date": "2026-10-20",
       "it_score": 51,
       "is_new": true,
-      "first_seen": "2026-10-19",
+      "first_seen": "2026-10-20",
       "matched_keywords": [
-        "software"
+        "cloud"
       ]
     },
     {
-      "id": "dg92-zbpx:20261013005",
+      "id": "dg92-zbpx:20261013033",
       "source_name": "New York City — City Record (Procurement)",
-      "title": "IT SOFTWARE SUBSCRIPTION AND HARDWARE MAINTENANCE",
-      "description": "IT SOFTWARE SUBSCRIPTION AND HARDWARE MAINTENANCE",
-      "agency": "School Construction Authority",
+      "title": "Cellebrite Software Upgrades to Inseyets online Pro, Inseyets Kits, & Smart Translator, for a one-year term",
+      "description": "Cellebrite Software Upgrades to Inseyets online Pro, Inseyets Kits, & Smart Translator, for a one-year term",
+      "agency": "Police Department",
       "state": "NY",
       "url": "https://a856-cityrecord.nyc.gov/",
       "naics": "",
       "psc": "",
       "set_aside": "",
-      "posted_date": "2026-10-19",
-      "due_date": "2026-10-19",
+      "posted_date": "2026-10-20",
+      "due_date": "2026-10-20",
       "it_score": 51,
       "is_new": true,
-      "first_seen": "2026-10-19",
+      "first_seen": "2026-10-20",
       "matched_keywords": [
         "software"
       ]
@@ -643,7 +584,7 @@
       "posted_date": "2026-10-16",
       "due_date": "2026-10-23",
       "it_score": 51,
-      "is_new": true,
+      "is_new": false,
       "first_seen": "2026-10-19",
       "matched_keywords": [
         "software"
@@ -663,7 +604,7 @@
       "posted_date": "2026-10-16",
       "due_date": "2026-10-23",
       "it_score": 51,
-      "is_new": true,
+      "is_new": false,
       "first_seen": "2026-10-19",
       "matched_keywords": [
         "software"
@@ -747,6 +688,66 @@
       "first_seen": "2026-09-23",
       "matched_keywords": [
         "modernization"
+      ]
+    },
+    {
+      "id": "hf3r-utnq:232581",
+      "source_name": "Los Angeles County CA — RAMP Open Bids",
+      "title": "RFB-IS-27200265 - 1092847 - SOFTWARE - EMAIL SECURITY - PROOFPOINT(BRAND ONLY) - Closing: 10/30/2026 12:00 PM",
+      "description": "Commodity",
+      "agency": "Los Angeles County",
+      "state": "CA",
+      "url": "https://www.rampla.org/s/opportunity-details?id=006Ql00000nIWBkIAO",
+      "naics": "",
+      "psc": "",
+      "set_aside": "",
+      "posted_date": "2026-10-20",
+      "due_date": "2026-10-30",
+      "it_score": 51,
+      "is_new": true,
+      "first_seen": "2026-10-20",
+      "matched_keywords": [
+        "software"
+      ]
+    },
+    {
+      "id": "opengov:smcgov:317859",
+      "source_name": "OpenGov — County of San Mateo, CA",
+      "title": "NCRIC 2027 PIPL Annual Renewal",
+      "description": "As fiduciary for the Northern California Regional Intelligence Center (NCRIC), the County of San Mateo is seeking quotations to renew the NCRIC's license of the Pipl software subscription. This is scoped at 30 seats of Pipl Search, for a one year term. Please complete the Pricing Bid Table in section 3 and please also upload your competitive quotation including accurate lead times as well as any applicable freight and delivery costs for the items listed. Cost, conformity to specifications of goods, and product availability will be considered. After an evaluation of all quotations, a County purchase order is expected to be issued in association with the lowest, responsive bid received from a qualified, responsible, and manufacturer/publisher authorized vendor.",
+      "agency": "County of San Mateo",
+      "state": "CA",
+      "url": "https://procurement.opengov.com/portal/smcgov/projects/317859",
+      "naics": "",
+      "psc": "",
+      "set_aside": "",
+      "posted_date": "2026-10-15",
+      "due_date": "2026-11-02",
+      "it_score": 51,
+      "is_new": true,
+      "first_seen": "2026-10-20",
+      "matched_keywords": [
+        "software"
+      ]
+    },
+    {
+      "id": "opengov:smcgov:317475",
+      "source_name": "OpenGov — County of San Mateo, CA",
+      "title": "NCRIC 2027 Barracuda Annual Renewal",
+      "description": "As fiduciary for the Northern California Regional Intelligence Center (NCRIC) the County of San Mateo is seeking quotations for the annual renewal of software and support subscriptions associated with devices from Barracuda Networks. Please complete the Pricing Bid Table in section 3 and please also upload your competitive quotation including accurate lead times as well as any applicable freight and delivery costs for the items listed. Cost, conformity to specifications of goods, and product availability will be considered. After an evaluation of all quotations, a County purchase order is expected to be issued in association with the lowest, responsive bid received from a qualified, responsible, and manufacturer/publisher authorized vendor.",
+      "agency": "County of San Mateo",
+      "state": "CA",
+      "url": "https://procurement.opengov.com/portal/smcgov/projects/317475",
+      "naics": "",
+      "psc": "",
+      "set_aside": "",
+      "posted_date": "2026-10-15",
+      "due_date": "2026-11-03",
+      "it_score": 51,
+      "is_new": true,
+      "first_seen": "2026-10-20",
+      "matched_keywords": [
+        "software"
       ]
     },
     {
@@ -1168,71 +1169,6 @@
       "matched_keywords": []
     },
     {
-      "id": "dg92-zbpx:20261009015",
-      "source_name": "New York City — City Record (Procurement)",
-      "title": "Offender and Jail Management System (OJMS) Digital Solutions Platform",
-      "description": "Offender and Jail Management System (OJMS) Digital Solutions Platform",
-      "agency": "Correction",
-      "state": "NY",
-      "url": "https://a856-cityrecord.nyc.gov/",
-      "naics": "",
-      "psc": "",
-      "set_aside": "",
-      "posted_date": "2026-10-19",
-      "due_date": "2026-10-19",
-      "it_score": 48,
-      "is_new": true,
-      "first_seen": "2026-10-19",
-      "matched_keywords": [
-        "system",
-        "digital",
-        "platform"
-      ]
-    },
-    {
-      "id": "dg92-zbpx:20261009016",
-      "source_name": "New York City — City Record (Procurement)",
-      "title": "Offender and Jail Management System (OJMS) Unified Data and Application Services Transformation Initiative",
-      "description": "Offender and Jail Management System (OJMS) Unified Data and Application Services Transformation Initiative",
-      "agency": "Correction",
-      "state": "NY",
-      "url": "https://a856-cityrecord.nyc.gov/",
-      "naics": "",
-      "psc": "",
-      "set_aside": "",
-      "posted_date": "2026-10-19",
-      "due_date": "2026-10-19",
-      "it_score": 48,
-      "is_new": true,
-      "first_seen": "2026-10-19",
-      "matched_keywords": [
-        "application",
-        "system",
-        "data"
-      ]
-    },
-    {
-      "id": "hf3r-utnq:232441",
-      "source_name": "Los Angeles County CA — RAMP Open Bids",
-      "title": "146385 BOOM DOLLY, FOR GROVE MODEL 5150L-1 CRANE, SCALE SYSTEM, DIGITAL",
-      "description": "Commodity",
-      "agency": "Water & Power",
-      "state": "CA",
-      "url": "https://www.rampla.org/s/opportunity-details?id=006Ql00000mkqpZIAQ",
-      "naics": "",
-      "psc": "",
-      "set_aside": "",
-      "posted_date": "2026-10-08",
-      "due_date": "2026-10-20",
-      "it_score": 42,
-      "is_new": false,
-      "first_seen": "2026-10-09",
-      "matched_keywords": [
-        "system",
-        "digital"
-      ]
-    },
-    {
       "id": "opengov:smcgov:315557",
       "source_name": "OpenGov — County of San Mateo, CA",
       "title": "DOMO PROFESSIONAL BUNDLE PLATFORM ACCESS SUBSCRIPTION LICENSE RENEWAL FY26-27",
@@ -1317,26 +1253,6 @@
       ]
     },
     {
-      "id": "eshn-8t3a:SFGOV~0000012157",
-      "source_name": "San Francisco CA — Open Bids",
-      "title": "OCA LIB | TM3 - Everpure License Renewal",
-      "description": "Seeking Bids",
-      "agency": "Office of Contract Administration",
-      "state": "CA",
-      "url": "https://sfcitypartner.sfgov.org/pages/Events-BS3/event-details.aspx?Page=AUC_RESP_INQ_DTL&Action=U&AUC_ID=0000012157&AUC_ROUND=1&AUC_VERSION=1&BIDDER_ID=0000000001&BIDDER_LOC=1&BIDDER_SETID=SHARE&BIDDER_TYPE=B&BUSINESS_UNIT=SFGOV",
-      "naics": "",
-      "psc": "",
-      "set_aside": "",
-      "posted_date": "2026-10-09",
-      "due_date": "2026-10-19",
-      "it_score": 36,
-      "is_new": false,
-      "first_seen": "2026-10-12",
-      "matched_keywords": [
-        "license"
-      ]
-    },
-    {
       "id": "hf3r-utnq:232424",
       "source_name": "Los Angeles County CA — RAMP Open Bids",
       "title": "RFB-IS-27200239 - 1091153 - NETAPP A400 STORAGE ARRAY DATA ERASURES - Closing: 10/21/2026 12:00 PM",
@@ -1412,6 +1328,26 @@
       "it_score": 36,
       "is_new": false,
       "first_seen": "2026-10-17",
+      "matched_keywords": [
+        "computer"
+      ]
+    },
+    {
+      "id": "hf3r-utnq:232580",
+      "source_name": "Los Angeles County CA — RAMP Open Bids",
+      "title": "RFB-IS-27200264 - 27012711 COMPUTER - HARDWARE MAINTENANCE - NETAPP - Closing: 11/2/2026 12:00 PM",
+      "description": "Commodity",
+      "agency": "Los Angeles County",
+      "state": "CA",
+      "url": "https://www.rampla.org/s/opportunity-details?id=006Ql00000nIWBjIAO",
+      "naics": "",
+      "psc": "",
+      "set_aside": "",
+      "posted_date": "2026-10-20",
+      "due_date": "2026-11-02",
+      "it_score": 36,
+      "is_new": true,
+      "first_seen": "2026-10-20",
       "matched_keywords": [
         "computer"
       ]
