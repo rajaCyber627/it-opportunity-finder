@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-10-20T16:18:18.341171+00:00",
+  "generated_at": "2026-10-21T16:34:08.415457+00:00",
   "counts": {
-    "total": 57,
-    "new": 6
+    "total": 58,
+    "new": 5
   },
   "health": {
     "ok": 22,
@@ -11,13 +11,13 @@
       {
         "source": "Montgomery County MD — Solicitations",
         "ok": true,
-        "count": 23,
+        "count": 27,
         "error": ""
       },
       {
         "source": "Los Angeles County CA — RAMP Open Bids",
         "ok": true,
-        "count": 189,
+        "count": 184,
         "error": ""
       },
       {
@@ -59,7 +59,7 @@
       {
         "source": "Texas DOT — Plan Holders (Open Lettings)",
         "ok": true,
-        "count": 434,
+        "count": 477,
         "error": ""
       },
       {
@@ -107,25 +107,25 @@
       {
         "source": "PlanetBids",
         "ok": true,
-        "count": 68,
+        "count": 66,
         "error": ""
       },
       {
         "source": "OpenGov",
         "ok": true,
-        "count": 202,
+        "count": 199,
         "error": ""
       },
       {
         "source": "Washington DC — Solicitations (PASS)",
         "ok": true,
-        "count": 19,
+        "count": 24,
         "error": ""
       },
       {
         "source": "BidNet Direct",
         "ok": true,
-        "count": 18,
+        "count": 21,
         "error": ""
       },
       {
@@ -143,7 +143,7 @@
       {
         "source": "Bids&Tenders",
         "ok": true,
-        "count": 2,
+        "count": 1,
         "error": ""
       }
     ]
@@ -333,7 +333,7 @@
       "url": "https://procurement.opengov.com/portal/smcgov/projects/313156",
       "naics": "",
       "psc": "",
-      "set_aside": "",
+      "set_aside": "2027-RFP-00180",
       "posted_date": "2026-10-05",
       "due_date": "2026-11-13",
       "it_score": 93,
@@ -355,7 +355,7 @@
       "url": "https://procurement.opengov.com/portal/smcgov/projects/313065",
       "naics": "",
       "psc": "",
-      "set_aside": "",
+      "set_aside": "2027-RFP-00181",
       "posted_date": "2026-10-05",
       "due_date": "2026-11-13",
       "it_score": 93,
@@ -471,53 +471,53 @@
       ]
     },
     {
-      "id": "dg92-zbpx:20261014018",
+      "id": "dg92-zbpx:20261014045",
       "source_name": "New York City — City Record (Procurement)",
-      "title": "AvePoint Cloud Governance M365 and Backup",
-      "description": "AvePoint Cloud Governance M365 and Backup",
+      "title": "Software Technical Lead",
+      "description": "Software Technical Lead",
       "agency": "Transportation",
       "state": "NY",
       "url": "https://a856-cityrecord.nyc.gov/",
       "naics": "",
       "psc": "",
       "set_aside": "",
-      "posted_date": "2026-10-20",
-      "due_date": "2026-10-20",
+      "posted_date": "2026-10-21",
+      "due_date": "2026-10-21",
       "it_score": 51,
       "is_new": true,
-      "first_seen": "2026-10-20",
-      "matched_keywords": [
-        "cloud"
-      ]
-    },
-    {
-      "id": "dg92-zbpx:20261013033",
-      "source_name": "New York City — City Record (Procurement)",
-      "title": "Cellebrite Software Upgrades to Inseyets online Pro, Inseyets Kits, & Smart Translator, for a one-year term",
-      "description": "Cellebrite Software Upgrades to Inseyets online Pro, Inseyets Kits, & Smart Translator, for a one-year term",
-      "agency": "Police Department",
-      "state": "NY",
-      "url": "https://a856-cityrecord.nyc.gov/",
-      "naics": "",
-      "psc": "",
-      "set_aside": "",
-      "posted_date": "2026-10-20",
-      "due_date": "2026-10-20",
-      "it_score": 51,
-      "is_new": true,
-      "first_seen": "2026-10-20",
+      "first_seen": "2026-10-21",
       "matched_keywords": [
         "software"
       ]
     },
     {
-      "id": "hf3r-utnq:232492",
+      "id": "dg92-zbpx:20261015011",
+      "source_name": "New York City — City Record (Procurement)",
+      "title": "ClickDimensions Software Renewal",
+      "description": "ClickDimensions Software Renewal",
+      "agency": "Finance",
+      "state": "NY",
+      "url": "https://a856-cityrecord.nyc.gov/",
+      "naics": "",
+      "psc": "",
+      "set_aside": "",
+      "posted_date": "2026-10-21",
+      "due_date": "2026-10-21",
+      "it_score": 51,
+      "is_new": true,
+      "first_seen": "2026-10-21",
+      "matched_keywords": [
+        "software"
+      ]
+    },
+    {
+      "id": "hf3r-utnq:232496",
       "source_name": "Los Angeles County CA — RAMP Open Bids",
-      "title": "RFB-IS-27200241 - 2710001 SOFTWARE - MAINTENANCE - ANNUAL RENEWAL - SPLUNK - Closing: 10/22/2026 12:00 PM",
+      "title": "RFB-IS-27200245 - 937042 - SOFTWARE - MAINTENANCE - VERITAS NETBACKUP - Closing: 10/22/2026 12:00 PM",
       "description": "Commodity",
       "agency": "Los Angeles County",
       "state": "CA",
-      "url": "https://www.rampla.org/s/opportunity-details?id=006Ql00000mzywXIAQ",
+      "url": "https://www.rampla.org/s/opportunity-details?id=006Ql00000mzywbIAA",
       "naics": "",
       "psc": "",
       "set_aside": "",
@@ -531,13 +531,13 @@
       ]
     },
     {
-      "id": "hf3r-utnq:232496",
+      "id": "hf3r-utnq:232492",
       "source_name": "Los Angeles County CA — RAMP Open Bids",
-      "title": "RFB-IS-27200245 - 937042 - SOFTWARE - MAINTENANCE - VERITAS NETBACKUP - Closing: 10/22/2026 12:00 PM",
+      "title": "RFB-IS-27200241 - 2710001 SOFTWARE - MAINTENANCE - ANNUAL RENEWAL - SPLUNK - Closing: 10/22/2026 12:00 PM",
       "description": "Commodity",
       "agency": "Los Angeles County",
       "state": "CA",
-      "url": "https://www.rampla.org/s/opportunity-details?id=006Ql00000mzywbIAA",
+      "url": "https://www.rampla.org/s/opportunity-details?id=006Ql00000mzywXIAQ",
       "naics": "",
       "psc": "",
       "set_aside": "",
@@ -631,6 +631,26 @@
       ]
     },
     {
+      "id": "arcgis:Doc851539",
+      "source_name": "Washington DC — Solicitations (PASS)",
+      "title": "FY27 OCTO IBM zLinux Mainframe Software",
+      "description": "FY27 OCTO IBM zLinux Mainframe Software",
+      "agency": "Office of the Chief Technology Officer",
+      "state": "DC",
+      "url": "https://ocp.dc.gov/service/solicitations",
+      "naics": "",
+      "psc": "",
+      "set_aside": "",
+      "posted_date": "",
+      "due_date": "2026-10-26",
+      "it_score": 51,
+      "is_new": true,
+      "first_seen": "2026-10-21",
+      "matched_keywords": [
+        "software"
+      ]
+    },
+    {
       "id": "opengov:pasadena:292413",
       "source_name": "OpenGov — City of Pasadena, CA",
       "title": "P-57907 Enterprise Monitoring",
@@ -704,7 +724,7 @@
       "posted_date": "2026-10-20",
       "due_date": "2026-10-30",
       "it_score": 51,
-      "is_new": true,
+      "is_new": false,
       "first_seen": "2026-10-20",
       "matched_keywords": [
         "software"
@@ -724,7 +744,7 @@
       "posted_date": "2026-10-15",
       "due_date": "2026-11-02",
       "it_score": 51,
-      "is_new": true,
+      "is_new": false,
       "first_seen": "2026-10-20",
       "matched_keywords": [
         "software"
@@ -744,7 +764,7 @@
       "posted_date": "2026-10-15",
       "due_date": "2026-11-03",
       "it_score": 51,
-      "is_new": true,
+      "is_new": false,
       "first_seen": "2026-10-20",
       "matched_keywords": [
         "software"
@@ -951,44 +971,6 @@
       ]
     },
     {
-      "id": "arcgis:DCRL-2022-I-0078",
-      "source_name": "Washington DC — Solicitations (PASS)",
-      "title": "Quality Assurance Quality Control Program",
-      "description": "The District of Columbia (\u001aDistrict\u001a), Office of Contracting and Procurement on behalf of the Child and Family Services Agency (\u001aCFSA\u001a) issues the Request for Information (RFI) to for interested organizations to provide responses and questions regarding the CFSA plans to procure services of a contractor to design and implement a quality assurance and quality control program for its implementation of a Comprehensive Child Welfare Information System (CCWIS) using Microsoft Dynamics Customer Relation Management System (CRM).",
-      "agency": "Child and Family Services Agency",
-      "state": "DC",
-      "url": "https://ocp.dc.gov/service/solicitations",
-      "naics": "",
-      "psc": "",
-      "set_aside": "",
-      "posted_date": "",
-      "due_date": "",
-      "it_score": 51,
-      "is_new": false,
-      "first_seen": "2026-07-16",
-      "matched_keywords": [
-        "crm"
-      ]
-    },
-    {
-      "id": "planetbids:16151:143009",
-      "source_name": "PlanetBids — Santa Clara Valley Water District, CA",
-      "title": "Copper Basin Reservoir Discharge Valve Replacement",
-      "description": "1947",
-      "agency": "Santa Clara Valley Water District, CA",
-      "state": "CA",
-      "url": "https://vendors.planetbids.com/portal/16151/bo/bo-detail/143009",
-      "naics": "",
-      "psc": "34505, 90638, 91082, 91200, 91300, 91360, 91362, 91438, 92531, 92567, 92658, 93458, 93972, 95939, 96226",
-      "set_aside": "",
-      "posted_date": "2026-08-11",
-      "due_date": "2026-10-20",
-      "it_score": 50,
-      "is_new": false,
-      "first_seen": "2026-08-12",
-      "matched_keywords": []
-    },
-    {
       "id": "planetbids:22078:146791",
       "source_name": "PlanetBids — City of Newport Beach, CA",
       "title": "Mesa Drive Multi-Use Trail Extension",
@@ -1169,6 +1151,24 @@
       "matched_keywords": []
     },
     {
+      "id": "planetbids:16151:147443",
+      "source_name": "PlanetBids — Santa Clara Valley Water District, CA",
+      "title": "REAL ESTATE APPRAISAL AND VALUATION SUPPORT SERVICES",
+      "description": "MWD-JH-1418",
+      "agency": "Santa Clara Valley Water District, CA",
+      "state": "CA",
+      "url": "https://vendors.planetbids.com/portal/16151/bo/bo-detail/147443",
+      "naics": "",
+      "psc": "20876, 20977, 91814, 91889, 94615, 96164, 97163",
+      "set_aside": "",
+      "posted_date": "2026-10-21",
+      "due_date": "2026-12-02",
+      "it_score": 50,
+      "is_new": true,
+      "first_seen": "2026-10-21",
+      "matched_keywords": []
+    },
+    {
       "id": "opengov:smcgov:315557",
       "source_name": "OpenGov — County of San Mateo, CA",
       "title": "DOMO PROFESSIONAL BUNDLE PLATFORM ACCESS SUBSCRIPTION LICENSE RENEWAL FY26-27",
@@ -1273,6 +1273,26 @@
       ]
     },
     {
+      "id": "dg92-zbpx:20261015004",
+      "source_name": "New York City — City Record (Procurement)",
+      "title": "ACCENTURE SECURITY CLASS II",
+      "description": "ACCENTURE SECURITY CLASS II",
+      "agency": "Information Technology and Telecommunications",
+      "state": "NY",
+      "url": "https://a856-cityrecord.nyc.gov/",
+      "naics": "",
+      "psc": "",
+      "set_aside": "",
+      "posted_date": "2026-10-21",
+      "due_date": "2026-10-21",
+      "it_score": 36,
+      "is_new": true,
+      "first_seen": "2026-10-21",
+      "matched_keywords": [
+        "information technology"
+      ]
+    },
+    {
       "id": "2hnj-zwix:GSS27608A-DOC_DESTRUCT",
       "source_name": "Delaware — Open Bids (Statewide)",
       "title": "Secure Document and Data Destruction",
@@ -1346,7 +1366,7 @@
       "posted_date": "2026-10-20",
       "due_date": "2026-11-02",
       "it_score": 36,
-      "is_new": true,
+      "is_new": false,
       "first_seen": "2026-10-20",
       "matched_keywords": [
         "computer"

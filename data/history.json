@@ -2180,6 +2180,15 @@
   "New York City \u2014 City Record (Procurement)::dg92-zbpx:20261014018": {
     "first_seen": "2026-10-20"
   },
+  "New York City \u2014 City Record (Procurement)::dg92-zbpx:20261014045": {
+    "first_seen": "2026-10-21"
+  },
+  "New York City \u2014 City Record (Procurement)::dg92-zbpx:20261015004": {
+    "first_seen": "2026-10-21"
+  },
+  "New York City \u2014 City Record (Procurement)::dg92-zbpx:20261015011": {
+    "first_seen": "2026-10-21"
+  },
   "New York City \u2014 Current RFP (MOCS)::bzjf-rmtp:18-00033R": {
     "first_seen": "2026-07-14"
   },
@@ -3199,6 +3208,9 @@
   },
   "PlanetBids \u2014 Santa Clara Valley Water District, CA::planetbids:16151:147396": {
     "first_seen": "2026-10-17"
+  },
+  "PlanetBids \u2014 Santa Clara Valley Water District, CA::planetbids:16151:147443": {
+    "first_seen": "2026-10-21"
   },
   "Richmond VA \u2014 City Contracts (RFP/IFB)::xqn7-jvv2:22000005089": {
     "first_seen": "2026-07-14"
@@ -6610,5 +6622,8 @@
   },
   "Washington DC \u2014 Solicitations (PASS)::arcgis:Doc850821": {
     "first_seen": "2026-10-14"
+  },
+  "Washington DC \u2014 Solicitations (PASS)::arcgis:Doc851539": {
+    "first_seen": "2026-10-21"
   }
 }
