@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-10-21T16:34:08.415457+00:00",
+  "generated_at": "2026-10-22T16:36:09.761284+00:00",
   "counts": {
-    "total": 58,
-    "new": 5
+    "total": 55,
+    "new": 3
   },
   "health": {
     "ok": 22,
@@ -59,7 +59,7 @@
       {
         "source": "Texas DOT — Plan Holders (Open Lettings)",
         "ok": true,
-        "count": 477,
+        "count": 493,
         "error": ""
       },
       {
@@ -107,25 +107,25 @@
       {
         "source": "PlanetBids",
         "ok": true,
-        "count": 66,
+        "count": 65,
         "error": ""
       },
       {
         "source": "OpenGov",
         "ok": true,
-        "count": 199,
+        "count": 201,
         "error": ""
       },
       {
         "source": "Washington DC — Solicitations (PASS)",
         "ok": true,
-        "count": 24,
+        "count": 32,
         "error": ""
       },
       {
         "source": "BidNet Direct",
         "ok": true,
-        "count": 21,
+        "count": 18,
         "error": ""
       },
       {
@@ -302,28 +302,6 @@
   ],
   "opportunities": [
     {
-      "id": "opengov:pasadena:279920",
-      "source_name": "OpenGov — City of Pasadena, CA",
-      "title": "GPS Asset Tracking Solution",
-      "description": "The City of Pasadena's Department of Public Works provides fleet maintenance services to City vehicles and equipment. The Department is seeking a vendor to provide comprehensive geolocational tracking and telematic hardware and software services for the City's fleet of vehicles and equipment. The selected vendor shall provide all hardware and software related to real-time tracking of the fleet. This should include equipment, storage of telematics data, training, and support. The City has a strong preference for a SaaS/cloud/hosted solution. The target start of the contract term is January 2027 with a term of five (5) years.",
-      "agency": "City of Pasadena",
-      "state": "CA",
-      "url": "https://procurement.opengov.com/portal/pasadena/projects/279920",
-      "naics": "",
-      "psc": "",
-      "set_aside": "2026-RFP-0394",
-      "posted_date": "2026-06-30",
-      "due_date": "2026-10-21",
-      "it_score": 93,
-      "is_new": false,
-      "first_seen": "2026-09-03",
-      "matched_keywords": [
-        "software",
-        "cloud",
-        "saas"
-      ]
-    },
-    {
       "id": "opengov:smcgov:313156",
       "source_name": "OpenGov — County of San Mateo, CA",
       "title": "Request for Proposals (RFP) for Project Management Services",
@@ -388,6 +366,27 @@
       ]
     },
     {
+      "id": "dg92-zbpx:20261016003",
+      "source_name": "New York City — City Record (Procurement)",
+      "title": "CTERA Premium Private Portal (Software Renewal)",
+      "description": "CTERA Premium Private Portal (Software Renewal)",
+      "agency": "District Attorney - Queens County",
+      "state": "NY",
+      "url": "https://a856-cityrecord.nyc.gov/",
+      "naics": "",
+      "psc": "",
+      "set_aside": "",
+      "posted_date": "2026-10-22",
+      "due_date": "2026-10-22",
+      "it_score": 57,
+      "is_new": true,
+      "first_seen": "2026-10-22",
+      "matched_keywords": [
+        "software",
+        "portal"
+      ]
+    },
+    {
       "id": "opengov:santa-monica-ca:315034",
       "source_name": "OpenGov — City of Santa Monica, CA",
       "title": "Request for Proposals for Onboard Bus Video Surveillance System",
@@ -406,6 +405,27 @@
       "matched_keywords": [
         "system",
         "integration"
+      ]
+    },
+    {
+      "id": "opengov:smcgov:318905",
+      "source_name": "OpenGov — County of San Mateo, CA",
+      "title": "RECAST SOFTWARE: RIGHT CLICK TOOLS ESSENTIALS COMPLETE SUBSCRIPTION LICENSE RENEWAL FY26-27",
+      "description": "The County of San Mateo Technology Services Department (TSD) is seeking quotations exclusively for Recast Software Right Click Tools Essentials Complete Access Subscription License for 1 year. \"Please complete the Pricing Bid Table in section 3 and please also upload your competitive quotation including accurate lead times as well as any applicable freight and delivery costs for the items listed.\" Cost, conformity to specifications of goods, and product availability will be considered. After an evaluation of all quotations, a County purchase order is expected to be issued in association with the lowest, responsive bid received from a qualified, responsible, and manufacturer/publisher authorized vendor.",
+      "agency": "County of San Mateo",
+      "state": "CA",
+      "url": "https://procurement.opengov.com/portal/smcgov/projects/318905",
+      "naics": "",
+      "psc": "",
+      "set_aside": "RITM0184034",
+      "posted_date": "2026-10-20",
+      "due_date": "2026-11-05",
+      "it_score": 57,
+      "is_new": true,
+      "first_seen": "2026-10-22",
+      "matched_keywords": [
+        "software",
+        "license"
       ]
     },
     {
@@ -471,46 +491,6 @@
       ]
     },
     {
-      "id": "dg92-zbpx:20261014045",
-      "source_name": "New York City — City Record (Procurement)",
-      "title": "Software Technical Lead",
-      "description": "Software Technical Lead",
-      "agency": "Transportation",
-      "state": "NY",
-      "url": "https://a856-cityrecord.nyc.gov/",
-      "naics": "",
-      "psc": "",
-      "set_aside": "",
-      "posted_date": "2026-10-21",
-      "due_date": "2026-10-21",
-      "it_score": 51,
-      "is_new": true,
-      "first_seen": "2026-10-21",
-      "matched_keywords": [
-        "software"
-      ]
-    },
-    {
-      "id": "dg92-zbpx:20261015011",
-      "source_name": "New York City — City Record (Procurement)",
-      "title": "ClickDimensions Software Renewal",
-      "description": "ClickDimensions Software Renewal",
-      "agency": "Finance",
-      "state": "NY",
-      "url": "https://a856-cityrecord.nyc.gov/",
-      "naics": "",
-      "psc": "",
-      "set_aside": "",
-      "posted_date": "2026-10-21",
-      "due_date": "2026-10-21",
-      "it_score": 51,
-      "is_new": true,
-      "first_seen": "2026-10-21",
-      "matched_keywords": [
-        "software"
-      ]
-    },
-    {
       "id": "hf3r-utnq:232496",
       "source_name": "Los Angeles County CA — RAMP Open Bids",
       "title": "RFB-IS-27200245 - 937042 - SOFTWARE - MAINTENANCE - VERITAS NETBACKUP - Closing: 10/22/2026 12:00 PM",
@@ -546,6 +526,26 @@
       "it_score": 51,
       "is_new": false,
       "first_seen": "2026-10-15",
+      "matched_keywords": [
+        "software"
+      ]
+    },
+    {
+      "id": "dg92-zbpx:20261014022",
+      "source_name": "New York City — City Record (Procurement)",
+      "title": "82627Y0907-BWS Aquarius Software Support & Maintenance SS 7010188X",
+      "description": "82627Y0907-BWS Aquarius Software Support & Maintenance SS 7010188X",
+      "agency": "Environmental Protection",
+      "state": "NY",
+      "url": "https://a856-cityrecord.nyc.gov/",
+      "naics": "",
+      "psc": "",
+      "set_aside": "",
+      "posted_date": "2026-10-22",
+      "due_date": "2026-10-22",
+      "it_score": 51,
+      "is_new": true,
+      "first_seen": "2026-10-22",
       "matched_keywords": [
         "software"
       ]
@@ -644,7 +644,7 @@
       "posted_date": "",
       "due_date": "2026-10-26",
       "it_score": 51,
-      "is_new": true,
+      "is_new": false,
       "first_seen": "2026-10-21",
       "matched_keywords": [
         "software"
@@ -971,24 +971,6 @@
       ]
     },
     {
-      "id": "planetbids:22078:146791",
-      "source_name": "PlanetBids — City of Newport Beach, CA",
-      "title": "Mesa Drive Multi-Use Trail Extension",
-      "description": "10032-2",
-      "agency": "City of Newport Beach, CA",
-      "state": "CA",
-      "url": "https://vendors.planetbids.com/portal/22078/bo/bo-detail/146791",
-      "naics": "",
-      "psc": "91200, 91350, 91382, 91396, 91430, 96875, 96880, 96888",
-      "set_aside": "",
-      "posted_date": "2026-09-30",
-      "due_date": "2026-10-21",
-      "it_score": 50,
-      "is_new": false,
-      "first_seen": "2026-10-01",
-      "matched_keywords": []
-    },
-    {
       "id": "planetbids:27411:145759",
       "source_name": "PlanetBids — Inland Empire Utilities Agency, CA",
       "title": "Request for Information for Energy Project Alternatives at the IEUA RP-5 Solids Handling Facility Site",
@@ -1058,24 +1040,6 @@
       "it_score": 50,
       "is_new": false,
       "first_seen": "2026-10-15",
-      "matched_keywords": []
-    },
-    {
-      "id": "planetbids:16151:144554",
-      "source_name": "PlanetBids — Santa Clara Valley Water District, CA",
-      "title": "Inland Feeder/San Bernardino Valley Municipal Water District (SBVMWD) Foothill Pump Station Intertie, Stage 1",
-      "description": "2049",
-      "agency": "Santa Clara Valley Water District, CA",
-      "state": "CA",
-      "url": "https://vendors.planetbids.com/portal/16151/bo/bo-detail/144554",
-      "naics": "",
-      "psc": "06037, 17567, 20424, 65800, 65880, 67053, 69032, 76023, 89500, 89509, 91200, 91340, 91438, 91485, 92531, 92935, 97534",
-      "set_aside": "",
-      "posted_date": "2026-08-04",
-      "due_date": "2026-10-27",
-      "it_score": 50,
-      "is_new": false,
-      "first_seen": "2026-08-05",
       "matched_keywords": []
     },
     {
@@ -1151,10 +1115,28 @@
       "matched_keywords": []
     },
     {
+      "id": "planetbids:16151:144554",
+      "source_name": "PlanetBids — Santa Clara Valley Water District, CA",
+      "title": "Inland Feeder/San Bernardino Valley Municipal Water District (SBVMWD) Foothill Pump Station Intertie, Stage 1",
+      "description": "2049",
+      "agency": "Santa Clara Valley Water District, CA",
+      "state": "CA",
+      "url": "https://vendors.planetbids.com/portal/16151/bo/bo-detail/144554",
+      "naics": "",
+      "psc": "06037, 17567, 20424, 65800, 65880, 67053, 69032, 76023, 89500, 89509, 91200, 91340, 91438, 91485, 92531, 92935, 97534",
+      "set_aside": "",
+      "posted_date": "2026-08-04",
+      "due_date": "2026-11-17",
+      "it_score": 50,
+      "is_new": false,
+      "first_seen": "2026-08-05",
+      "matched_keywords": []
+    },
+    {
       "id": "planetbids:16151:147443",
       "source_name": "PlanetBids — Santa Clara Valley Water District, CA",
       "title": "REAL ESTATE APPRAISAL AND VALUATION SUPPORT SERVICES",
-      "description": "MWD-JH-1418",
+      "description": "RFQual-JH-1418",
       "agency": "Santa Clara Valley Water District, CA",
       "state": "CA",
       "url": "https://vendors.planetbids.com/portal/16151/bo/bo-detail/147443",
@@ -1164,7 +1146,7 @@
       "posted_date": "2026-10-21",
       "due_date": "2026-12-02",
       "it_score": 50,
-      "is_new": true,
+      "is_new": false,
       "first_seen": "2026-10-21",
       "matched_keywords": []
     },
@@ -1249,46 +1231,6 @@
       "first_seen": "2026-10-15",
       "matched_keywords": [
         "system",
-        "information technology"
-      ]
-    },
-    {
-      "id": "hf3r-utnq:232424",
-      "source_name": "Los Angeles County CA — RAMP Open Bids",
-      "title": "RFB-IS-27200239 - 1091153 - NETAPP A400 STORAGE ARRAY DATA ERASURES - Closing: 10/21/2026 12:00 PM",
-      "description": "Commodity",
-      "agency": "Los Angeles County",
-      "state": "CA",
-      "url": "https://www.rampla.org/s/opportunity-details?id=006Ql00000mj6QfIAI",
-      "naics": "",
-      "psc": "",
-      "set_aside": "",
-      "posted_date": "2026-10-08",
-      "due_date": "2026-10-21",
-      "it_score": 36,
-      "is_new": false,
-      "first_seen": "2026-10-09",
-      "matched_keywords": [
-        "data"
-      ]
-    },
-    {
-      "id": "dg92-zbpx:20261015004",
-      "source_name": "New York City — City Record (Procurement)",
-      "title": "ACCENTURE SECURITY CLASS II",
-      "description": "ACCENTURE SECURITY CLASS II",
-      "agency": "Information Technology and Telecommunications",
-      "state": "NY",
-      "url": "https://a856-cityrecord.nyc.gov/",
-      "naics": "",
-      "psc": "",
-      "set_aside": "",
-      "posted_date": "2026-10-21",
-      "due_date": "2026-10-21",
-      "it_score": 36,
-      "is_new": true,
-      "first_seen": "2026-10-21",
-      "matched_keywords": [
         "information technology"
       ]
     },
