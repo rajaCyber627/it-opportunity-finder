@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-10-23T16:34:37.247350+00:00",
+  "generated_at": "2026-10-24T15:20:07.461528+00:00",
   "counts": {
-    "total": 49,
-    "new": 2
+    "total": 46,
+    "new": 1
   },
   "health": {
     "ok": 22,
@@ -11,13 +11,13 @@
       {
         "source": "Montgomery County MD — Solicitations",
         "ok": true,
-        "count": 25,
+        "count": 23,
         "error": ""
       },
       {
         "source": "Los Angeles County CA — RAMP Open Bids",
         "ok": true,
-        "count": 178,
+        "count": 174,
         "error": ""
       },
       {
@@ -113,13 +113,13 @@
       {
         "source": "OpenGov",
         "ok": true,
-        "count": 195,
+        "count": 192,
         "error": ""
       },
       {
         "source": "Washington DC — Solicitations (PASS)",
         "ok": true,
-        "count": 36,
+        "count": 37,
         "error": ""
       },
       {
@@ -470,86 +470,6 @@
       ]
     },
     {
-      "id": "hf3r-utnq:232561",
-      "source_name": "Los Angeles County CA — RAMP Open Bids",
-      "title": "RFB-IS-27200262 - SOFTWARE (SALESFORCE) APPLICATIONS RENEWAL, BRAND ONLY - Closing: 10/23/2026 12:00 AM",
-      "description": "Commodity",
-      "agency": "Los Angeles County",
-      "state": "CA",
-      "url": "https://www.rampla.org/s/opportunity-details?id=006Ql00000nAfk3IAC",
-      "naics": "",
-      "psc": "",
-      "set_aside": "",
-      "posted_date": "2026-10-17",
-      "due_date": "2026-10-23",
-      "it_score": 51,
-      "is_new": false,
-      "first_seen": "2026-10-18",
-      "matched_keywords": [
-        "software"
-      ]
-    },
-    {
-      "id": "eshn-8t3a:SFGOV~0000012170",
-      "source_name": "San Francisco CA — Open Bids",
-      "title": "OCA HSA | TM3 – Rubrik Software & Maint Renewal",
-      "description": "Seeking Bids",
-      "agency": "Office of Contract Administration",
-      "state": "CA",
-      "url": "https://sfcitypartner.sfgov.org/pages/Events-BS3/event-details.aspx?Page=AUC_RESP_INQ_DTL&Action=U&AUC_ID=0000012170&AUC_ROUND=1&AUC_VERSION=1&BIDDER_ID=0000000001&BIDDER_LOC=1&BIDDER_SETID=SHARE&BIDDER_TYPE=B&BUSINESS_UNIT=SFGOV",
-      "naics": "",
-      "psc": "",
-      "set_aside": "",
-      "posted_date": "2026-10-16",
-      "due_date": "2026-10-23",
-      "it_score": 51,
-      "is_new": false,
-      "first_seen": "2026-10-19",
-      "matched_keywords": [
-        "software"
-      ]
-    },
-    {
-      "id": "eshn-8t3a:SFGOV~0000012169",
-      "source_name": "San Francisco CA — Open Bids",
-      "title": "OCA DT | TM3 – Infoblox Software & Maint. Renewal",
-      "description": "Seeking Bids",
-      "agency": "Office of Contract Administration",
-      "state": "CA",
-      "url": "https://sfcitypartner.sfgov.org/pages/Events-BS3/event-details.aspx?Page=AUC_RESP_INQ_DTL&Action=U&AUC_ID=0000012169&AUC_ROUND=1&AUC_VERSION=1&BIDDER_ID=0000000001&BIDDER_LOC=1&BIDDER_SETID=SHARE&BIDDER_TYPE=B&BUSINESS_UNIT=SFGOV",
-      "naics": "",
-      "psc": "",
-      "set_aside": "",
-      "posted_date": "2026-10-16",
-      "due_date": "2026-10-23",
-      "it_score": 51,
-      "is_new": false,
-      "first_seen": "2026-10-19",
-      "matched_keywords": [
-        "software"
-      ]
-    },
-    {
-      "id": "dg92-zbpx:20261016013",
-      "source_name": "New York City — City Record (Procurement)",
-      "title": "Zabbix Software Support and Maintenance",
-      "description": "Zabbix Software Support and Maintenance",
-      "agency": "Fire Department",
-      "state": "NY",
-      "url": "https://a856-cityrecord.nyc.gov/",
-      "naics": "",
-      "psc": "",
-      "set_aside": "",
-      "posted_date": "2026-10-23",
-      "due_date": "2026-10-23",
-      "it_score": 51,
-      "is_new": true,
-      "first_seen": "2026-10-23",
-      "matched_keywords": [
-        "software"
-      ]
-    },
-    {
       "id": "hf3r-utnq:232491",
       "source_name": "Los Angeles County CA — RAMP Open Bids",
       "title": "RFB-IS-27200230 - MOBILE COMMUNICATION CAPTURE & M365 EDISCOVERY INTEGRATION - Closing: 10/26/2026 12:00 PM",
@@ -743,7 +663,7 @@
       "posted_date": "2026-10-23",
       "due_date": "2026-11-05",
       "it_score": 51,
-      "is_new": true,
+      "is_new": false,
       "first_seen": "2026-10-23",
       "matched_keywords": [
         "software"
@@ -1035,6 +955,24 @@
       "it_score": 50,
       "is_new": false,
       "first_seen": "2026-08-05",
+      "matched_keywords": []
+    },
+    {
+      "id": "planetbids:15300:147581",
+      "source_name": "PlanetBids — City of Sacramento, CA",
+      "title": "State of the Sacramento Cultural Nonprofit Field Impact Report",
+      "description": "P27171811001",
+      "agency": "City of Sacramento, CA",
+      "state": "CA",
+      "url": "https://vendors.planetbids.com/portal/15300/bo/bo-detail/147581",
+      "naics": "",
+      "psc": "92002, 92021, 96207",
+      "set_aside": "",
+      "posted_date": "2026-10-23",
+      "due_date": "2026-11-18",
+      "it_score": 50,
+      "is_new": true,
+      "first_seen": "2026-10-24",
       "matched_keywords": []
     },
     {
