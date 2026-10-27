@@ -1052,6 +1052,12 @@
   "Los Angeles County CA \u2014 RAMP Open Bids::hf3r-utnq:232646": {
     "first_seen": "2026-10-23"
   },
+  "Los Angeles County CA \u2014 RAMP Open Bids::hf3r-utnq:232692": {
+    "first_seen": "2026-10-27"
+  },
+  "Los Angeles County CA \u2014 RAMP Open Bids::hf3r-utnq:232703": {
+    "first_seen": "2026-10-27"
+  },
   "Los Angeles County CA \u2014 RAMP Open Bids::hf3r-utnq:40831": {
     "first_seen": "2026-07-14"
   },
@@ -2345,6 +2351,9 @@
   "OpenGov \u2014 City of Pasadena, CA::opengov:pasadena:293583": {
     "first_seen": "2026-08-19"
   },
+  "OpenGov \u2014 City of Pasadena, CA::opengov:pasadena:293584": {
+    "first_seen": "2026-10-27"
+  },
   "OpenGov \u2014 City of Pasadena, CA::opengov:pasadena:295002": {
     "first_seen": "2026-09-04"
   },
@@ -3034,6 +3043,15 @@
   },
   "OpenGov \u2014 County of San Mateo, CA::opengov:smcgov:318905": {
     "first_seen": "2026-10-22"
+  },
+  "OpenGov \u2014 County of San Mateo, CA::opengov:smcgov:318913": {
+    "first_seen": "2026-10-27"
+  },
+  "OpenGov \u2014 County of San Mateo, CA::opengov:smcgov:318983": {
+    "first_seen": "2026-10-27"
+  },
+  "OpenGov \u2014 County of San Mateo, CA::opengov:smcgov:320095": {
+    "first_seen": "2026-10-27"
   },
   "OpenGov \u2014 County of Santa Cruz, CA::opengov:santacruzcounty:287244": {
     "first_seen": "2026-09-16"
@@ -6655,5 +6673,8 @@
   },
   "Washington DC \u2014 Solicitations (PASS)::arcgis:Doc851539": {
     "first_seen": "2026-10-21"
+  },
+  "Washington DC \u2014 Solicitations (PASS)::arcgis:Doc852830": {
+    "first_seen": "2026-10-27"
   }
 }
