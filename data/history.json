@@ -2207,6 +2207,12 @@
   "New York City \u2014 City Record (Procurement)::dg92-zbpx:20261016013": {
     "first_seen": "2026-10-23"
   },
+  "New York City \u2014 City Record (Procurement)::dg92-zbpx:20261021012": {
+    "first_seen": "2026-10-28"
+  },
+  "New York City \u2014 City Record (Procurement)::dg92-zbpx:20261022005": {
+    "first_seen": "2026-10-28"
+  },
   "New York City \u2014 Current RFP (MOCS)::bzjf-rmtp:18-00033R": {
     "first_seen": "2026-07-14"
   },
@@ -2359,6 +2365,9 @@
   },
   "OpenGov \u2014 City of Pasadena, CA::opengov:pasadena:296543": {
     "first_seen": "2026-08-27"
+  },
+  "OpenGov \u2014 City of Pasadena, CA::opengov:pasadena:301206": {
+    "first_seen": "2026-10-28"
   },
   "OpenGov \u2014 City of Phoenix, AZ::opengov:phoenix:165230": {
     "first_seen": "2026-07-16"

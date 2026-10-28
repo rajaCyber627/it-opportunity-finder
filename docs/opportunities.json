@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-10-27T17:24:34.811132+00:00",
+  "generated_at": "2026-10-28T17:52:13.103355+00:00",
   "counts": {
-    "total": 52,
-    "new": 7
+    "total": 53,
+    "new": 3
   },
   "health": {
     "ok": 22,
@@ -11,13 +11,13 @@
       {
         "source": "Montgomery County MD — Solicitations",
         "ok": true,
-        "count": 22,
+        "count": 24,
         "error": ""
       },
       {
         "source": "Los Angeles County CA — RAMP Open Bids",
         "ok": true,
-        "count": 184,
+        "count": 193,
         "error": ""
       },
       {
@@ -107,25 +107,25 @@
       {
         "source": "PlanetBids",
         "ok": true,
-        "count": 63,
+        "count": 62,
         "error": ""
       },
       {
         "source": "OpenGov",
         "ok": true,
-        "count": 196,
+        "count": 197,
         "error": ""
       },
       {
         "source": "Washington DC — Solicitations (PASS)",
         "ok": true,
-        "count": 34,
+        "count": 27,
         "error": ""
       },
       {
         "source": "BidNet Direct",
         "ok": true,
-        "count": 17,
+        "count": 18,
         "error": ""
       },
       {
@@ -137,7 +137,7 @@
       {
         "source": "Bonfire",
         "ok": true,
-        "count": 5,
+        "count": 4,
         "error": ""
       },
       {
@@ -149,6 +149,64 @@
     ]
   },
   "product_themes": [
+    {
+      "name": "Permitting & Licensing",
+      "opportunity_count": 5,
+      "agency_count": 4,
+      "state_count": 2,
+      "states": [
+        "CA",
+        "NY"
+      ],
+      "demand_score": 14,
+      "examples": [
+        {
+          "title": "OCA HSA | TM3 - Acquia Cloud Software License Rnwl",
+          "agency": "Office of Contract Administration",
+          "state": "CA",
+          "url": "https://sfcitypartner.sfgov.org/pages/Events-BS3/event-details.aspx?Page=AUC_RESP_INQ_DTL&Action=U&AUC_ID=0000012183&AUC_ROUND=1&AUC_VERSION=1&BIDDER_ID=0000000001&BIDDER_LOC=1&BIDDER_SETID=SHARE&BIDDER_TYPE=B&BUSINESS_UNIT=SFGOV",
+          "due_date": "2026-10-30",
+          "it_score": 78,
+          "source_name": "San Francisco CA — Open Bids"
+        },
+        {
+          "title": "057270000423-License Plate Recognition Software (100 Rekor Scout)",
+          "agency": "Fire Department",
+          "state": "NY",
+          "url": "https://a856-cityrecord.nyc.gov/",
+          "due_date": "2026-10-28",
+          "it_score": 57,
+          "source_name": "New York City — City Record (Procurement)"
+        },
+        {
+          "title": "RECAST SOFTWARE: RIGHT CLICK TOOLS ESSENTIALS COMPLETE SUBSCRIPTION LICENSE RENEWAL FY26-27",
+          "agency": "County of San Mateo",
+          "state": "CA",
+          "url": "https://procurement.opengov.com/portal/smcgov/projects/318905",
+          "due_date": "2026-11-05",
+          "it_score": 57,
+          "source_name": "OpenGov — County of San Mateo, CA"
+        },
+        {
+          "title": "Adobe Enterprise License Renewal",
+          "agency": "Finance",
+          "state": "NY",
+          "url": "https://a856-cityrecord.nyc.gov/",
+          "due_date": "2026-10-28",
+          "it_score": 36,
+          "source_name": "New York City — City Record (Procurement)"
+        },
+        {
+          "title": "OCA AIR | TM3 - Harness License Subscription",
+          "agency": "Office of Contract Administration",
+          "state": "CA",
+          "url": "https://sfcitypartner.sfgov.org/pages/Events-BS3/event-details.aspx?Page=AUC_RESP_INQ_DTL&Action=U&AUC_ID=0000012191&AUC_ROUND=1&AUC_VERSION=1&BIDDER_ID=0000000001&BIDDER_LOC=1&BIDDER_SETID=SHARE&BIDDER_TYPE=B&BUSINESS_UNIT=SFGOV",
+          "due_date": "2026-10-30",
+          "it_score": 36,
+          "source_name": "San Francisco CA — Open Bids"
+        }
+      ]
+    },
     {
       "name": "Cloud Migration & Modernization",
       "opportunity_count": 4,
@@ -194,45 +252,6 @@
           "due_date": "2026-12-21",
           "it_score": 51,
           "source_name": "Los Angeles County CA — RAMP Open Bids"
-        }
-      ]
-    },
-    {
-      "name": "Permitting & Licensing",
-      "opportunity_count": 3,
-      "agency_count": 2,
-      "state_count": 1,
-      "states": [
-        "CA"
-      ],
-      "demand_score": 7,
-      "examples": [
-        {
-          "title": "OCA HSA | TM3 - Acquia Cloud Software License Rnwl",
-          "agency": "Office of Contract Administration",
-          "state": "CA",
-          "url": "https://sfcitypartner.sfgov.org/pages/Events-BS3/event-details.aspx?Page=AUC_RESP_INQ_DTL&Action=U&AUC_ID=0000012183&AUC_ROUND=1&AUC_VERSION=1&BIDDER_ID=0000000001&BIDDER_LOC=1&BIDDER_SETID=SHARE&BIDDER_TYPE=B&BUSINESS_UNIT=SFGOV",
-          "due_date": "2026-10-30",
-          "it_score": 78,
-          "source_name": "San Francisco CA — Open Bids"
-        },
-        {
-          "title": "RECAST SOFTWARE: RIGHT CLICK TOOLS ESSENTIALS COMPLETE SUBSCRIPTION LICENSE RENEWAL FY26-27",
-          "agency": "County of San Mateo",
-          "state": "CA",
-          "url": "https://procurement.opengov.com/portal/smcgov/projects/318905",
-          "due_date": "2026-11-05",
-          "it_score": 57,
-          "source_name": "OpenGov — County of San Mateo, CA"
-        },
-        {
-          "title": "OCA AIR | TM3 - Harness License Subscription",
-          "agency": "Office of Contract Administration",
-          "state": "CA",
-          "url": "https://sfcitypartner.sfgov.org/pages/Events-BS3/event-details.aspx?Page=AUC_RESP_INQ_DTL&Action=U&AUC_ID=0000012191&AUC_ROUND=1&AUC_VERSION=1&BIDDER_ID=0000000001&BIDDER_LOC=1&BIDDER_SETID=SHARE&BIDDER_TYPE=B&BUSINESS_UNIT=SFGOV",
-          "due_date": "2026-10-30",
-          "it_score": 36,
-          "source_name": "San Francisco CA — Open Bids"
         }
       ]
     }
@@ -427,6 +446,27 @@
       ]
     },
     {
+      "id": "dg92-zbpx:20261021012",
+      "source_name": "New York City — City Record (Procurement)",
+      "title": "057270000423-License Plate Recognition Software (100 Rekor Scout)",
+      "description": "057270000423-License Plate Recognition Software (100 Rekor Scout)",
+      "agency": "Fire Department",
+      "state": "NY",
+      "url": "https://a856-cityrecord.nyc.gov/",
+      "naics": "",
+      "psc": "",
+      "set_aside": "",
+      "posted_date": "2026-10-28",
+      "due_date": "2026-10-28",
+      "it_score": 57,
+      "is_new": true,
+      "first_seen": "2026-10-28",
+      "matched_keywords": [
+        "software",
+        "license"
+      ]
+    },
+    {
       "id": "opengov:santa-monica-ca:315034",
       "source_name": "OpenGov — City of Santa Monica, CA",
       "title": "Request for Proposals for Onboard Bus Video Surveillance System",
@@ -482,7 +522,7 @@
       "posted_date": "2026-10-23",
       "due_date": "2026-12-01",
       "it_score": 57,
-      "is_new": true,
+      "is_new": false,
       "first_seen": "2026-10-27",
       "matched_keywords": [
         "development",
@@ -549,66 +589,6 @@
       "first_seen": "2026-10-16",
       "matched_keywords": [
         "development"
-      ]
-    },
-    {
-      "id": "eshn-8t3a:SFGOV~0000012190",
-      "source_name": "San Francisco CA — Open Bids",
-      "title": "OCA PUC | TM3 - Quest Software Maintenance",
-      "description": "Seeking Bids",
-      "agency": "Office of Contract Administration",
-      "state": "CA",
-      "url": "https://sfcitypartner.sfgov.org/pages/Events-BS3/event-details.aspx?Page=AUC_RESP_INQ_DTL&Action=U&AUC_ID=0000012190&AUC_ROUND=1&AUC_VERSION=1&BIDDER_ID=0000000001&BIDDER_LOC=1&BIDDER_SETID=SHARE&BIDDER_TYPE=B&BUSINESS_UNIT=SFGOV",
-      "naics": "",
-      "psc": "",
-      "set_aside": "",
-      "posted_date": "2026-10-22",
-      "due_date": "2026-10-27",
-      "it_score": 51,
-      "is_new": false,
-      "first_seen": "2026-10-26",
-      "matched_keywords": [
-        "software"
-      ]
-    },
-    {
-      "id": "eshn-8t3a:SFGOV~0000012050",
-      "source_name": "San Francisco CA — Open Bids",
-      "title": "OCA DPW | TM3 - Tableau Software Renewal",
-      "description": "Seeking Bids",
-      "agency": "Office of Contract Administration",
-      "state": "CA",
-      "url": "https://sfcitypartner.sfgov.org/pages/Events-BS3/event-details.aspx?Page=AUC_RESP_INQ_DTL&Action=U&AUC_ID=0000012050&AUC_ROUND=1&AUC_VERSION=1&BIDDER_ID=0000000001&BIDDER_LOC=1&BIDDER_SETID=SHARE&BIDDER_TYPE=B&BUSINESS_UNIT=SFGOV",
-      "naics": "",
-      "psc": "",
-      "set_aside": "",
-      "posted_date": "2026-10-20",
-      "due_date": "2026-10-27",
-      "it_score": 51,
-      "is_new": false,
-      "first_seen": "2026-10-26",
-      "matched_keywords": [
-        "software"
-      ]
-    },
-    {
-      "id": "opengov:pasadena:292413",
-      "source_name": "OpenGov — City of Pasadena, CA",
-      "title": "P-57907 Enterprise Monitoring",
-      "description": "The City of Pasadena is seeking a vendor to provide an Enterprise Monitoring solution and associated implementation and support services. The goal of the Enterprise Monitoring project is to strengthen alert management and monitoring processes , and to proactively identify and address system performance issues before they impact customers. The City seeks a unified monitoring and observability platform that provides centralized visibility across infrastructure, networks, cloud services, databases, applications, integrations, and business services. The desired solution will correlate events and performance data across technology domains, improve operational awareness, reduce alert fatigue, accelerate root cause analysis, and enable proactive management of service health and availability. The platform should support the City's current hybrid and multi-cloud environment while providing a scalable foundation for future operational monitoring and automation initiatives.",
-      "agency": "City of Pasadena",
-      "state": "CA",
-      "url": "https://procurement.opengov.com/portal/pasadena/projects/292413",
-      "naics": "",
-      "psc": "",
-      "set_aside": "2026-RFP-0480",
-      "posted_date": "2026-08-11",
-      "due_date": "2026-10-29",
-      "it_score": 51,
-      "is_new": false,
-      "first_seen": "2026-09-30",
-      "matched_keywords": [
-        "cloud"
       ]
     },
     {
@@ -785,7 +765,7 @@
       "posted_date": "2026-10-27",
       "due_date": "2026-11-09",
       "it_score": 51,
-      "is_new": true,
+      "is_new": false,
       "first_seen": "2026-10-27",
       "matched_keywords": [
         "software"
@@ -832,6 +812,26 @@
       ]
     },
     {
+      "id": "opengov:pasadena:292413",
+      "source_name": "OpenGov — City of Pasadena, CA",
+      "title": "P-57907 Enterprise Monitoring",
+      "description": "The City of Pasadena is seeking a vendor to provide an Enterprise Monitoring solution and associated implementation and support services. The goal of the Enterprise Monitoring project is to strengthen alert management and monitoring processes , and to proactively identify and address system performance issues before they impact customers. The City seeks a unified monitoring and observability platform that provides centralized visibility across infrastructure, networks, cloud services, databases, applications, integrations, and business services. The desired solution will correlate events and performance data across technology domains, improve operational awareness, reduce alert fatigue, accelerate root cause analysis, and enable proactive management of service health and availability. The platform should support the City's current hybrid and multi-cloud environment while providing a scalable foundation for future operational monitoring and automation initiatives.",
+      "agency": "City of Pasadena",
+      "state": "CA",
+      "url": "https://procurement.opengov.com/portal/pasadena/projects/292413",
+      "naics": "",
+      "psc": "",
+      "set_aside": "2026-RFP-0480",
+      "posted_date": "2026-08-11",
+      "due_date": "2026-11-12",
+      "it_score": 51,
+      "is_new": false,
+      "first_seen": "2026-09-30",
+      "matched_keywords": [
+        "cloud"
+      ]
+    },
+    {
       "id": "bidnetdirect:california/contracostacounty:RFP_F-Contr-0000000296",
       "source_name": "BidNet Direct — Contra Costa County, CA",
       "title": "REAL ESTATE AND RIGHT-OF-WAY MANAGEMENT SOFTWARE",
@@ -865,7 +865,7 @@
       "posted_date": "2026-10-20",
       "due_date": "2026-11-15",
       "it_score": 51,
-      "is_new": true,
+      "is_new": false,
       "first_seen": "2026-10-27",
       "matched_keywords": [
         "software"
@@ -907,6 +907,26 @@
       "it_score": 51,
       "is_new": false,
       "first_seen": "2026-10-15",
+      "matched_keywords": [
+        "modernization"
+      ]
+    },
+    {
+      "id": "opengov:pasadena:301206",
+      "source_name": "OpenGov — City of Pasadena, CA",
+      "title": "On-Call Parking Consultant Services",
+      "description": "The City of Pasadena Department of Transportation is soliciting proposals from qualified consulting firms to provide on-call parking consultant services across its portfolio of parking assets and programs. This includes eight City-owned parking garages, four municipal surface lots, approximately 400 multispace meters, five meter districts, parking enforcement operations and comprehensive residential, daytime, and overnight parking permit programs. Selected proposers will form an on-call bench and will be eligible to support infrastructure evaluation, operational studies, technology modernization, and strategic planning and other related activities on an as-needed basis. A minimum of three (3) years experience in such projects is required. Proposers are encouraged to focus on the areas of strength and are not required to team with a large number of sub-consultants to cover all potential types of projects. This Request for Proposals (RFP) does not solicit services for a single, defined project. Rather, the resulting consultant list will be used by the Department of Transportation to assign project-specific Task Orders for parking consulting services required for the City's Parking Division. Each Task Order will define the scope, deliverables, schedule, and coordination needs for the required work. To be considered for selection, consultants must demonstrate substantial experience preparing infrastructure evaluations, operational studies, technology modernization, and strategic planning and other related activities. Consultants selected through this RFP will be placed on an on-call bench available to support the Parking Division's needs on an as-needed basis. Placement on the on-call bench does not guarantee any minimum or maximum number of assignments.",
+      "agency": "City of Pasadena",
+      "state": "CA",
+      "url": "https://procurement.opengov.com/portal/pasadena/projects/301206",
+      "naics": "",
+      "psc": "",
+      "set_aside": "2026-RFP-0526",
+      "posted_date": "2026-09-08",
+      "due_date": "2026-12-02",
+      "it_score": 51,
+      "is_new": true,
+      "first_seen": "2026-10-28",
       "matched_keywords": [
         "modernization"
       ]
@@ -1116,7 +1136,7 @@
       "matched_keywords": []
     },
     {
-      "id": "arcgis:Doc852830",
+      "id": "arcgis:Doc847596",
       "source_name": "Washington DC — Solicitations (PASS)",
       "title": "RFP - Provider Data Management System and Services",
       "description": "RFP - Provider Data Management System and Services",
@@ -1129,8 +1149,8 @@
       "posted_date": "",
       "due_date": "2026-11-09",
       "it_score": 42,
-      "is_new": true,
-      "first_seen": "2026-10-27",
+      "is_new": false,
+      "first_seen": "2026-10-09",
       "matched_keywords": [
         "system",
         "data"
@@ -1171,7 +1191,7 @@
       "posted_date": "2026-10-23",
       "due_date": "2026-11-19",
       "it_score": 42,
-      "is_new": true,
+      "is_new": false,
       "first_seen": "2026-10-27",
       "matched_keywords": [
         "application",
@@ -1192,7 +1212,7 @@
       "posted_date": "2026-08-13",
       "due_date": "2026-11-21",
       "it_score": 42,
-      "is_new": true,
+      "is_new": false,
       "first_seen": "2026-10-27",
       "matched_keywords": [
         "portal",
@@ -1218,6 +1238,26 @@
       "matched_keywords": [
         "system",
         "information technology"
+      ]
+    },
+    {
+      "id": "dg92-zbpx:20261022005",
+      "source_name": "New York City — City Record (Procurement)",
+      "title": "Adobe Enterprise License Renewal",
+      "description": "Adobe Enterprise License Renewal",
+      "agency": "Finance",
+      "state": "NY",
+      "url": "https://a856-cityrecord.nyc.gov/",
+      "naics": "",
+      "psc": "",
+      "set_aside": "",
+      "posted_date": "2026-10-28",
+      "due_date": "2026-10-28",
+      "it_score": 36,
+      "is_new": true,
+      "first_seen": "2026-10-28",
+      "matched_keywords": [
+        "license"
       ]
     },
     {
@@ -1294,7 +1334,7 @@
       "posted_date": "2026-10-20",
       "due_date": "2026-11-14",
       "it_score": 36,
-      "is_new": true,
+      "is_new": false,
       "first_seen": "2026-10-27",
       "matched_keywords": [
         "data"
