@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-10-28T17:52:13.103355+00:00",
+  "generated_at": "2026-10-29T17:59:25.008729+00:00",
   "counts": {
-    "total": 53,
-    "new": 3
+    "total": 52,
+    "new": 4
   },
   "health": {
     "ok": 22,
@@ -17,7 +17,7 @@
       {
         "source": "Los Angeles County CA — RAMP Open Bids",
         "ok": true,
-        "count": 193,
+        "count": 196,
         "error": ""
       },
       {
@@ -107,31 +107,31 @@
       {
         "source": "PlanetBids",
         "ok": true,
-        "count": 62,
+        "count": 59,
         "error": ""
       },
       {
         "source": "OpenGov",
         "ok": true,
-        "count": 197,
+        "count": 202,
         "error": ""
       },
       {
         "source": "Washington DC — Solicitations (PASS)",
         "ok": true,
-        "count": 27,
+        "count": 21,
         "error": ""
       },
       {
         "source": "BidNet Direct",
         "ok": true,
-        "count": 18,
+        "count": 19,
         "error": ""
       },
       {
         "source": "Biddingo",
         "ok": true,
-        "count": 21,
+        "count": 22,
         "error": ""
       },
       {
@@ -149,64 +149,6 @@
     ]
   },
   "product_themes": [
-    {
-      "name": "Permitting & Licensing",
-      "opportunity_count": 5,
-      "agency_count": 4,
-      "state_count": 2,
-      "states": [
-        "CA",
-        "NY"
-      ],
-      "demand_score": 14,
-      "examples": [
-        {
-          "title": "OCA HSA | TM3 - Acquia Cloud Software License Rnwl",
-          "agency": "Office of Contract Administration",
-          "state": "CA",
-          "url": "https://sfcitypartner.sfgov.org/pages/Events-BS3/event-details.aspx?Page=AUC_RESP_INQ_DTL&Action=U&AUC_ID=0000012183&AUC_ROUND=1&AUC_VERSION=1&BIDDER_ID=0000000001&BIDDER_LOC=1&BIDDER_SETID=SHARE&BIDDER_TYPE=B&BUSINESS_UNIT=SFGOV",
-          "due_date": "2026-10-30",
-          "it_score": 78,
-          "source_name": "San Francisco CA — Open Bids"
-        },
-        {
-          "title": "057270000423-License Plate Recognition Software (100 Rekor Scout)",
-          "agency": "Fire Department",
-          "state": "NY",
-          "url": "https://a856-cityrecord.nyc.gov/",
-          "due_date": "2026-10-28",
-          "it_score": 57,
-          "source_name": "New York City — City Record (Procurement)"
-        },
-        {
-          "title": "RECAST SOFTWARE: RIGHT CLICK TOOLS ESSENTIALS COMPLETE SUBSCRIPTION LICENSE RENEWAL FY26-27",
-          "agency": "County of San Mateo",
-          "state": "CA",
-          "url": "https://procurement.opengov.com/portal/smcgov/projects/318905",
-          "due_date": "2026-11-05",
-          "it_score": 57,
-          "source_name": "OpenGov — County of San Mateo, CA"
-        },
-        {
-          "title": "Adobe Enterprise License Renewal",
-          "agency": "Finance",
-          "state": "NY",
-          "url": "https://a856-cityrecord.nyc.gov/",
-          "due_date": "2026-10-28",
-          "it_score": 36,
-          "source_name": "New York City — City Record (Procurement)"
-        },
-        {
-          "title": "OCA AIR | TM3 - Harness License Subscription",
-          "agency": "Office of Contract Administration",
-          "state": "CA",
-          "url": "https://sfcitypartner.sfgov.org/pages/Events-BS3/event-details.aspx?Page=AUC_RESP_INQ_DTL&Action=U&AUC_ID=0000012191&AUC_ROUND=1&AUC_VERSION=1&BIDDER_ID=0000000001&BIDDER_LOC=1&BIDDER_SETID=SHARE&BIDDER_TYPE=B&BUSINESS_UNIT=SFGOV",
-          "due_date": "2026-10-30",
-          "it_score": 36,
-          "source_name": "San Francisco CA — Open Bids"
-        }
-      ]
-    },
     {
       "name": "Cloud Migration & Modernization",
       "opportunity_count": 4,
@@ -252,6 +194,75 @@
           "due_date": "2026-12-21",
           "it_score": 51,
           "source_name": "Los Angeles County CA — RAMP Open Bids"
+        }
+      ]
+    },
+    {
+      "name": "Permitting & Licensing",
+      "opportunity_count": 3,
+      "agency_count": 2,
+      "state_count": 1,
+      "states": [
+        "CA"
+      ],
+      "demand_score": 7,
+      "examples": [
+        {
+          "title": "OCA HSA | TM3 - Acquia Cloud Software License Rnwl",
+          "agency": "Office of Contract Administration",
+          "state": "CA",
+          "url": "https://sfcitypartner.sfgov.org/pages/Events-BS3/event-details.aspx?Page=AUC_RESP_INQ_DTL&Action=U&AUC_ID=0000012183&AUC_ROUND=1&AUC_VERSION=1&BIDDER_ID=0000000001&BIDDER_LOC=1&BIDDER_SETID=SHARE&BIDDER_TYPE=B&BUSINESS_UNIT=SFGOV",
+          "due_date": "2026-10-30",
+          "it_score": 78,
+          "source_name": "San Francisco CA — Open Bids"
+        },
+        {
+          "title": "RECAST SOFTWARE: RIGHT CLICK TOOLS ESSENTIALS COMPLETE SUBSCRIPTION LICENSE RENEWAL FY26-27",
+          "agency": "County of San Mateo",
+          "state": "CA",
+          "url": "https://procurement.opengov.com/portal/smcgov/projects/318905",
+          "due_date": "2026-11-05",
+          "it_score": 57,
+          "source_name": "OpenGov — County of San Mateo, CA"
+        },
+        {
+          "title": "OCA AIR | TM3 - Harness License Subscription",
+          "agency": "Office of Contract Administration",
+          "state": "CA",
+          "url": "https://sfcitypartner.sfgov.org/pages/Events-BS3/event-details.aspx?Page=AUC_RESP_INQ_DTL&Action=U&AUC_ID=0000012191&AUC_ROUND=1&AUC_VERSION=1&BIDDER_ID=0000000001&BIDDER_LOC=1&BIDDER_SETID=SHARE&BIDDER_TYPE=B&BUSINESS_UNIT=SFGOV",
+          "due_date": "2026-10-30",
+          "it_score": 36,
+          "source_name": "San Francisco CA — Open Bids"
+        }
+      ]
+    },
+    {
+      "name": "Data / Analytics / Dashboards",
+      "opportunity_count": 2,
+      "agency_count": 2,
+      "state_count": 1,
+      "states": [
+        "DC"
+      ],
+      "demand_score": 7,
+      "examples": [
+        {
+          "title": "FY27 DOES OIT Veeam Data Platform Advanced",
+          "agency": "Department of Employment Services",
+          "state": "DC",
+          "url": "https://ocp.dc.gov/service/solicitations",
+          "due_date": "2026-11-02",
+          "it_score": 42,
+          "source_name": "Washington DC — Solicitations (PASS)"
+        },
+        {
+          "title": "RFP - Provider Data Management System and Services",
+          "agency": "Department of Health Care Finance",
+          "state": "DC",
+          "url": "https://ocp.dc.gov/service/solicitations",
+          "due_date": "2026-11-09",
+          "it_score": 42,
+          "source_name": "Washington DC — Solicitations (PASS)"
         }
       ]
     }
@@ -446,27 +457,6 @@
       ]
     },
     {
-      "id": "dg92-zbpx:20261021012",
-      "source_name": "New York City — City Record (Procurement)",
-      "title": "057270000423-License Plate Recognition Software (100 Rekor Scout)",
-      "description": "057270000423-License Plate Recognition Software (100 Rekor Scout)",
-      "agency": "Fire Department",
-      "state": "NY",
-      "url": "https://a856-cityrecord.nyc.gov/",
-      "naics": "",
-      "psc": "",
-      "set_aside": "",
-      "posted_date": "2026-10-28",
-      "due_date": "2026-10-28",
-      "it_score": 57,
-      "is_new": true,
-      "first_seen": "2026-10-28",
-      "matched_keywords": [
-        "software",
-        "license"
-      ]
-    },
-    {
       "id": "opengov:santa-monica-ca:315034",
       "source_name": "OpenGov — City of Santa Monica, CA",
       "title": "Request for Proposals for Onboard Bus Video Surveillance System",
@@ -589,6 +579,26 @@
       "first_seen": "2026-10-16",
       "matched_keywords": [
         "development"
+      ]
+    },
+    {
+      "id": "dg92-zbpx:20261022011",
+      "source_name": "New York City — City Record (Procurement)",
+      "title": "Penlink Tangles & Webloc Software",
+      "description": "Penlink Tangles & Webloc Software",
+      "agency": "District Attorney - Bronx County",
+      "state": "NY",
+      "url": "https://a856-cityrecord.nyc.gov/",
+      "naics": "",
+      "psc": "",
+      "set_aside": "",
+      "posted_date": "2026-10-29",
+      "due_date": "2026-10-29",
+      "it_score": 51,
+      "is_new": true,
+      "first_seen": "2026-10-29",
+      "matched_keywords": [
+        "software"
       ]
     },
     {
@@ -832,26 +842,6 @@
       ]
     },
     {
-      "id": "bidnetdirect:california/contracostacounty:RFP_F-Contr-0000000296",
-      "source_name": "BidNet Direct — Contra Costa County, CA",
-      "title": "REAL ESTATE AND RIGHT-OF-WAY MANAGEMENT SOFTWARE",
-      "description": "REAL ESTATE AND RIGHT-OF-WAY MANAGEMENT SOFTWARE",
-      "agency": "Contra Costa County, CA",
-      "state": "CA",
-      "url": "https://www.bidnetdirect.com/california/solicitations/open-bids/REAL-ESTATE-AND-RIGHT-OF-WAY-MANAGEMENT-SOFTWARE/0000440381?purchasingGroupId=88020151&origin=2",
-      "naics": "",
-      "psc": "",
-      "set_aside": "RFP_F-Contr-0000000296",
-      "posted_date": "2026-10-15",
-      "due_date": "2026-11-13",
-      "it_score": 51,
-      "is_new": false,
-      "first_seen": "2026-10-16",
-      "matched_keywords": [
-        "software"
-      ]
-    },
-    {
       "id": "opengov:smcgov:318913",
       "source_name": "OpenGov — County of San Mateo, CA",
       "title": "NCRIC 2027 Guardian RF",
@@ -925,7 +915,7 @@
       "posted_date": "2026-09-08",
       "due_date": "2026-12-02",
       "it_score": 51,
-      "is_new": true,
+      "is_new": false,
       "first_seen": "2026-10-28",
       "matched_keywords": [
         "modernization"
@@ -990,24 +980,6 @@
       "matched_keywords": [
         "software"
       ]
-    },
-    {
-      "id": "planetbids:29959:146823",
-      "source_name": "PlanetBids — City of Santa Barbara, CA",
-      "title": "Comprehensive Water and Wastewater Rate Studies",
-      "description": "RFP No. 5143",
-      "agency": "City of Santa Barbara, CA",
-      "state": "CA",
-      "url": "https://vendors.planetbids.com/portal/29959/bo/bo-detail/146823",
-      "naics": "",
-      "psc": "91800, 91812, 91843, 91849, 91855, 91897",
-      "set_aside": "",
-      "posted_date": "2026-10-01",
-      "due_date": "2026-10-28",
-      "it_score": 50,
-      "is_new": false,
-      "first_seen": "2026-10-02",
-      "matched_keywords": []
     },
     {
       "id": "planetbids:15300:147291",
@@ -1136,7 +1108,28 @@
       "matched_keywords": []
     },
     {
-      "id": "arcgis:Doc847596",
+      "id": "arcgis:Doc853251",
+      "source_name": "Washington DC — Solicitations (PASS)",
+      "title": "FY27 DOES OIT Veeam Data Platform Advanced",
+      "description": "FY27 DOES OIT Veeam Data Platform Advanced",
+      "agency": "Department of Employment Services",
+      "state": "DC",
+      "url": "https://ocp.dc.gov/service/solicitations",
+      "naics": "",
+      "psc": "",
+      "set_aside": "",
+      "posted_date": "",
+      "due_date": "2026-11-02",
+      "it_score": 42,
+      "is_new": true,
+      "first_seen": "2026-10-29",
+      "matched_keywords": [
+        "data",
+        "platform"
+      ]
+    },
+    {
+      "id": "arcgis:Doc853603",
       "source_name": "Washington DC — Solicitations (PASS)",
       "title": "RFP - Provider Data Management System and Services",
       "description": "RFP - Provider Data Management System and Services",
@@ -1149,8 +1142,8 @@
       "posted_date": "",
       "due_date": "2026-11-09",
       "it_score": 42,
-      "is_new": false,
-      "first_seen": "2026-10-09",
+      "is_new": true,
+      "first_seen": "2026-10-29",
       "matched_keywords": [
         "system",
         "data"
@@ -1241,26 +1234,6 @@
       ]
     },
     {
-      "id": "dg92-zbpx:20261022005",
-      "source_name": "New York City — City Record (Procurement)",
-      "title": "Adobe Enterprise License Renewal",
-      "description": "Adobe Enterprise License Renewal",
-      "agency": "Finance",
-      "state": "NY",
-      "url": "https://a856-cityrecord.nyc.gov/",
-      "naics": "",
-      "psc": "",
-      "set_aside": "",
-      "posted_date": "2026-10-28",
-      "due_date": "2026-10-28",
-      "it_score": 36,
-      "is_new": true,
-      "first_seen": "2026-10-28",
-      "matched_keywords": [
-        "license"
-      ]
-    },
-    {
       "id": "hf3r-utnq:232551",
       "source_name": "Los Angeles County CA — RAMP Open Bids",
       "title": "RFB-IS-27200258 - COMPUTER - HARDWARE MAINTENANCE - PURE STORAGE - Closing: 10/29/2026 12:00 PM",
@@ -1338,6 +1311,26 @@
       "first_seen": "2026-10-27",
       "matched_keywords": [
         "data"
+      ]
+    },
+    {
+      "id": "opengov:anaheim:290478",
+      "source_name": "OpenGov — City of Anaheim, CA",
+      "title": "Double-Sided Padmount Solid Dielectric Switchgear with Integrated Automation - Purchase Order",
+      "description": "The City of Anaheim (\" Anaheim \" or \" City \") Public Utilities Department (\" APU \") seeks proposals from interested respondents (\" Respondent(s) \") to procure double-sided padmount solid-dielectric insulated switchgear with integrated automation as replacements for its 12 kV live-front, air-insulated padmounted switchgear. The dead-front and encapsulated features of the new solid-dielectric insulated switches with integrated automation are expected to improve crew safety, reliability and operational flexibility. This Request for Proposals (\" RFP \") is expected to result in a proof-of-concept for additional anticipated purchases for replacing existing and installing new such switchgear at Anaheim. The selected Respondent(s) will be responsible for providing the Goods and Services described in the Scope of Work and Specifications Section and in any Attachments hereto (collectively, \" Deliverables” ). After selecting a successful Respondent, the City will issue a Purchase Order, contract, or agreement form that substantially conforms to the terms and conditions outlined in this RFP, including, but not limited to, Anaheim's standard insurance and indemnity provisions appropriate for the Deliverables contemplated herein. Any resulting agreement between the City and the successful respondent will take effect upon mutual execution after Anaheim secures all necessary approvals as required under its procurement policies, rules, and the Anaheim Municipal Code .",
+      "agency": "The City of Anaheim",
+      "state": "CA",
+      "url": "https://procurement.opengov.com/portal/anaheim/projects/290478",
+      "naics": "",
+      "psc": "",
+      "set_aside": "SY270000491-LR",
+      "posted_date": "2026-08-05",
+      "due_date": "2026-12-04",
+      "it_score": 36,
+      "is_new": true,
+      "first_seen": "2026-10-29",
+      "matched_keywords": [
+        "automation"
       ]
     },
     {

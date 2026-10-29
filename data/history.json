@@ -2213,6 +2213,9 @@
   "New York City \u2014 City Record (Procurement)::dg92-zbpx:20261022005": {
     "first_seen": "2026-10-28"
   },
+  "New York City \u2014 City Record (Procurement)::dg92-zbpx:20261022011": {
+    "first_seen": "2026-10-29"
+  },
   "New York City \u2014 Current RFP (MOCS)::bzjf-rmtp:18-00033R": {
     "first_seen": "2026-07-14"
   },
@@ -2251,6 +2254,9 @@
   },
   "OpenGov \u2014 City of Anaheim, CA::opengov:anaheim:248269": {
     "first_seen": "2026-09-16"
+  },
+  "OpenGov \u2014 City of Anaheim, CA::opengov:anaheim:290478": {
+    "first_seen": "2026-10-29"
   },
   "OpenGov \u2014 City of Anaheim, CA::opengov:anaheim:292103": {
     "first_seen": "2026-09-16"
@@ -6685,5 +6691,11 @@
   },
   "Washington DC \u2014 Solicitations (PASS)::arcgis:Doc852830": {
     "first_seen": "2026-10-27"
+  },
+  "Washington DC \u2014 Solicitations (PASS)::arcgis:Doc853251": {
+    "first_seen": "2026-10-29"
+  },
+  "Washington DC \u2014 Solicitations (PASS)::arcgis:Doc853603": {
+    "first_seen": "2026-10-29"
   }
 }
