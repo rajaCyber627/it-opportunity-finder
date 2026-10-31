@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-10-30T17:40:59.361706+00:00",
+  "generated_at": "2026-10-31T16:45:38.892387+00:00",
   "counts": {
-    "total": 43,
-    "new": 3
+    "total": 40,
+    "new": 1
   },
   "health": {
     "ok": 21,
@@ -17,7 +17,7 @@
       {
         "source": "Los Angeles County CA — RAMP Open Bids",
         "ok": true,
-        "count": 203,
+        "count": 205,
         "error": ""
       },
       {
@@ -113,13 +113,13 @@
       {
         "source": "OpenGov",
         "ok": true,
-        "count": 202,
+        "count": 196,
         "error": ""
       },
       {
         "source": "Washington DC — Solicitations (PASS)",
         "ok": true,
-        "count": 23,
+        "count": 21,
         "error": ""
       },
       {
@@ -137,7 +137,7 @@
       {
         "source": "Bonfire",
         "ok": true,
-        "count": 4,
+        "count": 2,
         "error": ""
       },
       {
@@ -185,45 +185,6 @@
           "due_date": "2026-12-21",
           "it_score": 51,
           "source_name": "Los Angeles County CA — RAMP Open Bids"
-        }
-      ]
-    },
-    {
-      "name": "Permitting & Licensing",
-      "opportunity_count": 3,
-      "agency_count": 2,
-      "state_count": 1,
-      "states": [
-        "CA"
-      ],
-      "demand_score": 7,
-      "examples": [
-        {
-          "title": "OCA HSA | TM3 - Acquia Cloud Software License Rnwl",
-          "agency": "Office of Contract Administration",
-          "state": "CA",
-          "url": "https://sfcitypartner.sfgov.org/pages/Events-BS3/event-details.aspx?Page=AUC_RESP_INQ_DTL&Action=U&AUC_ID=0000012183&AUC_ROUND=1&AUC_VERSION=1&BIDDER_ID=0000000001&BIDDER_LOC=1&BIDDER_SETID=SHARE&BIDDER_TYPE=B&BUSINESS_UNIT=SFGOV",
-          "due_date": "2026-10-30",
-          "it_score": 78,
-          "source_name": "San Francisco CA — Open Bids"
-        },
-        {
-          "title": "RECAST SOFTWARE: RIGHT CLICK TOOLS ESSENTIALS COMPLETE SUBSCRIPTION LICENSE RENEWAL FY26-27",
-          "agency": "County of San Mateo",
-          "state": "CA",
-          "url": "https://procurement.opengov.com/portal/smcgov/projects/318905",
-          "due_date": "2026-11-05",
-          "it_score": 57,
-          "source_name": "OpenGov — County of San Mateo, CA"
-        },
-        {
-          "title": "OCA AIR | TM3 - Harness License Subscription",
-          "agency": "Office of Contract Administration",
-          "state": "CA",
-          "url": "https://sfcitypartner.sfgov.org/pages/Events-BS3/event-details.aspx?Page=AUC_RESP_INQ_DTL&Action=U&AUC_ID=0000012191&AUC_ROUND=1&AUC_VERSION=1&BIDDER_ID=0000000001&BIDDER_LOC=1&BIDDER_SETID=SHARE&BIDDER_TYPE=B&BUSINESS_UNIT=SFGOV",
-          "due_date": "2026-10-30",
-          "it_score": 36,
-          "source_name": "San Francisco CA — Open Bids"
         }
       ]
     },
@@ -406,25 +367,24 @@
       ]
     },
     {
-      "id": "eshn-8t3a:SFGOV~0000012183",
-      "source_name": "San Francisco CA — Open Bids",
-      "title": "OCA HSA | TM3 - Acquia Cloud Software License Rnwl",
-      "description": "Seeking Bids",
-      "agency": "Office of Contract Administration",
+      "id": "opengov:smcgov:321978",
+      "source_name": "OpenGov — County of San Mateo, CA",
+      "title": "NCRIC 2027 Penlink and GeoTime Annual Renewal",
+      "description": "The NCRIC/NCHIDTA is seeking quotations for annual renewal of our software subscriptions from Penlink and GeoTime. Specifically, 15 GeoTime Enterprise Cloud Edition, 10 GeoTime Desktop Concurrent Network licenses, GeoTime Live Task Force Edition, and six licenses for PLX (three prorated to 10 months) Please complete the Pricing Bid Table in section 3 and please also upload your competitive quotation including accurate lead times as well as any applicable freight and delivery costs for the items listed. Cost, conformity to specifications of goods, and product availability will be considered. After an evaluation of all quotations, a County purchase order is expected to be issued in association with the lowest, responsive bid received from a qualified, responsible, and manufacturer/publisher authorized vendor.",
+      "agency": "County of San Mateo",
       "state": "CA",
-      "url": "https://sfcitypartner.sfgov.org/pages/Events-BS3/event-details.aspx?Page=AUC_RESP_INQ_DTL&Action=U&AUC_ID=0000012183&AUC_ROUND=1&AUC_VERSION=1&BIDDER_ID=0000000001&BIDDER_LOC=1&BIDDER_SETID=SHARE&BIDDER_TYPE=B&BUSINESS_UNIT=SFGOV",
+      "url": "https://procurement.opengov.com/portal/smcgov/projects/321978",
       "naics": "",
       "psc": "",
       "set_aside": "",
-      "posted_date": "2026-10-23",
-      "due_date": "2026-10-30",
-      "it_score": 78,
-      "is_new": false,
-      "first_seen": "2026-10-26",
+      "posted_date": "2026-10-29",
+      "due_date": "2026-11-15",
+      "it_score": 72,
+      "is_new": true,
+      "first_seen": "2026-10-31",
       "matched_keywords": [
         "software",
-        "cloud",
-        "license"
+        "cloud"
       ]
     },
     {
@@ -533,26 +493,6 @@
       ]
     },
     {
-      "id": "hf3r-utnq:232581",
-      "source_name": "Los Angeles County CA — RAMP Open Bids",
-      "title": "RFB-IS-27200265 - 1092847 - SOFTWARE - EMAIL SECURITY - PROOFPOINT(BRAND ONLY) - Closing: 10/30/2026 12:00 PM",
-      "description": "Commodity",
-      "agency": "Los Angeles County",
-      "state": "CA",
-      "url": "https://www.rampla.org/s/opportunity-details?id=006Ql00000nIWBkIAO",
-      "naics": "",
-      "psc": "",
-      "set_aside": "",
-      "posted_date": "2026-10-20",
-      "due_date": "2026-10-30",
-      "it_score": 51,
-      "is_new": false,
-      "first_seen": "2026-10-20",
-      "matched_keywords": [
-        "software"
-      ]
-    },
-    {
       "id": "opengov:smcgov:317859",
       "source_name": "OpenGov — County of San Mateo, CA",
       "title": "NCRIC 2027 PIPL Annual Renewal",
@@ -626,7 +566,7 @@
       "posted_date": "2026-10-30",
       "due_date": "2026-11-05",
       "it_score": 51,
-      "is_new": true,
+      "is_new": false,
       "first_seen": "2026-10-30",
       "matched_keywords": [
         "software"
@@ -786,7 +726,7 @@
       "posted_date": "2026-10-28",
       "due_date": "2026-11-12",
       "it_score": 51,
-      "is_new": true,
+      "is_new": false,
       "first_seen": "2026-10-30",
       "matched_keywords": [
         "software"
@@ -1056,46 +996,6 @@
       "matched_keywords": [
         "system",
         "information technology"
-      ]
-    },
-    {
-      "id": "eshn-8t3a:SFGOV~0000012191",
-      "source_name": "San Francisco CA — Open Bids",
-      "title": "OCA AIR | TM3 - Harness License Subscription",
-      "description": "Seeking Bids",
-      "agency": "Office of Contract Administration",
-      "state": "CA",
-      "url": "https://sfcitypartner.sfgov.org/pages/Events-BS3/event-details.aspx?Page=AUC_RESP_INQ_DTL&Action=U&AUC_ID=0000012191&AUC_ROUND=1&AUC_VERSION=1&BIDDER_ID=0000000001&BIDDER_LOC=1&BIDDER_SETID=SHARE&BIDDER_TYPE=B&BUSINESS_UNIT=SFGOV",
-      "naics": "",
-      "psc": "",
-      "set_aside": "",
-      "posted_date": "2026-10-23",
-      "due_date": "2026-10-30",
-      "it_score": 36,
-      "is_new": false,
-      "first_seen": "2026-10-26",
-      "matched_keywords": [
-        "license"
-      ]
-    },
-    {
-      "id": "dg92-zbpx:20261023020",
-      "source_name": "New York City — City Record (Procurement)",
-      "title": "DevOps Engineer (IT Production Support)",
-      "description": "DevOps Engineer (IT Production Support)",
-      "agency": "Administration for Children's Services",
-      "state": "NY",
-      "url": "https://a856-cityrecord.nyc.gov/",
-      "naics": "",
-      "psc": "",
-      "set_aside": "",
-      "posted_date": "2026-10-30",
-      "due_date": "2026-10-30",
-      "it_score": 36,
-      "is_new": true,
-      "first_seen": "2026-10-30",
-      "matched_keywords": [
-        "devops"
       ]
     },
     {
