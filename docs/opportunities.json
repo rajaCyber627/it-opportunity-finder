@@ -1,17 +1,17 @@
 {
-  "generated_at": "2026-11-09T21:54:35.751493+00:00",
+  "generated_at": "2026-11-10T06:01:00.069796+00:00",
   "counts": {
-    "total": 53,
-    "new": 8
+    "total": 57,
+    "new": 0
   },
   "health": {
-    "ok": 22,
-    "total": 23,
+    "ok": 25,
+    "total": 28,
     "sources": [
       {
         "source": "Montgomery County MD — Solicitations",
         "ok": true,
-        "count": 23,
+        "count": 24,
         "error": ""
       },
       {
@@ -64,9 +64,9 @@
       },
       {
         "source": "New York City — City Record (Procurement)",
-        "ok": true,
-        "count": 500,
-        "error": ""
+        "ok": false,
+        "count": 0,
+        "error": "HTTPError: 503 Server Error: Service Unavailable for url: https://data.cityofnewyork.us/resource/dg92-zbpx.json?%24limit=500&%24where=section_name%3D%27Procurement%27&%24order=start_date+DESC"
       },
       {
         "source": "New York City — Current RFP (MOCS)",
@@ -102,7 +102,7 @@
         "source": "SAM.gov (Federal)",
         "ok": false,
         "count": 0,
-        "error": "RuntimeError: SAM_API_KEY secret is not set. Get a free key from your SAM.gov account and add it as a GitHub Actions secret (see README)."
+        "error": "RuntimeError: 401 Client Error: Unauthorized for url: https://api.sam.gov/opportunities/v2/search?postedFrom=11%2F07%2F2026&postedTo=11%2F10%2F2026&limit=1000&offset=0&ptype=p%2Co%2Ck%2Cr&ncode=541511"
       },
       {
         "source": "PlanetBids",
@@ -113,99 +113,72 @@
       {
         "source": "OpenGov",
         "ok": true,
-        "count": 188,
+        "count": 283,
         "error": ""
       },
       {
         "source": "Washington DC — Solicitations (PASS)",
         "ok": true,
-        "count": 35,
+        "count": 36,
         "error": ""
       },
       {
         "source": "BidNet Direct",
         "ok": true,
-        "count": 22,
+        "count": 31,
         "error": ""
       },
       {
         "source": "Biddingo",
         "ok": true,
-        "count": 23,
+        "count": 22,
         "error": ""
       },
       {
         "source": "Bonfire",
         "ok": true,
-        "count": 3,
+        "count": 59,
         "error": ""
       },
       {
         "source": "Bids&Tenders",
         "ok": true,
+        "count": 4,
+        "error": ""
+      },
+      {
+        "source": "Ionwave",
+        "ok": true,
+        "count": 24,
+        "error": ""
+      },
+      {
+        "source": "QuestCDN",
+        "ok": true,
+        "count": 4,
+        "error": ""
+      },
+      {
+        "source": "RTVision Connex",
+        "ok": true,
+        "count": 5,
+        "error": ""
+      },
+      {
+        "source": "CivicPlus Bids",
+        "ok": false,
         "count": 0,
+        "error": "HTTPError: 403 Client Error: Forbidden for url: https://www.buffalony.gov/bids.aspx"
+      },
+      {
+        "source": "Schenectady County, NY",
+        "ok": true,
+        "count": 4,
         "error": ""
       }
     ]
   },
   "product_themes": [
-    {
-      "name": "Cloud Migration & Modernization",
-      "opportunity_count": 5,
-      "agency_count": 4,
-      "state_count": 1,
-      "states": [
-        "CA"
-      ],
-      "demand_score": 13,
-      "examples": [
-        {
-          "title": "PUC | TM3 - Satellite Website Migration RFP",
-          "agency": "Public Utilities Commission",
-          "state": "CA",
-          "url": "https://sfcitypartner.sfgov.org/pages/Events-BS3/event-details.aspx?Page=AUC_RESP_INQ_DTL&Action=U&AUC_ID=0000012223&AUC_ROUND=1&AUC_VERSION=1&BIDDER_ID=0000000001&BIDDER_LOC=1&BIDDER_SETID=SHARE&BIDDER_TYPE=B&BUSINESS_UNIT=SFGOV",
-          "due_date": "2026-11-20",
-          "it_score": 57,
-          "source_name": "San Francisco CA — Open Bids"
-        },
-        {
-          "title": "RFP 902787 Elevator Condition Assessment & Modernization Plan",
-          "agency": "County of Alameda, CA",
-          "state": "CA",
-          "url": "https://procurement.opengov.com/portal/acgov/projects/306819",
-          "due_date": "2026-11-17",
-          "it_score": 51,
-          "source_name": "OpenGov — County of Alameda, CA"
-        },
-        {
-          "title": "Elevator Modernization and Maintenance at Wyandotte Apts",
-          "agency": "Housing Authority, City of Los Angeles",
-          "state": "CA",
-          "url": "https://www.rampla.org/s/opportunity-details?id=006Ql00000o1Sa9IAE",
-          "due_date": "2026-12-01",
-          "it_score": 51,
-          "source_name": "Los Angeles County CA — RAMP Open Bids"
-        },
-        {
-          "title": "Elevator Modernization and Maintenance at Art Snyder",
-          "agency": "Housing Authority, City of Los Angeles",
-          "state": "CA",
-          "url": "https://www.rampla.org/s/opportunity-details?id=006Ql00000o1RRBIA2",
-          "due_date": "2026-12-01",
-          "it_score": 51,
-          "source_name": "Los Angeles County CA — RAMP Open Bids"
-        },
-        {
-          "title": "DESIGN BUILD | RFQ # R-27016 - 107TH STREET ELEMENTARY | SEISMIC MODERNIZATION PROJECT",
-          "agency": "LAUSD",
-          "state": "CA",
-          "url": "https://www.rampla.org/s/opportunity-details?id=006Ql00000n7pXpIAI",
-          "due_date": "2026-12-21",
-          "it_score": 51,
-          "source_name": "Los Angeles County CA — RAMP Open Bids"
-        }
-      ]
-    },
     {
       "name": "Permitting & Licensing",
       "opportunity_count": 10,
@@ -217,15 +190,6 @@
       "demand_score": 10,
       "examples": [
         {
-          "title": "RFB-IS-27200307 - 1093888 - Beyond Trust Software License Annual Renewal - Closing: 11/12/2026 12:00 PM",
-          "agency": "Los Angeles County",
-          "state": "CA",
-          "url": "https://www.rampla.org/s/opportunity-details?id=006Ql00000o4vEEIAY",
-          "due_date": "2026-11-12",
-          "it_score": 57,
-          "source_name": "Los Angeles County CA — RAMP Open Bids"
-        },
-        {
           "title": "OCA DAT | TM3 – Nintex Software License Renewal",
           "agency": "Office of Contract Administration",
           "state": "CA",
@@ -235,31 +199,13 @@
           "source_name": "San Francisco CA — Open Bids"
         },
         {
-          "title": "OCA PRT | TM3 EXIGIS License, Supprt and Svcs Rnwl",
-          "agency": "Office of Contract Administration",
+          "title": "RFB-IS-27200307 - 1093888 - Beyond Trust Software License Annual Renewal - Closing: 11/12/2026 12:00 PM",
+          "agency": "Los Angeles County",
           "state": "CA",
-          "url": "https://sfcitypartner.sfgov.org/pages/Events-BS3/event-details.aspx?Page=AUC_RESP_INQ_DTL&Action=U&AUC_ID=0000012219&AUC_ROUND=1&AUC_VERSION=1&BIDDER_ID=0000000001&BIDDER_LOC=1&BIDDER_SETID=SHARE&BIDDER_TYPE=B&BUSINESS_UNIT=SFGOV",
+          "url": "https://www.rampla.org/s/opportunity-details?id=006Ql00000o4vEEIAY",
           "due_date": "2026-11-12",
-          "it_score": 36,
-          "source_name": "San Francisco CA — Open Bids"
-        },
-        {
-          "title": "OCA HSA | TM3- Thomson Reuters Clear License Rnwl",
-          "agency": "Office of Contract Administration",
-          "state": "CA",
-          "url": "https://sfcitypartner.sfgov.org/pages/Events-BS3/event-details.aspx?Page=AUC_RESP_INQ_DTL&Action=U&AUC_ID=0000012205&AUC_ROUND=1&AUC_VERSION=1&BIDDER_ID=0000000001&BIDDER_LOC=1&BIDDER_SETID=SHARE&BIDDER_TYPE=B&BUSINESS_UNIT=SFGOV",
-          "due_date": "2026-11-12",
-          "it_score": 36,
-          "source_name": "San Francisco CA — Open Bids"
-        },
-        {
-          "title": "OCA DT | TM3 Cisco Identity SW License and Support",
-          "agency": "Office of Contract Administration",
-          "state": "CA",
-          "url": "https://sfcitypartner.sfgov.org/pages/Events-BS3/event-details.aspx?Page=AUC_RESP_INQ_DTL&Action=U&AUC_ID=0000012225&AUC_ROUND=1&AUC_VERSION=1&BIDDER_ID=0000000001&BIDDER_LOC=1&BIDDER_SETID=SHARE&BIDDER_TYPE=B&BUSINESS_UNIT=SFGOV",
-          "due_date": "2026-11-13",
-          "it_score": 36,
-          "source_name": "San Francisco CA — Open Bids"
+          "it_score": 57,
+          "source_name": "Los Angeles County CA — RAMP Open Bids"
         },
         {
           "title": "OCA PUC | TM3-Citrix VAD License Renewal",
@@ -280,13 +226,13 @@
           "source_name": "San Francisco CA — Open Bids"
         },
         {
-          "title": "RFB-IS-27200301 - Red Hat License Renewal - Brand Specific - Closing: 11/18/2026 12:00 PM",
-          "agency": "Los Angeles County",
+          "title": "OCA PRT | TM3 EXIGIS License, Supprt and Svcs Rnwl",
+          "agency": "Office of Contract Administration",
           "state": "CA",
-          "url": "https://www.rampla.org/s/opportunity-details?id=006Ql00000o1Q27IAE",
-          "due_date": "2026-11-18",
+          "url": "https://sfcitypartner.sfgov.org/pages/Events-BS3/event-details.aspx?Page=AUC_RESP_INQ_DTL&Action=U&AUC_ID=0000012219&AUC_ROUND=1&AUC_VERSION=1&BIDDER_ID=0000000001&BIDDER_LOC=1&BIDDER_SETID=SHARE&BIDDER_TYPE=B&BUSINESS_UNIT=SFGOV",
+          "due_date": "2026-11-12",
           "it_score": 36,
-          "source_name": "Los Angeles County CA — RAMP Open Bids"
+          "source_name": "San Francisco CA — Open Bids"
         },
         {
           "title": "RFB-IS-27200311 - CASEGUARD STUDIO STANDARD LICENSE RENEWAL - Closing: 11/25/2026 12:00 PM",
@@ -298,6 +244,33 @@
           "source_name": "Los Angeles County CA — RAMP Open Bids"
         },
         {
+          "title": "OCA DT | TM3 Cisco Identity SW License and Support",
+          "agency": "Office of Contract Administration",
+          "state": "CA",
+          "url": "https://sfcitypartner.sfgov.org/pages/Events-BS3/event-details.aspx?Page=AUC_RESP_INQ_DTL&Action=U&AUC_ID=0000012225&AUC_ROUND=1&AUC_VERSION=1&BIDDER_ID=0000000001&BIDDER_LOC=1&BIDDER_SETID=SHARE&BIDDER_TYPE=B&BUSINESS_UNIT=SFGOV",
+          "due_date": "2026-11-13",
+          "it_score": 36,
+          "source_name": "San Francisco CA — Open Bids"
+        },
+        {
+          "title": "OCA HSA | TM3- Thomson Reuters Clear License Rnwl",
+          "agency": "Office of Contract Administration",
+          "state": "CA",
+          "url": "https://sfcitypartner.sfgov.org/pages/Events-BS3/event-details.aspx?Page=AUC_RESP_INQ_DTL&Action=U&AUC_ID=0000012205&AUC_ROUND=1&AUC_VERSION=1&BIDDER_ID=0000000001&BIDDER_LOC=1&BIDDER_SETID=SHARE&BIDDER_TYPE=B&BUSINESS_UNIT=SFGOV",
+          "due_date": "2026-11-12",
+          "it_score": 36,
+          "source_name": "San Francisco CA — Open Bids"
+        },
+        {
+          "title": "RFB-IS-27200301 - Red Hat License Renewal - Brand Specific - Closing: 11/18/2026 12:00 PM",
+          "agency": "Los Angeles County",
+          "state": "CA",
+          "url": "https://www.rampla.org/s/opportunity-details?id=006Ql00000o1Q27IAE",
+          "due_date": "2026-11-18",
+          "it_score": 36,
+          "source_name": "Los Angeles County CA — RAMP Open Bids"
+        },
+        {
           "title": "Asbestos Abatement w/ Hazardous Materials Job Order Contracts (JOC 2720 and 2721) - Class C21/C22 License",
           "agency": "County of San Mateo",
           "state": "CA",
@@ -305,6 +278,37 @@
           "due_date": "2026-12-10",
           "it_score": 36,
           "source_name": "OpenGov — County of San Mateo, CA"
+        }
+      ]
+    },
+    {
+      "name": "Data / Analytics / Dashboards",
+      "opportunity_count": 2,
+      "agency_count": 2,
+      "state_count": 2,
+      "states": [
+        "DC",
+        "FL"
+      ],
+      "demand_score": 8,
+      "examples": [
+        {
+          "title": "RFP - Provider Data Management System and Services",
+          "agency": "Department of Health Care Finance",
+          "state": "DC",
+          "url": "https://ocp.dc.gov/service/solicitations",
+          "due_date": "2026-12-04",
+          "it_score": 42,
+          "source_name": "Washington DC — Solicitations (PASS)"
+        },
+        {
+          "title": "Request for Information - OpenEye – CCTV Recording and Analytics",
+          "agency": "Broward County, FL",
+          "state": "FL",
+          "url": "https://broward.bonfirehub.com/opportunities/258942",
+          "due_date": "2026-11-16",
+          "it_score": 36,
+          "source_name": "Bonfire — Broward County, FL"
         }
       ]
     },
@@ -466,7 +470,7 @@
       "due_date": "2026-12-18",
       "it_score": 99,
       "is_new": false,
-      "first_seen": "2026-11-03",
+      "first_seen": "2026-11-04",
       "matched_keywords": [
         "application",
         "cloud",
@@ -518,24 +522,24 @@
       ]
     },
     {
-      "id": "hf3r-utnq:232876",
-      "source_name": "Los Angeles County CA — RAMP Open Bids",
-      "title": "RFB-IS-27200307 - 1093888 - Beyond Trust Software License Annual Renewal - Closing: 11/12/2026 12:00 PM",
-      "description": "Commodity",
-      "agency": "Los Angeles County",
-      "state": "CA",
-      "url": "https://www.rampla.org/s/opportunity-details?id=006Ql00000o4vEEIAY",
+      "id": "opengov:cityoftampa:324610",
+      "source_name": "OpenGov — City of Tampa, FL",
+      "title": "Intent to Single Source for Q-Flow Visitor Queuing System",
+      "description": "Q-flow products and services including templates, interfaces, and software controlled peripherals for the government sector within the United States,",
+      "agency": "City of Tampa",
+      "state": "FL",
+      "url": "https://procurement.opengov.com/portal/cityoftampa/projects/324610",
       "naics": "",
       "psc": "",
-      "set_aside": "",
-      "posted_date": "2026-11-04",
+      "set_aside": "27-X-00183",
+      "posted_date": "2026-11-09",
       "due_date": "2026-11-12",
       "it_score": 57,
       "is_new": false,
-      "first_seen": "2026-11-04",
+      "first_seen": "2026-11-09",
       "matched_keywords": [
         "software",
-        "license"
+        "system"
       ]
     },
     {
@@ -552,7 +556,7 @@
       "posted_date": "2026-11-06",
       "due_date": "2026-11-16",
       "it_score": 57,
-      "is_new": true,
+      "is_new": false,
       "first_seen": "2026-11-09",
       "matched_keywords": [
         "software",
@@ -594,11 +598,53 @@
       "posted_date": "2026-11-05",
       "due_date": "2026-11-20",
       "it_score": 57,
-      "is_new": true,
+      "is_new": false,
       "first_seen": "2026-11-09",
       "matched_keywords": [
         "migration",
         "website"
+      ]
+    },
+    {
+      "id": "hf3r-utnq:232876",
+      "source_name": "Los Angeles County CA — RAMP Open Bids",
+      "title": "RFB-IS-27200307 - 1093888 - Beyond Trust Software License Annual Renewal - Closing: 11/12/2026 12:00 PM",
+      "description": "Commodity",
+      "agency": "Los Angeles County",
+      "state": "CA",
+      "url": "https://www.rampla.org/s/opportunity-details?id=006Ql00000o4vEEIAY",
+      "naics": "",
+      "psc": "",
+      "set_aside": "",
+      "posted_date": "2026-11-04",
+      "due_date": "2026-11-12",
+      "it_score": 57,
+      "is_new": false,
+      "first_seen": "2026-11-04",
+      "matched_keywords": [
+        "software",
+        "license"
+      ]
+    },
+    {
+      "id": "opengov:escambiacountyfl:322696",
+      "source_name": "OpenGov — Escambia County, FL",
+      "title": "Maintenance Support for Priority Dispatch Software Sole Source 26-27",
+      "description": "Escambia County Public Safety is accepting quotes for Maintenance Support for Priority Dispatch Software for FY27 (10/01/2026 – 09/30/2027). Scope of Services: Routine Maintenance: Perform regular updates, patches, and version upgrades of Priority Dispatch software as released by the vendor. Conduct proactive system health checks and performance monitoring to identify and address potential issues promptly. Technical Support: Provide expert-level technical assistance and troubleshooting for users encountering issues with Priority Dispatch software. Ensure rapid response and resolution of software-related incidents and service requests. Must provide support within 30 minutes for system outages. Bug Fixing and Software Updates: Investigate reported bugs or anomalies in Priority Dispatch software and apply necessary fixes or workarounds. Collaborate closely for bug fixes and updates, leveraging proficient programming skills as needed. Provide software updates promptly as they become available, covering expenses related to the update process. Enhancements, Customization, and Interfaces: Modify the original software source code as necessary to implement enhancements and fixes. Provide canned and customizable reports that interface with the Priority Dispatch database to pull report data from the software. Security Management: Implement and maintain robust security measures to protect Priority Dispatch software against vulnerabilities. VPN Connection Provisioning: Provide and maintain a Virtual Private Network (VPN) connection for personnel to securely access Priority Dispatch software during support activities. Ensure VPN connectivity is reliable, secure, and compliant with organizational security policies. Documentation and Reporting: Maintain detailed records of all maintenance activities, including updates, fixes, enhancements, and source code modifications made to Priority Dispatch software. User Support and Training: Offer advanced user support services, including in-depth guidance on utilizing Priority Dispatch software effectively and resolving complex issues. Provide training sessions as needed for users on new features, enhancements, or changes implemented in Priority Dispatch software. Service Level Agreement (SLA): Provided 24/7/365 support availability, rapid response times (must provide support within 30 minutes for system outages), and expedited resolution times for critical incidents. Establish clear escalation procedures for unresolved issues or emergencies. Access to Source Code: The respondent must have access to the original software source code of Priority Dispatch software to facilitate modifications for enhancements, fixes, and customization as required by Escambia County Public Safety. Software Updates: The respondent is responsible for providing software updates promptly as they become available from the vendor, covering all expenses related to acquiring and implementing these updates. Qualifications and Experience: The respondent must demonstrate: Extensive knowledge of Priority Dispatch software and its underlying technologies. Experience in providing round-the-clock support services for mission-critical applications, modifying source code, delivering software updates, managing VPN connections, and developing software interfaces. Deliverables: Updated documentation reflecting any configurations, fixes, enhancements, and software update details. Records demonstrating user support interactions. Timeline: Provide a schedule for routine maintenance activities, including planned updates and maintenance windows. Specify any anticipated downtime or service disruptions associated with maintenance tasks, VPN connection upgrades, and software updates. Contact Information: Designate a primary point of contact for service requests, escalations, and general inquiries related to maintenance support, software updates, and contract administration. Provide contact details for the 24/7/365 support line. Appendix: Include any additional documents or appendices pertinent to the maintenance support of Priority Dispatch software, software update management, and contract administration.",
+      "agency": "Escambia County",
+      "state": "FL",
+      "url": "https://procurement.opengov.com/portal/escambiacountyfl/projects/322696",
+      "naics": "",
+      "psc": "",
+      "set_aside": "SS PS TS 26 27",
+      "posted_date": "2026-11-02",
+      "due_date": "2026-11-10",
+      "it_score": 57,
+      "is_new": false,
+      "first_seen": "2026-11-03",
+      "matched_keywords": [
+        "software",
+        "database"
       ]
     },
     {
@@ -644,27 +690,6 @@
       ]
     },
     {
-      "id": "opengov:pasadena:237617",
-      "source_name": "OpenGov — City of Pasadena, CA",
-      "title": "Advanced Metering Infrastructure (AMI) System and Installation Services",
-      "description": "The City of Pasadena (“City”) is seeking proposals from qualified firms to provide a comprehensive Advanced Metering Infrastructure (“AMI”) solution, together with associated installation services, for the City’s water and electric utilities. The objective of this RFP is to select a vendor capable of providing a vendor-hosted AMI headend system with a supporting communications network, as well as electric meters, water meters, water endpoints, and related components as required. The selected vendor will also perform field deployment, integration with the City’s Oracle C2M and Oracle Meter Data Management environment, testing, commissioning, training, and go-live support needed for full AMI operations. The selected vendor will play a critical role in meeting performance, reliability, security, and interoperability requirements while advancing operational efficiency and customer service.",
-      "agency": "City of Pasadena",
-      "state": "CA",
-      "url": "https://procurement.opengov.com/portal/pasadena/projects/237617",
-      "naics": "",
-      "psc": "",
-      "set_aside": "2026-RFP-0143",
-      "posted_date": "2026-02-13",
-      "due_date": "2026-12-01",
-      "it_score": 57,
-      "is_new": false,
-      "first_seen": "2026-10-14",
-      "matched_keywords": [
-        "system",
-        "integration"
-      ]
-    },
-    {
       "id": "e5pk-us93:Software development/design/maintenance/support services",
       "source_name": "Baton Rouge LA — Upcoming Procurement",
       "title": "Software development/design/maintenance/support services",
@@ -679,7 +704,7 @@
       "due_date": "",
       "it_score": 57,
       "is_new": false,
-      "first_seen": "2026-07-14",
+      "first_seen": "2026-09-23",
       "matched_keywords": [
         "software",
         "development"
@@ -703,6 +728,106 @@
       "first_seen": "2026-10-16",
       "matched_keywords": [
         "development"
+      ]
+    },
+    {
+      "id": "hf3r-utnq:232970",
+      "source_name": "Los Angeles County CA — RAMP Open Bids",
+      "title": "RFB-IS-27200315 - 1093943 -SOFTWARE- RENEWAL- ZSCALER (BRAND ONLY) - Closing: 11/13/2026 12:00 PM",
+      "description": "Commodity",
+      "agency": "Los Angeles County",
+      "state": "CA",
+      "url": "https://www.rampla.org/s/opportunity-details?id=006Ql00000oFSdWIAW",
+      "naics": "",
+      "psc": "",
+      "set_aside": "",
+      "posted_date": "2026-11-07",
+      "due_date": "2026-11-13",
+      "it_score": 51,
+      "is_new": false,
+      "first_seen": "2026-11-07",
+      "matched_keywords": [
+        "software"
+      ]
+    },
+    {
+      "id": "eshn-8t3a:SFGOV~0000012228",
+      "source_name": "San Francisco CA — Open Bids",
+      "title": "OCA DT | TM3 AvePoint Software and Services Renewl",
+      "description": "Seeking Bids",
+      "agency": "Office of Contract Administration",
+      "state": "CA",
+      "url": "https://sfcitypartner.sfgov.org/pages/Events-BS3/event-details.aspx?Page=AUC_RESP_INQ_DTL&Action=U&AUC_ID=0000012228&AUC_ROUND=1&AUC_VERSION=1&BIDDER_ID=0000000001&BIDDER_LOC=1&BIDDER_SETID=SHARE&BIDDER_TYPE=B&BUSINESS_UNIT=SFGOV",
+      "naics": "",
+      "psc": "",
+      "set_aside": "",
+      "posted_date": "2026-11-06",
+      "due_date": "2026-11-16",
+      "it_score": 51,
+      "is_new": false,
+      "first_seen": "2026-11-09",
+      "matched_keywords": [
+        "software"
+      ]
+    },
+    {
+      "id": "ionwave:leegov:SS270031CMJ",
+      "source_name": "Ionwave — Lee County, FL",
+      "title": "HR Acuity Employee Relations Case Management Software",
+      "description": "HR Acuity Employee Relations Case Management Software",
+      "agency": "Lee County, FL",
+      "state": "FL",
+      "url": "https://leegov.ionwave.net/SourcingEvents.aspx?SourceType=1",
+      "naics": "",
+      "psc": "",
+      "set_aside": "SS270031CMJ",
+      "posted_date": "2026-10-28",
+      "due_date": "2026-11-20",
+      "it_score": 51,
+      "is_new": false,
+      "first_seen": "2026-10-29",
+      "matched_keywords": [
+        "software"
+      ]
+    },
+    {
+      "id": "ionwave:leegov:SS270029KCW",
+      "source_name": "Ionwave — Lee County, FL",
+      "title": "Forerunner Floodplain Management Software",
+      "description": "Forerunner Floodplain Management Software",
+      "agency": "Lee County, FL",
+      "state": "FL",
+      "url": "https://leegov.ionwave.net/SourcingEvents.aspx?SourceType=1",
+      "naics": "",
+      "psc": "",
+      "set_aside": "SS270029KCW",
+      "posted_date": "2026-10-27",
+      "due_date": "2026-11-18",
+      "it_score": 51,
+      "is_new": false,
+      "first_seen": "2026-10-28",
+      "matched_keywords": [
+        "software"
+      ]
+    },
+    {
+      "id": "opengov:smcgov:319724",
+      "source_name": "OpenGov — County of San Mateo, CA",
+      "title": "Moving Services",
+      "description": "The County of San Mateo (the “County” or “SMC”) covers most of the San Francisco Peninsula. The region covers 744 square miles and is home to nearly 800,000 residents and 20 incorporated cities. The County provides for the health and welfare of all people within its borders and serves as the local government for the unincorporated areas. Innovation thrives here in industries including bioscience, computer software, green technology, hospitality, financial management, health care, education and transportation. The County prides itself on how that prosperity fosters its commitment to protecting and enhancing the health, safety, welfare and natural resources of the community. Formed in July 2014, the San Mateo County Sustainability Department strives to improve the sustainability of the County’s operations and the greater community through work that is designed to bring solutions today while solving for tomorrow. The Sustainability Department has programs to help the county both fight and prepare for climate change, ensure clean energy, water, and air, and conserve resources for future generations through waste reduction. The Sustainability Department has approximately 40 staff members and provides services in the following areas: Communications, Climate Resilience, Climate Protection, Waste Reduction, and Special Districts with similar but varying community needs. The department is seeking a vendor that can move office furnishings between and sometimes within buildings, including but not limited to technology items such office pods.",
+      "agency": "County of San Mateo",
+      "state": "CA",
+      "url": "https://procurement.opengov.com/portal/smcgov/projects/319724",
+      "naics": "",
+      "psc": "",
+      "set_aside": "",
+      "posted_date": "2026-10-22",
+      "due_date": "2026-12-12",
+      "it_score": 51,
+      "is_new": false,
+      "first_seen": "2026-11-04",
+      "matched_keywords": [
+        "software"
       ]
     },
     {
@@ -746,6 +871,86 @@
       ]
     },
     {
+      "id": "opengov:cityoftampa:286338",
+      "source_name": "OpenGov — City of Tampa, FL",
+      "title": "Elevator Services (Bid Discount)",
+      "description": "The City of Tampa requires a comprehensive, full-service elevator maintenance and repair program for all vertical transportation equipment identified in the contract asset inventory and for any additional equipment later assigned by the City. The Contractor shall furnish all labor, supervision, licensed personnel, tools, equipment, transportation, communication devices, testing instruments, software, materials, replacement parts, documentation, and incidentals necessary to inspect, test, maintain, adjust, repair, troubleshoot, and restore covered equipment to safe, reliable, code-compliant, and service-ready condition. Timely performance is an essential condition of the contract. The Contractor shall plan, staff, and perform the work so that preventive maintenance is completed when scheduled, service calls are answered within the required response times, and equipment downtime is minimized.",
+      "agency": "City of Tampa",
+      "state": "FL",
+      "url": "https://procurement.opengov.com/portal/cityoftampa/projects/286338",
+      "naics": "",
+      "psc": "",
+      "set_aside": "26-P-00475",
+      "posted_date": "2026-07-22",
+      "due_date": "2026-11-18",
+      "it_score": 51,
+      "is_new": false,
+      "first_seen": "2026-10-06",
+      "matched_keywords": [
+        "software"
+      ]
+    },
+    {
+      "id": "opengov:pasadena:263470",
+      "source_name": "OpenGov — City of Pasadena, CA",
+      "title": "Wood Pole Inspection, Treatment, Repair, and UAV Inspection Services",
+      "description": "The City of Pasadena Water and Power Department (“PWP”) is seeking proposals from qualified and experienced firms to provide wood pole inspection, repair, restoration, treatment, and related reporting services for PWP’s electric distribution system. The selected firm will support PWP’s ongoing maintenance and compliance program for wood poles, including visual inspections, intrusive inspections, groundline inspections, preservative treatments, minor corrective repairs, pole reinforcement recommendations, installation of approved repair materials, and detailed reporting of observed conditions. PWP’s wood pole program is intended to support safe, reliable, and compliant operation of the electric distribution system in accordance with applicable requirements, including California Public Utilities Commission (“CPUC”) General Order 95, Rules for Overhead Electric Line Construction, and CPUC General Order 165, Inspection Requirements for Electric Distribution and Transmission Facilities. PWP’s system includes approximately 11,000 wood poles, including both municipally owned and jointly owned poles. A significant portion of the pole population is located in rear property or otherwise constrained access locations. The scope of services may include, but is not limited to, pole condition assessment, identification of structural damage or decay, inspection for General Order 95 infractions, groundline and below-ground inspections, preservative and fumigant treatment, installation of visibility strips, guy guards, ground molding, pole tags, and steel truss reinforcement where approved by PWP. The selected firm shall also provide detailed inspection records, photographs, condition ratings, repair recommendations, and electronic data deliverables in a format acceptable to PWP. In addition to conventional field inspection and treatment services, PWP intends to include drone or other unmanned aerial vehicle (“UAV”) inspection services under the resulting contract. UAV services may be used to supplement field inspections, improve access to difficult or hazardous locations, document pole-top conditions, capture high-resolution imagery, and support more efficient assessment of pole attachments, crossarms, hardware, conductors, insulators, and other visible overhead facilities. UAV services shall be performed by qualified, FAA-compliant personnel and in accordance with all applicable federal, state, and local requirements. The selected firm shall furnish all supervision, labor, materials, equipment, vehicles, tools, technology, software, transportation, permits, methods, processes, and incidentals necessary to complete the work in accordance with the final scope of services, applicable laws and regulations, industry standards, and PWP requirements.",
+      "agency": "City of Pasadena",
+      "state": "CA",
+      "url": "https://procurement.opengov.com/portal/pasadena/projects/263470",
+      "naics": "",
+      "psc": "",
+      "set_aside": "2026-RFP-0272",
+      "posted_date": "2026-05-06",
+      "due_date": "2026-11-19",
+      "it_score": 51,
+      "is_new": false,
+      "first_seen": "2026-09-23",
+      "matched_keywords": [
+        "software"
+      ]
+    },
+    {
+      "id": "knjg-wn2a:0532",
+      "source_name": "Oregon — Active Statewide Price Agreements",
+      "title": "Satellite Phones, Services and Additional Software and Equipment",
+      "description": "725-60",
+      "agency": "Department of Administrative Services",
+      "state": "OR",
+      "url": "https://oregonbuys.gov/",
+      "naics": "",
+      "psc": "",
+      "set_aside": "",
+      "posted_date": "2020-05-22",
+      "due_date": "2029-05-31",
+      "it_score": 51,
+      "is_new": false,
+      "first_seen": "2026-09-23",
+      "matched_keywords": [
+        "software"
+      ]
+    },
+    {
+      "id": "knjg-wn2a:0522",
+      "source_name": "Oregon — Active Statewide Price Agreements",
+      "title": "Satellite Phones, Services and Additional Software and Equipment",
+      "description": "839-74",
+      "agency": "Department of Administrative Services",
+      "state": "OR",
+      "url": "https://oregonbuys.gov/",
+      "naics": "",
+      "psc": "",
+      "set_aside": "",
+      "posted_date": "2020-03-30",
+      "due_date": "2029-03-29",
+      "it_score": 51,
+      "is_new": false,
+      "first_seen": "2026-09-23",
+      "matched_keywords": [
+        "software"
+      ]
+    },
+    {
       "id": "arcgis:Doc851828",
       "source_name": "Washington DC — Solicitations (PASS)",
       "title": "FY27-RFQ-OUC-Dell Monitors-DCSS IT Equipment and Software Vendors Only",
@@ -766,259 +971,21 @@
       ]
     },
     {
-      "id": "hf3r-utnq:232970",
-      "source_name": "Los Angeles County CA — RAMP Open Bids",
-      "title": "RFB-IS-27200315 - 1093943 -SOFTWARE- RENEWAL- ZSCALER (BRAND ONLY) - Closing: 11/13/2026 12:00 PM",
-      "description": "Commodity",
-      "agency": "Los Angeles County",
-      "state": "CA",
-      "url": "https://www.rampla.org/s/opportunity-details?id=006Ql00000oFSdWIAW",
-      "naics": "",
-      "psc": "",
-      "set_aside": "",
-      "posted_date": "2026-11-07",
-      "due_date": "2026-11-13",
-      "it_score": 51,
-      "is_new": false,
-      "first_seen": "2026-11-07",
-      "matched_keywords": [
-        "software"
-      ]
-    },
-    {
-      "id": "eshn-8t3a:SFGOV~0000012228",
-      "source_name": "San Francisco CA — Open Bids",
-      "title": "OCA DT | TM3 AvePoint Software and Services Renewl",
-      "description": "Seeking Bids",
-      "agency": "Office of Contract Administration",
-      "state": "CA",
-      "url": "https://sfcitypartner.sfgov.org/pages/Events-BS3/event-details.aspx?Page=AUC_RESP_INQ_DTL&Action=U&AUC_ID=0000012228&AUC_ROUND=1&AUC_VERSION=1&BIDDER_ID=0000000001&BIDDER_LOC=1&BIDDER_SETID=SHARE&BIDDER_TYPE=B&BUSINESS_UNIT=SFGOV",
-      "naics": "",
-      "psc": "",
-      "set_aside": "",
-      "posted_date": "2026-11-06",
-      "due_date": "2026-11-16",
-      "it_score": 51,
-      "is_new": true,
-      "first_seen": "2026-11-09",
-      "matched_keywords": [
-        "software"
-      ]
-    },
-    {
-      "id": "opengov:acgov:306819",
-      "source_name": "OpenGov — County of Alameda, CA",
-      "title": "RFP 902787 Elevator Condition Assessment & Modernization Plan",
-      "description": "It is the intent of these specifications, terms, and conditions to describe elevator condition assessment and modernization plan services for the elevators at several County buildings being requested by the County. The County intends to award a three (3) year contract (with the option to renew for two [2] years) to the Bidder selected as the most responsive and responsible Bidder whose response conforms to the RFP and meets the County’s requirements.",
-      "agency": "County of Alameda, CA",
-      "state": "CA",
-      "url": "https://procurement.opengov.com/portal/acgov/projects/306819",
-      "naics": "",
-      "psc": "",
-      "set_aside": "902787",
-      "posted_date": "2026-09-23",
-      "due_date": "2026-11-17",
-      "it_score": 51,
-      "is_new": false,
-      "first_seen": "2026-10-03",
-      "matched_keywords": [
-        "modernization"
-      ]
-    },
-    {
-      "id": "opengov:pasadena:263470",
-      "source_name": "OpenGov — City of Pasadena, CA",
-      "title": "Wood Pole Inspection, Treatment, Repair, and UAV Inspection Services",
-      "description": "The City of Pasadena Water and Power Department (“PWP”) is seeking proposals from qualified and experienced firms to provide wood pole inspection, repair, restoration, treatment, and related reporting services for PWP’s electric distribution system. The selected firm will support PWP’s ongoing maintenance and compliance program for wood poles, including visual inspections, intrusive inspections, groundline inspections, preservative treatments, minor corrective repairs, pole reinforcement recommendations, installation of approved repair materials, and detailed reporting of observed conditions. PWP’s wood pole program is intended to support safe, reliable, and compliant operation of the electric distribution system in accordance with applicable requirements, including California Public Utilities Commission (“CPUC”) General Order 95, Rules for Overhead Electric Line Construction, and CPUC General Order 165, Inspection Requirements for Electric Distribution and Transmission Facilities. PWP’s system includes approximately 11,000 wood poles, including both municipally owned and jointly owned poles. A significant portion of the pole population is located in rear property or otherwise constrained access locations. The scope of services may include, but is not limited to, pole condition assessment, identification of structural damage or decay, inspection for General Order 95 infractions, groundline and below-ground inspections, preservative and fumigant treatment, installation of visibility strips, guy guards, ground molding, pole tags, and steel truss reinforcement where approved by PWP. The selected firm shall also provide detailed inspection records, photographs, condition ratings, repair recommendations, and electronic data deliverables in a format acceptable to PWP. In addition to conventional field inspection and treatment services, PWP intends to include drone or other unmanned aerial vehicle (“UAV”) inspection services under the resulting contract. UAV services may be used to supplement field inspections, improve access to difficult or hazardous locations, document pole-top conditions, capture high-resolution imagery, and support more efficient assessment of pole attachments, crossarms, hardware, conductors, insulators, and other visible overhead facilities. UAV services shall be performed by qualified, FAA-compliant personnel and in accordance with all applicable federal, state, and local requirements. The selected firm shall furnish all supervision, labor, materials, equipment, vehicles, tools, technology, software, transportation, permits, methods, processes, and incidentals necessary to complete the work in accordance with the final scope of services, applicable laws and regulations, industry standards, and PWP requirements.",
-      "agency": "City of Pasadena",
-      "state": "CA",
-      "url": "https://procurement.opengov.com/portal/pasadena/projects/263470",
-      "naics": "",
-      "psc": "",
-      "set_aside": "2026-RFP-0272",
-      "posted_date": "2026-05-06",
-      "due_date": "2026-11-19",
-      "it_score": 51,
-      "is_new": false,
-      "first_seen": "2026-09-02",
-      "matched_keywords": [
-        "software"
-      ]
-    },
-    {
-      "id": "hf3r-utnq:232845",
-      "source_name": "Los Angeles County CA — RAMP Open Bids",
-      "title": "Elevator Modernization and Maintenance at Wyandotte Apts",
-      "description": "Personal Services",
-      "agency": "Housing Authority, City of Los Angeles",
-      "state": "CA",
-      "url": "https://www.rampla.org/s/opportunity-details?id=006Ql00000o1Sa9IAE",
-      "naics": "",
-      "psc": "",
-      "set_aside": "",
-      "posted_date": "2026-11-03",
-      "due_date": "2026-12-01",
-      "it_score": 51,
-      "is_new": false,
-      "first_seen": "2026-11-03",
-      "matched_keywords": [
-        "modernization"
-      ]
-    },
-    {
-      "id": "hf3r-utnq:232844",
-      "source_name": "Los Angeles County CA — RAMP Open Bids",
-      "title": "Elevator Modernization and Maintenance at Art Snyder",
-      "description": "Personal Services",
-      "agency": "Housing Authority, City of Los Angeles",
-      "state": "CA",
-      "url": "https://www.rampla.org/s/opportunity-details?id=006Ql00000o1RRBIA2",
-      "naics": "",
-      "psc": "",
-      "set_aside": "",
-      "posted_date": "2026-11-03",
-      "due_date": "2026-12-01",
-      "it_score": 51,
-      "is_new": false,
-      "first_seen": "2026-11-03",
-      "matched_keywords": [
-        "modernization"
-      ]
-    },
-    {
-      "id": "opengov:pasadena:301206",
-      "source_name": "OpenGov — City of Pasadena, CA",
-      "title": "On-Call Parking Consultant Services",
-      "description": "The City of Pasadena Department of Transportation is soliciting proposals from qualified consulting firms to provide on-call parking consultant services across its portfolio of parking assets and programs. This includes eight City-owned parking garages, four municipal surface lots, approximately 400 multispace meters, five meter districts, parking enforcement operations and comprehensive residential, daytime, and overnight parking permit programs. Selected proposers will form an on-call bench and will be eligible to support infrastructure evaluation, operational studies, technology modernization, and strategic planning and other related activities on an as-needed basis. A minimum of three (3) years experience in such projects is required. Proposers are encouraged to focus on the areas of strength and are not required to team with a large number of sub-consultants to cover all potential types of projects. This Request for Proposals (RFP) does not solicit services for a single, defined project. Rather, the resulting consultant list will be used by the Department of Transportation to assign project-specific Task Orders for parking consulting services required for the City's Parking Division. Each Task Order will define the scope, deliverables, schedule, and coordination needs for the required work. To be considered for selection, consultants must demonstrate substantial experience preparing infrastructure evaluations, operational studies, technology modernization, and strategic planning and other related activities. Consultants selected through this RFP will be placed on an on-call bench available to support the Parking Division's needs on an as-needed basis. Placement on the on-call bench does not guarantee any minimum or maximum number of assignments.",
-      "agency": "City of Pasadena",
-      "state": "CA",
-      "url": "https://procurement.opengov.com/portal/pasadena/projects/301206",
-      "naics": "",
-      "psc": "",
-      "set_aside": "2026-RFP-0526",
-      "posted_date": "2026-09-08",
-      "due_date": "2026-12-02",
-      "it_score": 51,
-      "is_new": false,
-      "first_seen": "2026-10-28",
-      "matched_keywords": [
-        "modernization"
-      ]
-    },
-    {
-      "id": "opengov:smcgov:319724",
-      "source_name": "OpenGov — County of San Mateo, CA",
-      "title": "Moving Services",
-      "description": "The County of San Mateo (the “County” or “SMC”) covers most of the San Francisco Peninsula. The region covers 744 square miles and is home to nearly 800,000 residents and 20 incorporated cities. The County provides for the health and welfare of all people within its borders and serves as the local government for the unincorporated areas. Innovation thrives here in industries including bioscience, computer software, green technology, hospitality, financial management, health care, education and transportation. The County prides itself on how that prosperity fosters its commitment to protecting and enhancing the health, safety, welfare and natural resources of the community. Formed in July 2014, the San Mateo County Sustainability Department strives to improve the sustainability of the County’s operations and the greater community through work that is designed to bring solutions today while solving for tomorrow. The Sustainability Department has programs to help the county both fight and prepare for climate change, ensure clean energy, water, and air, and conserve resources for future generations through waste reduction. The Sustainability Department has approximately 40 staff members and provides services in the following areas: Communications, Climate Resilience, Climate Protection, Waste Reduction, and Special Districts with similar but varying community needs. The department is seeking a vendor that can move office furnishings between and sometimes within buildings, including but not limited to technology items such office pods.",
-      "agency": "County of San Mateo",
-      "state": "CA",
-      "url": "https://procurement.opengov.com/portal/smcgov/projects/319724",
-      "naics": "",
-      "psc": "",
-      "set_aside": "",
-      "posted_date": "2026-10-22",
-      "due_date": "2026-12-12",
-      "it_score": 51,
-      "is_new": false,
-      "first_seen": "2026-11-04",
-      "matched_keywords": [
-        "software"
-      ]
-    },
-    {
-      "id": "hf3r-utnq:232553",
-      "source_name": "Los Angeles County CA — RAMP Open Bids",
-      "title": "DESIGN BUILD | RFQ # R-27016 - 107TH STREET ELEMENTARY | SEISMIC MODERNIZATION PROJECT",
-      "description": "Construction",
-      "agency": "LAUSD",
-      "state": "CA",
-      "url": "https://www.rampla.org/s/opportunity-details?id=006Ql00000n7pXpIAI",
-      "naics": "",
-      "psc": "",
-      "set_aside": "",
-      "posted_date": "2026-10-16",
-      "due_date": "2026-12-21",
-      "it_score": 51,
-      "is_new": false,
-      "first_seen": "2026-10-17",
-      "matched_keywords": [
-        "modernization"
-      ]
-    },
-    {
-      "id": "knjg-wn2a:0522",
-      "source_name": "Oregon — Active Statewide Price Agreements",
-      "title": "Satellite Phones, Services and Additional Software and Equipment",
-      "description": "839-74",
-      "agency": "Department of Administrative Services",
-      "state": "OR",
-      "url": "https://oregonbuys.gov/",
-      "naics": "",
-      "psc": "",
-      "set_aside": "",
-      "posted_date": "2020-03-30",
-      "due_date": "2029-03-29",
-      "it_score": 51,
-      "is_new": false,
-      "first_seen": "2026-07-14",
-      "matched_keywords": [
-        "software"
-      ]
-    },
-    {
-      "id": "knjg-wn2a:0532",
-      "source_name": "Oregon — Active Statewide Price Agreements",
-      "title": "Satellite Phones, Services and Additional Software and Equipment",
-      "description": "725-60",
-      "agency": "Department of Administrative Services",
-      "state": "OR",
-      "url": "https://oregonbuys.gov/",
-      "naics": "",
-      "psc": "",
-      "set_aside": "",
-      "posted_date": "2020-05-22",
-      "due_date": "2029-05-31",
-      "it_score": 51,
-      "is_new": false,
-      "first_seen": "2026-07-14",
-      "matched_keywords": [
-        "software"
-      ]
-    },
-    {
-      "id": "planetbids:27411:146695",
-      "source_name": "PlanetBids — Inland Empire Utilities Agency, CA",
-      "title": "Business Impact Analysis, Disaster Recovery Plan and Business Continuity Plan Services",
-      "description": "RFP-VC-26-006",
-      "agency": "Inland Empire Utilities Agency, CA",
-      "state": "CA",
-      "url": "https://vendors.planetbids.com/portal/27411/bo/bo-detail/146695",
-      "naics": "",
-      "psc": "91890, 92023, 95816, 95861, 96258, 99029",
-      "set_aside": "",
-      "posted_date": "2026-09-30",
-      "due_date": "2026-11-17",
-      "it_score": 50,
-      "is_new": false,
-      "first_seen": "2026-10-01",
-      "matched_keywords": []
-    },
-    {
-      "id": "planetbids:16151:144554",
+      "id": "planetbids:16151:147987",
       "source_name": "PlanetBids — Santa Clara Valley Water District, CA",
-      "title": "Inland Feeder/San Bernardino Valley Municipal Water District (SBVMWD) Foothill Pump Station Intertie, Stage 1",
-      "description": "2049",
+      "title": "REQUEST FOR BID - Trimm Brand DC Breaker Assemblies",
+      "description": "RFB-GL-481913",
       "agency": "Santa Clara Valley Water District, CA",
       "state": "CA",
-      "url": "https://vendors.planetbids.com/portal/16151/bo/bo-detail/144554",
+      "url": "https://vendors.planetbids.com/portal/16151/bo/bo-detail/147987",
       "naics": "",
-      "psc": "06037, 17567, 20424, 65800, 65880, 67053, 69032, 76023, 89500, 89509, 91200, 91340, 91438, 91485, 92531, 92935, 97534",
+      "psc": "20867, 28514, 28567, 28587, 28755, 69000, 69046, 69057, 69100, 73006, 90668, 92578, 94054, 94055, 94172",
       "set_aside": "",
-      "posted_date": "2026-08-04",
-      "due_date": "2026-11-17",
+      "posted_date": "2026-11-04",
+      "due_date": "2026-11-25",
       "it_score": 50,
       "is_new": false,
-      "first_seen": "2026-08-05",
+      "first_seen": "2026-11-07",
       "matched_keywords": []
     },
     {
@@ -1040,6 +1007,42 @@
       "matched_keywords": []
     },
     {
+      "id": "planetbids:16151:147443",
+      "source_name": "PlanetBids — Santa Clara Valley Water District, CA",
+      "title": "REAL ESTATE APPRAISAL AND VALUATION SUPPORT SERVICES",
+      "description": "RFQual-JH-1418",
+      "agency": "Santa Clara Valley Water District, CA",
+      "state": "CA",
+      "url": "https://vendors.planetbids.com/portal/16151/bo/bo-detail/147443",
+      "naics": "",
+      "psc": "20876, 20977, 91814, 91889, 94615, 96164, 97163",
+      "set_aside": "",
+      "posted_date": "2026-10-21",
+      "due_date": "2026-12-02",
+      "it_score": 50,
+      "is_new": false,
+      "first_seen": "2026-10-21",
+      "matched_keywords": []
+    },
+    {
+      "id": "planetbids:27411:146695",
+      "source_name": "PlanetBids — Inland Empire Utilities Agency, CA",
+      "title": "Business Impact Analysis, Disaster Recovery Plan and Business Continuity Plan Services",
+      "description": "RFP-VC-26-006",
+      "agency": "Inland Empire Utilities Agency, CA",
+      "state": "CA",
+      "url": "https://vendors.planetbids.com/portal/27411/bo/bo-detail/146695",
+      "naics": "",
+      "psc": "91890, 92023, 95816, 95861, 96258, 99029",
+      "set_aside": "",
+      "posted_date": "2026-09-30",
+      "due_date": "2026-11-17",
+      "it_score": 50,
+      "is_new": false,
+      "first_seen": "2026-09-30",
+      "matched_keywords": []
+    },
+    {
       "id": "planetbids:16151:146479",
       "source_name": "PlanetBids — Santa Clara Valley Water District, CA",
       "title": "Joseph P. Jensen Water Treatment Plant Infrastructure and Security Improvements",
@@ -1058,40 +1061,43 @@
       "matched_keywords": []
     },
     {
-      "id": "planetbids:16151:147987",
+      "id": "planetbids:16151:144554",
       "source_name": "PlanetBids — Santa Clara Valley Water District, CA",
-      "title": "REQUEST FOR BID - Trimm Brand DC Breaker Assemblies",
-      "description": "RFB-GL-481913",
+      "title": "Inland Feeder/San Bernardino Valley Municipal Water District (SBVMWD) Foothill Pump Station Intertie, Stage 1",
+      "description": "2049",
       "agency": "Santa Clara Valley Water District, CA",
       "state": "CA",
-      "url": "https://vendors.planetbids.com/portal/16151/bo/bo-detail/147987",
+      "url": "https://vendors.planetbids.com/portal/16151/bo/bo-detail/144554",
       "naics": "",
-      "psc": "20867, 28514, 28567, 28587, 28755, 69000, 69046, 69057, 69100, 73006, 90668, 92578, 94054, 94055, 94172",
+      "psc": "06037, 17567, 20424, 65800, 65880, 67053, 69032, 76023, 89500, 89509, 91200, 91340, 91438, 91485, 92531, 92935, 97534",
       "set_aside": "",
-      "posted_date": "2026-11-04",
-      "due_date": "2026-11-25",
+      "posted_date": "2026-08-04",
+      "due_date": "2026-11-17",
       "it_score": 50,
       "is_new": false,
-      "first_seen": "2026-11-07",
+      "first_seen": "2026-09-23",
       "matched_keywords": []
     },
     {
-      "id": "planetbids:16151:147443",
-      "source_name": "PlanetBids — Santa Clara Valley Water District, CA",
-      "title": "REAL ESTATE APPRAISAL AND VALUATION SUPPORT SERVICES",
-      "description": "RFQual-JH-1418",
-      "agency": "Santa Clara Valley Water District, CA",
-      "state": "CA",
-      "url": "https://vendors.planetbids.com/portal/16151/bo/bo-detail/147443",
+      "id": "ionwave:leegov:SS270036KCW",
+      "source_name": "Ionwave — Lee County, FL",
+      "title": "Bell Data Systems Client Services Network",
+      "description": "Bell Data Systems Client Services Network",
+      "agency": "Lee County, FL",
+      "state": "FL",
+      "url": "https://leegov.ionwave.net/SourcingEvents.aspx?SourceType=1",
       "naics": "",
-      "psc": "20876, 20977, 91814, 91889, 94615, 96164, 97163",
-      "set_aside": "",
-      "posted_date": "2026-10-21",
-      "due_date": "2026-12-02",
-      "it_score": 50,
+      "psc": "",
+      "set_aside": "SS270036KCW",
+      "posted_date": "2026-11-03",
+      "due_date": "2026-11-25",
+      "it_score": 42,
       "is_new": false,
-      "first_seen": "2026-10-21",
-      "matched_keywords": []
+      "first_seen": "2026-11-03",
+      "matched_keywords": [
+        "systems",
+        "data"
+      ]
     },
     {
       "id": "eeq6-nnwe:1200288",
@@ -1112,27 +1118,6 @@
       "matched_keywords": [
         "data",
         "digital"
-      ]
-    },
-    {
-      "id": "opengov:pasadena:293584",
-      "source_name": "OpenGov — City of Pasadena, CA",
-      "title": "Rental Registry Database and Portal",
-      "description": "The City of Pasadena Rent Stabilization Department is seeking proposals from qualified vendors to provide a comprehensive rental registry database and online portal. The selected vendor will be responsible to meet the City's need for implementing, operating, and maintaining a system that supports the requirements of City Charter Article XVIII, which governs rent stabilization in Pasadena. The Department requires a fully hosted online platform that enables landlords to register rental units, update unit and tenancy information, apply for exemptions, and pay the City’s annual rental registry fee, including any applicable late fees. The system must also allow landlords to submit any rent registration-related notices or documents mandated by the Charter or any applicable federal, state, or local laws directly to the City through the registry portal. A Rental Registry is a core, foundational tool to monitor compliance with Charter Article XVIII to ensure that rent adjustments are in compliance with local law. There are approximately 26,000+ rental units registered within the City of Pasadena Rent Stabilization Department's Rental Registry. Rental property owners are required to register on annual basis and pay a registration fee for each rental unit. Exemptions for the annual registration fee are available and processed through the Rental Registry. Outside of the annual rental registration window from September-October, rental property owners are required to utilize the system to record key events including, but not limited to, occupancy amendments, rent increases and transfer of ownerships. The Rent Stabilization launched its Rental Registry on September 2024. It contains data for approximately 26,000+ rental units. Online payments can be made via eCheck and through Payroc via debit/credit card. A key desire for the next system is to integrate with Tyler Cashiering. City Charter Article XVIII can be accessed via this link: https://library.municode.com/ca/pasadena/codes/code_of_ordinances?nodeId=CH_ARTXVIIIPAFAEQHOCHAM . Adopted regulations concerning rental registration, Chapter 9, are available on the Pasadena Rent Stabilization Website via this link: https://www.cityofpasadena.net/rent-stabilization/notices-forms-resources/#regulations",
-      "agency": "City of Pasadena",
-      "state": "CA",
-      "url": "https://procurement.opengov.com/portal/pasadena/projects/293584",
-      "naics": "",
-      "psc": "",
-      "set_aside": "2026-RFP-0495",
-      "posted_date": "2026-08-13",
-      "due_date": "2026-11-21",
-      "it_score": 42,
-      "is_new": false,
-      "first_seen": "2026-10-27",
-      "matched_keywords": [
-        "portal",
-        "database"
       ]
     },
     {
@@ -1157,6 +1142,27 @@
       ]
     },
     {
+      "id": "opengov:pasadena:293584",
+      "source_name": "OpenGov — City of Pasadena, CA",
+      "title": "Rental Registry Database and Portal",
+      "description": "The City of Pasadena Rent Stabilization Department is seeking proposals from qualified vendors to provide a comprehensive rental registry database and online portal. The selected vendor will be responsible to meet the City's need for implementing, operating, and maintaining a system that supports the requirements of City Charter Article XVIII, which governs rent stabilization in Pasadena. The Department requires a fully hosted online platform that enables landlords to register rental units, update unit and tenancy information, apply for exemptions, and pay the City’s annual rental registry fee, including any applicable late fees. The system must also allow landlords to submit any rent registration-related notices or documents mandated by the Charter or any applicable federal, state, or local laws directly to the City through the registry portal. A Rental Registry is a core, foundational tool to monitor compliance with Charter Article XVIII to ensure that rent adjustments are in compliance with local law. There are approximately 26,000+ rental units registered within the City of Pasadena Rent Stabilization Department's Rental Registry. Rental property owners are required to register on annual basis and pay a registration fee for each rental unit. Exemptions for the annual registration fee are available and processed through the Rental Registry. Outside of the annual rental registration window from September-October, rental property owners are required to utilize the system to record key events including, but not limited to, occupancy amendments, rent increases and transfer of ownerships. The Rent Stabilization launched its Rental Registry on September 2024. It contains data for approximately 26,000+ rental units. Online payments can be made via eCheck and through Payroc via debit/credit card. A key desire for the next system is to integrate with Tyler Cashiering. City Charter Article XVIII can be accessed via this link: https://library.municode.com/ca/pasadena/codes/code_of_ordinances?nodeId=CH_ARTXVIIIPAFAEQHOCHAM . Adopted regulations concerning rental registration, Chapter 9, are available on the Pasadena Rent Stabilization Website via this link: https://www.cityofpasadena.net/rent-stabilization/notices-forms-resources/#regulations",
+      "agency": "City of Pasadena",
+      "state": "CA",
+      "url": "https://procurement.opengov.com/portal/pasadena/projects/293584",
+      "naics": "",
+      "psc": "",
+      "set_aside": "2026-RFP-0495",
+      "posted_date": "2026-08-13",
+      "due_date": "2026-11-21",
+      "it_score": 42,
+      "is_new": false,
+      "first_seen": "2026-10-27",
+      "matched_keywords": [
+        "portal",
+        "database"
+      ]
+    },
+    {
       "id": "arcgis:Doc847596",
       "source_name": "Washington DC — Solicitations (PASS)",
       "title": "RFP - Provider Data Management System and Services",
@@ -1178,66 +1184,6 @@
       ]
     },
     {
-      "id": "eshn-8t3a:SFGOV~0000012219",
-      "source_name": "San Francisco CA — Open Bids",
-      "title": "OCA PRT | TM3 EXIGIS License, Supprt and Svcs Rnwl",
-      "description": "Seeking Bids",
-      "agency": "Office of Contract Administration",
-      "state": "CA",
-      "url": "https://sfcitypartner.sfgov.org/pages/Events-BS3/event-details.aspx?Page=AUC_RESP_INQ_DTL&Action=U&AUC_ID=0000012219&AUC_ROUND=1&AUC_VERSION=1&BIDDER_ID=0000000001&BIDDER_LOC=1&BIDDER_SETID=SHARE&BIDDER_TYPE=B&BUSINESS_UNIT=SFGOV",
-      "naics": "",
-      "psc": "",
-      "set_aside": "",
-      "posted_date": "2026-11-06",
-      "due_date": "2026-11-12",
-      "it_score": 36,
-      "is_new": true,
-      "first_seen": "2026-11-09",
-      "matched_keywords": [
-        "license"
-      ]
-    },
-    {
-      "id": "eshn-8t3a:SFGOV~0000012205",
-      "source_name": "San Francisco CA — Open Bids",
-      "title": "OCA HSA | TM3- Thomson Reuters Clear License Rnwl",
-      "description": "Seeking Bids",
-      "agency": "Office of Contract Administration",
-      "state": "CA",
-      "url": "https://sfcitypartner.sfgov.org/pages/Events-BS3/event-details.aspx?Page=AUC_RESP_INQ_DTL&Action=U&AUC_ID=0000012205&AUC_ROUND=1&AUC_VERSION=1&BIDDER_ID=0000000001&BIDDER_LOC=1&BIDDER_SETID=SHARE&BIDDER_TYPE=B&BUSINESS_UNIT=SFGOV",
-      "naics": "",
-      "psc": "",
-      "set_aside": "",
-      "posted_date": "2026-11-04",
-      "due_date": "2026-11-12",
-      "it_score": 36,
-      "is_new": true,
-      "first_seen": "2026-11-09",
-      "matched_keywords": [
-        "license"
-      ]
-    },
-    {
-      "id": "eshn-8t3a:SFGOV~0000012225",
-      "source_name": "San Francisco CA — Open Bids",
-      "title": "OCA DT | TM3 Cisco Identity SW License and Support",
-      "description": "Seeking Bids",
-      "agency": "Office of Contract Administration",
-      "state": "CA",
-      "url": "https://sfcitypartner.sfgov.org/pages/Events-BS3/event-details.aspx?Page=AUC_RESP_INQ_DTL&Action=U&AUC_ID=0000012225&AUC_ROUND=1&AUC_VERSION=1&BIDDER_ID=0000000001&BIDDER_LOC=1&BIDDER_SETID=SHARE&BIDDER_TYPE=B&BUSINESS_UNIT=SFGOV",
-      "naics": "",
-      "psc": "",
-      "set_aside": "",
-      "posted_date": "2026-11-05",
-      "due_date": "2026-11-13",
-      "it_score": 36,
-      "is_new": true,
-      "first_seen": "2026-11-09",
-      "matched_keywords": [
-        "license"
-      ]
-    },
-    {
       "id": "eshn-8t3a:SFGOV~0000012224",
       "source_name": "San Francisco CA — Open Bids",
       "title": "OCA PUC | TM3-Citrix VAD License Renewal",
@@ -1251,7 +1197,7 @@
       "posted_date": "2026-11-06",
       "due_date": "2026-11-16",
       "it_score": 36,
-      "is_new": true,
+      "is_new": false,
       "first_seen": "2026-11-09",
       "matched_keywords": [
         "license"
@@ -1271,7 +1217,127 @@
       "posted_date": "2026-11-06",
       "due_date": "2026-11-16",
       "it_score": 36,
-      "is_new": true,
+      "is_new": false,
+      "first_seen": "2026-11-09",
+      "matched_keywords": [
+        "license"
+      ]
+    },
+    {
+      "id": "eshn-8t3a:SFGOV~0000012219",
+      "source_name": "San Francisco CA — Open Bids",
+      "title": "OCA PRT | TM3 EXIGIS License, Supprt and Svcs Rnwl",
+      "description": "Seeking Bids",
+      "agency": "Office of Contract Administration",
+      "state": "CA",
+      "url": "https://sfcitypartner.sfgov.org/pages/Events-BS3/event-details.aspx?Page=AUC_RESP_INQ_DTL&Action=U&AUC_ID=0000012219&AUC_ROUND=1&AUC_VERSION=1&BIDDER_ID=0000000001&BIDDER_LOC=1&BIDDER_SETID=SHARE&BIDDER_TYPE=B&BUSINESS_UNIT=SFGOV",
+      "naics": "",
+      "psc": "",
+      "set_aside": "",
+      "posted_date": "2026-11-06",
+      "due_date": "2026-11-12",
+      "it_score": 36,
+      "is_new": false,
+      "first_seen": "2026-11-09",
+      "matched_keywords": [
+        "license"
+      ]
+    },
+    {
+      "id": "hf3r-utnq:232930",
+      "source_name": "Los Angeles County CA — RAMP Open Bids",
+      "title": "146844 SPARES FOR 34.5kV ABB GIS VCBs",
+      "description": "Commodity",
+      "agency": "Water & Power",
+      "state": "CA",
+      "url": "https://www.rampla.org/s/opportunity-details?id=006Ql00000o8so1IAA",
+      "naics": "",
+      "psc": "",
+      "set_aside": "",
+      "posted_date": "2026-11-05",
+      "due_date": "2026-11-19",
+      "it_score": 36,
+      "is_new": false,
+      "first_seen": "2026-11-05",
+      "matched_keywords": [
+        "gis"
+      ]
+    },
+    {
+      "id": "hf3r-utnq:232926",
+      "source_name": "Los Angeles County CA — RAMP Open Bids",
+      "title": "RFB-IS-27200300 - STARLINK SATELLITE EQUIPMENT AND DATA PLANS - 3-YEAR AGREEME - Closing: 11/19/2026 12:00 PM",
+      "description": "Commodity",
+      "agency": "Los Angeles County",
+      "state": "CA",
+      "url": "https://www.rampla.org/s/opportunity-details?id=006Ql00000o8hW2IAI",
+      "naics": "",
+      "psc": "",
+      "set_aside": "",
+      "posted_date": "2026-11-05",
+      "due_date": "2026-11-19",
+      "it_score": 36,
+      "is_new": false,
+      "first_seen": "2026-11-05",
+      "matched_keywords": [
+        "data"
+      ]
+    },
+    {
+      "id": "hf3r-utnq:232928",
+      "source_name": "Los Angeles County CA — RAMP Open Bids",
+      "title": "RFB-IS-27200311 - CASEGUARD STUDIO STANDARD LICENSE RENEWAL - Closing: 11/25/2026 12:00 PM",
+      "description": "Commodity",
+      "agency": "Los Angeles County",
+      "state": "CA",
+      "url": "https://www.rampla.org/s/opportunity-details?id=006Ql00000o8hW4IAI",
+      "naics": "",
+      "psc": "",
+      "set_aside": "",
+      "posted_date": "2026-11-05",
+      "due_date": "2026-11-25",
+      "it_score": 36,
+      "is_new": false,
+      "first_seen": "2026-11-05",
+      "matched_keywords": [
+        "license"
+      ]
+    },
+    {
+      "id": "eshn-8t3a:SFGOV~0000012225",
+      "source_name": "San Francisco CA — Open Bids",
+      "title": "OCA DT | TM3 Cisco Identity SW License and Support",
+      "description": "Seeking Bids",
+      "agency": "Office of Contract Administration",
+      "state": "CA",
+      "url": "https://sfcitypartner.sfgov.org/pages/Events-BS3/event-details.aspx?Page=AUC_RESP_INQ_DTL&Action=U&AUC_ID=0000012225&AUC_ROUND=1&AUC_VERSION=1&BIDDER_ID=0000000001&BIDDER_LOC=1&BIDDER_SETID=SHARE&BIDDER_TYPE=B&BUSINESS_UNIT=SFGOV",
+      "naics": "",
+      "psc": "",
+      "set_aside": "",
+      "posted_date": "2026-11-05",
+      "due_date": "2026-11-13",
+      "it_score": 36,
+      "is_new": false,
+      "first_seen": "2026-11-09",
+      "matched_keywords": [
+        "license"
+      ]
+    },
+    {
+      "id": "eshn-8t3a:SFGOV~0000012205",
+      "source_name": "San Francisco CA — Open Bids",
+      "title": "OCA HSA | TM3- Thomson Reuters Clear License Rnwl",
+      "description": "Seeking Bids",
+      "agency": "Office of Contract Administration",
+      "state": "CA",
+      "url": "https://sfcitypartner.sfgov.org/pages/Events-BS3/event-details.aspx?Page=AUC_RESP_INQ_DTL&Action=U&AUC_ID=0000012205&AUC_ROUND=1&AUC_VERSION=1&BIDDER_ID=0000000001&BIDDER_LOC=1&BIDDER_SETID=SHARE&BIDDER_TYPE=B&BUSINESS_UNIT=SFGOV",
+      "naics": "",
+      "psc": "",
+      "set_aside": "",
+      "posted_date": "2026-11-04",
+      "due_date": "2026-11-12",
+      "it_score": 36,
+      "is_new": false,
       "first_seen": "2026-11-09",
       "matched_keywords": [
         "license"
@@ -1318,103 +1384,23 @@
       ]
     },
     {
-      "id": "hf3r-utnq:232930",
-      "source_name": "Los Angeles County CA — RAMP Open Bids",
-      "title": "146844 SPARES FOR 34.5kV ABB GIS VCBs",
-      "description": "Commodity",
-      "agency": "Water & Power",
-      "state": "CA",
-      "url": "https://www.rampla.org/s/opportunity-details?id=006Ql00000o8so1IAA",
+      "id": "ionwave:leegov:B260374JAK Addendum 2",
+      "source_name": "Ionwave — Lee County, FL",
+      "title": "EOC Data Center UPS Upgrade",
+      "description": "EOC Data Center UPS Upgrade",
+      "agency": "Lee County, FL",
+      "state": "FL",
+      "url": "https://leegov.ionwave.net/SourcingEvents.aspx?SourceType=1",
       "naics": "",
       "psc": "",
-      "set_aside": "",
-      "posted_date": "2026-11-05",
-      "due_date": "2026-11-19",
+      "set_aside": "B260374JAK Addendum 2",
+      "posted_date": "2026-11-03",
+      "due_date": "2026-12-10",
       "it_score": 36,
       "is_new": false,
-      "first_seen": "2026-11-05",
-      "matched_keywords": [
-        "gis"
-      ]
-    },
-    {
-      "id": "hf3r-utnq:232926",
-      "source_name": "Los Angeles County CA — RAMP Open Bids",
-      "title": "RFB-IS-27200300 - STARLINK SATELLITE EQUIPMENT AND DATA PLANS - 3-YEAR AGREEME - Closing: 11/19/2026 12:00 PM",
-      "description": "Commodity",
-      "agency": "Los Angeles County",
-      "state": "CA",
-      "url": "https://www.rampla.org/s/opportunity-details?id=006Ql00000o8hW2IAI",
-      "naics": "",
-      "psc": "",
-      "set_aside": "",
-      "posted_date": "2026-11-05",
-      "due_date": "2026-11-19",
-      "it_score": 36,
-      "is_new": false,
-      "first_seen": "2026-11-05",
+      "first_seen": "2026-11-09",
       "matched_keywords": [
         "data"
-      ]
-    },
-    {
-      "id": "opengov:smcgov:321052",
-      "source_name": "OpenGov — County of San Mateo, CA",
-      "title": "Measure K Website Services",
-      "description": "The County of San Mateo is soliciting proposals from qualified firms that will be limited to the Measure K website and its related technical, accessibility, and support services. The proposal pricing must be presented separately from any other County web-services solicitation or agreement.",
-      "agency": "County of San Mateo",
-      "state": "CA",
-      "url": "https://procurement.opengov.com/portal/smcgov/projects/321052",
-      "naics": "",
-      "psc": "",
-      "set_aside": "2027-RFP-00190",
-      "posted_date": "2026-10-27",
-      "due_date": "2026-11-20",
-      "it_score": 36,
-      "is_new": false,
-      "first_seen": "2026-11-05",
-      "matched_keywords": [
-        "website"
-      ]
-    },
-    {
-      "id": "hf3r-utnq:232928",
-      "source_name": "Los Angeles County CA — RAMP Open Bids",
-      "title": "RFB-IS-27200311 - CASEGUARD STUDIO STANDARD LICENSE RENEWAL - Closing: 11/25/2026 12:00 PM",
-      "description": "Commodity",
-      "agency": "Los Angeles County",
-      "state": "CA",
-      "url": "https://www.rampla.org/s/opportunity-details?id=006Ql00000o8hW4IAI",
-      "naics": "",
-      "psc": "",
-      "set_aside": "",
-      "posted_date": "2026-11-05",
-      "due_date": "2026-11-25",
-      "it_score": 36,
-      "is_new": false,
-      "first_seen": "2026-11-05",
-      "matched_keywords": [
-        "license"
-      ]
-    },
-    {
-      "id": "opengov:anaheim:290478",
-      "source_name": "OpenGov — City of Anaheim, CA",
-      "title": "Double-Sided Padmount Solid Dielectric Switchgear with Integrated Automation - Purchase Order",
-      "description": "The City of Anaheim (\" Anaheim \" or \" City \") Public Utilities Department (\" APU \") seeks proposals from interested respondents (\" Respondent(s) \") to procure double-sided padmount solid-dielectric insulated switchgear with integrated automation as replacements for its 12 kV live-front, air-insulated padmounted switchgear. The dead-front and encapsulated features of the new solid-dielectric insulated switches with integrated automation are expected to improve crew safety, reliability and operational flexibility. This Request for Proposals (\" RFP \") is expected to result in a proof-of-concept for additional anticipated purchases for replacing existing and installing new such switchgear at Anaheim. The selected Respondent(s) will be responsible for providing the Goods and Services described in the Scope of Work and Specifications Section and in any Attachments hereto (collectively, \" Deliverables” ). After selecting a successful Respondent, the City will issue a Purchase Order, contract, or agreement form that substantially conforms to the terms and conditions outlined in this RFP, including, but not limited to, Anaheim's standard insurance and indemnity provisions appropriate for the Deliverables contemplated herein. Any resulting agreement between the City and the successful respondent will take effect upon mutual execution after Anaheim secures all necessary approvals as required under its procurement policies, rules, and the Anaheim Municipal Code .",
-      "agency": "The City of Anaheim",
-      "state": "CA",
-      "url": "https://procurement.opengov.com/portal/anaheim/projects/290478",
-      "naics": "",
-      "psc": "",
-      "set_aside": "SY270000491-LR",
-      "posted_date": "2026-08-05",
-      "due_date": "2026-12-04",
-      "it_score": 36,
-      "is_new": false,
-      "first_seen": "2026-10-29",
-      "matched_keywords": [
-        "automation"
       ]
     },
     {
@@ -1438,63 +1424,63 @@
       ]
     },
     {
-      "id": "hf3r-utnq:228906",
-      "source_name": "Los Angeles County CA — RAMP Open Bids",
-      "title": "GCS-10637-S - REQUEST FOR STATEMENT OF QUALIFICATIONS (RFSQ) FOR RECORDS MANAGEMENT SERVICES - Closing: Continuous",
-      "description": "Personal Services",
-      "agency": "Los Angeles County",
+      "id": "bidsandtenders:stearnscountymn:8f39d6f4-622b-4b3d-89b5-d25a44ef3de1",
+      "source_name": "Bids&Tenders — Stearns County, MN",
+      "title": "26-44 - Digital Accessibility Audit Service",
+      "description": "DIGITAL ACCESSIBILITY AUDIT SERVICE INFORMAL REQUEST FOR PROPOSAL PROJECT 26-44 FOR THE COUNTY OF STEARNS, MINNESOTA DUE DATE: 11:00 AM, THURSDAY, NOVEMBER 19 TH , 2026 PROJECT INFORMATION: The County of Stearns is seeking proposals from qualified vendors to provide comprehensive digital accessibility audit services for County‑owned websites and apps for compliance with the Americans with Disabilities Act (ADA) Title II requirements and the Web Content Accessibility Guidelines (WCAG) 2.1 Level AA. DOCUMENTS: To obtain documents online, please visit Bids & Tenders . You can preview the bid documents with a Preview Watermark prior to registering for the opportunity. Documents are not provided in any other manner. For step-by-step instructions on how to create an Account please refer to the Vendor Support Portal . If you encounter technical issues, please contact support@bidsandtenders.ca or 1-800-594-4798. PROPOSAL SUBMITTAL: ELECTRONIC BID SUBMISSIONS ONLY, shall be received by the Bidding System online through Bids & Tenders not later than 11:00 AM, Thursday, November 19 th ,2026 Hardcopy submissions are not permitted. AWARD: Proposals submitted in response to this RFP shall be valid until January 31 st ,2027 The County of Stearns reserves the right to reject any or all proposals, to waive informalities, to award the contract in whole or in part, and to award to the vendor the County determines is in the County’s best interest. NOTIFICATION: This Request for Proposal is issued by Jennifer Butkowski, Procurement & Contract Specialist.",
+      "agency": "Stearns County, MN",
+      "state": "MN",
+      "url": "https://stearnscountymn.bidsandtenders.net/Module/Tender/Detail/8f39d6f4-622b-4b3d-89b5-d25a44ef3de1",
+      "naics": "",
+      "psc": "",
+      "set_aside": "",
+      "posted_date": "2026-10-30",
+      "due_date": "2026-11-19",
+      "it_score": 36,
+      "is_new": false,
+      "first_seen": "2026-10-31",
+      "matched_keywords": [
+        "digital"
+      ]
+    },
+    {
+      "id": "opengov:smcgov:321052",
+      "source_name": "OpenGov — County of San Mateo, CA",
+      "title": "Measure K Website Services",
+      "description": "The County of San Mateo is soliciting proposals from qualified firms that will be limited to the Measure K website and its related technical, accessibility, and support services. The proposal pricing must be presented separately from any other County web-services solicitation or agreement.",
+      "agency": "County of San Mateo",
       "state": "CA",
-      "url": "https://www.rampla.org/s/opportunity-details?id=006Ql00000c2b0oIAA",
+      "url": "https://procurement.opengov.com/portal/smcgov/projects/321052",
       "naics": "",
       "psc": "",
-      "set_aside": "",
-      "posted_date": "2026-04-01",
-      "due_date": "2028-04-01",
+      "set_aside": "2027-RFP-00190",
+      "posted_date": "2026-10-27",
+      "due_date": "2026-11-20",
       "it_score": 36,
       "is_new": false,
-      "first_seen": "2026-07-14",
+      "first_seen": "2026-11-05",
       "matched_keywords": [
-        "records management"
+        "website"
       ]
     },
     {
-      "id": "knjg-wn2a:8346",
-      "source_name": "Oregon — Active Statewide Price Agreements",
-      "title": "INFORMATION TECHNOLOGY RESEARCH AND ADVISORY SERVICES (ITRAS)",
-      "description": "918-06",
-      "agency": "Department of Administrative Services",
-      "state": "OR",
-      "url": "https://oregonbuys.gov/",
+      "id": "opengov:pinellasfl:295048",
+      "source_name": "OpenGov — Pinellas County, FL",
+      "title": "Digital Evidence Request for Information",
+      "description": "Pinellas County is seeking information from qualified vendors regarding digital evidence and exhibits management solution for use by county court and circuit court entities. The purpose of this RFI is to identify available products, capabilities, implementation approaches, and vendor experience supporting secure evidence submission, review, management, retention, and destruction for court-related use. This RFI is intended to gather market information only and does not constitute a solicitation or commitment to award a contract.",
+      "agency": "Pinellas County",
+      "state": "FL",
+      "url": "https://procurement.opengov.com/portal/pinellasfl/projects/295048",
       "naics": "",
       "psc": "",
-      "set_aside": "",
-      "posted_date": "2018-11-27",
-      "due_date": "2028-10-31",
+      "set_aside": "26-0795-RFI",
+      "posted_date": "2026-08-19",
+      "due_date": "2026-11-12",
       "it_score": 36,
       "is_new": false,
-      "first_seen": "2026-07-14",
+      "first_seen": "2026-09-26",
       "matched_keywords": [
-        "information technology"
-      ]
-    },
-    {
-      "id": "knjg-wn2a:1662",
-      "source_name": "Oregon — Active Statewide Price Agreements",
-      "title": "Wireless Voice, Data & Accessories",
-      "description": "725-30",
-      "agency": "Department of Administrative Services",
-      "state": "OR",
-      "url": "https://oregonbuys.gov/",
-      "naics": "",
-      "psc": "",
-      "set_aside": "",
-      "posted_date": "2021-04-01",
-      "due_date": "2029-08-11",
-      "it_score": 36,
-      "is_new": false,
-      "first_seen": "2026-07-14",
-      "matched_keywords": [
-        "data"
+        "digital"
       ]
     },
     {
@@ -1512,9 +1498,109 @@
       "due_date": "2029-08-31",
       "it_score": 36,
       "is_new": false,
-      "first_seen": "2026-07-14",
+      "first_seen": "2026-09-23",
       "matched_keywords": [
         "ai"
+      ]
+    },
+    {
+      "id": "hf3r-utnq:228906",
+      "source_name": "Los Angeles County CA — RAMP Open Bids",
+      "title": "GCS-10637-S - REQUEST FOR STATEMENT OF QUALIFICATIONS (RFSQ) FOR RECORDS MANAGEMENT SERVICES - Closing: Continuous",
+      "description": "Personal Services",
+      "agency": "Los Angeles County",
+      "state": "CA",
+      "url": "https://www.rampla.org/s/opportunity-details?id=006Ql00000c2b0oIAA",
+      "naics": "",
+      "psc": "",
+      "set_aside": "",
+      "posted_date": "2026-04-01",
+      "due_date": "2028-04-01",
+      "it_score": 36,
+      "is_new": false,
+      "first_seen": "2026-09-23",
+      "matched_keywords": [
+        "records management"
+      ]
+    },
+    {
+      "id": "knjg-wn2a:1662",
+      "source_name": "Oregon — Active Statewide Price Agreements",
+      "title": "Wireless Voice, Data & Accessories",
+      "description": "725-30",
+      "agency": "Department of Administrative Services",
+      "state": "OR",
+      "url": "https://oregonbuys.gov/",
+      "naics": "",
+      "psc": "",
+      "set_aside": "",
+      "posted_date": "2021-04-01",
+      "due_date": "2029-08-11",
+      "it_score": 36,
+      "is_new": false,
+      "first_seen": "2026-09-23",
+      "matched_keywords": [
+        "data"
+      ]
+    },
+    {
+      "id": "knjg-wn2a:8346",
+      "source_name": "Oregon — Active Statewide Price Agreements",
+      "title": "INFORMATION TECHNOLOGY RESEARCH AND ADVISORY SERVICES (ITRAS)",
+      "description": "918-06",
+      "agency": "Department of Administrative Services",
+      "state": "OR",
+      "url": "https://oregonbuys.gov/",
+      "naics": "",
+      "psc": "",
+      "set_aside": "",
+      "posted_date": "2018-11-27",
+      "due_date": "2028-10-31",
+      "it_score": 36,
+      "is_new": false,
+      "first_seen": "2026-09-23",
+      "matched_keywords": [
+        "information technology"
+      ]
+    },
+    {
+      "id": "bonfire:broward:258942",
+      "source_name": "Bonfire — Broward County, FL",
+      "title": "Request for Information - OpenEye – CCTV Recording and Analytics",
+      "description": "Request for Information - OpenEye – CCTV Recording and Analytics",
+      "agency": "Broward County, FL",
+      "state": "FL",
+      "url": "https://broward.bonfirehub.com/opportunities/258942",
+      "naics": "",
+      "psc": "",
+      "set_aside": "TCH2133148F1",
+      "posted_date": "",
+      "due_date": "2026-11-16",
+      "it_score": 36,
+      "is_new": false,
+      "first_seen": "2026-10-24",
+      "matched_keywords": [
+        "analytics"
+      ]
+    },
+    {
+      "id": "bonfire:kcmo:259184",
+      "source_name": "Bonfire — Kansas City, MO",
+      "title": "EV4894 - RFQ - Citywide Housing Accelerator Developer Pool",
+      "description": "EV4894 - RFQ - Citywide Housing Accelerator Developer Pool",
+      "agency": "Kansas City, MO",
+      "state": "MO",
+      "url": "https://kcmo.bonfirehub.com/opportunities/259184",
+      "naics": "",
+      "psc": "",
+      "set_aside": "EV4894 - RFQ - Citywide Housing Accelerator Developer Pool",
+      "posted_date": "",
+      "due_date": "2026-12-04",
+      "it_score": 36,
+      "is_new": false,
+      "first_seen": "2026-10-20",
+      "matched_keywords": [
+        "developer"
       ]
     }
   ]
