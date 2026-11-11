@@ -1100,6 +1100,9 @@
   "Los Angeles County CA \u2014 RAMP Open Bids::hf3r-utnq:233009": {
     "first_seen": "2026-11-10"
   },
+  "Los Angeles County CA \u2014 RAMP Open Bids::hf3r-utnq:233014": {
+    "first_seen": "2026-11-11"
+  },
   "Los Angeles County CA \u2014 RAMP Open Bids::hf3r-utnq:40831": {
     "first_seen": "2026-07-14"
   },
@@ -2429,6 +2432,9 @@
   "OpenGov \u2014 City of Pasadena, CA::opengov:pasadena:301206": {
     "first_seen": "2026-10-28"
   },
+  "OpenGov \u2014 City of Pasadena, CA::opengov:pasadena:316595": {
+    "first_seen": "2026-11-11"
+  },
   "OpenGov \u2014 City of Phoenix, AZ::opengov:phoenix:165230": {
     "first_seen": "2026-07-16"
   },
@@ -3149,6 +3155,9 @@
   "OpenGov \u2014 County of San Mateo, CA::opengov:smcgov:324038": {
     "first_seen": "2026-11-06"
   },
+  "OpenGov \u2014 County of San Mateo, CA::opengov:smcgov:324853": {
+    "first_seen": "2026-11-11"
+  },
   "OpenGov \u2014 County of Santa Cruz, CA::opengov:santacruzcounty:287244": {
     "first_seen": "2026-09-16"
   },
@@ -3289,6 +3298,9 @@
   },
   "PlanetBids \u2014 Inland Empire Utilities Agency, CA::planetbids:27411:146695": {
     "first_seen": "2026-10-01"
+  },
+  "PlanetBids \u2014 Inland Empire Utilities Agency, CA::planetbids:27411:148203": {
+    "first_seen": "2026-11-11"
   },
   "PlanetBids \u2014 Port of San Diego, CA::planetbids:13982:142706": {
     "first_seen": "2026-07-20"
