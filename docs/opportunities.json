@@ -1,17 +1,17 @@
 {
-  "generated_at": "2026-11-11T19:14:26.139220+00:00",
+  "generated_at": "2026-11-12T19:30:43.502875+00:00",
   "counts": {
-    "total": 55,
-    "new": 4
+    "total": 57,
+    "new": 1
   },
   "health": {
-    "ok": 21,
+    "ok": 22,
     "total": 23,
     "sources": [
       {
         "source": "Montgomery County MD — Solicitations",
         "ok": true,
-        "count": 22,
+        "count": 21,
         "error": ""
       },
       {
@@ -88,9 +88,9 @@
       },
       {
         "source": "Montgomery County MD — Open Solicitations (Contracts)",
-        "ok": false,
-        "count": 0,
-        "error": "ReadTimeout: HTTPSConnectionPool(host='data.montgomerycountymd.gov', port=443): Read timed out. (read timeout=45)"
+        "ok": true,
+        "count": 500,
+        "error": ""
       },
       {
         "source": "Cincinnati OH — Business Opportunities (Bids & RFPs)",
@@ -113,7 +113,7 @@
       {
         "source": "OpenGov",
         "ok": true,
-        "count": 178,
+        "count": 181,
         "error": ""
       },
       {
@@ -178,19 +178,19 @@
           "source_name": "OpenGov — County of Alameda, CA"
         },
         {
-          "title": "Elevator Modernization and Maintenance at Art Snyder",
+          "title": "Elevator Modernization and Maintenance at Wyandotte Apts",
           "agency": "Housing Authority, City of Los Angeles",
           "state": "CA",
-          "url": "https://www.rampla.org/s/opportunity-details?id=006Ql00000o1RRBIA2",
+          "url": "https://www.rampla.org/s/opportunity-details?id=006Ql00000o1Sa9IAE",
           "due_date": "2026-12-01",
           "it_score": 51,
           "source_name": "Los Angeles County CA — RAMP Open Bids"
         },
         {
-          "title": "Elevator Modernization and Maintenance at Wyandotte Apts",
+          "title": "Elevator Modernization and Maintenance at Art Snyder",
           "agency": "Housing Authority, City of Los Angeles",
           "state": "CA",
-          "url": "https://www.rampla.org/s/opportunity-details?id=006Ql00000o1Sa9IAE",
+          "url": "https://www.rampla.org/s/opportunity-details?id=006Ql00000o1RRBIA2",
           "due_date": "2026-12-01",
           "it_score": 51,
           "source_name": "Los Angeles County CA — RAMP Open Bids"
@@ -548,6 +548,27 @@
       ]
     },
     {
+      "id": "dg92-zbpx:20261105007",
+      "source_name": "New York City — City Record (Procurement)",
+      "title": "Software platform NYC HOPWS eCOMPAS",
+      "description": "Software platform NYC HOPWS eCOMPAS",
+      "agency": "Health and Mental Hygiene",
+      "state": "NY",
+      "url": "https://a856-cityrecord.nyc.gov/",
+      "naics": "",
+      "psc": "",
+      "set_aside": "",
+      "posted_date": "2026-11-12",
+      "due_date": "2026-11-12",
+      "it_score": 57,
+      "is_new": true,
+      "first_seen": "2026-11-12",
+      "matched_keywords": [
+        "software",
+        "platform"
+      ]
+    },
+    {
       "id": "eshn-8t3a:SFGOV~0000012241",
       "source_name": "San Francisco CA — Open Bids",
       "title": "OCA DAT | TM3 – Nintex Software License Renewal",
@@ -603,7 +624,7 @@
       "posted_date": "2026-10-13",
       "due_date": "2026-11-19",
       "it_score": 57,
-      "is_new": true,
+      "is_new": false,
       "first_seen": "2026-11-11",
       "matched_keywords": [
         "modernization",
@@ -836,13 +857,13 @@
       ]
     },
     {
-      "id": "hf3r-utnq:232844",
+      "id": "hf3r-utnq:232845",
       "source_name": "Los Angeles County CA — RAMP Open Bids",
-      "title": "Elevator Modernization and Maintenance at Art Snyder",
+      "title": "Elevator Modernization and Maintenance at Wyandotte Apts",
       "description": "Personal Services",
       "agency": "Housing Authority, City of Los Angeles",
       "state": "CA",
-      "url": "https://www.rampla.org/s/opportunity-details?id=006Ql00000o1RRBIA2",
+      "url": "https://www.rampla.org/s/opportunity-details?id=006Ql00000o1Sa9IAE",
       "naics": "",
       "psc": "",
       "set_aside": "",
@@ -856,13 +877,13 @@
       ]
     },
     {
-      "id": "hf3r-utnq:232845",
+      "id": "hf3r-utnq:232844",
       "source_name": "Los Angeles County CA — RAMP Open Bids",
-      "title": "Elevator Modernization and Maintenance at Wyandotte Apts",
+      "title": "Elevator Modernization and Maintenance at Art Snyder",
       "description": "Personal Services",
       "agency": "Housing Authority, City of Los Angeles",
       "state": "CA",
-      "url": "https://www.rampla.org/s/opportunity-details?id=006Ql00000o1Sa9IAE",
+      "url": "https://www.rampla.org/s/opportunity-details?id=006Ql00000o1RRBIA2",
       "naics": "",
       "psc": "",
       "set_aside": "",
@@ -929,7 +950,7 @@
       "posted_date": "2026-11-10",
       "due_date": "2026-12-08",
       "it_score": 51,
-      "is_new": true,
+      "is_new": false,
       "first_seen": "2026-11-11",
       "matched_keywords": [
         "migration"
@@ -1070,24 +1091,6 @@
       "matched_keywords": []
     },
     {
-      "id": "planetbids:16151:146479",
-      "source_name": "PlanetBids — Santa Clara Valley Water District, CA",
-      "title": "Joseph P. Jensen Water Treatment Plant Infrastructure and Security Improvements",
-      "description": "1993A",
-      "agency": "Santa Clara Valley Water District, CA",
-      "state": "CA",
-      "url": "https://vendors.planetbids.com/portal/16151/bo/bo-detail/146479",
-      "naics": "",
-      "psc": "21018, 28029, 28514, 28519, 28524, 28526, 57076, 72515, 72523, 74502, 89030, 90638, 90678, 90977, 91200, 91240, 91244, 91430, 91438, 91461, 92519, 92531, 92584, 99000, 99022",
-      "set_aside": "",
-      "posted_date": "2026-09-23",
-      "due_date": "2026-11-18",
-      "it_score": 50,
-      "is_new": false,
-      "first_seen": "2026-09-24",
-      "matched_keywords": []
-    },
-    {
       "id": "planetbids:16151:147987",
       "source_name": "PlanetBids — Santa Clara Valley Water District, CA",
       "title": "REQUEST FOR BID - Trimm Brand DC Breaker Assemblies",
@@ -1103,6 +1106,24 @@
       "it_score": 50,
       "is_new": false,
       "first_seen": "2026-11-07",
+      "matched_keywords": []
+    },
+    {
+      "id": "planetbids:16151:146479",
+      "source_name": "PlanetBids — Santa Clara Valley Water District, CA",
+      "title": "Joseph P. Jensen Water Treatment Plant Infrastructure and Security Improvements",
+      "description": "1993A",
+      "agency": "Santa Clara Valley Water District, CA",
+      "state": "CA",
+      "url": "https://vendors.planetbids.com/portal/16151/bo/bo-detail/146479",
+      "naics": "",
+      "psc": "21018, 28029, 28514, 28519, 28524, 28526, 57076, 72515, 72523, 74502, 89030, 90638, 90678, 90977, 91200, 91240, 91244, 91430, 91438, 91461, 92519, 92531, 92584, 99000, 99022",
+      "set_aside": "",
+      "posted_date": "2026-09-23",
+      "due_date": "2026-12-01",
+      "it_score": 50,
+      "is_new": false,
+      "first_seen": "2026-09-24",
       "matched_keywords": []
     },
     {
@@ -1137,7 +1158,7 @@
       "posted_date": "2026-11-10",
       "due_date": "2027-01-07",
       "it_score": 50,
-      "is_new": true,
+      "is_new": false,
       "first_seen": "2026-11-11",
       "matched_keywords": []
     },
@@ -1318,7 +1339,7 @@
       "posted_date": "2026-11-10",
       "due_date": "2026-11-17",
       "it_score": 36,
-      "is_new": true,
+      "is_new": false,
       "first_seen": "2026-11-11",
       "matched_keywords": [
         "digital"
@@ -1562,6 +1583,26 @@
       "first_seen": "2026-07-14",
       "matched_keywords": [
         "data"
+      ]
+    },
+    {
+      "id": "vmu2-pnrc:1029633",
+      "source_name": "Montgomery County MD — Open Solicitations (Contracts)",
+      "title": "Recreation Instructor – Practical Technology & AI Education for Seniors",
+      "description": "Recreation Instructor – Practical Technology & AI Education for Seniors",
+      "agency": "Department of Recreation",
+      "state": "MD",
+      "url": "https://www.montgomerycountymd.gov/office-procurement/solicitations-contracts",
+      "naics": "",
+      "psc": "",
+      "set_aside": "",
+      "posted_date": "2026-07-20",
+      "due_date": "2029-08-31",
+      "it_score": 36,
+      "is_new": false,
+      "first_seen": "2026-07-14",
+      "matched_keywords": [
+        "ai"
       ]
     }
   ]
