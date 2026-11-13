@@ -2276,6 +2276,9 @@
   "New York City \u2014 City Record (Procurement)::dg92-zbpx:20261105007": {
     "first_seen": "2026-11-12"
   },
+  "New York City \u2014 City Record (Procurement)::dg92-zbpx:20261106009": {
+    "first_seen": "2026-11-13"
+  },
   "New York City \u2014 Current RFP (MOCS)::bzjf-rmtp:18-00033R": {
     "first_seen": "2026-07-14"
   },
@@ -2984,6 +2987,9 @@
   "OpenGov \u2014 County of San Mateo, CA::opengov:smcgov:276008": {
     "first_seen": "2026-07-16"
   },
+  "OpenGov \u2014 County of San Mateo, CA::opengov:smcgov:276382": {
+    "first_seen": "2026-11-13"
+  },
   "OpenGov \u2014 County of San Mateo, CA::opengov:smcgov:277467": {
     "first_seen": "2026-07-16"
   },
@@ -3283,6 +3289,9 @@
   },
   "PlanetBids \u2014 City of Sacramento, CA::planetbids:15300:147581": {
     "first_seen": "2026-10-24"
+  },
+  "PlanetBids \u2014 City of Sacramento, CA::planetbids:15300:148172": {
+    "first_seen": "2026-11-13"
   },
   "PlanetBids \u2014 City of Santa Barbara, CA::planetbids:29959:145834": {
     "first_seen": "2026-09-24"

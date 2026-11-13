@@ -1,23 +1,23 @@
 {
-  "generated_at": "2026-11-12T19:30:43.502875+00:00",
+  "generated_at": "2026-11-13T19:12:23.995757+00:00",
   "counts": {
-    "total": 57,
-    "new": 1
+    "total": 54,
+    "new": 3
   },
   "health": {
-    "ok": 22,
+    "ok": 21,
     "total": 23,
     "sources": [
       {
         "source": "Montgomery County MD — Solicitations",
         "ok": true,
-        "count": 21,
+        "count": 22,
         "error": ""
       },
       {
         "source": "Los Angeles County CA — RAMP Open Bids",
         "ok": true,
-        "count": 197,
+        "count": 190,
         "error": ""
       },
       {
@@ -107,7 +107,7 @@
       {
         "source": "PlanetBids",
         "ok": true,
-        "count": 55,
+        "count": 58,
         "error": ""
       },
       {
@@ -118,9 +118,9 @@
       },
       {
         "source": "Washington DC — Solicitations (PASS)",
-        "ok": true,
-        "count": 2,
-        "error": ""
+        "ok": false,
+        "count": 0,
+        "error": "ReadTimeout: HTTPSConnectionPool(host='maps2.dcgis.dc.gov', port=443): Read timed out. (read timeout=45)"
       },
       {
         "source": "BidNet Direct",
@@ -137,7 +137,7 @@
       {
         "source": "Bonfire",
         "ok": true,
-        "count": 2,
+        "count": 3,
         "error": ""
       },
       {
@@ -178,19 +178,19 @@
           "source_name": "OpenGov — County of Alameda, CA"
         },
         {
-          "title": "Elevator Modernization and Maintenance at Wyandotte Apts",
+          "title": "Elevator Modernization and Maintenance at Art Snyder",
           "agency": "Housing Authority, City of Los Angeles",
           "state": "CA",
-          "url": "https://www.rampla.org/s/opportunity-details?id=006Ql00000o1Sa9IAE",
+          "url": "https://www.rampla.org/s/opportunity-details?id=006Ql00000o1RRBIA2",
           "due_date": "2026-12-01",
           "it_score": 51,
           "source_name": "Los Angeles County CA — RAMP Open Bids"
         },
         {
-          "title": "Elevator Modernization and Maintenance at Art Snyder",
+          "title": "Elevator Modernization and Maintenance at Wyandotte Apts",
           "agency": "Housing Authority, City of Los Angeles",
           "state": "CA",
-          "url": "https://www.rampla.org/s/opportunity-details?id=006Ql00000o1RRBIA2",
+          "url": "https://www.rampla.org/s/opportunity-details?id=006Ql00000o1Sa9IAE",
           "due_date": "2026-12-01",
           "it_score": 51,
           "source_name": "Los Angeles County CA — RAMP Open Bids"
@@ -217,7 +217,7 @@
     },
     {
       "name": "Permitting & Licensing",
-      "opportunity_count": 10,
+      "opportunity_count": 7,
       "agency_count": 3,
       "state_count": 1,
       "states": [
@@ -226,39 +226,12 @@
       "demand_score": 10,
       "examples": [
         {
-          "title": "RFB-IS-27200307 - 1093888 - Beyond Trust Software License Annual Renewal - Closing: 11/12/2026 12:00 PM",
-          "agency": "Los Angeles County",
-          "state": "CA",
-          "url": "https://www.rampla.org/s/opportunity-details?id=006Ql00000o4vEEIAY",
-          "due_date": "2026-11-12",
-          "it_score": 57,
-          "source_name": "Los Angeles County CA — RAMP Open Bids"
-        },
-        {
           "title": "OCA DAT | TM3 – Nintex Software License Renewal",
           "agency": "Office of Contract Administration",
           "state": "CA",
           "url": "https://sfcitypartner.sfgov.org/pages/Events-BS3/event-details.aspx?Page=AUC_RESP_INQ_DTL&Action=U&AUC_ID=0000012241&AUC_ROUND=1&AUC_VERSION=1&BIDDER_ID=0000000001&BIDDER_LOC=1&BIDDER_SETID=SHARE&BIDDER_TYPE=B&BUSINESS_UNIT=SFGOV",
           "due_date": "2026-11-16",
           "it_score": 57,
-          "source_name": "San Francisco CA — Open Bids"
-        },
-        {
-          "title": "OCA PRT | TM3 EXIGIS License, Supprt and Svcs Rnwl",
-          "agency": "Office of Contract Administration",
-          "state": "CA",
-          "url": "https://sfcitypartner.sfgov.org/pages/Events-BS3/event-details.aspx?Page=AUC_RESP_INQ_DTL&Action=U&AUC_ID=0000012219&AUC_ROUND=1&AUC_VERSION=1&BIDDER_ID=0000000001&BIDDER_LOC=1&BIDDER_SETID=SHARE&BIDDER_TYPE=B&BUSINESS_UNIT=SFGOV",
-          "due_date": "2026-11-12",
-          "it_score": 36,
-          "source_name": "San Francisco CA — Open Bids"
-        },
-        {
-          "title": "OCA HSA | TM3- Thomson Reuters Clear License Rnwl",
-          "agency": "Office of Contract Administration",
-          "state": "CA",
-          "url": "https://sfcitypartner.sfgov.org/pages/Events-BS3/event-details.aspx?Page=AUC_RESP_INQ_DTL&Action=U&AUC_ID=0000012205&AUC_ROUND=1&AUC_VERSION=1&BIDDER_ID=0000000001&BIDDER_LOC=1&BIDDER_SETID=SHARE&BIDDER_TYPE=B&BUSINESS_UNIT=SFGOV",
-          "due_date": "2026-11-12",
-          "it_score": 36,
           "source_name": "San Francisco CA — Open Bids"
         },
         {
@@ -505,70 +478,6 @@
       ]
     },
     {
-      "id": "opengov:smcgov:324038",
-      "source_name": "OpenGov — County of San Mateo, CA",
-      "title": "ServiceNow Maintenance",
-      "description": "The County of San Mateo is seeking quotations for: ServiceNow maintenance services. The San Mateo County Sheriff’s Office utilizes a custom-built portal in ServiceNow for all Fiscal, Training, and Technical Services Unit related requests which are routed to each respective bureau. This system incorporates detailed workflows, approvals, and County and Sheriff’s Office procurement, training, and invoicing policies and procedures. Contractor must adhere to County Technology Services Department change request schedule and process. Contractor will provide upkeep, maintenance, and enhancements as needed to the ServiceNow application. Enhancements include, but are not limited to: Integration of Docusign electronic signature capability. Adjustments to existing approval workflows. Adjustments to existing PDF document generation functionality. Adjustments to existing email notifications. Creation of additional dashboards and reports. General administrative and support tasks, including: User roles and permissions Group management Changes to assignment and routing Manual case data updates as required. PREFERRED QUALIFICATIONS: Contractor must have provided ongoing ServiceNow maintenance for a customized platform for a local government entity for at least two years – preferably for a law enforcement agency. FEE: Costs should be billed at a flat hourly rate. Total hours will be shared between Fiscal, Technical Services, and Training. Please complete the Pricing Bid Table in section 3 and please also upload your competitive quotation. Cost and conformity to specifications in the scope of this RFQ will be considered. After an evaluation of all quotations, a County contract is expected to be awarded in association with the lowest, responsive bid received from a qualified, responsible vendor.",
-      "agency": "County of San Mateo",
-      "state": "CA",
-      "url": "https://procurement.opengov.com/portal/smcgov/projects/324038",
-      "naics": "",
-      "psc": "",
-      "set_aside": "2027-RFQ-00215",
-      "posted_date": "2026-11-05",
-      "due_date": "2026-11-20",
-      "it_score": 63,
-      "is_new": false,
-      "first_seen": "2026-11-06",
-      "matched_keywords": [
-        "application",
-        "integration",
-        "servicenow"
-      ]
-    },
-    {
-      "id": "hf3r-utnq:232876",
-      "source_name": "Los Angeles County CA — RAMP Open Bids",
-      "title": "RFB-IS-27200307 - 1093888 - Beyond Trust Software License Annual Renewal - Closing: 11/12/2026 12:00 PM",
-      "description": "Commodity",
-      "agency": "Los Angeles County",
-      "state": "CA",
-      "url": "https://www.rampla.org/s/opportunity-details?id=006Ql00000o4vEEIAY",
-      "naics": "",
-      "psc": "",
-      "set_aside": "",
-      "posted_date": "2026-11-04",
-      "due_date": "2026-11-12",
-      "it_score": 57,
-      "is_new": false,
-      "first_seen": "2026-11-04",
-      "matched_keywords": [
-        "software",
-        "license"
-      ]
-    },
-    {
-      "id": "dg92-zbpx:20261105007",
-      "source_name": "New York City — City Record (Procurement)",
-      "title": "Software platform NYC HOPWS eCOMPAS",
-      "description": "Software platform NYC HOPWS eCOMPAS",
-      "agency": "Health and Mental Hygiene",
-      "state": "NY",
-      "url": "https://a856-cityrecord.nyc.gov/",
-      "naics": "",
-      "psc": "",
-      "set_aside": "",
-      "posted_date": "2026-11-12",
-      "due_date": "2026-11-12",
-      "it_score": 57,
-      "is_new": true,
-      "first_seen": "2026-11-12",
-      "matched_keywords": [
-        "software",
-        "platform"
-      ]
-    },
-    {
       "id": "eshn-8t3a:SFGOV~0000012241",
       "source_name": "San Francisco CA — Open Bids",
       "title": "OCA DAT | TM3 – Nintex Software License Renewal",
@@ -757,23 +666,23 @@
       ]
     },
     {
-      "id": "opengov:pasadena:292413",
-      "source_name": "OpenGov — City of Pasadena, CA",
-      "title": "P-57907 Enterprise Monitoring",
-      "description": "The City of Pasadena is seeking a vendor to provide an Enterprise Monitoring solution and associated implementation and support services. The goal of the Enterprise Monitoring project is to strengthen alert management and monitoring processes , and to proactively identify and address system performance issues before they impact customers. The City seeks a unified monitoring and observability platform that provides centralized visibility across infrastructure, networks, cloud services, databases, applications, integrations, and business services. The desired solution will correlate events and performance data across technology domains, improve operational awareness, reduce alert fatigue, accelerate root cause analysis, and enable proactive management of service health and availability. The platform should support the City's current hybrid and multi-cloud environment while providing a scalable foundation for future operational monitoring and automation initiatives.",
-      "agency": "City of Pasadena",
+      "id": "planetbids:15300:148172",
+      "source_name": "PlanetBids — City of Sacramento, CA",
+      "title": "Business Operations Tax System Update",
+      "description": "P27061231001",
+      "agency": "City of Sacramento, CA",
       "state": "CA",
-      "url": "https://procurement.opengov.com/portal/pasadena/projects/292413",
+      "url": "https://vendors.planetbids.com/portal/15300/bo/bo-detail/148172",
       "naics": "",
-      "psc": "",
-      "set_aside": "2026-RFP-0480",
-      "posted_date": "2026-08-11",
-      "due_date": "2026-11-12",
-      "it_score": 51,
-      "is_new": false,
-      "first_seen": "2026-09-30",
+      "psc": "20880, 92047, 94620, 94649",
+      "set_aside": "",
+      "posted_date": "2026-11-12",
+      "due_date": "2026-12-16",
+      "it_score": 56,
+      "is_new": true,
+      "first_seen": "2026-11-13",
       "matched_keywords": [
-        "cloud"
+        "system"
       ]
     },
     {
@@ -792,6 +701,26 @@
       "it_score": 51,
       "is_new": false,
       "first_seen": "2026-11-07",
+      "matched_keywords": [
+        "software"
+      ]
+    },
+    {
+      "id": "dg92-zbpx:20261106009",
+      "source_name": "New York City — City Record (Procurement)",
+      "title": "Axon Body Cameras, Software & Maintenance Services",
+      "description": "Axon Body Cameras, Software & Maintenance Services",
+      "agency": "Finance",
+      "state": "NY",
+      "url": "https://a856-cityrecord.nyc.gov/",
+      "naics": "",
+      "psc": "",
+      "set_aside": "",
+      "posted_date": "2026-11-13",
+      "due_date": "2026-11-13",
+      "it_score": 51,
+      "is_new": true,
+      "first_seen": "2026-11-13",
       "matched_keywords": [
         "software"
       ]
@@ -857,6 +786,26 @@
       ]
     },
     {
+      "id": "hf3r-utnq:232844",
+      "source_name": "Los Angeles County CA — RAMP Open Bids",
+      "title": "Elevator Modernization and Maintenance at Art Snyder",
+      "description": "Personal Services",
+      "agency": "Housing Authority, City of Los Angeles",
+      "state": "CA",
+      "url": "https://www.rampla.org/s/opportunity-details?id=006Ql00000o1RRBIA2",
+      "naics": "",
+      "psc": "",
+      "set_aside": "",
+      "posted_date": "2026-11-03",
+      "due_date": "2026-12-01",
+      "it_score": 51,
+      "is_new": false,
+      "first_seen": "2026-11-03",
+      "matched_keywords": [
+        "modernization"
+      ]
+    },
+    {
       "id": "hf3r-utnq:232845",
       "source_name": "Los Angeles County CA — RAMP Open Bids",
       "title": "Elevator Modernization and Maintenance at Wyandotte Apts",
@@ -877,23 +826,23 @@
       ]
     },
     {
-      "id": "hf3r-utnq:232844",
-      "source_name": "Los Angeles County CA — RAMP Open Bids",
-      "title": "Elevator Modernization and Maintenance at Art Snyder",
-      "description": "Personal Services",
-      "agency": "Housing Authority, City of Los Angeles",
+      "id": "opengov:smcgov:276382",
+      "source_name": "OpenGov — County of San Mateo, CA",
+      "title": "Remote Accessible Vote by Mail Ballots, Accessible Sample Ballot, UOCAVA ballots",
+      "description": "The County of San Mateo (the County or SMC) covers most of the San Francisco Peninsula. The region covers 744 mi and is home to nearly 800,000 residents and 20 incorporated cities. The County provides for the health and welfare of all people within its borders and serves as the local government for the unincorporated areas. Innovation thrives here in industries including bioscience, computer software, green technology, hospitality, financial management, health care, education and transportation. The County prides itself on how that prosperity fosters its commitment to protecting and enhancing the health, safety, welfare and natural resources of the community. The Registration & Elections Division (Division) is a division of the Assessor-County Clerk-Recorder-Elections (ACRE) in the County of San Mateo. The Division is responsible for registering all voters and conducting fair and accurate elections for cities, schools, and special districts. The Division is seeking find a vendor for three different system related to providing ballots and sample ballots and voter information guides. Remote Accessible Vote by Mail system - California Secretary of State certified system to provide Remote Accessible Vote by Mail ballots to all voters UOCAVA ballot system - Enable overseas and military voters to log in and download their ballot and ballot packet Accessible Sample Ballot system - Provide website to host the county's sample ballot and voter information guides in an WCAG accessible format County would prefer to use one vendor for all three services but is open to using different vendors.",
+      "agency": "County of San Mateo",
       "state": "CA",
-      "url": "https://www.rampla.org/s/opportunity-details?id=006Ql00000o1RRBIA2",
+      "url": "https://procurement.opengov.com/portal/smcgov/projects/276382",
       "naics": "",
       "psc": "",
       "set_aside": "",
-      "posted_date": "2026-11-03",
+      "posted_date": "2026-06-17",
       "due_date": "2026-12-01",
       "it_score": 51,
-      "is_new": false,
-      "first_seen": "2026-11-03",
+      "is_new": true,
+      "first_seen": "2026-11-13",
       "matched_keywords": [
-        "modernization"
+        "software"
       ]
     },
     {
@@ -1055,24 +1004,6 @@
       "matched_keywords": []
     },
     {
-      "id": "planetbids:16151:144554",
-      "source_name": "PlanetBids — Santa Clara Valley Water District, CA",
-      "title": "Inland Feeder/San Bernardino Valley Municipal Water District (SBVMWD) Foothill Pump Station Intertie, Stage 1",
-      "description": "2049",
-      "agency": "Santa Clara Valley Water District, CA",
-      "state": "CA",
-      "url": "https://vendors.planetbids.com/portal/16151/bo/bo-detail/144554",
-      "naics": "",
-      "psc": "06037, 17567, 20424, 65800, 65880, 67053, 69032, 76023, 89500, 89509, 91200, 91340, 91438, 91485, 92531, 92935, 97534",
-      "set_aside": "",
-      "posted_date": "2026-08-04",
-      "due_date": "2026-11-17",
-      "it_score": 50,
-      "is_new": false,
-      "first_seen": "2026-08-05",
-      "matched_keywords": []
-    },
-    {
       "id": "planetbids:15300:147581",
       "source_name": "PlanetBids — City of Sacramento, CA",
       "title": "State of the Sacramento Cultural Nonprofit Field Impact Report",
@@ -1142,6 +1073,24 @@
       "it_score": 50,
       "is_new": false,
       "first_seen": "2026-10-21",
+      "matched_keywords": []
+    },
+    {
+      "id": "planetbids:16151:144554",
+      "source_name": "PlanetBids — Santa Clara Valley Water District, CA",
+      "title": "Inland Feeder/San Bernardino Valley Municipal Water District (SBVMWD) Foothill Pump Station Intertie, Stage 1",
+      "description": "2049",
+      "agency": "Santa Clara Valley Water District, CA",
+      "state": "CA",
+      "url": "https://vendors.planetbids.com/portal/16151/bo/bo-detail/144554",
+      "naics": "",
+      "psc": "06037, 17567, 20424, 65800, 65880, 67053, 69032, 76023, 89500, 89509, 91200, 91340, 91438, 91485, 92531, 92935, 97534",
+      "set_aside": "",
+      "posted_date": "2026-08-04",
+      "due_date": "2026-12-17",
+      "it_score": 50,
+      "is_new": false,
+      "first_seen": "2026-08-05",
       "matched_keywords": []
     },
     {
@@ -1223,46 +1172,6 @@
       "matched_keywords": [
         "system",
         "information technology"
-      ]
-    },
-    {
-      "id": "eshn-8t3a:SFGOV~0000012219",
-      "source_name": "San Francisco CA — Open Bids",
-      "title": "OCA PRT | TM3 EXIGIS License, Supprt and Svcs Rnwl",
-      "description": "Seeking Bids",
-      "agency": "Office of Contract Administration",
-      "state": "CA",
-      "url": "https://sfcitypartner.sfgov.org/pages/Events-BS3/event-details.aspx?Page=AUC_RESP_INQ_DTL&Action=U&AUC_ID=0000012219&AUC_ROUND=1&AUC_VERSION=1&BIDDER_ID=0000000001&BIDDER_LOC=1&BIDDER_SETID=SHARE&BIDDER_TYPE=B&BUSINESS_UNIT=SFGOV",
-      "naics": "",
-      "psc": "",
-      "set_aside": "",
-      "posted_date": "2026-11-06",
-      "due_date": "2026-11-12",
-      "it_score": 36,
-      "is_new": false,
-      "first_seen": "2026-11-09",
-      "matched_keywords": [
-        "license"
-      ]
-    },
-    {
-      "id": "eshn-8t3a:SFGOV~0000012205",
-      "source_name": "San Francisco CA — Open Bids",
-      "title": "OCA HSA | TM3- Thomson Reuters Clear License Rnwl",
-      "description": "Seeking Bids",
-      "agency": "Office of Contract Administration",
-      "state": "CA",
-      "url": "https://sfcitypartner.sfgov.org/pages/Events-BS3/event-details.aspx?Page=AUC_RESP_INQ_DTL&Action=U&AUC_ID=0000012205&AUC_ROUND=1&AUC_VERSION=1&BIDDER_ID=0000000001&BIDDER_LOC=1&BIDDER_SETID=SHARE&BIDDER_TYPE=B&BUSINESS_UNIT=SFGOV",
-      "naics": "",
-      "psc": "",
-      "set_aside": "",
-      "posted_date": "2026-11-04",
-      "due_date": "2026-11-12",
-      "it_score": 36,
-      "is_new": false,
-      "first_seen": "2026-11-09",
-      "matched_keywords": [
-        "license"
       ]
     },
     {
