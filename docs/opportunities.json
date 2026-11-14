@@ -1,23 +1,23 @@
 {
-  "generated_at": "2026-11-13T19:12:23.995757+00:00",
+  "generated_at": "2026-11-14T17:38:37.442239+00:00",
   "counts": {
-    "total": 54,
-    "new": 3
+    "total": 49,
+    "new": 0
   },
   "health": {
-    "ok": 21,
+    "ok": 22,
     "total": 23,
     "sources": [
       {
         "source": "Montgomery County MD — Solicitations",
         "ok": true,
-        "count": 22,
+        "count": 23,
         "error": ""
       },
       {
         "source": "Los Angeles County CA — RAMP Open Bids",
         "ok": true,
-        "count": 190,
+        "count": 181,
         "error": ""
       },
       {
@@ -113,14 +113,14 @@
       {
         "source": "OpenGov",
         "ok": true,
-        "count": 181,
+        "count": 180,
         "error": ""
       },
       {
         "source": "Washington DC — Solicitations (PASS)",
-        "ok": false,
-        "count": 0,
-        "error": "ReadTimeout: HTTPSConnectionPool(host='maps2.dcgis.dc.gov', port=443): Read timed out. (read timeout=45)"
+        "ok": true,
+        "count": 44,
+        "error": ""
       },
       {
         "source": "BidNet Direct",
@@ -137,7 +137,7 @@
       {
         "source": "Bonfire",
         "ok": true,
-        "count": 3,
+        "count": 6,
         "error": ""
       },
       {
@@ -217,7 +217,7 @@
     },
     {
       "name": "Permitting & Licensing",
-      "opportunity_count": 7,
+      "opportunity_count": 6,
       "agency_count": 3,
       "state_count": 1,
       "states": [
@@ -232,15 +232,6 @@
           "url": "https://sfcitypartner.sfgov.org/pages/Events-BS3/event-details.aspx?Page=AUC_RESP_INQ_DTL&Action=U&AUC_ID=0000012241&AUC_ROUND=1&AUC_VERSION=1&BIDDER_ID=0000000001&BIDDER_LOC=1&BIDDER_SETID=SHARE&BIDDER_TYPE=B&BUSINESS_UNIT=SFGOV",
           "due_date": "2026-11-16",
           "it_score": 57,
-          "source_name": "San Francisco CA — Open Bids"
-        },
-        {
-          "title": "OCA DT | TM3 Cisco Identity SW License and Support",
-          "agency": "Office of Contract Administration",
-          "state": "CA",
-          "url": "https://sfcitypartner.sfgov.org/pages/Events-BS3/event-details.aspx?Page=AUC_RESP_INQ_DTL&Action=U&AUC_ID=0000012225&AUC_ROUND=1&AUC_VERSION=1&BIDDER_ID=0000000001&BIDDER_LOC=1&BIDDER_SETID=SHARE&BIDDER_TYPE=B&BUSINESS_UNIT=SFGOV",
-          "due_date": "2026-11-13",
-          "it_score": 36,
           "source_name": "San Francisco CA — Open Bids"
         },
         {
@@ -285,45 +276,6 @@
           "state": "CA",
           "url": "https://procurement.opengov.com/portal/smcgov/projects/322004",
           "due_date": "2026-12-10",
-          "it_score": 36,
-          "source_name": "OpenGov — County of San Mateo, CA"
-        }
-      ]
-    },
-    {
-      "name": "Website / Portal / Digital Services",
-      "opportunity_count": 3,
-      "agency_count": 2,
-      "state_count": 1,
-      "states": [
-        "CA"
-      ],
-      "demand_score": 7,
-      "examples": [
-        {
-          "title": "PUC | TM3 - Satellite Website Migration RFP",
-          "agency": "Public Utilities Commission",
-          "state": "CA",
-          "url": "https://sfcitypartner.sfgov.org/pages/Events-BS3/event-details.aspx?Page=AUC_RESP_INQ_DTL&Action=U&AUC_ID=0000012223&AUC_ROUND=1&AUC_VERSION=1&BIDDER_ID=0000000001&BIDDER_LOC=1&BIDDER_SETID=SHARE&BIDDER_TYPE=B&BUSINESS_UNIT=SFGOV",
-          "due_date": "2026-11-20",
-          "it_score": 57,
-          "source_name": "San Francisco CA — Open Bids"
-        },
-        {
-          "title": "As-Needed Website Services",
-          "agency": "County of San Mateo",
-          "state": "CA",
-          "url": "https://procurement.opengov.com/portal/smcgov/projects/320587",
-          "due_date": "2026-11-20",
-          "it_score": 57,
-          "source_name": "OpenGov — County of San Mateo, CA"
-        },
-        {
-          "title": "Measure K Website Services",
-          "agency": "County of San Mateo",
-          "state": "CA",
-          "url": "https://procurement.opengov.com/portal/smcgov/projects/321052",
-          "due_date": "2026-11-20",
           "it_score": 36,
           "source_name": "OpenGov — County of San Mateo, CA"
         }
@@ -562,27 +514,6 @@
       ]
     },
     {
-      "id": "opengov:smcgov:320587",
-      "source_name": "OpenGov — County of San Mateo, CA",
-      "title": "As-Needed Website Services",
-      "description": "The County of San Mateo is soliciting proposals from qualified firms for as-needed website creation, maintenance, enhancement, redesign, migration, and related services for the County Executive’s Office (CEO), including the existing Fair Funding website (smcfairfunding.org) or successor site. Work will be authorized through County-approved Task Orders or other written authorization specified in the resulting agreement.",
-      "agency": "County of San Mateo",
-      "state": "CA",
-      "url": "https://procurement.opengov.com/portal/smcgov/projects/320587",
-      "naics": "",
-      "psc": "",
-      "set_aside": "2027-RFP-00186",
-      "posted_date": "2026-10-26",
-      "due_date": "2026-11-20",
-      "it_score": 57,
-      "is_new": false,
-      "first_seen": "2026-11-05",
-      "matched_keywords": [
-        "migration",
-        "website"
-      ]
-    },
-    {
       "id": "hf3r-utnq:232692",
       "source_name": "Los Angeles County CA — RAMP Open Bids",
       "title": "RFP2358982691 ERP Requirement Development and Selection Support",
@@ -679,50 +610,10 @@
       "posted_date": "2026-11-12",
       "due_date": "2026-12-16",
       "it_score": 56,
-      "is_new": true,
+      "is_new": false,
       "first_seen": "2026-11-13",
       "matched_keywords": [
         "system"
-      ]
-    },
-    {
-      "id": "hf3r-utnq:232970",
-      "source_name": "Los Angeles County CA — RAMP Open Bids",
-      "title": "RFB-IS-27200315 - 1093943 -SOFTWARE- RENEWAL- ZSCALER (BRAND ONLY) - Closing: 11/13/2026 12:00 PM",
-      "description": "Commodity",
-      "agency": "Los Angeles County",
-      "state": "CA",
-      "url": "https://www.rampla.org/s/opportunity-details?id=006Ql00000oFSdWIAW",
-      "naics": "",
-      "psc": "",
-      "set_aside": "",
-      "posted_date": "2026-11-07",
-      "due_date": "2026-11-13",
-      "it_score": 51,
-      "is_new": false,
-      "first_seen": "2026-11-07",
-      "matched_keywords": [
-        "software"
-      ]
-    },
-    {
-      "id": "dg92-zbpx:20261106009",
-      "source_name": "New York City — City Record (Procurement)",
-      "title": "Axon Body Cameras, Software & Maintenance Services",
-      "description": "Axon Body Cameras, Software & Maintenance Services",
-      "agency": "Finance",
-      "state": "NY",
-      "url": "https://a856-cityrecord.nyc.gov/",
-      "naics": "",
-      "psc": "",
-      "set_aside": "",
-      "posted_date": "2026-11-13",
-      "due_date": "2026-11-13",
-      "it_score": 51,
-      "is_new": true,
-      "first_seen": "2026-11-13",
-      "matched_keywords": [
-        "software"
       ]
     },
     {
@@ -839,7 +730,7 @@
       "posted_date": "2026-06-17",
       "due_date": "2026-12-01",
       "it_score": 51,
-      "is_new": true,
+      "is_new": false,
       "first_seen": "2026-11-13",
       "matched_keywords": [
         "software"
@@ -1123,7 +1014,7 @@
       "psc": "",
       "set_aside": "N",
       "posted_date": "2026-10-19",
-      "due_date": "2026-11-13",
+      "due_date": "2026-11-20",
       "it_score": 42,
       "is_new": false,
       "first_seen": "2026-10-09",
@@ -1175,23 +1066,24 @@
       ]
     },
     {
-      "id": "eshn-8t3a:SFGOV~0000012225",
-      "source_name": "San Francisco CA — Open Bids",
-      "title": "OCA DT | TM3 Cisco Identity SW License and Support",
-      "description": "Seeking Bids",
-      "agency": "Office of Contract Administration",
-      "state": "CA",
-      "url": "https://sfcitypartner.sfgov.org/pages/Events-BS3/event-details.aspx?Page=AUC_RESP_INQ_DTL&Action=U&AUC_ID=0000012225&AUC_ROUND=1&AUC_VERSION=1&BIDDER_ID=0000000001&BIDDER_LOC=1&BIDDER_SETID=SHARE&BIDDER_TYPE=B&BUSINESS_UNIT=SFGOV",
+      "id": "arcgis:Doc847596",
+      "source_name": "Washington DC — Solicitations (PASS)",
+      "title": "RFP - Provider Data Management System and Services",
+      "description": "RFP - Provider Data Management System and Services",
+      "agency": "Department of Health Care Finance",
+      "state": "DC",
+      "url": "https://ocp.dc.gov/service/solicitations",
       "naics": "",
       "psc": "",
       "set_aside": "",
-      "posted_date": "2026-11-05",
-      "due_date": "2026-11-13",
-      "it_score": 36,
+      "posted_date": "",
+      "due_date": "2026-12-04",
+      "it_score": 42,
       "is_new": false,
-      "first_seen": "2026-11-09",
+      "first_seen": "2026-10-09",
       "matched_keywords": [
-        "license"
+        "system",
+        "data"
       ]
     },
     {
@@ -1295,26 +1187,6 @@
       ]
     },
     {
-      "id": "hf3r-utnq:232930",
-      "source_name": "Los Angeles County CA — RAMP Open Bids",
-      "title": "146844 SPARES FOR 34.5kV ABB GIS VCBs",
-      "description": "Commodity",
-      "agency": "Water & Power",
-      "state": "CA",
-      "url": "https://www.rampla.org/s/opportunity-details?id=006Ql00000o8so1IAA",
-      "naics": "",
-      "psc": "",
-      "set_aside": "",
-      "posted_date": "2026-11-05",
-      "due_date": "2026-11-19",
-      "it_score": 36,
-      "is_new": false,
-      "first_seen": "2026-11-05",
-      "matched_keywords": [
-        "gis"
-      ]
-    },
-    {
       "id": "hf3r-utnq:232926",
       "source_name": "Los Angeles County CA — RAMP Open Bids",
       "title": "RFB-IS-27200300 - STARLINK SATELLITE EQUIPMENT AND DATA PLANS - 3-YEAR AGREEME - Closing: 11/19/2026 12:00 PM",
@@ -1332,26 +1204,6 @@
       "first_seen": "2026-11-05",
       "matched_keywords": [
         "data"
-      ]
-    },
-    {
-      "id": "opengov:smcgov:321052",
-      "source_name": "OpenGov — County of San Mateo, CA",
-      "title": "Measure K Website Services",
-      "description": "The County of San Mateo is soliciting proposals from qualified firms that will be limited to the Measure K website and its related technical, accessibility, and support services. The proposal pricing must be presented separately from any other County web-services solicitation or agreement.",
-      "agency": "County of San Mateo",
-      "state": "CA",
-      "url": "https://procurement.opengov.com/portal/smcgov/projects/321052",
-      "naics": "",
-      "psc": "",
-      "set_aside": "2027-RFP-00190",
-      "posted_date": "2026-10-27",
-      "due_date": "2026-11-20",
-      "it_score": 36,
-      "is_new": false,
-      "first_seen": "2026-11-05",
-      "matched_keywords": [
-        "website"
       ]
     },
     {
