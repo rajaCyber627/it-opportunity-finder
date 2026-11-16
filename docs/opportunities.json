@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-11-15T18:27:44.539106+00:00",
+  "generated_at": "2026-11-16T21:38:35.499120+00:00",
   "counts": {
-    "total": 49,
-    "new": 0
+    "total": 51,
+    "new": 2
   },
   "health": {
     "ok": 22,
@@ -17,7 +17,7 @@
       {
         "source": "Los Angeles County CA — RAMP Open Bids",
         "ok": true,
-        "count": 181,
+        "count": 185,
         "error": ""
       },
       {
@@ -107,13 +107,13 @@
       {
         "source": "PlanetBids",
         "ok": true,
-        "count": 58,
+        "count": 59,
         "error": ""
       },
       {
         "source": "OpenGov",
         "ok": true,
-        "count": 180,
+        "count": 181,
         "error": ""
       },
       {
@@ -151,7 +151,7 @@
   "product_themes": [
     {
       "name": "Cloud Migration & Modernization",
-      "opportunity_count": 6,
+      "opportunity_count": 7,
       "agency_count": 5,
       "state_count": 1,
       "states": [
@@ -173,7 +173,7 @@
           "agency": "County of Alameda, CA",
           "state": "CA",
           "url": "https://procurement.opengov.com/portal/acgov/projects/306819",
-          "due_date": "2026-11-17",
+          "due_date": "2026-11-25",
           "it_score": 51,
           "source_name": "OpenGov — County of Alameda, CA"
         },
@@ -210,6 +210,15 @@
           "state": "CA",
           "url": "https://www.rampla.org/s/opportunity-details?id=006Ql00000n7pXpIAI",
           "due_date": "2026-12-21",
+          "it_score": 51,
+          "source_name": "Los Angeles County CA — RAMP Open Bids"
+        },
+        {
+          "title": "Alternative Design Build | RFQ #R-27023 - Menlo Avenue Elementary | Seismic Modernization Project",
+          "agency": "LAUSD",
+          "state": "CA",
+          "url": "https://www.rampla.org/s/opportunity-details?id=006Ql00000oeaHhIAI",
+          "due_date": "2027-01-08",
           "it_score": 51,
           "source_name": "Los Angeles County CA — RAMP Open Bids"
         }
@@ -637,6 +646,26 @@
       ]
     },
     {
+      "id": "opengov:pasadena:263470",
+      "source_name": "OpenGov — City of Pasadena, CA",
+      "title": "Wood Pole Inspection, Treatment, Repair, and UAV Inspection Services",
+      "description": "The City of Pasadena Water and Power Department (“PWP”) is seeking proposals from qualified and experienced firms to provide wood pole inspection, repair, restoration, treatment, and related reporting services for PWP’s electric distribution system. The selected firm will support PWP’s ongoing maintenance and compliance program for wood poles, including visual inspections, intrusive inspections, groundline inspections, preservative treatments, minor corrective repairs, pole reinforcement recommendations, installation of approved repair materials, and detailed reporting of observed conditions. PWP’s wood pole program is intended to support safe, reliable, and compliant operation of the electric distribution system in accordance with applicable requirements, including California Public Utilities Commission (“CPUC”) General Order 95, Rules for Overhead Electric Line Construction, and CPUC General Order 165, Inspection Requirements for Electric Distribution and Transmission Facilities. PWP’s system includes approximately 11,000 wood poles, including both municipally owned and jointly owned poles. A significant portion of the pole population is located in rear property or otherwise constrained access locations. The scope of services may include, but is not limited to, pole condition assessment, identification of structural damage or decay, inspection for General Order 95 infractions, groundline and below-ground inspections, preservative and fumigant treatment, installation of visibility strips, guy guards, ground molding, and pole tags where approved by PWP. The selected firm shall also provide detailed inspection records, photographs, condition ratings, repair recommendations, and electronic data deliverables in a format acceptable to PWP. In addition to conventional field inspection and treatment services, PWP intends to include drone or other unmanned aerial vehicle (“UAV”) inspection services under the resulting contract. UAV services may be used to supplement field inspections, improve access to difficult or hazardous locations, document pole-top conditions, capture high-resolution imagery, and support more efficient assessment of pole attachments, crossarms, hardware, conductors, insulators, and other visible overhead facilities. UAV services shall be performed by qualified, FAA-compliant personnel and in accordance with all applicable federal, state, and local requirements. The selected firm shall furnish all supervision, labor, materials, equipment, vehicles, tools, technology, software, transportation, permits, methods, processes, and incidentals necessary to complete the work in accordance with the final scope of services, applicable laws and regulations, industry standards, and PWP requirements.",
+      "agency": "City of Pasadena",
+      "state": "CA",
+      "url": "https://procurement.opengov.com/portal/pasadena/projects/263470",
+      "naics": "",
+      "psc": "",
+      "set_aside": "2026-RFP-0272",
+      "posted_date": "2026-05-06",
+      "due_date": "2026-11-25",
+      "it_score": 51,
+      "is_new": false,
+      "first_seen": "2026-09-02",
+      "matched_keywords": [
+        "software"
+      ]
+    },
+    {
       "id": "opengov:acgov:306819",
       "source_name": "OpenGov — County of Alameda, CA",
       "title": "RFP 902787 Elevator Condition Assessment & Modernization Plan",
@@ -648,32 +677,12 @@
       "psc": "",
       "set_aside": "902787",
       "posted_date": "2026-09-23",
-      "due_date": "2026-11-17",
+      "due_date": "2026-11-25",
       "it_score": 51,
       "is_new": false,
       "first_seen": "2026-10-03",
       "matched_keywords": [
         "modernization"
-      ]
-    },
-    {
-      "id": "opengov:pasadena:263470",
-      "source_name": "OpenGov — City of Pasadena, CA",
-      "title": "Wood Pole Inspection, Treatment, Repair, and UAV Inspection Services",
-      "description": "The City of Pasadena Water and Power Department (“PWP”) is seeking proposals from qualified and experienced firms to provide wood pole inspection, repair, restoration, treatment, and related reporting services for PWP’s electric distribution system. The selected firm will support PWP’s ongoing maintenance and compliance program for wood poles, including visual inspections, intrusive inspections, groundline inspections, preservative treatments, minor corrective repairs, pole reinforcement recommendations, installation of approved repair materials, and detailed reporting of observed conditions. PWP’s wood pole program is intended to support safe, reliable, and compliant operation of the electric distribution system in accordance with applicable requirements, including California Public Utilities Commission (“CPUC”) General Order 95, Rules for Overhead Electric Line Construction, and CPUC General Order 165, Inspection Requirements for Electric Distribution and Transmission Facilities. PWP’s system includes approximately 11,000 wood poles, including both municipally owned and jointly owned poles. A significant portion of the pole population is located in rear property or otherwise constrained access locations. The scope of services may include, but is not limited to, pole condition assessment, identification of structural damage or decay, inspection for General Order 95 infractions, groundline and below-ground inspections, preservative and fumigant treatment, installation of visibility strips, guy guards, ground molding, pole tags, and steel truss reinforcement where approved by PWP. The selected firm shall also provide detailed inspection records, photographs, condition ratings, repair recommendations, and electronic data deliverables in a format acceptable to PWP. In addition to conventional field inspection and treatment services, PWP intends to include drone or other unmanned aerial vehicle (“UAV”) inspection services under the resulting contract. UAV services may be used to supplement field inspections, improve access to difficult or hazardous locations, document pole-top conditions, capture high-resolution imagery, and support more efficient assessment of pole attachments, crossarms, hardware, conductors, insulators, and other visible overhead facilities. UAV services shall be performed by qualified, FAA-compliant personnel and in accordance with all applicable federal, state, and local requirements. The selected firm shall furnish all supervision, labor, materials, equipment, vehicles, tools, technology, software, transportation, permits, methods, processes, and incidentals necessary to complete the work in accordance with the final scope of services, applicable laws and regulations, industry standards, and PWP requirements.",
-      "agency": "City of Pasadena",
-      "state": "CA",
-      "url": "https://procurement.opengov.com/portal/pasadena/projects/263470",
-      "naics": "",
-      "psc": "",
-      "set_aside": "2026-RFP-0272",
-      "posted_date": "2026-05-06",
-      "due_date": "2026-11-19",
-      "it_score": 51,
-      "is_new": false,
-      "first_seen": "2026-09-02",
-      "matched_keywords": [
-        "software"
       ]
     },
     {
@@ -832,6 +841,26 @@
       "it_score": 51,
       "is_new": false,
       "first_seen": "2026-10-17",
+      "matched_keywords": [
+        "modernization"
+      ]
+    },
+    {
+      "id": "hf3r-utnq:233100",
+      "source_name": "Los Angeles County CA — RAMP Open Bids",
+      "title": "Alternative Design Build | RFQ #R-27023 - Menlo Avenue Elementary | Seismic Modernization Project",
+      "description": "Construction",
+      "agency": "LAUSD",
+      "state": "CA",
+      "url": "https://www.rampla.org/s/opportunity-details?id=006Ql00000oeaHhIAI",
+      "naics": "",
+      "psc": "",
+      "set_aside": "",
+      "posted_date": "2026-11-16",
+      "due_date": "2027-01-08",
+      "it_score": 51,
+      "is_new": true,
+      "first_seen": "2026-11-16",
       "matched_keywords": [
         "modernization"
       ]
@@ -1284,6 +1313,26 @@
       "first_seen": "2026-11-02",
       "matched_keywords": [
         "license"
+      ]
+    },
+    {
+      "id": "hf3r-utnq:231594",
+      "source_name": "Los Angeles County CA — RAMP Open Bids",
+      "title": "Information Technology Professional Services 2026",
+      "description": "Personal Services",
+      "agency": "Housing Department, Los Angeles",
+      "state": "CA",
+      "url": "https://www.rampla.org/s/opportunity-details?id=006Ql00000kDjfxIAC",
+      "naics": "",
+      "psc": "",
+      "set_aside": "",
+      "posted_date": "2026-11-16",
+      "due_date": "2027-01-12",
+      "it_score": 36,
+      "is_new": true,
+      "first_seen": "2026-11-16",
+      "matched_keywords": [
+        "information technology"
       ]
     },
     {
