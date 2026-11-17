@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-11-16T21:38:35.499120+00:00",
+  "generated_at": "2026-11-17T20:27:26.545422+00:00",
   "counts": {
     "total": 51,
-    "new": 2
+    "new": 4
   },
   "health": {
     "ok": 22,
@@ -11,13 +11,13 @@
       {
         "source": "Montgomery County MD — Solicitations",
         "ok": true,
-        "count": 23,
+        "count": 24,
         "error": ""
       },
       {
         "source": "Los Angeles County CA — RAMP Open Bids",
         "ok": true,
-        "count": 185,
+        "count": 182,
         "error": ""
       },
       {
@@ -83,7 +83,7 @@
       {
         "source": "Delaware — Open Bids (Statewide)",
         "ok": true,
-        "count": 40,
+        "count": 42,
         "error": ""
       },
       {
@@ -107,19 +107,19 @@
       {
         "source": "PlanetBids",
         "ok": true,
-        "count": 59,
+        "count": 56,
         "error": ""
       },
       {
         "source": "OpenGov",
         "ok": true,
-        "count": 181,
+        "count": 180,
         "error": ""
       },
       {
         "source": "Washington DC — Solicitations (PASS)",
         "ok": true,
-        "count": 44,
+        "count": 40,
         "error": ""
       },
       {
@@ -226,41 +226,14 @@
     },
     {
       "name": "Permitting & Licensing",
-      "opportunity_count": 6,
-      "agency_count": 3,
+      "opportunity_count": 3,
+      "agency_count": 2,
       "state_count": 1,
       "states": [
         "CA"
       ],
-      "demand_score": 10,
+      "demand_score": 7,
       "examples": [
-        {
-          "title": "OCA DAT | TM3 – Nintex Software License Renewal",
-          "agency": "Office of Contract Administration",
-          "state": "CA",
-          "url": "https://sfcitypartner.sfgov.org/pages/Events-BS3/event-details.aspx?Page=AUC_RESP_INQ_DTL&Action=U&AUC_ID=0000012241&AUC_ROUND=1&AUC_VERSION=1&BIDDER_ID=0000000001&BIDDER_LOC=1&BIDDER_SETID=SHARE&BIDDER_TYPE=B&BUSINESS_UNIT=SFGOV",
-          "due_date": "2026-11-16",
-          "it_score": 57,
-          "source_name": "San Francisco CA — Open Bids"
-        },
-        {
-          "title": "OCA PUC | TM3-Citrix VAD License Renewal",
-          "agency": "Office of Contract Administration",
-          "state": "CA",
-          "url": "https://sfcitypartner.sfgov.org/pages/Events-BS3/event-details.aspx?Page=AUC_RESP_INQ_DTL&Action=U&AUC_ID=0000012224&AUC_ROUND=1&AUC_VERSION=1&BIDDER_ID=0000000001&BIDDER_LOC=1&BIDDER_SETID=SHARE&BIDDER_TYPE=B&BUSINESS_UNIT=SFGOV",
-          "due_date": "2026-11-16",
-          "it_score": 36,
-          "source_name": "San Francisco CA — Open Bids"
-        },
-        {
-          "title": "OCA AIR | TM3 - ReadyAPI License",
-          "agency": "Office of Contract Administration",
-          "state": "CA",
-          "url": "https://sfcitypartner.sfgov.org/pages/Events-BS3/event-details.aspx?Page=AUC_RESP_INQ_DTL&Action=U&AUC_ID=0000012240&AUC_ROUND=1&AUC_VERSION=1&BIDDER_ID=0000000001&BIDDER_LOC=1&BIDDER_SETID=SHARE&BIDDER_TYPE=B&BUSINESS_UNIT=SFGOV",
-          "due_date": "2026-11-16",
-          "it_score": 36,
-          "source_name": "San Francisco CA — Open Bids"
-        },
         {
           "title": "RFB-IS-27200301 - Red Hat License Renewal - Brand Specific - Closing: 11/18/2026 12:00 PM",
           "agency": "Los Angeles County",
@@ -439,27 +412,6 @@
       ]
     },
     {
-      "id": "eshn-8t3a:SFGOV~0000012241",
-      "source_name": "San Francisco CA — Open Bids",
-      "title": "OCA DAT | TM3 – Nintex Software License Renewal",
-      "description": "Seeking Bids",
-      "agency": "Office of Contract Administration",
-      "state": "CA",
-      "url": "https://sfcitypartner.sfgov.org/pages/Events-BS3/event-details.aspx?Page=AUC_RESP_INQ_DTL&Action=U&AUC_ID=0000012241&AUC_ROUND=1&AUC_VERSION=1&BIDDER_ID=0000000001&BIDDER_LOC=1&BIDDER_SETID=SHARE&BIDDER_TYPE=B&BUSINESS_UNIT=SFGOV",
-      "naics": "",
-      "psc": "",
-      "set_aside": "",
-      "posted_date": "2026-11-06",
-      "due_date": "2026-11-16",
-      "it_score": 57,
-      "is_new": false,
-      "first_seen": "2026-11-09",
-      "matched_keywords": [
-        "software",
-        "license"
-      ]
-    },
-    {
       "id": "hf3r-utnq:232929",
       "source_name": "Los Angeles County CA — RAMP Open Bids",
       "title": "RFB-IS-27200310 - 589994 - SOFTWARE SUBSCRIPTION - DATA - DELPHIX (BRAND ONLY) - Closing: 11/17/2026 12:00 PM",
@@ -520,6 +472,27 @@
       "matched_keywords": [
         "migration",
         "website"
+      ]
+    },
+    {
+      "id": "opengov:smcgov:326049",
+      "source_name": "OpenGov — County of San Mateo, CA",
+      "title": "NCRIC Clearview AI Renewal 2027",
+      "description": "As fiduciary for the Northern California Regional Intelligence Center (NCRIC) the County of San Mateo is seeking quotations for annual renewal of the NCRIC's software and support subscription for the ClearviewAI platform. Please complete the Pricing Bid Table in section 3 and please also upload your competitive quotation including accurate lead times as well as any applicable freight and delivery costs for the items listed. Cost, conformity to specifications of goods, and product availability will be considered. After an evaluation of all quotations, a County purchase order is expected to be issued in association with the lowest, responsive bid received from a qualified, responsible, and manufacturer/publisher authorized vendor.",
+      "agency": "County of San Mateo",
+      "state": "CA",
+      "url": "https://procurement.opengov.com/portal/smcgov/projects/326049",
+      "naics": "",
+      "psc": "",
+      "set_aside": "",
+      "posted_date": "2026-11-13",
+      "due_date": "2026-11-28",
+      "it_score": 57,
+      "is_new": true,
+      "first_seen": "2026-11-17",
+      "matched_keywords": [
+        "software",
+        "ai"
       ]
     },
     {
@@ -626,41 +599,21 @@
       ]
     },
     {
-      "id": "eshn-8t3a:SFGOV~0000012228",
-      "source_name": "San Francisco CA — Open Bids",
-      "title": "OCA DT | TM3 AvePoint Software and Services Renewl",
-      "description": "Seeking Bids",
-      "agency": "Office of Contract Administration",
+      "id": "hf3r-utnq:233110",
+      "source_name": "Los Angeles County CA — RAMP Open Bids",
+      "title": "RFB-IS-27200335 - 1095677-CALABRIO SOFTWARE MAINTENANCE AND SUPPORT RENEWAL - - Closing: 11/23/2026 12:00 PM",
+      "description": "Commodity",
+      "agency": "Los Angeles County",
       "state": "CA",
-      "url": "https://sfcitypartner.sfgov.org/pages/Events-BS3/event-details.aspx?Page=AUC_RESP_INQ_DTL&Action=U&AUC_ID=0000012228&AUC_ROUND=1&AUC_VERSION=1&BIDDER_ID=0000000001&BIDDER_LOC=1&BIDDER_SETID=SHARE&BIDDER_TYPE=B&BUSINESS_UNIT=SFGOV",
+      "url": "https://www.rampla.org/s/opportunity-details?id=006Ql00000ogsf8IAA",
       "naics": "",
       "psc": "",
       "set_aside": "",
-      "posted_date": "2026-11-06",
-      "due_date": "2026-11-16",
+      "posted_date": "2026-11-17",
+      "due_date": "2026-11-23",
       "it_score": 51,
-      "is_new": false,
-      "first_seen": "2026-11-09",
-      "matched_keywords": [
-        "software"
-      ]
-    },
-    {
-      "id": "opengov:pasadena:263470",
-      "source_name": "OpenGov — City of Pasadena, CA",
-      "title": "Wood Pole Inspection, Treatment, Repair, and UAV Inspection Services",
-      "description": "The City of Pasadena Water and Power Department (“PWP”) is seeking proposals from qualified and experienced firms to provide wood pole inspection, repair, restoration, treatment, and related reporting services for PWP’s electric distribution system. The selected firm will support PWP’s ongoing maintenance and compliance program for wood poles, including visual inspections, intrusive inspections, groundline inspections, preservative treatments, minor corrective repairs, pole reinforcement recommendations, installation of approved repair materials, and detailed reporting of observed conditions. PWP’s wood pole program is intended to support safe, reliable, and compliant operation of the electric distribution system in accordance with applicable requirements, including California Public Utilities Commission (“CPUC”) General Order 95, Rules for Overhead Electric Line Construction, and CPUC General Order 165, Inspection Requirements for Electric Distribution and Transmission Facilities. PWP’s system includes approximately 11,000 wood poles, including both municipally owned and jointly owned poles. A significant portion of the pole population is located in rear property or otherwise constrained access locations. The scope of services may include, but is not limited to, pole condition assessment, identification of structural damage or decay, inspection for General Order 95 infractions, groundline and below-ground inspections, preservative and fumigant treatment, installation of visibility strips, guy guards, ground molding, and pole tags where approved by PWP. The selected firm shall also provide detailed inspection records, photographs, condition ratings, repair recommendations, and electronic data deliverables in a format acceptable to PWP. In addition to conventional field inspection and treatment services, PWP intends to include drone or other unmanned aerial vehicle (“UAV”) inspection services under the resulting contract. UAV services may be used to supplement field inspections, improve access to difficult or hazardous locations, document pole-top conditions, capture high-resolution imagery, and support more efficient assessment of pole attachments, crossarms, hardware, conductors, insulators, and other visible overhead facilities. UAV services shall be performed by qualified, FAA-compliant personnel and in accordance with all applicable federal, state, and local requirements. The selected firm shall furnish all supervision, labor, materials, equipment, vehicles, tools, technology, software, transportation, permits, methods, processes, and incidentals necessary to complete the work in accordance with the final scope of services, applicable laws and regulations, industry standards, and PWP requirements.",
-      "agency": "City of Pasadena",
-      "state": "CA",
-      "url": "https://procurement.opengov.com/portal/pasadena/projects/263470",
-      "naics": "",
-      "psc": "",
-      "set_aside": "2026-RFP-0272",
-      "posted_date": "2026-05-06",
-      "due_date": "2026-11-25",
-      "it_score": 51,
-      "is_new": false,
-      "first_seen": "2026-09-02",
+      "is_new": true,
+      "first_seen": "2026-11-17",
       "matched_keywords": [
         "software"
       ]
@@ -683,6 +636,26 @@
       "first_seen": "2026-10-03",
       "matched_keywords": [
         "modernization"
+      ]
+    },
+    {
+      "id": "hf3r-utnq:233109",
+      "source_name": "Los Angeles County CA — RAMP Open Bids",
+      "title": "RFB-IS-27200337 - 2710002 Lenovo Absolute Software - Closing: 11/30/2026 12:00 PM",
+      "description": "Commodity",
+      "agency": "Los Angeles County",
+      "state": "CA",
+      "url": "https://www.rampla.org/s/opportunity-details?id=006Ql00000ogsf7IAA",
+      "naics": "",
+      "psc": "",
+      "set_aside": "",
+      "posted_date": "2026-11-17",
+      "due_date": "2026-11-30",
+      "it_score": 51,
+      "is_new": true,
+      "first_seen": "2026-11-17",
+      "matched_keywords": [
+        "software"
       ]
     },
     {
@@ -763,6 +736,26 @@
       "first_seen": "2026-10-28",
       "matched_keywords": [
         "modernization"
+      ]
+    },
+    {
+      "id": "opengov:pasadena:263470",
+      "source_name": "OpenGov — City of Pasadena, CA",
+      "title": "Wood Pole Inspection, Treatment, Repair, and UAV Inspection Services",
+      "description": "The City of Pasadena Water and Power Department (“PWP”) is seeking proposals from qualified and experienced firms to provide wood pole inspection, repair, restoration, treatment, and related reporting services for PWP’s electric distribution system. The selected firm will support PWP’s ongoing maintenance and compliance program for wood poles, including visual inspections, intrusive inspections, groundline inspections, preservative treatments, minor corrective repairs, pole reinforcement recommendations, installation of approved repair materials, and detailed reporting of observed conditions. PWP’s wood pole program is intended to support safe, reliable, and compliant operation of the electric distribution system in accordance with applicable requirements, including California Public Utilities Commission (“CPUC”) General Order 95, Rules for Overhead Electric Line Construction, and CPUC General Order 165, Inspection Requirements for Electric Distribution and Transmission Facilities. PWP’s system includes approximately 11,000 wood poles, including both municipally owned and jointly owned poles. A significant portion of the pole population is located in rear property or otherwise constrained access locations. The scope of services may include, but is not limited to, pole condition assessment, identification of structural damage or decay, inspection for General Order 95 infractions, groundline and below-ground inspections, preservative and fumigant treatment, installation of visibility strips, guy guards, ground molding, and pole tags where approved by PWP. The selected firm shall also provide detailed inspection records, photographs, condition ratings, repair recommendations, and electronic data deliverables in a format acceptable to PWP. In addition to conventional field inspection and treatment services, PWP intends to include drone or other unmanned aerial vehicle (“UAV”) inspection services under the resulting contract. UAV services may be used to supplement field inspections, improve access to difficult or hazardous locations, document pole-top conditions, capture high-resolution imagery, and support more efficient assessment of pole attachments, crossarms, hardware, conductors, insulators, and other visible overhead facilities. UAV services shall be performed by qualified, FAA-compliant personnel and in accordance with all applicable federal, state, and local requirements. The selected firm shall furnish all supervision, labor, materials, equipment, vehicles, tools, technology, software, transportation, permits, methods, processes, and incidentals necessary to complete the work in accordance with the final scope of services, applicable laws and regulations, industry standards, and PWP requirements.",
+      "agency": "City of Pasadena",
+      "state": "CA",
+      "url": "https://procurement.opengov.com/portal/pasadena/projects/263470",
+      "naics": "",
+      "psc": "",
+      "set_aside": "2026-RFP-0272",
+      "posted_date": "2026-05-06",
+      "due_date": "2026-12-02",
+      "it_score": 51,
+      "is_new": false,
+      "first_seen": "2026-09-02",
+      "matched_keywords": [
+        "software"
       ]
     },
     {
@@ -859,7 +852,7 @@
       "posted_date": "2026-11-16",
       "due_date": "2027-01-08",
       "it_score": 51,
-      "is_new": true,
+      "is_new": false,
       "first_seen": "2026-11-16",
       "matched_keywords": [
         "modernization"
@@ -1116,46 +1109,6 @@
       ]
     },
     {
-      "id": "eshn-8t3a:SFGOV~0000012224",
-      "source_name": "San Francisco CA — Open Bids",
-      "title": "OCA PUC | TM3-Citrix VAD License Renewal",
-      "description": "Seeking Bids",
-      "agency": "Office of Contract Administration",
-      "state": "CA",
-      "url": "https://sfcitypartner.sfgov.org/pages/Events-BS3/event-details.aspx?Page=AUC_RESP_INQ_DTL&Action=U&AUC_ID=0000012224&AUC_ROUND=1&AUC_VERSION=1&BIDDER_ID=0000000001&BIDDER_LOC=1&BIDDER_SETID=SHARE&BIDDER_TYPE=B&BUSINESS_UNIT=SFGOV",
-      "naics": "",
-      "psc": "",
-      "set_aside": "",
-      "posted_date": "2026-11-06",
-      "due_date": "2026-11-16",
-      "it_score": 36,
-      "is_new": false,
-      "first_seen": "2026-11-09",
-      "matched_keywords": [
-        "license"
-      ]
-    },
-    {
-      "id": "eshn-8t3a:SFGOV~0000012240",
-      "source_name": "San Francisco CA — Open Bids",
-      "title": "OCA AIR | TM3 - ReadyAPI License",
-      "description": "Seeking Bids",
-      "agency": "Office of Contract Administration",
-      "state": "CA",
-      "url": "https://sfcitypartner.sfgov.org/pages/Events-BS3/event-details.aspx?Page=AUC_RESP_INQ_DTL&Action=U&AUC_ID=0000012240&AUC_ROUND=1&AUC_VERSION=1&BIDDER_ID=0000000001&BIDDER_LOC=1&BIDDER_SETID=SHARE&BIDDER_TYPE=B&BUSINESS_UNIT=SFGOV",
-      "naics": "",
-      "psc": "",
-      "set_aside": "",
-      "posted_date": "2026-11-06",
-      "due_date": "2026-11-16",
-      "it_score": 36,
-      "is_new": false,
-      "first_seen": "2026-11-09",
-      "matched_keywords": [
-        "license"
-      ]
-    },
-    {
       "id": "hf3r-utnq:233014",
       "source_name": "Los Angeles County CA — RAMP Open Bids",
       "title": "141132 STOREFRONT, DIGITAL",
@@ -1193,6 +1146,26 @@
       "first_seen": "2026-11-03",
       "matched_keywords": [
         "digital"
+      ]
+    },
+    {
+      "id": "dg92-zbpx:20261110001",
+      "source_name": "New York City — City Record (Procurement)",
+      "title": "UPS Upgrades and Deployment at BXDA Data Center",
+      "description": "UPS Upgrades and Deployment at BXDA Data Center",
+      "agency": "District Attorney - Bronx County",
+      "state": "NY",
+      "url": "https://a856-cityrecord.nyc.gov/",
+      "naics": "",
+      "psc": "",
+      "set_aside": "",
+      "posted_date": "2026-11-17",
+      "due_date": "2026-11-17",
+      "it_score": 36,
+      "is_new": true,
+      "first_seen": "2026-11-17",
+      "matched_keywords": [
+        "data"
       ]
     },
     {
@@ -1329,7 +1302,7 @@
       "posted_date": "2026-11-16",
       "due_date": "2027-01-12",
       "it_score": 36,
-      "is_new": true,
+      "is_new": false,
       "first_seen": "2026-11-16",
       "matched_keywords": [
         "information technology"

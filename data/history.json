@@ -1109,6 +1109,12 @@
   "Los Angeles County CA \u2014 RAMP Open Bids::hf3r-utnq:233100": {
     "first_seen": "2026-11-16"
   },
+  "Los Angeles County CA \u2014 RAMP Open Bids::hf3r-utnq:233109": {
+    "first_seen": "2026-11-17"
+  },
+  "Los Angeles County CA \u2014 RAMP Open Bids::hf3r-utnq:233110": {
+    "first_seen": "2026-11-17"
+  },
   "Los Angeles County CA \u2014 RAMP Open Bids::hf3r-utnq:40831": {
     "first_seen": "2026-07-14"
   },
@@ -2285,6 +2291,9 @@
   "New York City \u2014 City Record (Procurement)::dg92-zbpx:20261106009": {
     "first_seen": "2026-11-13"
   },
+  "New York City \u2014 City Record (Procurement)::dg92-zbpx:20261110001": {
+    "first_seen": "2026-11-17"
+  },
   "New York City \u2014 Current RFP (MOCS)::bzjf-rmtp:18-00033R": {
     "first_seen": "2026-07-14"
   },
@@ -3172,6 +3181,9 @@
   },
   "OpenGov \u2014 County of San Mateo, CA::opengov:smcgov:324853": {
     "first_seen": "2026-11-11"
+  },
+  "OpenGov \u2014 County of San Mateo, CA::opengov:smcgov:326049": {
+    "first_seen": "2026-11-17"
   },
   "OpenGov \u2014 County of Santa Cruz, CA::opengov:santacruzcounty:287244": {
     "first_seen": "2026-09-16"
