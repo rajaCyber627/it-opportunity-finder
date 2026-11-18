@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-11-17T20:27:26.545422+00:00",
+  "generated_at": "2026-11-18T19:56:42.934103+00:00",
   "counts": {
-    "total": 51,
-    "new": 4
+    "total": 52,
+    "new": 6
   },
   "health": {
     "ok": 22,
@@ -23,7 +23,7 @@
       {
         "source": "San Francisco CA — Open Bids",
         "ok": true,
-        "count": 48,
+        "count": 51,
         "error": ""
       },
       {
@@ -113,25 +113,25 @@
       {
         "source": "OpenGov",
         "ok": true,
-        "count": 180,
+        "count": 176,
         "error": ""
       },
       {
         "source": "Washington DC — Solicitations (PASS)",
         "ok": true,
-        "count": 40,
+        "count": 36,
         "error": ""
       },
       {
         "source": "BidNet Direct",
         "ok": true,
-        "count": 21,
+        "count": 22,
         "error": ""
       },
       {
         "source": "Biddingo",
         "ok": true,
-        "count": 24,
+        "count": 26,
         "error": ""
       },
       {
@@ -178,19 +178,19 @@
           "source_name": "OpenGov — County of Alameda, CA"
         },
         {
-          "title": "Elevator Modernization and Maintenance at Art Snyder",
+          "title": "Elevator Modernization and Maintenance at Wyandotte Apts",
           "agency": "Housing Authority, City of Los Angeles",
           "state": "CA",
-          "url": "https://www.rampla.org/s/opportunity-details?id=006Ql00000o1RRBIA2",
+          "url": "https://www.rampla.org/s/opportunity-details?id=006Ql00000o1Sa9IAE",
           "due_date": "2026-12-01",
           "it_score": 51,
           "source_name": "Los Angeles County CA — RAMP Open Bids"
         },
         {
-          "title": "Elevator Modernization and Maintenance at Wyandotte Apts",
+          "title": "Elevator Modernization and Maintenance at Art Snyder",
           "agency": "Housing Authority, City of Los Angeles",
           "state": "CA",
-          "url": "https://www.rampla.org/s/opportunity-details?id=006Ql00000o1Sa9IAE",
+          "url": "https://www.rampla.org/s/opportunity-details?id=006Ql00000o1RRBIA2",
           "due_date": "2026-12-01",
           "it_score": 51,
           "source_name": "Los Angeles County CA — RAMP Open Bids"
@@ -412,27 +412,6 @@
       ]
     },
     {
-      "id": "hf3r-utnq:232929",
-      "source_name": "Los Angeles County CA — RAMP Open Bids",
-      "title": "RFB-IS-27200310 - 589994 - SOFTWARE SUBSCRIPTION - DATA - DELPHIX (BRAND ONLY) - Closing: 11/17/2026 12:00 PM",
-      "description": "Commodity",
-      "agency": "Los Angeles County",
-      "state": "CA",
-      "url": "https://www.rampla.org/s/opportunity-details?id=006Ql00000o8hW5IAI",
-      "naics": "",
-      "psc": "",
-      "set_aside": "",
-      "posted_date": "2026-11-05",
-      "due_date": "2026-11-17",
-      "it_score": 57,
-      "is_new": false,
-      "first_seen": "2026-11-05",
-      "matched_keywords": [
-        "software",
-        "data"
-      ]
-    },
-    {
       "id": "opengov:pasadena:316595",
       "source_name": "OpenGov — City of Pasadena, CA",
       "title": "Office Furniture",
@@ -488,7 +467,7 @@
       "posted_date": "2026-11-13",
       "due_date": "2026-11-28",
       "it_score": 57,
-      "is_new": true,
+      "is_new": false,
       "first_seen": "2026-11-17",
       "matched_keywords": [
         "software",
@@ -538,6 +517,27 @@
       ]
     },
     {
+      "id": "opengov:ocgov:324284",
+      "source_name": "OpenGov — County of Orange, CA",
+      "title": "HVAS BAS System Software Maintenance",
+      "description": "The County of Orange, Department Name , (hereinafter referred to as County) is requesting competitive bids from qualified vendors (hereinafter referred to as Bidder) for Project Title . The County has attempted to provide all information available. It is the responsibility of each Bidder to review, evaluate, and, where necessary, request any clarification prior to submission of a bid. The awarded Contract, (hereinafter referred to as Contract) will be between the County and awarded Bidder, (hereinafter referred to as Contractor) in accordance with the model contract terms, conditions and scope of work. This is a fully electronic solicitation – only electronic bids submitted through the County’s online bidding system will be allowed; no other form of bid submittals will be accepted. Prior to submitting a bid, Bidders are advised to carefully read the instructions below, including the model contract and any solicitation attachments and/or exhibits. For assistance on uploading proposals via County’s eProcurement Portal, please contact procurement-support@opengov.com or https://help.procurement.opengov.com/en/ . All questions or requests for interpretations must be received within this solicitation's Question & Answer section as specified in the solicitation. Respondents are not to contact other County personnel with any questions or clarifications concerning this solicitation.",
+      "agency": "County of Orange",
+      "state": "CA",
+      "url": "https://procurement.opengov.com/portal/ocgov/projects/324284",
+      "naics": "",
+      "psc": "",
+      "set_aside": "060-3171702-MB",
+      "posted_date": "2026-11-06",
+      "due_date": "2026-12-16",
+      "it_score": 57,
+      "is_new": true,
+      "first_seen": "2026-11-18",
+      "matched_keywords": [
+        "software",
+        "system"
+      ]
+    },
+    {
       "id": "e5pk-us93:Software development/design/maintenance/support services",
       "source_name": "Baton Rouge LA — Upcoming Procurement",
       "title": "Software development/design/maintenance/support services",
@@ -555,26 +555,6 @@
       "first_seen": "2026-07-14",
       "matched_keywords": [
         "software",
-        "development"
-      ]
-    },
-    {
-      "id": "planetbids:39475:147369",
-      "source_name": "PlanetBids — Riverside County, CA",
-      "title": "Development of Evacuation Assessment, Plan, and Re-Entry Support Function Annexes",
-      "description": "2575",
-      "agency": "Riverside County, CA",
-      "state": "CA",
-      "url": "https://vendors.planetbids.com/portal/39475/bo/bo-detail/147369",
-      "naics": "",
-      "psc": "91819, 91825, 91826, 91832, 91843, 91858, 91881, 91890, 91892, 91893, 91896, 92028, 92593, 99000, 99029, 99042",
-      "set_aside": "",
-      "posted_date": "2026-10-15",
-      "due_date": "2026-11-24",
-      "it_score": 56,
-      "is_new": false,
-      "first_seen": "2026-10-16",
-      "matched_keywords": [
         "development"
       ]
     },
@@ -599,6 +579,66 @@
       ]
     },
     {
+      "id": "planetbids:39475:147369",
+      "source_name": "PlanetBids — Riverside County, CA",
+      "title": "Development of Evacuation Assessment, Plan, and Re-Entry Support Function Annexes",
+      "description": "2575",
+      "agency": "Riverside County, CA",
+      "state": "CA",
+      "url": "https://vendors.planetbids.com/portal/39475/bo/bo-detail/147369",
+      "naics": "",
+      "psc": "91819, 91825, 91826, 91832, 91843, 91858, 91881, 91890, 91892, 91893, 91896, 92028, 92593, 99000, 99029, 99042",
+      "set_aside": "",
+      "posted_date": "2026-10-15",
+      "due_date": "2026-12-30",
+      "it_score": 56,
+      "is_new": false,
+      "first_seen": "2026-10-16",
+      "matched_keywords": [
+        "development"
+      ]
+    },
+    {
+      "id": "eshn-8t3a:SFGOV~0000012234",
+      "source_name": "San Francisco CA — Open Bids",
+      "title": "OCA LIB | TM3 Equidox Software Renewal",
+      "description": "Seeking Bids",
+      "agency": "Office of Contract Administration",
+      "state": "CA",
+      "url": "https://sfcitypartner.sfgov.org/pages/Events-BS3/event-details.aspx?Page=AUC_RESP_INQ_DTL&Action=U&AUC_ID=0000012234&AUC_ROUND=1&AUC_VERSION=1&BIDDER_ID=0000000001&BIDDER_LOC=1&BIDDER_SETID=SHARE&BIDDER_TYPE=B&BUSINESS_UNIT=SFGOV",
+      "naics": "",
+      "psc": "",
+      "set_aside": "",
+      "posted_date": "2026-11-10",
+      "due_date": "2026-11-18",
+      "it_score": 51,
+      "is_new": true,
+      "first_seen": "2026-11-18",
+      "matched_keywords": [
+        "software"
+      ]
+    },
+    {
+      "id": "eshn-8t3a:SFGOV~0000012258",
+      "source_name": "San Francisco CA — Open Bids",
+      "title": "OCA POL | TM3 – Magnet Graykey Software Lic. RNWL",
+      "description": "Seeking Bids",
+      "agency": "Office of Contract Administration",
+      "state": "CA",
+      "url": "https://sfcitypartner.sfgov.org/pages/Events-BS3/event-details.aspx?Page=AUC_RESP_INQ_DTL&Action=U&AUC_ID=0000012258&AUC_ROUND=1&AUC_VERSION=1&BIDDER_ID=0000000001&BIDDER_LOC=1&BIDDER_SETID=SHARE&BIDDER_TYPE=B&BUSINESS_UNIT=SFGOV",
+      "naics": "",
+      "psc": "",
+      "set_aside": "",
+      "posted_date": "2026-11-13",
+      "due_date": "2026-11-20",
+      "it_score": 51,
+      "is_new": true,
+      "first_seen": "2026-11-18",
+      "matched_keywords": [
+        "software"
+      ]
+    },
+    {
       "id": "hf3r-utnq:233110",
       "source_name": "Los Angeles County CA — RAMP Open Bids",
       "title": "RFB-IS-27200335 - 1095677-CALABRIO SOFTWARE MAINTENANCE AND SUPPORT RENEWAL - - Closing: 11/23/2026 12:00 PM",
@@ -612,8 +652,28 @@
       "posted_date": "2026-11-17",
       "due_date": "2026-11-23",
       "it_score": 51,
-      "is_new": true,
+      "is_new": false,
       "first_seen": "2026-11-17",
+      "matched_keywords": [
+        "software"
+      ]
+    },
+    {
+      "id": "hf3r-utnq:233133",
+      "source_name": "Los Angeles County CA — RAMP Open Bids",
+      "title": "RFB-IS-27200333 - 1095222-UIPATH SOFTWARE RENEWAL - BRAND SPECIFIC - Closing: 11/24/2026 12:00 PM",
+      "description": "Commodity",
+      "agency": "Los Angeles County",
+      "state": "CA",
+      "url": "https://www.rampla.org/s/opportunity-details?id=006Ql00000okJ9NIAU",
+      "naics": "",
+      "psc": "",
+      "set_aside": "",
+      "posted_date": "2026-11-18",
+      "due_date": "2026-11-24",
+      "it_score": 51,
+      "is_new": true,
+      "first_seen": "2026-11-18",
       "matched_keywords": [
         "software"
       ]
@@ -652,20 +712,40 @@
       "posted_date": "2026-11-17",
       "due_date": "2026-11-30",
       "it_score": 51,
-      "is_new": true,
+      "is_new": false,
       "first_seen": "2026-11-17",
       "matched_keywords": [
         "software"
       ]
     },
     {
-      "id": "hf3r-utnq:232844",
+      "id": "hf3r-utnq:233130",
       "source_name": "Los Angeles County CA — RAMP Open Bids",
-      "title": "Elevator Modernization and Maintenance at Art Snyder",
+      "title": "RFB-IS-27200347 - 2709007 SOFTWARE - MAINTENANCE - ANNUAL RENEWAL - CONDUSIV - Closing: 12/1/2026 12:00 PM",
+      "description": "Commodity",
+      "agency": "Los Angeles County",
+      "state": "CA",
+      "url": "https://www.rampla.org/s/opportunity-details?id=006Ql00000okJ9KIAU",
+      "naics": "",
+      "psc": "",
+      "set_aside": "",
+      "posted_date": "2026-11-18",
+      "due_date": "2026-12-01",
+      "it_score": 51,
+      "is_new": true,
+      "first_seen": "2026-11-18",
+      "matched_keywords": [
+        "software"
+      ]
+    },
+    {
+      "id": "hf3r-utnq:232845",
+      "source_name": "Los Angeles County CA — RAMP Open Bids",
+      "title": "Elevator Modernization and Maintenance at Wyandotte Apts",
       "description": "Personal Services",
       "agency": "Housing Authority, City of Los Angeles",
       "state": "CA",
-      "url": "https://www.rampla.org/s/opportunity-details?id=006Ql00000o1RRBIA2",
+      "url": "https://www.rampla.org/s/opportunity-details?id=006Ql00000o1Sa9IAE",
       "naics": "",
       "psc": "",
       "set_aside": "",
@@ -679,13 +759,13 @@
       ]
     },
     {
-      "id": "hf3r-utnq:232845",
+      "id": "hf3r-utnq:232844",
       "source_name": "Los Angeles County CA — RAMP Open Bids",
-      "title": "Elevator Modernization and Maintenance at Wyandotte Apts",
+      "title": "Elevator Modernization and Maintenance at Art Snyder",
       "description": "Personal Services",
       "agency": "Housing Authority, City of Los Angeles",
       "state": "CA",
-      "url": "https://www.rampla.org/s/opportunity-details?id=006Ql00000o1Sa9IAE",
+      "url": "https://www.rampla.org/s/opportunity-details?id=006Ql00000o1RRBIA2",
       "naics": "",
       "psc": "",
       "set_aside": "",
@@ -899,24 +979,6 @@
       ]
     },
     {
-      "id": "planetbids:27411:146695",
-      "source_name": "PlanetBids — Inland Empire Utilities Agency, CA",
-      "title": "Business Impact Analysis, Disaster Recovery Plan and Business Continuity Plan Services",
-      "description": "RFP-VC-26-006",
-      "agency": "Inland Empire Utilities Agency, CA",
-      "state": "CA",
-      "url": "https://vendors.planetbids.com/portal/27411/bo/bo-detail/146695",
-      "naics": "",
-      "psc": "91890, 92023, 95816, 95861, 96258, 99029",
-      "set_aside": "",
-      "posted_date": "2026-09-30",
-      "due_date": "2026-11-17",
-      "it_score": 50,
-      "is_new": false,
-      "first_seen": "2026-10-01",
-      "matched_keywords": []
-    },
-    {
       "id": "planetbids:15300:147581",
       "source_name": "PlanetBids — City of Sacramento, CA",
       "title": "State of the Sacramento Cultural Nonprofit Field Impact Report",
@@ -1007,6 +1069,24 @@
       "matched_keywords": []
     },
     {
+      "id": "planetbids:13982:148309",
+      "source_name": "PlanetBids — Port of San Diego, CA",
+      "title": "REGIONAL HARBOR MONITORING PROGRAM",
+      "description": "26-25JJP",
+      "agency": "Port of San Diego, CA",
+      "state": "CA",
+      "url": "https://vendors.planetbids.com/portal/13982/bo/bo-detail/148309",
+      "naics": "",
+      "psc": "17513, 91843, 92684, 95885, 96148, 96222, 96873, 98900, 98975",
+      "set_aside": "",
+      "posted_date": "2026-11-17",
+      "due_date": "2027-01-07",
+      "it_score": 50,
+      "is_new": true,
+      "first_seen": "2026-11-18",
+      "matched_keywords": []
+    },
+    {
       "id": "planetbids:27411:148203",
       "source_name": "PlanetBids — Inland Empire Utilities Agency, CA",
       "title": "Electric Motor Pump and Mixer Repairs and Rebuilds",
@@ -1043,27 +1123,6 @@
       "matched_keywords": [
         "data",
         "digital"
-      ]
-    },
-    {
-      "id": "opengov:pasadena:293584",
-      "source_name": "OpenGov — City of Pasadena, CA",
-      "title": "Rental Registry Database and Portal",
-      "description": "The City of Pasadena Rent Stabilization Department is seeking proposals from qualified vendors to provide a comprehensive rental registry database and online portal. The selected vendor will be responsible to meet the City's need for implementing, operating, and maintaining a system that supports the requirements of City Charter Article XVIII, which governs rent stabilization in Pasadena. The Department requires a fully hosted online platform that enables landlords to register rental units, update unit and tenancy information, apply for exemptions, and pay the City’s annual rental registry fee, including any applicable late fees. The system must also allow landlords to submit any rent registration-related notices or documents mandated by the Charter or any applicable federal, state, or local laws directly to the City through the registry portal. A Rental Registry is a core, foundational tool to monitor compliance with Charter Article XVIII to ensure that rent adjustments are in compliance with local law. There are approximately 26,000+ rental units registered within the City of Pasadena Rent Stabilization Department's Rental Registry. Rental property owners are required to register on annual basis and pay a registration fee for each rental unit. Exemptions for the annual registration fee are available and processed through the Rental Registry. Outside of the annual rental registration window from September-October, rental property owners are required to utilize the system to record key events including, but not limited to, occupancy amendments, rent increases and transfer of ownerships. The Rent Stabilization launched its Rental Registry on September 2024. It contains data for approximately 26,000+ rental units. Online payments can be made via eCheck and through Payroc via debit/credit card. A key desire for the next system is to integrate with Tyler Cashiering. City Charter Article XVIII can be accessed via this link: https://library.municode.com/ca/pasadena/codes/code_of_ordinances?nodeId=CH_ARTXVIIIPAFAEQHOCHAM . Adopted regulations concerning rental registration, Chapter 9, are available on the Pasadena Rent Stabilization Website via this link: https://www.cityofpasadena.net/rent-stabilization/notices-forms-resources/#regulations",
-      "agency": "City of Pasadena",
-      "state": "CA",
-      "url": "https://procurement.opengov.com/portal/pasadena/projects/293584",
-      "naics": "",
-      "psc": "",
-      "set_aside": "2026-RFP-0495",
-      "posted_date": "2026-08-13",
-      "due_date": "2026-11-21",
-      "it_score": 42,
-      "is_new": false,
-      "first_seen": "2026-10-27",
-      "matched_keywords": [
-        "portal",
-        "database"
       ]
     },
     {
@@ -1109,63 +1168,24 @@
       ]
     },
     {
-      "id": "hf3r-utnq:233014",
-      "source_name": "Los Angeles County CA — RAMP Open Bids",
-      "title": "141132 STOREFRONT, DIGITAL",
-      "description": "Commodity",
-      "agency": "Water & Power",
+      "id": "opengov:pasadena:293584",
+      "source_name": "OpenGov — City of Pasadena, CA",
+      "title": "Rental Registry Database and Portal",
+      "description": "The City of Pasadena Rent Stabilization Department is seeking proposals from qualified vendors to provide a comprehensive rental registry database and online portal. The selected vendor will be responsible to meet the City's need for implementing, operating, and maintaining a system that supports the requirements of City Charter Article XVIII, which governs rent stabilization in Pasadena. The Department requires a fully hosted online platform that enables landlords to register rental units, update unit and tenancy information, apply for exemptions, and pay the City’s annual rental registry fee, including any applicable late fees. The system must also allow landlords to submit any rent registration-related notices or documents mandated by the Charter or any applicable federal, state, or local laws directly to the City through the registry portal. A Rental Registry is a core, foundational tool to monitor compliance with Charter Article XVIII to ensure that rent adjustments are in compliance with local law. There are approximately 26,000+ rental units registered within the City of Pasadena Rent Stabilization Department's Rental Registry. Rental property owners are required to register on annual basis and pay a registration fee for each rental unit. Exemptions for the annual registration fee are available and processed through the Rental Registry. Outside of the annual rental registration window from September-October, rental property owners are required to utilize the system to record key events including, but not limited to, occupancy amendments, rent increases and transfer of ownerships. The Rent Stabilization launched its Rental Registry on September 2024. It contains data for approximately 26,000+ rental units. Online payments can be made via eCheck and through Payroc via debit/credit card. A key desire for the next system is to integrate with Tyler Cashiering. City Charter Article XVIII can be accessed via this link: https://library.municode.com/ca/pasadena/codes/code_of_ordinances?nodeId=CH_ARTXVIIIPAFAEQHOCHAM . Adopted regulations concerning rental registration, Chapter 9, are available on the Pasadena Rent Stabilization Website via this link: https://www.cityofpasadena.net/rent-stabilization/notices-forms-resources/#regulations",
+      "agency": "City of Pasadena",
       "state": "CA",
-      "url": "https://www.rampla.org/s/opportunity-details?id=006Ql00000oNvFJIA0",
+      "url": "https://procurement.opengov.com/portal/pasadena/projects/293584",
       "naics": "",
       "psc": "",
-      "set_aside": "",
-      "posted_date": "2026-11-10",
-      "due_date": "2026-11-17",
-      "it_score": 36,
+      "set_aside": "2026-RFP-0495",
+      "posted_date": "2026-08-13",
+      "due_date": "2026-12-10",
+      "it_score": 42,
       "is_new": false,
-      "first_seen": "2026-11-11",
+      "first_seen": "2026-10-27",
       "matched_keywords": [
-        "digital"
-      ]
-    },
-    {
-      "id": "hf3r-utnq:232841",
-      "source_name": "Los Angeles County CA — RAMP Open Bids",
-      "title": "RFB-IS-27200302 - DIGITAL COLLECTOR RENEWAL (BRAND ONLY) - Closing: 11/17/2026 12:00 PM",
-      "description": "Commodity",
-      "agency": "Los Angeles County",
-      "state": "CA",
-      "url": "https://www.rampla.org/s/opportunity-details?id=006Ql00000o1Q26IAE",
-      "naics": "",
-      "psc": "",
-      "set_aside": "",
-      "posted_date": "2026-11-03",
-      "due_date": "2026-11-17",
-      "it_score": 36,
-      "is_new": false,
-      "first_seen": "2026-11-03",
-      "matched_keywords": [
-        "digital"
-      ]
-    },
-    {
-      "id": "dg92-zbpx:20261110001",
-      "source_name": "New York City — City Record (Procurement)",
-      "title": "UPS Upgrades and Deployment at BXDA Data Center",
-      "description": "UPS Upgrades and Deployment at BXDA Data Center",
-      "agency": "District Attorney - Bronx County",
-      "state": "NY",
-      "url": "https://a856-cityrecord.nyc.gov/",
-      "naics": "",
-      "psc": "",
-      "set_aside": "",
-      "posted_date": "2026-11-17",
-      "due_date": "2026-11-17",
-      "it_score": 36,
-      "is_new": true,
-      "first_seen": "2026-11-17",
-      "matched_keywords": [
-        "data"
+        "portal",
+        "database"
       ]
     },
     {
