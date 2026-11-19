@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-11-18T19:56:42.934103+00:00",
+  "generated_at": "2026-11-19T19:56:17.600401+00:00",
   "counts": {
-    "total": 52,
-    "new": 6
+    "total": 53,
+    "new": 5
   },
   "health": {
     "ok": 22,
@@ -11,13 +11,13 @@
       {
         "source": "Montgomery County MD — Solicitations",
         "ok": true,
-        "count": 24,
+        "count": 26,
         "error": ""
       },
       {
         "source": "Los Angeles County CA — RAMP Open Bids",
         "ok": true,
-        "count": 182,
+        "count": 185,
         "error": ""
       },
       {
@@ -107,7 +107,7 @@
       {
         "source": "PlanetBids",
         "ok": true,
-        "count": 56,
+        "count": 60,
         "error": ""
       },
       {
@@ -119,7 +119,7 @@
       {
         "source": "Washington DC — Solicitations (PASS)",
         "ok": true,
-        "count": 36,
+        "count": 37,
         "error": ""
       },
       {
@@ -151,13 +151,14 @@
   "product_themes": [
     {
       "name": "Cloud Migration & Modernization",
-      "opportunity_count": 7,
-      "agency_count": 5,
-      "state_count": 1,
+      "opportunity_count": 8,
+      "agency_count": 6,
+      "state_count": 2,
       "states": [
-        "CA"
+        "CA",
+        "NY"
       ],
-      "demand_score": 16,
+      "demand_score": 20,
       "examples": [
         {
           "title": "PUC | TM3 - Satellite Website Migration RFP",
@@ -169,6 +170,15 @@
           "source_name": "San Francisco CA — Open Bids"
         },
         {
+          "title": "CB-QE25: Catch Basins Modernization the borough of Queens",
+          "agency": "Environmental Protection",
+          "state": "NY",
+          "url": "https://a856-cityrecord.nyc.gov/",
+          "due_date": "2026-11-19",
+          "it_score": 51,
+          "source_name": "New York City — City Record (Procurement)"
+        },
+        {
           "title": "RFP 902787 Elevator Condition Assessment & Modernization Plan",
           "agency": "County of Alameda, CA",
           "state": "CA",
@@ -178,19 +188,19 @@
           "source_name": "OpenGov — County of Alameda, CA"
         },
         {
-          "title": "Elevator Modernization and Maintenance at Wyandotte Apts",
+          "title": "Elevator Modernization and Maintenance at Art Snyder",
           "agency": "Housing Authority, City of Los Angeles",
           "state": "CA",
-          "url": "https://www.rampla.org/s/opportunity-details?id=006Ql00000o1Sa9IAE",
+          "url": "https://www.rampla.org/s/opportunity-details?id=006Ql00000o1RRBIA2",
           "due_date": "2026-12-01",
           "it_score": 51,
           "source_name": "Los Angeles County CA — RAMP Open Bids"
         },
         {
-          "title": "Elevator Modernization and Maintenance at Art Snyder",
+          "title": "Elevator Modernization and Maintenance at Wyandotte Apts",
           "agency": "Housing Authority, City of Los Angeles",
           "state": "CA",
-          "url": "https://www.rampla.org/s/opportunity-details?id=006Ql00000o1RRBIA2",
+          "url": "https://www.rampla.org/s/opportunity-details?id=006Ql00000o1Sa9IAE",
           "due_date": "2026-12-01",
           "it_score": 51,
           "source_name": "Los Angeles County CA — RAMP Open Bids"
@@ -235,11 +245,11 @@
       "demand_score": 7,
       "examples": [
         {
-          "title": "RFB-IS-27200301 - Red Hat License Renewal - Brand Specific - Closing: 11/18/2026 12:00 PM",
+          "title": "RFQ 2026-35174897 - RFQ 2026-35174897 for Octopus Deploy Enterprise License - Closing: 11/24/2026 1:00 PM",
           "agency": "Los Angeles County",
           "state": "CA",
-          "url": "https://www.rampla.org/s/opportunity-details?id=006Ql00000o1Q27IAE",
-          "due_date": "2026-11-18",
+          "url": "https://www.rampla.org/s/opportunity-details?id=006Ql00000olsUoIAI",
+          "due_date": "2026-11-24",
           "it_score": 36,
           "source_name": "Los Angeles County CA — RAMP Open Bids"
         },
@@ -260,6 +270,36 @@
           "due_date": "2026-12-10",
           "it_score": 36,
           "source_name": "OpenGov — County of San Mateo, CA"
+        }
+      ]
+    },
+    {
+      "name": "ERP / Finance / HR",
+      "opportunity_count": 2,
+      "agency_count": 2,
+      "state_count": 1,
+      "states": [
+        "CA"
+      ],
+      "demand_score": 7,
+      "examples": [
+        {
+          "title": "RFP2358982691 ERP Requirement Development and Selection Support",
+          "agency": "LAUSD",
+          "state": "CA",
+          "url": "https://www.rampla.org/s/opportunity-details?id=006Ql00000nbbysIAA",
+          "due_date": "2026-12-01",
+          "it_score": 57,
+          "source_name": "Los Angeles County CA — RAMP Open Bids"
+        },
+        {
+          "title": "RFB-IS-27200357 - (ERP)THERAPY TRAINING EXPOSURE&RESPONSE PREVENTION - Closing: 11/30/2026 12:00 PM",
+          "agency": "Los Angeles County",
+          "state": "CA",
+          "url": "https://www.rampla.org/s/opportunity-details?id=006Ql00000ooOySIAU",
+          "due_date": "2026-11-30",
+          "it_score": 51,
+          "source_name": "Los Angeles County CA — RAMP Open Bids"
         }
       ]
     }
@@ -391,27 +431,6 @@
       ]
     },
     {
-      "id": "hf3r-utnq:232927",
-      "source_name": "Los Angeles County CA — RAMP Open Bids",
-      "title": "RFB-IS-27200309 - 733058-SOFTWARE- SAAS - IDENTITY MNGMT - OKTA (BRAND ONLY) - Closing: 11/18/2026 12:00 PM",
-      "description": "Commodity",
-      "agency": "Los Angeles County",
-      "state": "CA",
-      "url": "https://www.rampla.org/s/opportunity-details?id=006Ql00000o8hW3IAI",
-      "naics": "",
-      "psc": "",
-      "set_aside": "",
-      "posted_date": "2026-11-05",
-      "due_date": "2026-11-18",
-      "it_score": 72,
-      "is_new": false,
-      "first_seen": "2026-11-05",
-      "matched_keywords": [
-        "software",
-        "saas"
-      ]
-    },
-    {
       "id": "opengov:pasadena:316595",
       "source_name": "OpenGov — City of Pasadena, CA",
       "title": "Office Furniture",
@@ -475,6 +494,27 @@
       ]
     },
     {
+      "id": "hf3r-utnq:233152",
+      "source_name": "Los Angeles County CA — RAMP Open Bids",
+      "title": "RFB-IS-27200356 - 2710017-Talend SW (Data Integration ETL SW) Renewal - Closing: 11/30/2026 12:00 PM",
+      "description": "Commodity",
+      "agency": "Los Angeles County",
+      "state": "CA",
+      "url": "https://www.rampla.org/s/opportunity-details?id=006Ql00000ooOyPIAU",
+      "naics": "",
+      "psc": "",
+      "set_aside": "",
+      "posted_date": "2026-11-19",
+      "due_date": "2026-11-30",
+      "it_score": 57,
+      "is_new": true,
+      "first_seen": "2026-11-19",
+      "matched_keywords": [
+        "integration",
+        "data"
+      ]
+    },
+    {
       "id": "hf3r-utnq:232692",
       "source_name": "Los Angeles County CA — RAMP Open Bids",
       "title": "RFP2358982691 ERP Requirement Development and Selection Support",
@@ -530,7 +570,7 @@
       "posted_date": "2026-11-06",
       "due_date": "2026-12-16",
       "it_score": 57,
-      "is_new": true,
+      "is_new": false,
       "first_seen": "2026-11-18",
       "matched_keywords": [
         "software",
@@ -599,23 +639,23 @@
       ]
     },
     {
-      "id": "eshn-8t3a:SFGOV~0000012234",
-      "source_name": "San Francisco CA — Open Bids",
-      "title": "OCA LIB | TM3 Equidox Software Renewal",
-      "description": "Seeking Bids",
-      "agency": "Office of Contract Administration",
-      "state": "CA",
-      "url": "https://sfcitypartner.sfgov.org/pages/Events-BS3/event-details.aspx?Page=AUC_RESP_INQ_DTL&Action=U&AUC_ID=0000012234&AUC_ROUND=1&AUC_VERSION=1&BIDDER_ID=0000000001&BIDDER_LOC=1&BIDDER_SETID=SHARE&BIDDER_TYPE=B&BUSINESS_UNIT=SFGOV",
+      "id": "dg92-zbpx:20261113005",
+      "source_name": "New York City — City Record (Procurement)",
+      "title": "CB-QE25: Catch Basins Modernization the borough of Queens",
+      "description": "CB-QE25: Catch Basins Modernization the borough of Queens",
+      "agency": "Environmental Protection",
+      "state": "NY",
+      "url": "https://a856-cityrecord.nyc.gov/",
       "naics": "",
       "psc": "",
       "set_aside": "",
-      "posted_date": "2026-11-10",
-      "due_date": "2026-11-18",
+      "posted_date": "2026-11-19",
+      "due_date": "2026-11-19",
       "it_score": 51,
       "is_new": true,
-      "first_seen": "2026-11-18",
+      "first_seen": "2026-11-19",
       "matched_keywords": [
-        "software"
+        "modernization"
       ]
     },
     {
@@ -632,7 +672,7 @@
       "posted_date": "2026-11-13",
       "due_date": "2026-11-20",
       "it_score": 51,
-      "is_new": true,
+      "is_new": false,
       "first_seen": "2026-11-18",
       "matched_keywords": [
         "software"
@@ -672,7 +712,7 @@
       "posted_date": "2026-11-18",
       "due_date": "2026-11-24",
       "it_score": 51,
-      "is_new": true,
+      "is_new": false,
       "first_seen": "2026-11-18",
       "matched_keywords": [
         "software"
@@ -696,6 +736,26 @@
       "first_seen": "2026-10-03",
       "matched_keywords": [
         "modernization"
+      ]
+    },
+    {
+      "id": "hf3r-utnq:233155",
+      "source_name": "Los Angeles County CA — RAMP Open Bids",
+      "title": "RFB-IS-27200357 - (ERP)THERAPY TRAINING EXPOSURE&RESPONSE PREVENTION - Closing: 11/30/2026 12:00 PM",
+      "description": "Commodity",
+      "agency": "Los Angeles County",
+      "state": "CA",
+      "url": "https://www.rampla.org/s/opportunity-details?id=006Ql00000ooOySIAU",
+      "naics": "",
+      "psc": "",
+      "set_aside": "",
+      "posted_date": "2026-11-19",
+      "due_date": "2026-11-30",
+      "it_score": 51,
+      "is_new": true,
+      "first_seen": "2026-11-19",
+      "matched_keywords": [
+        "erp"
       ]
     },
     {
@@ -732,20 +792,20 @@
       "posted_date": "2026-11-18",
       "due_date": "2026-12-01",
       "it_score": 51,
-      "is_new": true,
+      "is_new": false,
       "first_seen": "2026-11-18",
       "matched_keywords": [
         "software"
       ]
     },
     {
-      "id": "hf3r-utnq:232845",
+      "id": "hf3r-utnq:232844",
       "source_name": "Los Angeles County CA — RAMP Open Bids",
-      "title": "Elevator Modernization and Maintenance at Wyandotte Apts",
+      "title": "Elevator Modernization and Maintenance at Art Snyder",
       "description": "Personal Services",
       "agency": "Housing Authority, City of Los Angeles",
       "state": "CA",
-      "url": "https://www.rampla.org/s/opportunity-details?id=006Ql00000o1Sa9IAE",
+      "url": "https://www.rampla.org/s/opportunity-details?id=006Ql00000o1RRBIA2",
       "naics": "",
       "psc": "",
       "set_aside": "",
@@ -759,13 +819,13 @@
       ]
     },
     {
-      "id": "hf3r-utnq:232844",
+      "id": "hf3r-utnq:232845",
       "source_name": "Los Angeles County CA — RAMP Open Bids",
-      "title": "Elevator Modernization and Maintenance at Art Snyder",
+      "title": "Elevator Modernization and Maintenance at Wyandotte Apts",
       "description": "Personal Services",
       "agency": "Housing Authority, City of Los Angeles",
       "state": "CA",
-      "url": "https://www.rampla.org/s/opportunity-details?id=006Ql00000o1RRBIA2",
+      "url": "https://www.rampla.org/s/opportunity-details?id=006Ql00000o1Sa9IAE",
       "naics": "",
       "psc": "",
       "set_aside": "",
@@ -979,24 +1039,6 @@
       ]
     },
     {
-      "id": "planetbids:15300:147581",
-      "source_name": "PlanetBids — City of Sacramento, CA",
-      "title": "State of the Sacramento Cultural Nonprofit Field Impact Report",
-      "description": "P27171811001",
-      "agency": "City of Sacramento, CA",
-      "state": "CA",
-      "url": "https://vendors.planetbids.com/portal/15300/bo/bo-detail/147581",
-      "naics": "",
-      "psc": "92002, 92021, 96207",
-      "set_aside": "",
-      "posted_date": "2026-10-23",
-      "due_date": "2026-11-18",
-      "it_score": 50,
-      "is_new": false,
-      "first_seen": "2026-10-24",
-      "matched_keywords": []
-    },
-    {
       "id": "planetbids:16151:147987",
       "source_name": "PlanetBids — Santa Clara Valley Water District, CA",
       "title": "REQUEST FOR BID - Trimm Brand DC Breaker Assemblies",
@@ -1082,7 +1124,7 @@
       "posted_date": "2026-11-17",
       "due_date": "2027-01-07",
       "it_score": 50,
-      "is_new": true,
+      "is_new": false,
       "first_seen": "2026-11-18",
       "matched_keywords": []
     },
@@ -1189,26 +1231,6 @@
       ]
     },
     {
-      "id": "hf3r-utnq:232842",
-      "source_name": "Los Angeles County CA — RAMP Open Bids",
-      "title": "RFB-IS-27200301 - Red Hat License Renewal - Brand Specific - Closing: 11/18/2026 12:00 PM",
-      "description": "Commodity",
-      "agency": "Los Angeles County",
-      "state": "CA",
-      "url": "https://www.rampla.org/s/opportunity-details?id=006Ql00000o1Q27IAE",
-      "naics": "",
-      "psc": "",
-      "set_aside": "",
-      "posted_date": "2026-11-03",
-      "due_date": "2026-11-18",
-      "it_score": 36,
-      "is_new": false,
-      "first_seen": "2026-11-03",
-      "matched_keywords": [
-        "license"
-      ]
-    },
-    {
       "id": "hf3r-utnq:232926",
       "source_name": "Los Angeles County CA — RAMP Open Bids",
       "title": "RFB-IS-27200300 - STARLINK SATELLITE EQUIPMENT AND DATA PLANS - 3-YEAR AGREEME - Closing: 11/19/2026 12:00 PM",
@@ -1249,6 +1271,26 @@
       ]
     },
     {
+      "id": "hf3r-utnq:233140",
+      "source_name": "Los Angeles County CA — RAMP Open Bids",
+      "title": "RFQ 2026-35174897 - RFQ 2026-35174897 for Octopus Deploy Enterprise License - Closing: 11/24/2026 1:00 PM",
+      "description": "Personal Services",
+      "agency": "Los Angeles County",
+      "state": "CA",
+      "url": "https://www.rampla.org/s/opportunity-details?id=006Ql00000olsUoIAI",
+      "naics": "",
+      "psc": "",
+      "set_aside": "",
+      "posted_date": "2026-11-18",
+      "due_date": "2026-11-24",
+      "it_score": 36,
+      "is_new": true,
+      "first_seen": "2026-11-19",
+      "matched_keywords": [
+        "license"
+      ]
+    },
+    {
       "id": "hf3r-utnq:232928",
       "source_name": "Los Angeles County CA — RAMP Open Bids",
       "title": "RFB-IS-27200311 - CASEGUARD STUDIO STANDARD LICENSE RENEWAL - Closing: 11/25/2026 12:00 PM",
@@ -1266,6 +1308,26 @@
       "first_seen": "2026-11-05",
       "matched_keywords": [
         "license"
+      ]
+    },
+    {
+      "id": "hf3r-utnq:233154",
+      "source_name": "Los Angeles County CA — RAMP Open Bids",
+      "title": "RFB-IS-27200339 - COMPUTER - STORAGE - NUTANIX NX-3460S-G10 - Closing: 12/2/2026 12:00 PM",
+      "description": "Commodity",
+      "agency": "Los Angeles County",
+      "state": "CA",
+      "url": "https://www.rampla.org/s/opportunity-details?id=006Ql00000ooOyRIAU",
+      "naics": "",
+      "psc": "",
+      "set_aside": "",
+      "posted_date": "2026-11-19",
+      "due_date": "2026-12-02",
+      "it_score": 36,
+      "is_new": true,
+      "first_seen": "2026-11-19",
+      "matched_keywords": [
+        "computer"
       ]
     },
     {
