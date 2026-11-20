@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-11-19T19:56:17.600401+00:00",
+  "generated_at": "2026-11-20T19:43:42.938028+00:00",
   "counts": {
-    "total": 53,
-    "new": 5
+    "total": 50,
+    "new": 1
   },
   "health": {
     "ok": 22,
@@ -11,13 +11,13 @@
       {
         "source": "Montgomery County MD — Solicitations",
         "ok": true,
-        "count": 26,
+        "count": 24,
         "error": ""
       },
       {
         "source": "Los Angeles County CA — RAMP Open Bids",
         "ok": true,
-        "count": 185,
+        "count": 183,
         "error": ""
       },
       {
@@ -107,25 +107,25 @@
       {
         "source": "PlanetBids",
         "ok": true,
-        "count": 60,
+        "count": 59,
         "error": ""
       },
       {
         "source": "OpenGov",
         "ok": true,
-        "count": 176,
+        "count": 169,
         "error": ""
       },
       {
         "source": "Washington DC — Solicitations (PASS)",
         "ok": true,
-        "count": 37,
+        "count": 39,
         "error": ""
       },
       {
         "source": "BidNet Direct",
         "ok": true,
-        "count": 22,
+        "count": 21,
         "error": ""
       },
       {
@@ -137,7 +137,7 @@
       {
         "source": "Bonfire",
         "ok": true,
-        "count": 6,
+        "count": 7,
         "error": ""
       },
       {
@@ -151,14 +151,13 @@
   "product_themes": [
     {
       "name": "Cloud Migration & Modernization",
-      "opportunity_count": 8,
-      "agency_count": 6,
-      "state_count": 2,
+      "opportunity_count": 7,
+      "agency_count": 5,
+      "state_count": 1,
       "states": [
-        "CA",
-        "NY"
+        "CA"
       ],
-      "demand_score": 20,
+      "demand_score": 16,
       "examples": [
         {
           "title": "PUC | TM3 - Satellite Website Migration RFP",
@@ -170,15 +169,6 @@
           "source_name": "San Francisco CA — Open Bids"
         },
         {
-          "title": "CB-QE25: Catch Basins Modernization the borough of Queens",
-          "agency": "Environmental Protection",
-          "state": "NY",
-          "url": "https://a856-cityrecord.nyc.gov/",
-          "due_date": "2026-11-19",
-          "it_score": 51,
-          "source_name": "New York City — City Record (Procurement)"
-        },
-        {
           "title": "RFP 902787 Elevator Condition Assessment & Modernization Plan",
           "agency": "County of Alameda, CA",
           "state": "CA",
@@ -188,19 +178,19 @@
           "source_name": "OpenGov — County of Alameda, CA"
         },
         {
-          "title": "Elevator Modernization and Maintenance at Art Snyder",
+          "title": "Elevator Modernization and Maintenance at Wyandotte Apts",
           "agency": "Housing Authority, City of Los Angeles",
           "state": "CA",
-          "url": "https://www.rampla.org/s/opportunity-details?id=006Ql00000o1RRBIA2",
+          "url": "https://www.rampla.org/s/opportunity-details?id=006Ql00000o1Sa9IAE",
           "due_date": "2026-12-01",
           "it_score": 51,
           "source_name": "Los Angeles County CA — RAMP Open Bids"
         },
         {
-          "title": "Elevator Modernization and Maintenance at Wyandotte Apts",
+          "title": "Elevator Modernization and Maintenance at Art Snyder",
           "agency": "Housing Authority, City of Los Angeles",
           "state": "CA",
-          "url": "https://www.rampla.org/s/opportunity-details?id=006Ql00000o1Sa9IAE",
+          "url": "https://www.rampla.org/s/opportunity-details?id=006Ql00000o1RRBIA2",
           "due_date": "2026-12-01",
           "it_score": 51,
           "source_name": "Los Angeles County CA — RAMP Open Bids"
@@ -431,27 +421,6 @@
       ]
     },
     {
-      "id": "opengov:pasadena:316595",
-      "source_name": "OpenGov — City of Pasadena, CA",
-      "title": "Office Furniture",
-      "description": "The Department of Information Technology is undertaking a facilities improvement project to enhance the functionality, comfort, and efficiency of its working environment. This project includes upgrading interior finishes—such as replacing worn carpeting—to create a modern, professional workspace that aligns with current departmental standards. In addition, existing work areas will be reconfigured and enhanced to better support current staffing levels and operational needs. A key component of this project is the modernization of employee workstations. Existing furniture systems will be replaced or modified to meet contemporary ergonomic standards, including the incorporation of sit‑stand functionality to promote employee wellness and productivity. These upgrades will ensure that the workspace supports both current and future operational requirements, improves overall user experience, and aligns with best practices for modern office environments. Please provide a cost proposal to furnish and install the following HON furniture items: (see attachment for detailed specification) Four (4) workstations, 5′-6″ × 6′-0″, with 49″-high panels and 15″-high frameless frosted glass at the locations shown on the plan. Three (3) workstations, 6′-6″ × 6′-0″, with 49″-high panels and 15″-high frameless frosted glass at the locations shown on the plan. One (1) L-shaped sit-stand desk, 72″ W × 78″ D, with all components shown in the furniture schedule. One (1) conference table, 72″ W × 36″ D. Fifteen (15) Herman Miller Aeron task chairs, Size B, black, or City-approved equal in accordance with Section 2.19. Include all applicable furniture, delivery, installation, and tax in the proposal. Carpet replacement will be performed separately and coordinated with furniture removal and installation.",
-      "agency": "City of Pasadena",
-      "state": "CA",
-      "url": "https://procurement.opengov.com/portal/pasadena/projects/316595",
-      "naics": "",
-      "psc": "",
-      "set_aside": "2026-Informal-0565",
-      "posted_date": "2026-10-13",
-      "due_date": "2026-11-19",
-      "it_score": 57,
-      "is_new": false,
-      "first_seen": "2026-11-11",
-      "matched_keywords": [
-        "modernization",
-        "information technology"
-      ]
-    },
-    {
       "id": "eshn-8t3a:SFGOV~0000012223",
       "source_name": "San Francisco CA — Open Bids",
       "title": "PUC | TM3 - Satellite Website Migration RFP",
@@ -473,27 +442,6 @@
       ]
     },
     {
-      "id": "opengov:smcgov:326049",
-      "source_name": "OpenGov — County of San Mateo, CA",
-      "title": "NCRIC Clearview AI Renewal 2027",
-      "description": "As fiduciary for the Northern California Regional Intelligence Center (NCRIC) the County of San Mateo is seeking quotations for annual renewal of the NCRIC's software and support subscription for the ClearviewAI platform. Please complete the Pricing Bid Table in section 3 and please also upload your competitive quotation including accurate lead times as well as any applicable freight and delivery costs for the items listed. Cost, conformity to specifications of goods, and product availability will be considered. After an evaluation of all quotations, a County purchase order is expected to be issued in association with the lowest, responsive bid received from a qualified, responsible, and manufacturer/publisher authorized vendor.",
-      "agency": "County of San Mateo",
-      "state": "CA",
-      "url": "https://procurement.opengov.com/portal/smcgov/projects/326049",
-      "naics": "",
-      "psc": "",
-      "set_aside": "",
-      "posted_date": "2026-11-13",
-      "due_date": "2026-11-28",
-      "it_score": 57,
-      "is_new": false,
-      "first_seen": "2026-11-17",
-      "matched_keywords": [
-        "software",
-        "ai"
-      ]
-    },
-    {
       "id": "hf3r-utnq:233152",
       "source_name": "Los Angeles County CA — RAMP Open Bids",
       "title": "RFB-IS-27200356 - 2710017-Talend SW (Data Integration ETL SW) Renewal - Closing: 11/30/2026 12:00 PM",
@@ -507,7 +455,7 @@
       "posted_date": "2026-11-19",
       "due_date": "2026-11-30",
       "it_score": 57,
-      "is_new": true,
+      "is_new": false,
       "first_seen": "2026-11-19",
       "matched_keywords": [
         "integration",
@@ -639,26 +587,6 @@
       ]
     },
     {
-      "id": "dg92-zbpx:20261113005",
-      "source_name": "New York City — City Record (Procurement)",
-      "title": "CB-QE25: Catch Basins Modernization the borough of Queens",
-      "description": "CB-QE25: Catch Basins Modernization the borough of Queens",
-      "agency": "Environmental Protection",
-      "state": "NY",
-      "url": "https://a856-cityrecord.nyc.gov/",
-      "naics": "",
-      "psc": "",
-      "set_aside": "",
-      "posted_date": "2026-11-19",
-      "due_date": "2026-11-19",
-      "it_score": 51,
-      "is_new": true,
-      "first_seen": "2026-11-19",
-      "matched_keywords": [
-        "modernization"
-      ]
-    },
-    {
       "id": "eshn-8t3a:SFGOV~0000012258",
       "source_name": "San Francisco CA — Open Bids",
       "title": "OCA POL | TM3 – Magnet Graykey Software Lic. RNWL",
@@ -752,7 +680,7 @@
       "posted_date": "2026-11-19",
       "due_date": "2026-11-30",
       "it_score": 51,
-      "is_new": true,
+      "is_new": false,
       "first_seen": "2026-11-19",
       "matched_keywords": [
         "erp"
@@ -799,13 +727,13 @@
       ]
     },
     {
-      "id": "hf3r-utnq:232844",
+      "id": "hf3r-utnq:232845",
       "source_name": "Los Angeles County CA — RAMP Open Bids",
-      "title": "Elevator Modernization and Maintenance at Art Snyder",
+      "title": "Elevator Modernization and Maintenance at Wyandotte Apts",
       "description": "Personal Services",
       "agency": "Housing Authority, City of Los Angeles",
       "state": "CA",
-      "url": "https://www.rampla.org/s/opportunity-details?id=006Ql00000o1RRBIA2",
+      "url": "https://www.rampla.org/s/opportunity-details?id=006Ql00000o1Sa9IAE",
       "naics": "",
       "psc": "",
       "set_aside": "",
@@ -819,13 +747,13 @@
       ]
     },
     {
-      "id": "hf3r-utnq:232845",
+      "id": "hf3r-utnq:232844",
       "source_name": "Los Angeles County CA — RAMP Open Bids",
-      "title": "Elevator Modernization and Maintenance at Wyandotte Apts",
+      "title": "Elevator Modernization and Maintenance at Art Snyder",
       "description": "Personal Services",
       "agency": "Housing Authority, City of Los Angeles",
       "state": "CA",
-      "url": "https://www.rampla.org/s/opportunity-details?id=006Ql00000o1Sa9IAE",
+      "url": "https://www.rampla.org/s/opportunity-details?id=006Ql00000o1RRBIA2",
       "naics": "",
       "psc": "",
       "set_aside": "",
@@ -1168,6 +1096,27 @@
       ]
     },
     {
+      "id": "dg92-zbpx:20261116005",
+      "source_name": "New York City — City Record (Procurement)",
+      "title": "Digital Mail Systems",
+      "description": "Digital Mail Systems",
+      "agency": "Citywide Administrative Services",
+      "state": "NY",
+      "url": "https://a856-cityrecord.nyc.gov/",
+      "naics": "",
+      "psc": "",
+      "set_aside": "",
+      "posted_date": "2026-11-20",
+      "due_date": "2026-11-20",
+      "it_score": 42,
+      "is_new": true,
+      "first_seen": "2026-11-20",
+      "matched_keywords": [
+        "systems",
+        "digital"
+      ]
+    },
+    {
       "id": "hf3r-utnq:232175",
       "source_name": "Los Angeles County CA — RAMP Open Bids",
       "title": "BCA Digitized Certification System Enhancement Project",
@@ -1231,26 +1180,6 @@
       ]
     },
     {
-      "id": "hf3r-utnq:232926",
-      "source_name": "Los Angeles County CA — RAMP Open Bids",
-      "title": "RFB-IS-27200300 - STARLINK SATELLITE EQUIPMENT AND DATA PLANS - 3-YEAR AGREEME - Closing: 11/19/2026 12:00 PM",
-      "description": "Commodity",
-      "agency": "Los Angeles County",
-      "state": "CA",
-      "url": "https://www.rampla.org/s/opportunity-details?id=006Ql00000o8hW2IAI",
-      "naics": "",
-      "psc": "",
-      "set_aside": "",
-      "posted_date": "2026-11-05",
-      "due_date": "2026-11-19",
-      "it_score": 36,
-      "is_new": false,
-      "first_seen": "2026-11-05",
-      "matched_keywords": [
-        "data"
-      ]
-    },
-    {
       "id": "hf3r-utnq:233006",
       "source_name": "Los Angeles County CA — RAMP Open Bids",
       "title": "RFB-IS-27200306 - COMPUTER - PROFESSIONAL SERVICES - NETAPP - Closing: 11/23/2026 12:00 PM",
@@ -1284,7 +1213,7 @@
       "posted_date": "2026-11-18",
       "due_date": "2026-11-24",
       "it_score": 36,
-      "is_new": true,
+      "is_new": false,
       "first_seen": "2026-11-19",
       "matched_keywords": [
         "license"
@@ -1324,7 +1253,7 @@
       "posted_date": "2026-11-19",
       "due_date": "2026-12-02",
       "it_score": 36,
-      "is_new": true,
+      "is_new": false,
       "first_seen": "2026-11-19",
       "matched_keywords": [
         "computer"
