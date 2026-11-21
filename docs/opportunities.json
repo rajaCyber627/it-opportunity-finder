@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-11-20T19:43:42.938028+00:00",
+  "generated_at": "2026-11-21T18:39:39.272150+00:00",
   "counts": {
-    "total": 50,
-    "new": 1
+    "total": 47,
+    "new": 3
   },
   "health": {
     "ok": 22,
@@ -17,7 +17,7 @@
       {
         "source": "Los Angeles County CA — RAMP Open Bids",
         "ok": true,
-        "count": 183,
+        "count": 188,
         "error": ""
       },
       {
@@ -113,25 +113,25 @@
       {
         "source": "OpenGov",
         "ok": true,
-        "count": 169,
+        "count": 160,
         "error": ""
       },
       {
         "source": "Washington DC — Solicitations (PASS)",
         "ok": true,
-        "count": 39,
+        "count": 45,
         "error": ""
       },
       {
         "source": "BidNet Direct",
         "ok": true,
-        "count": 21,
+        "count": 19,
         "error": ""
       },
       {
         "source": "Biddingo",
         "ok": true,
-        "count": 26,
+        "count": 25,
         "error": ""
       },
       {
@@ -151,23 +151,14 @@
   "product_themes": [
     {
       "name": "Cloud Migration & Modernization",
-      "opportunity_count": 7,
-      "agency_count": 5,
+      "opportunity_count": 6,
+      "agency_count": 4,
       "state_count": 1,
       "states": [
         "CA"
       ],
-      "demand_score": 16,
+      "demand_score": 13,
       "examples": [
-        {
-          "title": "PUC | TM3 - Satellite Website Migration RFP",
-          "agency": "Public Utilities Commission",
-          "state": "CA",
-          "url": "https://sfcitypartner.sfgov.org/pages/Events-BS3/event-details.aspx?Page=AUC_RESP_INQ_DTL&Action=U&AUC_ID=0000012223&AUC_ROUND=1&AUC_VERSION=1&BIDDER_ID=0000000001&BIDDER_LOC=1&BIDDER_SETID=SHARE&BIDDER_TYPE=B&BUSINESS_UNIT=SFGOV",
-          "due_date": "2026-11-20",
-          "it_score": 57,
-          "source_name": "San Francisco CA — Open Bids"
-        },
         {
           "title": "RFP 902787 Elevator Condition Assessment & Modernization Plan",
           "agency": "County of Alameda, CA",
@@ -421,24 +412,25 @@
       ]
     },
     {
-      "id": "eshn-8t3a:SFGOV~0000012223",
-      "source_name": "San Francisco CA — Open Bids",
-      "title": "PUC | TM3 - Satellite Website Migration RFP",
-      "description": "Seeking Bids",
-      "agency": "Public Utilities Commission",
+      "id": "opengov:smcgov:328167",
+      "source_name": "OpenGov — County of San Mateo, CA",
+      "title": "ServiceNow Maintenance - Reissued",
+      "description": "The County of San Mateo is seeking quotations for: ServiceNow Maintenance Services. The San Mateo County Sheriff’s Office utilizes a custom-built portal in ServiceNow for all Fiscal, Training, and Technical Services Unit related requests which are routed to each respective bureau. This system incorporates detailed workflows, approvals, and County and Sheriff’s Office procurement, training, and invoicing policies and procedures. Contractor must adhere to County Technology Services Department change request schedule and process. Contractor will provide upkeep, maintenance, and enhancements as needed to the ServiceNow application. Enhancements include, but are not limited to: Integration of Docusign electronic signature capability. Adjustments to existing approval workflows. Adjustments to existing PDF document generation functionality. Adjustments to existing email notifications. Creation of additional dashboards and reports. General administrative and support tasks, including: User roles and permissions Group management Changes to assignment and routing Manual case data updates as required. PREFERRED QUALIFICATIONS: Contractor must have provided ongoing ServiceNow maintenance for a customized platform for a local government entity for at least two years – preferably for a law enforcement agency. FEE: Costs should be billed at a flat hourly rate. Total hours will be shared between the Sheriff's Office Fiscal Bureau, Technical Services Unit, and Training Unit. Please complete the Pricing Bid Table in section 3 and please also upload your competitive pricing proposal. Proposals will be scored on Relevant Experience and Qualifications, Technical Expertise and Service Capabilities, Customer Support and Service Responsiveness, and Price/Hourly Rate.",
+      "agency": "County of San Mateo",
       "state": "CA",
-      "url": "https://sfcitypartner.sfgov.org/pages/Events-BS3/event-details.aspx?Page=AUC_RESP_INQ_DTL&Action=U&AUC_ID=0000012223&AUC_ROUND=1&AUC_VERSION=1&BIDDER_ID=0000000001&BIDDER_LOC=1&BIDDER_SETID=SHARE&BIDDER_TYPE=B&BUSINESS_UNIT=SFGOV",
+      "url": "https://procurement.opengov.com/portal/smcgov/projects/328167",
       "naics": "",
       "psc": "",
-      "set_aside": "",
-      "posted_date": "2026-11-05",
-      "due_date": "2026-11-20",
-      "it_score": 57,
-      "is_new": false,
-      "first_seen": "2026-11-09",
+      "set_aside": "2027-RFP-Informal-00246",
+      "posted_date": "2026-11-20",
+      "due_date": "2026-12-05",
+      "it_score": 63,
+      "is_new": true,
+      "first_seen": "2026-11-21",
       "matched_keywords": [
-        "migration",
-        "website"
+        "application",
+        "integration",
+        "servicenow"
       ]
     },
     {
@@ -584,26 +576,6 @@
       "first_seen": "2026-10-16",
       "matched_keywords": [
         "development"
-      ]
-    },
-    {
-      "id": "eshn-8t3a:SFGOV~0000012258",
-      "source_name": "San Francisco CA — Open Bids",
-      "title": "OCA POL | TM3 – Magnet Graykey Software Lic. RNWL",
-      "description": "Seeking Bids",
-      "agency": "Office of Contract Administration",
-      "state": "CA",
-      "url": "https://sfcitypartner.sfgov.org/pages/Events-BS3/event-details.aspx?Page=AUC_RESP_INQ_DTL&Action=U&AUC_ID=0000012258&AUC_ROUND=1&AUC_VERSION=1&BIDDER_ID=0000000001&BIDDER_LOC=1&BIDDER_SETID=SHARE&BIDDER_TYPE=B&BUSINESS_UNIT=SFGOV",
-      "naics": "",
-      "psc": "",
-      "set_aside": "",
-      "posted_date": "2026-11-13",
-      "due_date": "2026-11-20",
-      "it_score": 51,
-      "is_new": false,
-      "first_seen": "2026-11-18",
-      "matched_keywords": [
-        "software"
       ]
     },
     {
@@ -764,26 +736,6 @@
       "first_seen": "2026-11-03",
       "matched_keywords": [
         "modernization"
-      ]
-    },
-    {
-      "id": "opengov:smcgov:276382",
-      "source_name": "OpenGov — County of San Mateo, CA",
-      "title": "Remote Accessible Vote by Mail Ballots, Accessible Sample Ballot, UOCAVA ballots",
-      "description": "The County of San Mateo (the County or SMC) covers most of the San Francisco Peninsula. The region covers 744 mi and is home to nearly 800,000 residents and 20 incorporated cities. The County provides for the health and welfare of all people within its borders and serves as the local government for the unincorporated areas. Innovation thrives here in industries including bioscience, computer software, green technology, hospitality, financial management, health care, education and transportation. The County prides itself on how that prosperity fosters its commitment to protecting and enhancing the health, safety, welfare and natural resources of the community. The Registration & Elections Division (Division) is a division of the Assessor-County Clerk-Recorder-Elections (ACRE) in the County of San Mateo. The Division is responsible for registering all voters and conducting fair and accurate elections for cities, schools, and special districts. The Division is seeking find a vendor for three different system related to providing ballots and sample ballots and voter information guides. Remote Accessible Vote by Mail system - California Secretary of State certified system to provide Remote Accessible Vote by Mail ballots to all voters UOCAVA ballot system - Enable overseas and military voters to log in and download their ballot and ballot packet Accessible Sample Ballot system - Provide website to host the county's sample ballot and voter information guides in an WCAG accessible format County would prefer to use one vendor for all three services but is open to using different vendors.",
-      "agency": "County of San Mateo",
-      "state": "CA",
-      "url": "https://procurement.opengov.com/portal/smcgov/projects/276382",
-      "naics": "",
-      "psc": "",
-      "set_aside": "",
-      "posted_date": "2026-06-17",
-      "due_date": "2026-12-01",
-      "it_score": 51,
-      "is_new": false,
-      "first_seen": "2026-11-13",
-      "matched_keywords": [
-        "software"
       ]
     },
     {
@@ -1075,66 +1027,24 @@
       "matched_keywords": []
     },
     {
-      "id": "eeq6-nnwe:1200288",
-      "source_name": "Montgomery County MD — Solicitations",
-      "title": "Digital Data Logger Purchases, Recalibration, Repair, and Maintenance",
-      "description": "Digital Data Logger Purchases, Recalibration, Repair, and Maintenance",
-      "agency": "Department of Health & Human Svcs",
-      "state": "MD",
-      "url": "https://www.montgomerycountymd.gov/office-procurement/solicitations-contracts",
-      "naics": "",
-      "psc": "",
-      "set_aside": "N",
-      "posted_date": "2026-10-19",
-      "due_date": "2026-11-20",
-      "it_score": 42,
-      "is_new": false,
-      "first_seen": "2026-10-09",
-      "matched_keywords": [
-        "data",
-        "digital"
-      ]
-    },
-    {
-      "id": "dg92-zbpx:20261116005",
-      "source_name": "New York City — City Record (Procurement)",
-      "title": "Digital Mail Systems",
-      "description": "Digital Mail Systems",
-      "agency": "Citywide Administrative Services",
-      "state": "NY",
-      "url": "https://a856-cityrecord.nyc.gov/",
+      "id": "hf3r-utnq:233203",
+      "source_name": "Los Angeles County CA — RAMP Open Bids",
+      "title": "RFB-IS-27200345 - Imperva Web Application Firewall (WAF) & Services Renewal - Closing: 12/4/2026 12:00 PM",
+      "description": "Commodity",
+      "agency": "Los Angeles County",
+      "state": "CA",
+      "url": "https://www.rampla.org/s/opportunity-details?id=006Ql00000oueIwIAI",
       "naics": "",
       "psc": "",
       "set_aside": "",
-      "posted_date": "2026-11-20",
-      "due_date": "2026-11-20",
+      "posted_date": "2026-11-21",
+      "due_date": "2026-12-04",
       "it_score": 42,
       "is_new": true,
-      "first_seen": "2026-11-20",
+      "first_seen": "2026-11-21",
       "matched_keywords": [
-        "systems",
-        "digital"
-      ]
-    },
-    {
-      "id": "hf3r-utnq:232175",
-      "source_name": "Los Angeles County CA — RAMP Open Bids",
-      "title": "BCA Digitized Certification System Enhancement Project",
-      "description": "Personal Services",
-      "agency": "Information Technology Agency",
-      "state": "CA",
-      "url": "https://www.rampla.org/s/opportunity-details?id=006Ql00000m1BiXIAU",
-      "naics": "",
-      "psc": "",
-      "set_aside": "",
-      "posted_date": "2026-10-14",
-      "due_date": "2026-11-24",
-      "it_score": 42,
-      "is_new": false,
-      "first_seen": "2026-10-15",
-      "matched_keywords": [
-        "system",
-        "information technology"
+        "application",
+        "web"
       ]
     },
     {
@@ -1277,6 +1187,26 @@
       "first_seen": "2026-10-29",
       "matched_keywords": [
         "automation"
+      ]
+    },
+    {
+      "id": "arcgis:Doc852656",
+      "source_name": "Washington DC — Solicitations (PASS)",
+      "title": "MPD Integrated Transportation Safety Research, Data Analysis, MCSAP Program Management & Evaluation Services",
+      "description": "MPD Integrated Transportation Safety Research, Data Analysis, MCSAP Program Management & Evaluation Services",
+      "agency": "Metropolitan Police Department",
+      "state": "DC",
+      "url": "https://ocp.dc.gov/service/solicitations",
+      "naics": "",
+      "psc": "",
+      "set_aside": "",
+      "posted_date": "",
+      "due_date": "2026-12-04",
+      "it_score": 36,
+      "is_new": true,
+      "first_seen": "2026-11-21",
+      "matched_keywords": [
+        "data"
       ]
     },
     {
