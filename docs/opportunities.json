@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-11-21T18:39:39.272150+00:00",
+  "generated_at": "2026-11-22T18:59:57.878835+00:00",
   "counts": {
     "total": 47,
-    "new": 3
+    "new": 0
   },
   "health": {
     "ok": 22,
@@ -17,7 +17,7 @@
       {
         "source": "Los Angeles County CA — RAMP Open Bids",
         "ok": true,
-        "count": 188,
+        "count": 192,
         "error": ""
       },
       {
@@ -169,19 +169,19 @@
           "source_name": "OpenGov — County of Alameda, CA"
         },
         {
-          "title": "Elevator Modernization and Maintenance at Wyandotte Apts",
+          "title": "Elevator Modernization and Maintenance at Art Snyder",
           "agency": "Housing Authority, City of Los Angeles",
           "state": "CA",
-          "url": "https://www.rampla.org/s/opportunity-details?id=006Ql00000o1Sa9IAE",
+          "url": "https://www.rampla.org/s/opportunity-details?id=006Ql00000o1RRBIA2",
           "due_date": "2026-12-01",
           "it_score": 51,
           "source_name": "Los Angeles County CA — RAMP Open Bids"
         },
         {
-          "title": "Elevator Modernization and Maintenance at Art Snyder",
+          "title": "Elevator Modernization and Maintenance at Wyandotte Apts",
           "agency": "Housing Authority, City of Los Angeles",
           "state": "CA",
-          "url": "https://www.rampla.org/s/opportunity-details?id=006Ql00000o1RRBIA2",
+          "url": "https://www.rampla.org/s/opportunity-details?id=006Ql00000o1Sa9IAE",
           "due_date": "2026-12-01",
           "it_score": 51,
           "source_name": "Los Angeles County CA — RAMP Open Bids"
@@ -425,7 +425,7 @@
       "posted_date": "2026-11-20",
       "due_date": "2026-12-05",
       "it_score": 63,
-      "is_new": true,
+      "is_new": false,
       "first_seen": "2026-11-21",
       "matched_keywords": [
         "application",
@@ -699,13 +699,13 @@
       ]
     },
     {
-      "id": "hf3r-utnq:232845",
+      "id": "hf3r-utnq:232844",
       "source_name": "Los Angeles County CA — RAMP Open Bids",
-      "title": "Elevator Modernization and Maintenance at Wyandotte Apts",
+      "title": "Elevator Modernization and Maintenance at Art Snyder",
       "description": "Personal Services",
       "agency": "Housing Authority, City of Los Angeles",
       "state": "CA",
-      "url": "https://www.rampla.org/s/opportunity-details?id=006Ql00000o1Sa9IAE",
+      "url": "https://www.rampla.org/s/opportunity-details?id=006Ql00000o1RRBIA2",
       "naics": "",
       "psc": "",
       "set_aside": "",
@@ -719,13 +719,13 @@
       ]
     },
     {
-      "id": "hf3r-utnq:232844",
+      "id": "hf3r-utnq:232845",
       "source_name": "Los Angeles County CA — RAMP Open Bids",
-      "title": "Elevator Modernization and Maintenance at Art Snyder",
+      "title": "Elevator Modernization and Maintenance at Wyandotte Apts",
       "description": "Personal Services",
       "agency": "Housing Authority, City of Los Angeles",
       "state": "CA",
-      "url": "https://www.rampla.org/s/opportunity-details?id=006Ql00000o1RRBIA2",
+      "url": "https://www.rampla.org/s/opportunity-details?id=006Ql00000o1Sa9IAE",
       "naics": "",
       "psc": "",
       "set_aside": "",
@@ -1040,7 +1040,7 @@
       "posted_date": "2026-11-21",
       "due_date": "2026-12-04",
       "it_score": 42,
-      "is_new": true,
+      "is_new": false,
       "first_seen": "2026-11-21",
       "matched_keywords": [
         "application",
@@ -1203,7 +1203,7 @@
       "posted_date": "",
       "due_date": "2026-12-04",
       "it_score": 36,
-      "is_new": true,
+      "is_new": false,
       "first_seen": "2026-11-21",
       "matched_keywords": [
         "data"
