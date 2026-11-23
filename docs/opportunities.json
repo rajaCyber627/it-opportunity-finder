@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-11-22T18:59:57.878835+00:00",
+  "generated_at": "2026-11-23T23:20:28.190030+00:00",
   "counts": {
-    "total": 47,
-    "new": 0
+    "total": 55,
+    "new": 10
   },
   "health": {
     "ok": 22,
@@ -17,13 +17,13 @@
       {
         "source": "Los Angeles County CA — RAMP Open Bids",
         "ok": true,
-        "count": 192,
+        "count": 186,
         "error": ""
       },
       {
         "source": "San Francisco CA — Open Bids",
         "ok": true,
-        "count": 51,
+        "count": 37,
         "error": ""
       },
       {
@@ -107,25 +107,25 @@
       {
         "source": "PlanetBids",
         "ok": true,
-        "count": 59,
+        "count": 60,
         "error": ""
       },
       {
         "source": "OpenGov",
         "ok": true,
-        "count": 160,
+        "count": 162,
         "error": ""
       },
       {
         "source": "Washington DC — Solicitations (PASS)",
         "ok": true,
-        "count": 45,
+        "count": 47,
         "error": ""
       },
       {
         "source": "BidNet Direct",
         "ok": true,
-        "count": 19,
+        "count": 20,
         "error": ""
       },
       {
@@ -151,7 +151,7 @@
   "product_themes": [
     {
       "name": "Cloud Migration & Modernization",
-      "opportunity_count": 6,
+      "opportunity_count": 7,
       "agency_count": 4,
       "state_count": 1,
       "states": [
@@ -169,19 +169,19 @@
           "source_name": "OpenGov — County of Alameda, CA"
         },
         {
-          "title": "Elevator Modernization and Maintenance at Art Snyder",
+          "title": "Elevator Modernization and Maintenance at Wyandotte Apts",
           "agency": "Housing Authority, City of Los Angeles",
           "state": "CA",
-          "url": "https://www.rampla.org/s/opportunity-details?id=006Ql00000o1RRBIA2",
+          "url": "https://www.rampla.org/s/opportunity-details?id=006Ql00000o1Sa9IAE",
           "due_date": "2026-12-01",
           "it_score": 51,
           "source_name": "Los Angeles County CA — RAMP Open Bids"
         },
         {
-          "title": "Elevator Modernization and Maintenance at Wyandotte Apts",
+          "title": "Elevator Modernization and Maintenance at Art Snyder",
           "agency": "Housing Authority, City of Los Angeles",
           "state": "CA",
-          "url": "https://www.rampla.org/s/opportunity-details?id=006Ql00000o1Sa9IAE",
+          "url": "https://www.rampla.org/s/opportunity-details?id=006Ql00000o1RRBIA2",
           "due_date": "2026-12-01",
           "it_score": 51,
           "source_name": "Los Angeles County CA — RAMP Open Bids"
@@ -194,6 +194,15 @@
           "due_date": "2026-12-08",
           "it_score": 51,
           "source_name": "OpenGov — County of San Mateo, CA"
+        },
+        {
+          "title": "FORMAL 2710075 EDWIN MARKHAM MS WALK-IN FREEZER MODERNIZATION (PSA)",
+          "agency": "LAUSD",
+          "state": "CA",
+          "url": "https://www.rampla.org/s/opportunity-details?id=006Ql00000oytmPIAQ",
+          "due_date": "2026-12-16",
+          "it_score": 51,
+          "source_name": "Los Angeles County CA — RAMP Open Bids"
         },
         {
           "title": "DESIGN BUILD | RFQ # R-27016 - 107TH STREET ELEMENTARY | SEISMIC MODERNIZATION PROJECT",
@@ -217,14 +226,23 @@
     },
     {
       "name": "Permitting & Licensing",
-      "opportunity_count": 3,
-      "agency_count": 2,
+      "opportunity_count": 5,
+      "agency_count": 3,
       "state_count": 1,
       "states": [
         "CA"
       ],
-      "demand_score": 7,
+      "demand_score": 10,
       "examples": [
+        {
+          "title": "OCA DT | TM3 - Sectigo Software License",
+          "agency": "Office of Contract Administration",
+          "state": "CA",
+          "url": "https://sfcitypartner.sfgov.org/pages/Events-BS3/event-details.aspx?Page=AUC_RESP_INQ_DTL&Action=U&AUC_ID=0000012256&AUC_ROUND=1&AUC_VERSION=1&BIDDER_ID=0000000001&BIDDER_LOC=1&BIDDER_SETID=SHARE&BIDDER_TYPE=B&BUSINESS_UNIT=SFGOV",
+          "due_date": "2026-11-24",
+          "it_score": 57,
+          "source_name": "San Francisco CA — Open Bids"
+        },
         {
           "title": "RFQ 2026-35174897 - RFQ 2026-35174897 for Octopus Deploy Enterprise License - Closing: 11/24/2026 1:00 PM",
           "agency": "Los Angeles County",
@@ -242,6 +260,15 @@
           "due_date": "2026-11-25",
           "it_score": 36,
           "source_name": "Los Angeles County CA — RAMP Open Bids"
+        },
+        {
+          "title": "OCA PUC | TM3 Crowdstrike Falcon License Renewal",
+          "agency": "Office of Contract Administration",
+          "state": "CA",
+          "url": "https://sfcitypartner.sfgov.org/pages/Events-BS3/event-details.aspx?Page=AUC_RESP_INQ_DTL&Action=U&AUC_ID=0000012274&AUC_ROUND=1&AUC_VERSION=1&BIDDER_ID=0000000001&BIDDER_LOC=1&BIDDER_SETID=SHARE&BIDDER_TYPE=B&BUSINESS_UNIT=SFGOV",
+          "due_date": "2026-11-25",
+          "it_score": 36,
+          "source_name": "San Francisco CA — Open Bids"
         },
         {
           "title": "Asbestos Abatement w/ Hazardous Materials Job Order Contracts (JOC 2720 and 2721) - Class C21/C22 License",
@@ -434,6 +461,27 @@
       ]
     },
     {
+      "id": "eshn-8t3a:SFGOV~0000012256",
+      "source_name": "San Francisco CA — Open Bids",
+      "title": "OCA DT | TM3 - Sectigo Software License",
+      "description": "Seeking Bids",
+      "agency": "Office of Contract Administration",
+      "state": "CA",
+      "url": "https://sfcitypartner.sfgov.org/pages/Events-BS3/event-details.aspx?Page=AUC_RESP_INQ_DTL&Action=U&AUC_ID=0000012256&AUC_ROUND=1&AUC_VERSION=1&BIDDER_ID=0000000001&BIDDER_LOC=1&BIDDER_SETID=SHARE&BIDDER_TYPE=B&BUSINESS_UNIT=SFGOV",
+      "naics": "",
+      "psc": "",
+      "set_aside": "",
+      "posted_date": "2026-11-17",
+      "due_date": "2026-11-24",
+      "it_score": 57,
+      "is_new": true,
+      "first_seen": "2026-11-23",
+      "matched_keywords": [
+        "software",
+        "license"
+      ]
+    },
+    {
       "id": "hf3r-utnq:233152",
       "source_name": "Los Angeles County CA — RAMP Open Bids",
       "title": "RFB-IS-27200356 - 2710017-Talend SW (Data Integration ETL SW) Renewal - Closing: 11/30/2026 12:00 PM",
@@ -579,23 +627,23 @@
       ]
     },
     {
-      "id": "hf3r-utnq:233110",
-      "source_name": "Los Angeles County CA — RAMP Open Bids",
-      "title": "RFB-IS-27200335 - 1095677-CALABRIO SOFTWARE MAINTENANCE AND SUPPORT RENEWAL - - Closing: 11/23/2026 12:00 PM",
-      "description": "Commodity",
-      "agency": "Los Angeles County",
+      "id": "eshn-8t3a:SFGOV~0000012263",
+      "source_name": "San Francisco CA — Open Bids",
+      "title": "OCA LIB | TM3 – Java SW & HW Maint, Renewal",
+      "description": "Seeking Bids",
+      "agency": "Office of Contract Administration",
       "state": "CA",
-      "url": "https://www.rampla.org/s/opportunity-details?id=006Ql00000ogsf8IAA",
+      "url": "https://sfcitypartner.sfgov.org/pages/Events-BS3/event-details.aspx?Page=AUC_RESP_INQ_DTL&Action=U&AUC_ID=0000012263&AUC_ROUND=1&AUC_VERSION=1&BIDDER_ID=0000000001&BIDDER_LOC=1&BIDDER_SETID=SHARE&BIDDER_TYPE=B&BUSINESS_UNIT=SFGOV",
       "naics": "",
       "psc": "",
       "set_aside": "",
-      "posted_date": "2026-11-17",
+      "posted_date": "2026-11-16",
       "due_date": "2026-11-23",
       "it_score": 51,
-      "is_new": false,
-      "first_seen": "2026-11-17",
+      "is_new": true,
+      "first_seen": "2026-11-23",
       "matched_keywords": [
-        "software"
+        "java"
       ]
     },
     {
@@ -614,6 +662,26 @@
       "it_score": 51,
       "is_new": false,
       "first_seen": "2026-11-18",
+      "matched_keywords": [
+        "software"
+      ]
+    },
+    {
+      "id": "eshn-8t3a:SFGOV~0000012272",
+      "source_name": "San Francisco CA — Open Bids",
+      "title": "OCA DT | TM3- IDC Quanta Software Subscription",
+      "description": "Seeking Bids",
+      "agency": "Office of Contract Administration",
+      "state": "CA",
+      "url": "https://sfcitypartner.sfgov.org/pages/Events-BS3/event-details.aspx?Page=AUC_RESP_INQ_DTL&Action=U&AUC_ID=0000012272&AUC_ROUND=1&AUC_VERSION=1&BIDDER_ID=0000000001&BIDDER_LOC=1&BIDDER_SETID=SHARE&BIDDER_TYPE=B&BUSINESS_UNIT=SFGOV",
+      "naics": "",
+      "psc": "",
+      "set_aside": "",
+      "posted_date": "2026-11-19",
+      "due_date": "2026-11-24",
+      "it_score": 51,
+      "is_new": true,
+      "first_seen": "2026-11-23",
       "matched_keywords": [
         "software"
       ]
@@ -679,6 +747,26 @@
       ]
     },
     {
+      "id": "eshn-8t3a:SFGOV~0000012277",
+      "source_name": "San Francisco CA — Open Bids",
+      "title": "OCA DT | TM3 Trinzic 1425 Software Subscription",
+      "description": "Seeking Bids",
+      "agency": "Office of Contract Administration",
+      "state": "CA",
+      "url": "https://sfcitypartner.sfgov.org/pages/Events-BS3/event-details.aspx?Page=AUC_RESP_INQ_DTL&Action=U&AUC_ID=0000012277&AUC_ROUND=1&AUC_VERSION=1&BIDDER_ID=0000000001&BIDDER_LOC=1&BIDDER_SETID=SHARE&BIDDER_TYPE=B&BUSINESS_UNIT=SFGOV",
+      "naics": "",
+      "psc": "",
+      "set_aside": "",
+      "posted_date": "2026-11-19",
+      "due_date": "2026-11-30",
+      "it_score": 51,
+      "is_new": true,
+      "first_seen": "2026-11-23",
+      "matched_keywords": [
+        "software"
+      ]
+    },
+    {
       "id": "hf3r-utnq:233130",
       "source_name": "Los Angeles County CA — RAMP Open Bids",
       "title": "RFB-IS-27200347 - 2709007 SOFTWARE - MAINTENANCE - ANNUAL RENEWAL - CONDUSIV - Closing: 12/1/2026 12:00 PM",
@@ -699,13 +787,13 @@
       ]
     },
     {
-      "id": "hf3r-utnq:232844",
+      "id": "hf3r-utnq:232845",
       "source_name": "Los Angeles County CA — RAMP Open Bids",
-      "title": "Elevator Modernization and Maintenance at Art Snyder",
+      "title": "Elevator Modernization and Maintenance at Wyandotte Apts",
       "description": "Personal Services",
       "agency": "Housing Authority, City of Los Angeles",
       "state": "CA",
-      "url": "https://www.rampla.org/s/opportunity-details?id=006Ql00000o1RRBIA2",
+      "url": "https://www.rampla.org/s/opportunity-details?id=006Ql00000o1Sa9IAE",
       "naics": "",
       "psc": "",
       "set_aside": "",
@@ -719,13 +807,13 @@
       ]
     },
     {
-      "id": "hf3r-utnq:232845",
+      "id": "hf3r-utnq:232844",
       "source_name": "Los Angeles County CA — RAMP Open Bids",
-      "title": "Elevator Modernization and Maintenance at Wyandotte Apts",
+      "title": "Elevator Modernization and Maintenance at Art Snyder",
       "description": "Personal Services",
       "agency": "Housing Authority, City of Los Angeles",
       "state": "CA",
-      "url": "https://www.rampla.org/s/opportunity-details?id=006Ql00000o1Sa9IAE",
+      "url": "https://www.rampla.org/s/opportunity-details?id=006Ql00000o1RRBIA2",
       "naics": "",
       "psc": "",
       "set_aside": "",
@@ -839,6 +927,26 @@
       ]
     },
     {
+      "id": "hf3r-utnq:233214",
+      "source_name": "Los Angeles County CA — RAMP Open Bids",
+      "title": "FORMAL 2710075 EDWIN MARKHAM MS WALK-IN FREEZER MODERNIZATION (PSA)",
+      "description": "Construction",
+      "agency": "LAUSD",
+      "state": "CA",
+      "url": "https://www.rampla.org/s/opportunity-details?id=006Ql00000oytmPIAQ",
+      "naics": "",
+      "psc": "",
+      "set_aside": "",
+      "posted_date": "2026-11-23",
+      "due_date": "2026-12-16",
+      "it_score": 51,
+      "is_new": true,
+      "first_seen": "2026-11-23",
+      "matched_keywords": [
+        "modernization"
+      ]
+    },
+    {
       "id": "hf3r-utnq:232553",
       "source_name": "Los Angeles County CA — RAMP Open Bids",
       "title": "DESIGN BUILD | RFQ # R-27016 - 107TH STREET ELEMENTARY | SEISMIC MODERNIZATION PROJECT",
@@ -859,6 +967,26 @@
       ]
     },
     {
+      "id": "eshn-8t3a:SFGOV~0000011961",
+      "source_name": "San Francisco CA — Open Bids",
+      "title": "PUC | TM3 - Kahua Software and Implementation",
+      "description": "Seeking Bids",
+      "agency": "Public Utilities Commission",
+      "state": "CA",
+      "url": "https://sfcitypartner.sfgov.org/pages/Events-BS3/event-details.aspx?Page=AUC_RESP_INQ_DTL&Action=U&AUC_ID=0000011961&AUC_ROUND=1&AUC_VERSION=1&BIDDER_ID=0000000001&BIDDER_LOC=1&BIDDER_SETID=SHARE&BIDDER_TYPE=B&BUSINESS_UNIT=SFGOV",
+      "naics": "",
+      "psc": "",
+      "set_aside": "",
+      "posted_date": "2026-11-20",
+      "due_date": "2026-12-22",
+      "it_score": 51,
+      "is_new": true,
+      "first_seen": "2026-11-23",
+      "matched_keywords": [
+        "software"
+      ]
+    },
+    {
       "id": "hf3r-utnq:233100",
       "source_name": "Los Angeles County CA — RAMP Open Bids",
       "title": "Alternative Design Build | RFQ #R-27023 - Menlo Avenue Elementary | Seismic Modernization Project",
@@ -876,6 +1004,26 @@
       "first_seen": "2026-11-16",
       "matched_keywords": [
         "modernization"
+      ]
+    },
+    {
+      "id": "opengov:naperville:328147",
+      "source_name": "OpenGov — City of Naperville, IL",
+      "title": "Smart Fault Indication Solution",
+      "description": "The City of Naperville Electric Utility is issuing this Request for Information (RFI) to obtain industry information regarding commercially available smart fault current indicators (FCIs) for the Utility’s underground and overhead 12.47kV mainline distribution system. The RFI is intended to assist the Utility understand available technologies, communication architectures, installation requirements, operating limitations, integration approaches, preliminary cost estimates, lifecycle costs, and current market capabilities before developing a potential future procurement. The Utility is particularly interested in solutions that can provide remote fault indication to the Utility’s SCADA system while operating without a local external power source at every FCI location for device operation or signal transmission. Respondents are encouraged to identify solutions that meet this objective as well as alternative approaches that may provide equal or improved operational value. This RFI is for market research and planning purposes only. It is not a Request for Qualifications, Request for Proposals, or any other solicitation document. This RFI does not commit the City to contract for any supply or service, nor will any response to this be considered in the evaluation of any response to any future solicitation. Information received may be used in the development of specifications for future Request for Proposals. The city will not pay for any information or administrative costs incurred in response to this RFI.",
+      "agency": "City of Naperville, IL",
+      "state": "IL",
+      "url": "https://procurement.opengov.com/portal/naperville/projects/328147",
+      "naics": "",
+      "psc": "",
+      "set_aside": "26-274",
+      "posted_date": "2026-11-20",
+      "due_date": "2027-01-27",
+      "it_score": 51,
+      "is_new": true,
+      "first_seen": "2026-11-23",
+      "matched_keywords": [
+        "integration"
       ]
     },
     {
@@ -1027,6 +1175,27 @@
       "matched_keywords": []
     },
     {
+      "id": "dg92-zbpx:20261117006",
+      "source_name": "New York City — City Record (Procurement)",
+      "title": "Facilis Shared Storage System Implementation",
+      "description": "Facilis Shared Storage System Implementation",
+      "agency": "Information Technology and Telecommunications",
+      "state": "NY",
+      "url": "https://a856-cityrecord.nyc.gov/",
+      "naics": "",
+      "psc": "",
+      "set_aside": "",
+      "posted_date": "2026-11-23",
+      "due_date": "2026-11-23",
+      "it_score": 42,
+      "is_new": true,
+      "first_seen": "2026-11-23",
+      "matched_keywords": [
+        "system",
+        "information technology"
+      ]
+    },
+    {
       "id": "hf3r-utnq:233203",
       "source_name": "Los Angeles County CA — RAMP Open Bids",
       "title": "RFB-IS-27200345 - Imperva Web Application Firewall (WAF) & Services Renewal - Closing: 12/4/2026 12:00 PM",
@@ -1090,26 +1259,6 @@
       ]
     },
     {
-      "id": "hf3r-utnq:233006",
-      "source_name": "Los Angeles County CA — RAMP Open Bids",
-      "title": "RFB-IS-27200306 - COMPUTER - PROFESSIONAL SERVICES - NETAPP - Closing: 11/23/2026 12:00 PM",
-      "description": "Commodity",
-      "agency": "Los Angeles County",
-      "state": "CA",
-      "url": "https://www.rampla.org/s/opportunity-details?id=006Ql00000oNA57IAG",
-      "naics": "",
-      "psc": "",
-      "set_aside": "",
-      "posted_date": "2026-11-10",
-      "due_date": "2026-11-23",
-      "it_score": 36,
-      "is_new": false,
-      "first_seen": "2026-11-10",
-      "matched_keywords": [
-        "computer"
-      ]
-    },
-    {
       "id": "hf3r-utnq:233140",
       "source_name": "Los Angeles County CA — RAMP Open Bids",
       "title": "RFQ 2026-35174897 - RFQ 2026-35174897 for Octopus Deploy Enterprise License - Closing: 11/24/2026 1:00 PM",
@@ -1145,6 +1294,26 @@
       "it_score": 36,
       "is_new": false,
       "first_seen": "2026-11-05",
+      "matched_keywords": [
+        "license"
+      ]
+    },
+    {
+      "id": "eshn-8t3a:SFGOV~0000012274",
+      "source_name": "San Francisco CA — Open Bids",
+      "title": "OCA PUC | TM3 Crowdstrike Falcon License Renewal",
+      "description": "Seeking Bids",
+      "agency": "Office of Contract Administration",
+      "state": "CA",
+      "url": "https://sfcitypartner.sfgov.org/pages/Events-BS3/event-details.aspx?Page=AUC_RESP_INQ_DTL&Action=U&AUC_ID=0000012274&AUC_ROUND=1&AUC_VERSION=1&BIDDER_ID=0000000001&BIDDER_LOC=1&BIDDER_SETID=SHARE&BIDDER_TYPE=B&BUSINESS_UNIT=SFGOV",
+      "naics": "",
+      "psc": "",
+      "set_aside": "",
+      "posted_date": "2026-11-18",
+      "due_date": "2026-11-25",
+      "it_score": 36,
+      "is_new": true,
+      "first_seen": "2026-11-23",
       "matched_keywords": [
         "license"
       ]
@@ -1227,6 +1396,26 @@
       "first_seen": "2026-11-02",
       "matched_keywords": [
         "license"
+      ]
+    },
+    {
+      "id": "eshn-8t3a:SFGOV~0000012275",
+      "source_name": "San Francisco CA — Open Bids",
+      "title": "HSA | TM3 - ServiceNow Enhancements Project",
+      "description": "Seeking Bids",
+      "agency": "Human Services Agency",
+      "state": "CA",
+      "url": "https://sfcitypartner.sfgov.org/pages/Events-BS3/event-details.aspx?Page=AUC_RESP_INQ_DTL&Action=U&AUC_ID=0000012275&AUC_ROUND=1&AUC_VERSION=1&BIDDER_ID=0000000001&BIDDER_LOC=1&BIDDER_SETID=SHARE&BIDDER_TYPE=B&BUSINESS_UNIT=SFGOV",
+      "naics": "",
+      "psc": "",
+      "set_aside": "",
+      "posted_date": "2026-11-18",
+      "due_date": "2026-12-14",
+      "it_score": 36,
+      "is_new": true,
+      "first_seen": "2026-11-23",
+      "matched_keywords": [
+        "servicenow"
       ]
     },
     {
