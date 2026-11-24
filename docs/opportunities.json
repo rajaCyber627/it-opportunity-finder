@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-11-23T23:20:28.190030+00:00",
+  "generated_at": "2026-11-24T21:54:11.253570+00:00",
   "counts": {
-    "total": 55,
-    "new": 10
+    "total": 51,
+    "new": 2
   },
   "health": {
     "ok": 22,
@@ -11,13 +11,13 @@
       {
         "source": "Montgomery County MD — Solicitations",
         "ok": true,
-        "count": 24,
+        "count": 22,
         "error": ""
       },
       {
         "source": "Los Angeles County CA — RAMP Open Bids",
         "ok": true,
-        "count": 186,
+        "count": 176,
         "error": ""
       },
       {
@@ -83,7 +83,7 @@
       {
         "source": "Delaware — Open Bids (Statewide)",
         "ok": true,
-        "count": 42,
+        "count": 43,
         "error": ""
       },
       {
@@ -107,19 +107,19 @@
       {
         "source": "PlanetBids",
         "ok": true,
-        "count": 60,
+        "count": 62,
         "error": ""
       },
       {
         "source": "OpenGov",
         "ok": true,
-        "count": 162,
+        "count": 163,
         "error": ""
       },
       {
         "source": "Washington DC — Solicitations (PASS)",
         "ok": true,
-        "count": 47,
+        "count": 44,
         "error": ""
       },
       {
@@ -151,13 +151,13 @@
   "product_themes": [
     {
       "name": "Cloud Migration & Modernization",
-      "opportunity_count": 7,
-      "agency_count": 4,
+      "opportunity_count": 5,
+      "agency_count": 3,
       "state_count": 1,
       "states": [
         "CA"
       ],
-      "demand_score": 13,
+      "demand_score": 10,
       "examples": [
         {
           "title": "RFP 902787 Elevator Condition Assessment & Modernization Plan",
@@ -167,24 +167,6 @@
           "due_date": "2026-11-25",
           "it_score": 51,
           "source_name": "OpenGov — County of Alameda, CA"
-        },
-        {
-          "title": "Elevator Modernization and Maintenance at Wyandotte Apts",
-          "agency": "Housing Authority, City of Los Angeles",
-          "state": "CA",
-          "url": "https://www.rampla.org/s/opportunity-details?id=006Ql00000o1Sa9IAE",
-          "due_date": "2026-12-01",
-          "it_score": 51,
-          "source_name": "Los Angeles County CA — RAMP Open Bids"
-        },
-        {
-          "title": "Elevator Modernization and Maintenance at Art Snyder",
-          "agency": "Housing Authority, City of Los Angeles",
-          "state": "CA",
-          "url": "https://www.rampla.org/s/opportunity-details?id=006Ql00000o1RRBIA2",
-          "due_date": "2026-12-01",
-          "it_score": 51,
-          "source_name": "Los Angeles County CA — RAMP Open Bids"
         },
         {
           "title": "Entra ID Single Sign-on (SSO) Migration",
@@ -226,7 +208,7 @@
     },
     {
       "name": "Permitting & Licensing",
-      "opportunity_count": 5,
+      "opportunity_count": 4,
       "agency_count": 3,
       "state_count": 1,
       "states": [
@@ -242,15 +224,6 @@
           "due_date": "2026-11-24",
           "it_score": 57,
           "source_name": "San Francisco CA — Open Bids"
-        },
-        {
-          "title": "RFQ 2026-35174897 - RFQ 2026-35174897 for Octopus Deploy Enterprise License - Closing: 11/24/2026 1:00 PM",
-          "agency": "Los Angeles County",
-          "state": "CA",
-          "url": "https://www.rampla.org/s/opportunity-details?id=006Ql00000olsUoIAI",
-          "due_date": "2026-11-24",
-          "it_score": 36,
-          "source_name": "Los Angeles County CA — RAMP Open Bids"
         },
         {
           "title": "RFB-IS-27200311 - CASEGUARD STUDIO STANDARD LICENSE RENEWAL - Closing: 11/25/2026 12:00 PM",
@@ -474,7 +447,7 @@
       "posted_date": "2026-11-17",
       "due_date": "2026-11-24",
       "it_score": 57,
-      "is_new": true,
+      "is_new": false,
       "first_seen": "2026-11-23",
       "matched_keywords": [
         "software",
@@ -627,46 +600,6 @@
       ]
     },
     {
-      "id": "eshn-8t3a:SFGOV~0000012263",
-      "source_name": "San Francisco CA — Open Bids",
-      "title": "OCA LIB | TM3 – Java SW & HW Maint, Renewal",
-      "description": "Seeking Bids",
-      "agency": "Office of Contract Administration",
-      "state": "CA",
-      "url": "https://sfcitypartner.sfgov.org/pages/Events-BS3/event-details.aspx?Page=AUC_RESP_INQ_DTL&Action=U&AUC_ID=0000012263&AUC_ROUND=1&AUC_VERSION=1&BIDDER_ID=0000000001&BIDDER_LOC=1&BIDDER_SETID=SHARE&BIDDER_TYPE=B&BUSINESS_UNIT=SFGOV",
-      "naics": "",
-      "psc": "",
-      "set_aside": "",
-      "posted_date": "2026-11-16",
-      "due_date": "2026-11-23",
-      "it_score": 51,
-      "is_new": true,
-      "first_seen": "2026-11-23",
-      "matched_keywords": [
-        "java"
-      ]
-    },
-    {
-      "id": "hf3r-utnq:233133",
-      "source_name": "Los Angeles County CA — RAMP Open Bids",
-      "title": "RFB-IS-27200333 - 1095222-UIPATH SOFTWARE RENEWAL - BRAND SPECIFIC - Closing: 11/24/2026 12:00 PM",
-      "description": "Commodity",
-      "agency": "Los Angeles County",
-      "state": "CA",
-      "url": "https://www.rampla.org/s/opportunity-details?id=006Ql00000okJ9NIAU",
-      "naics": "",
-      "psc": "",
-      "set_aside": "",
-      "posted_date": "2026-11-18",
-      "due_date": "2026-11-24",
-      "it_score": 51,
-      "is_new": false,
-      "first_seen": "2026-11-18",
-      "matched_keywords": [
-        "software"
-      ]
-    },
-    {
       "id": "eshn-8t3a:SFGOV~0000012272",
       "source_name": "San Francisco CA — Open Bids",
       "title": "OCA DT | TM3- IDC Quanta Software Subscription",
@@ -680,7 +613,7 @@
       "posted_date": "2026-11-19",
       "due_date": "2026-11-24",
       "it_score": 51,
-      "is_new": true,
+      "is_new": false,
       "first_seen": "2026-11-23",
       "matched_keywords": [
         "software"
@@ -760,7 +693,7 @@
       "posted_date": "2026-11-19",
       "due_date": "2026-11-30",
       "it_score": 51,
-      "is_new": true,
+      "is_new": false,
       "first_seen": "2026-11-23",
       "matched_keywords": [
         "software"
@@ -784,66 +717,6 @@
       "first_seen": "2026-11-18",
       "matched_keywords": [
         "software"
-      ]
-    },
-    {
-      "id": "hf3r-utnq:232845",
-      "source_name": "Los Angeles County CA — RAMP Open Bids",
-      "title": "Elevator Modernization and Maintenance at Wyandotte Apts",
-      "description": "Personal Services",
-      "agency": "Housing Authority, City of Los Angeles",
-      "state": "CA",
-      "url": "https://www.rampla.org/s/opportunity-details?id=006Ql00000o1Sa9IAE",
-      "naics": "",
-      "psc": "",
-      "set_aside": "",
-      "posted_date": "2026-11-03",
-      "due_date": "2026-12-01",
-      "it_score": 51,
-      "is_new": false,
-      "first_seen": "2026-11-03",
-      "matched_keywords": [
-        "modernization"
-      ]
-    },
-    {
-      "id": "hf3r-utnq:232844",
-      "source_name": "Los Angeles County CA — RAMP Open Bids",
-      "title": "Elevator Modernization and Maintenance at Art Snyder",
-      "description": "Personal Services",
-      "agency": "Housing Authority, City of Los Angeles",
-      "state": "CA",
-      "url": "https://www.rampla.org/s/opportunity-details?id=006Ql00000o1RRBIA2",
-      "naics": "",
-      "psc": "",
-      "set_aside": "",
-      "posted_date": "2026-11-03",
-      "due_date": "2026-12-01",
-      "it_score": 51,
-      "is_new": false,
-      "first_seen": "2026-11-03",
-      "matched_keywords": [
-        "modernization"
-      ]
-    },
-    {
-      "id": "opengov:pasadena:301206",
-      "source_name": "OpenGov — City of Pasadena, CA",
-      "title": "On-Call Parking Consultant Services",
-      "description": "The City of Pasadena Department of Transportation is soliciting proposals from qualified consulting firms to provide on-call parking consultant services across its portfolio of parking assets and programs. This includes eight City-owned parking garages, four municipal surface lots, approximately 400 multispace meters, five meter districts, parking enforcement operations and comprehensive residential, daytime, and overnight parking permit programs. Selected proposers will form an on-call bench and will be eligible to support infrastructure evaluation, operational studies, technology modernization, and strategic planning and other related activities on an as-needed basis. A minimum of three (3) years experience in such projects is required. Proposers are encouraged to focus on the areas of strength and are not required to team with a large number of sub-consultants to cover all potential types of projects. This Request for Proposals (RFP) does not solicit services for a single, defined project. Rather, the resulting consultant list will be used by the Department of Transportation to assign project-specific Task Orders for parking consulting services required for the City's Parking Division. Each Task Order will define the scope, deliverables, schedule, and coordination needs for the required work. To be considered for selection, consultants must demonstrate substantial experience preparing infrastructure evaluations, operational studies, technology modernization, and strategic planning and other related activities. Consultants selected through this RFP will be placed on an on-call bench available to support the Parking Division's needs on an as-needed basis. Placement on the on-call bench does not guarantee any minimum or maximum number of assignments.",
-      "agency": "City of Pasadena",
-      "state": "CA",
-      "url": "https://procurement.opengov.com/portal/pasadena/projects/301206",
-      "naics": "",
-      "psc": "",
-      "set_aside": "2026-RFP-0526",
-      "posted_date": "2026-09-08",
-      "due_date": "2026-12-02",
-      "it_score": 51,
-      "is_new": false,
-      "first_seen": "2026-10-28",
-      "matched_keywords": [
-        "modernization"
       ]
     },
     {
@@ -907,6 +780,26 @@
       ]
     },
     {
+      "id": "opengov:pasadena:301206",
+      "source_name": "OpenGov — City of Pasadena, CA",
+      "title": "On-Call Parking Consultant Services",
+      "description": "The City of Pasadena Department of Transportation is soliciting proposals from qualified consulting firms to provide on-call parking consultant services across its portfolio of parking assets and programs. This includes eight City-owned parking garages, four municipal surface lots, approximately 400 multispace meters, five meter districts, parking enforcement operations and comprehensive residential, daytime, and overnight parking permit programs. Selected proposers will form an on-call bench and will be eligible to support infrastructure evaluation, operational studies, technology modernization, and strategic planning and other related activities on an as-needed basis. A minimum of three (3) years experience in such projects is required. Proposers are encouraged to focus on the areas of strength and are not required to team with a large number of sub-consultants to cover all potential types of projects. This Request for Proposals (RFP) does not solicit services for a single, defined project. Rather, the resulting consultant list will be used by the Department of Transportation to assign project-specific Task Orders for parking consulting services required for the City's Parking Division. Each Task Order will define the scope, deliverables, schedule, and coordination needs for the required work. To be considered for selection, consultants must demonstrate substantial experience preparing infrastructure evaluations, operational studies, technology modernization, and strategic planning and other related activities. Consultants selected through this RFP will be placed on an on-call bench available to support the Parking Division's needs on an as-needed basis. Placement on the on-call bench does not guarantee any minimum or maximum number of assignments.",
+      "agency": "City of Pasadena",
+      "state": "CA",
+      "url": "https://procurement.opengov.com/portal/pasadena/projects/301206",
+      "naics": "",
+      "psc": "",
+      "set_aside": "2026-RFP-0526",
+      "posted_date": "2026-09-08",
+      "due_date": "2026-12-09",
+      "it_score": 51,
+      "is_new": false,
+      "first_seen": "2026-10-28",
+      "matched_keywords": [
+        "modernization"
+      ]
+    },
+    {
       "id": "opengov:smcgov:319724",
       "source_name": "OpenGov — County of San Mateo, CA",
       "title": "Moving Services",
@@ -940,7 +833,7 @@
       "posted_date": "2026-11-23",
       "due_date": "2026-12-16",
       "it_score": 51,
-      "is_new": true,
+      "is_new": false,
       "first_seen": "2026-11-23",
       "matched_keywords": [
         "modernization"
@@ -980,7 +873,7 @@
       "posted_date": "2026-11-20",
       "due_date": "2026-12-22",
       "it_score": 51,
-      "is_new": true,
+      "is_new": false,
       "first_seen": "2026-11-23",
       "matched_keywords": [
         "software"
@@ -1020,7 +913,7 @@
       "posted_date": "2026-11-20",
       "due_date": "2027-01-27",
       "it_score": 51,
-      "is_new": true,
+      "is_new": false,
       "first_seen": "2026-11-23",
       "matched_keywords": [
         "integration"
@@ -1175,25 +1068,22 @@
       "matched_keywords": []
     },
     {
-      "id": "dg92-zbpx:20261117006",
-      "source_name": "New York City — City Record (Procurement)",
-      "title": "Facilis Shared Storage System Implementation",
-      "description": "Facilis Shared Storage System Implementation",
-      "agency": "Information Technology and Telecommunications",
-      "state": "NY",
-      "url": "https://a856-cityrecord.nyc.gov/",
+      "id": "planetbids:39475:148652",
+      "source_name": "PlanetBids — Riverside County, CA",
+      "title": "Fairmount Park Invasive Non-Native Tree Removal",
+      "description": "8294",
+      "agency": "Riverside County, CA",
+      "state": "CA",
+      "url": "https://vendors.planetbids.com/portal/39475/bo/bo-detail/148652",
       "naics": "",
-      "psc": "",
+      "psc": "02090, 02096, 89019, 91141, 96888, 98887, 98888, 98889",
       "set_aside": "",
-      "posted_date": "2026-11-23",
-      "due_date": "2026-11-23",
-      "it_score": 42,
+      "posted_date": "2026-11-24",
+      "due_date": "2027-01-07",
+      "it_score": 50,
       "is_new": true,
-      "first_seen": "2026-11-23",
-      "matched_keywords": [
-        "system",
-        "information technology"
-      ]
+      "first_seen": "2026-11-24",
+      "matched_keywords": []
     },
     {
       "id": "hf3r-utnq:233203",
@@ -1259,23 +1149,23 @@
       ]
     },
     {
-      "id": "hf3r-utnq:233140",
-      "source_name": "Los Angeles County CA — RAMP Open Bids",
-      "title": "RFQ 2026-35174897 - RFQ 2026-35174897 for Octopus Deploy Enterprise License - Closing: 11/24/2026 1:00 PM",
-      "description": "Personal Services",
-      "agency": "Los Angeles County",
-      "state": "CA",
-      "url": "https://www.rampla.org/s/opportunity-details?id=006Ql00000olsUoIAI",
+      "id": "dg92-zbpx:20261118001",
+      "source_name": "New York City — City Record (Procurement)",
+      "title": "Computer Technology Services OGS",
+      "description": "Computer Technology Services OGS",
+      "agency": "Youth and Community Development",
+      "state": "NY",
+      "url": "https://a856-cityrecord.nyc.gov/",
       "naics": "",
       "psc": "",
       "set_aside": "",
-      "posted_date": "2026-11-18",
+      "posted_date": "2026-11-24",
       "due_date": "2026-11-24",
       "it_score": 36,
-      "is_new": false,
-      "first_seen": "2026-11-19",
+      "is_new": true,
+      "first_seen": "2026-11-24",
       "matched_keywords": [
-        "license"
+        "computer"
       ]
     },
     {
@@ -1312,7 +1202,7 @@
       "posted_date": "2026-11-18",
       "due_date": "2026-11-25",
       "it_score": 36,
-      "is_new": true,
+      "is_new": false,
       "first_seen": "2026-11-23",
       "matched_keywords": [
         "license"
@@ -1412,7 +1302,7 @@
       "posted_date": "2026-11-18",
       "due_date": "2026-12-14",
       "it_score": 36,
-      "is_new": true,
+      "is_new": false,
       "first_seen": "2026-11-23",
       "matched_keywords": [
         "servicenow"
