@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-11-25T21:00:50.791797+00:00",
+  "generated_at": "2026-11-26T20:54:03.070810+00:00",
   "counts": {
-    "total": 46,
-    "new": 0
+    "total": 45,
+    "new": 1
   },
   "health": {
     "ok": 22,
@@ -11,13 +11,13 @@
       {
         "source": "Montgomery County MD — Solicitations",
         "ok": true,
-        "count": 23,
+        "count": 22,
         "error": ""
       },
       {
         "source": "Los Angeles County CA — RAMP Open Bids",
         "ok": true,
-        "count": 173,
+        "count": 188,
         "error": ""
       },
       {
@@ -107,7 +107,7 @@
       {
         "source": "PlanetBids",
         "ok": true,
-        "count": 60,
+        "count": 59,
         "error": ""
       },
       {
@@ -119,13 +119,13 @@
       {
         "source": "Washington DC — Solicitations (PASS)",
         "ok": true,
-        "count": 37,
+        "count": 35,
         "error": ""
       },
       {
         "source": "BidNet Direct",
         "ok": true,
-        "count": 22,
+        "count": 23,
         "error": ""
       },
       {
@@ -151,23 +151,14 @@
   "product_themes": [
     {
       "name": "Cloud Migration & Modernization",
-      "opportunity_count": 5,
-      "agency_count": 3,
+      "opportunity_count": 4,
+      "agency_count": 2,
       "state_count": 1,
       "states": [
         "CA"
       ],
-      "demand_score": 10,
+      "demand_score": 7,
       "examples": [
-        {
-          "title": "RFP 902787 Elevator Condition Assessment & Modernization Plan",
-          "agency": "County of Alameda, CA",
-          "state": "CA",
-          "url": "https://procurement.opengov.com/portal/acgov/projects/306819",
-          "due_date": "2026-11-25",
-          "it_score": 51,
-          "source_name": "OpenGov — County of Alameda, CA"
-        },
         {
           "title": "Entra ID Single Sign-on (SSO) Migration",
           "agency": "County of San Mateo",
@@ -203,36 +194,6 @@
           "due_date": "2027-01-08",
           "it_score": 51,
           "source_name": "Los Angeles County CA — RAMP Open Bids"
-        }
-      ]
-    },
-    {
-      "name": "Permitting & Licensing",
-      "opportunity_count": 2,
-      "agency_count": 2,
-      "state_count": 1,
-      "states": [
-        "CA"
-      ],
-      "demand_score": 7,
-      "examples": [
-        {
-          "title": "OCA PUC | TM3 Crowdstrike Falcon License Renewal",
-          "agency": "Office of Contract Administration",
-          "state": "CA",
-          "url": "https://sfcitypartner.sfgov.org/pages/Events-BS3/event-details.aspx?Page=AUC_RESP_INQ_DTL&Action=U&AUC_ID=0000012274&AUC_ROUND=1&AUC_VERSION=1&BIDDER_ID=0000000001&BIDDER_LOC=1&BIDDER_SETID=SHARE&BIDDER_TYPE=B&BUSINESS_UNIT=SFGOV",
-          "due_date": "2026-11-25",
-          "it_score": 36,
-          "source_name": "San Francisco CA — Open Bids"
-        },
-        {
-          "title": "Asbestos Abatement w/ Hazardous Materials Job Order Contracts (JOC 2720 and 2721) - Class C21/C22 License",
-          "agency": "County of San Mateo",
-          "state": "CA",
-          "url": "https://procurement.opengov.com/portal/smcgov/projects/322004",
-          "due_date": "2026-12-10",
-          "it_score": 36,
-          "source_name": "OpenGov — County of San Mateo, CA"
         }
       ]
     },
@@ -561,26 +522,6 @@
       ]
     },
     {
-      "id": "opengov:acgov:306819",
-      "source_name": "OpenGov — County of Alameda, CA",
-      "title": "RFP 902787 Elevator Condition Assessment & Modernization Plan",
-      "description": "It is the intent of these specifications, terms, and conditions to describe elevator condition assessment and modernization plan services for the elevators at several County buildings being requested by the County. The County intends to award a three (3) year contract (with the option to renew for two [2] years) to the Bidder selected as the most responsive and responsible Bidder whose response conforms to the RFP and meets the County’s requirements.",
-      "agency": "County of Alameda, CA",
-      "state": "CA",
-      "url": "https://procurement.opengov.com/portal/acgov/projects/306819",
-      "naics": "",
-      "psc": "",
-      "set_aside": "902787",
-      "posted_date": "2026-09-23",
-      "due_date": "2026-11-25",
-      "it_score": 51,
-      "is_new": false,
-      "first_seen": "2026-10-03",
-      "matched_keywords": [
-        "modernization"
-      ]
-    },
-    {
       "id": "hf3r-utnq:233155",
       "source_name": "Los Angeles County CA — RAMP Open Bids",
       "title": "RFB-IS-27200357 - (ERP)THERAPY TRAINING EXPOSURE&RESPONSE PREVENTION - Closing: 11/30/2026 12:00 PM",
@@ -718,6 +659,26 @@
       "first_seen": "2026-11-11",
       "matched_keywords": [
         "migration"
+      ]
+    },
+    {
+      "id": "hf3r-utnq:233277",
+      "source_name": "Los Angeles County CA — RAMP Open Bids",
+      "title": "RFB-IS-27200375 - O2723089,556-27031- SOFTWARE - MAINTENANCE - NUTANIX - Closing: 12/9/2026 12:00 PM",
+      "description": "Commodity",
+      "agency": "Los Angeles County",
+      "state": "CA",
+      "url": "https://www.rampla.org/s/opportunity-details?id=006Ql00000p83ZiIAI",
+      "naics": "",
+      "psc": "",
+      "set_aside": "",
+      "posted_date": "2026-11-26",
+      "due_date": "2026-12-09",
+      "it_score": 51,
+      "is_new": true,
+      "first_seen": "2026-11-26",
+      "matched_keywords": [
+        "software"
       ]
     },
     {
@@ -1072,26 +1033,6 @@
       ]
     },
     {
-      "id": "eshn-8t3a:SFGOV~0000012274",
-      "source_name": "San Francisco CA — Open Bids",
-      "title": "OCA PUC | TM3 Crowdstrike Falcon License Renewal",
-      "description": "Seeking Bids",
-      "agency": "Office of Contract Administration",
-      "state": "CA",
-      "url": "https://sfcitypartner.sfgov.org/pages/Events-BS3/event-details.aspx?Page=AUC_RESP_INQ_DTL&Action=U&AUC_ID=0000012274&AUC_ROUND=1&AUC_VERSION=1&BIDDER_ID=0000000001&BIDDER_LOC=1&BIDDER_SETID=SHARE&BIDDER_TYPE=B&BUSINESS_UNIT=SFGOV",
-      "naics": "",
-      "psc": "",
-      "set_aside": "",
-      "posted_date": "2026-11-18",
-      "due_date": "2026-11-25",
-      "it_score": 36,
-      "is_new": false,
-      "first_seen": "2026-11-23",
-      "matched_keywords": [
-        "license"
-      ]
-    },
-    {
       "id": "hf3r-utnq:233154",
       "source_name": "Los Angeles County CA — RAMP Open Bids",
       "title": "RFB-IS-27200339 - COMPUTER - STORAGE - NUTANIX NX-3460S-G10 - Closing: 12/2/2026 12:00 PM",
@@ -1109,26 +1050,6 @@
       "first_seen": "2026-11-19",
       "matched_keywords": [
         "computer"
-      ]
-    },
-    {
-      "id": "opengov:anaheim:290478",
-      "source_name": "OpenGov — City of Anaheim, CA",
-      "title": "Double-Sided Padmount Solid Dielectric Switchgear with Integrated Automation - Purchase Order",
-      "description": "The City of Anaheim (\" Anaheim \" or \" City \") Public Utilities Department (\" APU \") seeks proposals from interested respondents (\" Respondent(s) \") to procure double-sided padmount solid-dielectric insulated switchgear with integrated automation as replacements for its 12 kV live-front, air-insulated padmounted switchgear. The dead-front and encapsulated features of the new solid-dielectric insulated switches with integrated automation are expected to improve crew safety, reliability and operational flexibility. This Request for Proposals (\" RFP \") is expected to result in a proof-of-concept for additional anticipated purchases for replacing existing and installing new such switchgear at Anaheim. The selected Respondent(s) will be responsible for providing the Goods and Services described in the Scope of Work and Specifications Section and in any Attachments hereto (collectively, \" Deliverables” ). After selecting a successful Respondent, the City will issue a Purchase Order, contract, or agreement form that substantially conforms to the terms and conditions outlined in this RFP, including, but not limited to, Anaheim's standard insurance and indemnity provisions appropriate for the Deliverables contemplated herein. Any resulting agreement between the City and the successful respondent will take effect upon mutual execution after Anaheim secures all necessary approvals as required under its procurement policies, rules, and the Anaheim Municipal Code .",
-      "agency": "The City of Anaheim",
-      "state": "CA",
-      "url": "https://procurement.opengov.com/portal/anaheim/projects/290478",
-      "naics": "",
-      "psc": "",
-      "set_aside": "SY270000491-LR",
-      "posted_date": "2026-08-05",
-      "due_date": "2026-12-04",
-      "it_score": 36,
-      "is_new": false,
-      "first_seen": "2026-10-29",
-      "matched_keywords": [
-        "automation"
       ]
     },
     {
@@ -1189,6 +1110,26 @@
       "first_seen": "2026-11-23",
       "matched_keywords": [
         "servicenow"
+      ]
+    },
+    {
+      "id": "opengov:anaheim:290478",
+      "source_name": "OpenGov — City of Anaheim, CA",
+      "title": "Double-Sided Padmount Solid Dielectric Switchgear with Integrated Automation - Purchase Order",
+      "description": "The City of Anaheim (\" Anaheim \" or \" City \") Public Utilities Department (\" APU \") seeks proposals from interested respondents (\" Respondent(s) \") to procure double-sided padmount solid-dielectric insulated switchgear with integrated automation as replacements for its 12 kV live-front, air-insulated padmounted switchgear. The dead-front and encapsulated features of the new solid-dielectric insulated switches with integrated automation are expected to improve crew safety, reliability and operational flexibility. This Request for Proposals (\" RFP \") is expected to result in a proof-of-concept for additional anticipated purchases for replacing existing and installing new such switchgear at Anaheim. The selected Respondent(s) will be responsible for providing the Goods and Services described in the Scope of Work and Specifications Section and in any Attachments hereto (collectively, \" Deliverables” ). After selecting a successful Respondent, the City will issue a Purchase Order, contract, or agreement form that substantially conforms to the terms and conditions outlined in this RFP, including, but not limited to, Anaheim's standard insurance and indemnity provisions appropriate for the Deliverables contemplated herein. Any resulting agreement between the City and the successful respondent will take effect upon mutual execution after Anaheim secures all necessary approvals as required under its procurement policies, rules, and the Anaheim Municipal Code .",
+      "agency": "The City of Anaheim",
+      "state": "CA",
+      "url": "https://procurement.opengov.com/portal/anaheim/projects/290478",
+      "naics": "",
+      "psc": "",
+      "set_aside": "SY270000491-LR",
+      "posted_date": "2026-08-05",
+      "due_date": "2026-12-18",
+      "it_score": 36,
+      "is_new": false,
+      "first_seen": "2026-10-29",
+      "matched_keywords": [
+        "automation"
       ]
     },
     {
