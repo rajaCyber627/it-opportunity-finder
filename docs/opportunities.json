@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-11-26T20:54:03.070810+00:00",
+  "generated_at": "2026-11-27T20:39:13.464083+00:00",
   "counts": {
     "total": 45,
-    "new": 1
+    "new": 0
   },
   "health": {
     "ok": 22,
@@ -17,7 +17,7 @@
       {
         "source": "Los Angeles County CA — RAMP Open Bids",
         "ok": true,
-        "count": 188,
+        "count": 184,
         "error": ""
       },
       {
@@ -675,7 +675,7 @@
       "posted_date": "2026-11-26",
       "due_date": "2026-12-09",
       "it_score": 51,
-      "is_new": true,
+      "is_new": false,
       "first_seen": "2026-11-26",
       "matched_keywords": [
         "software"
